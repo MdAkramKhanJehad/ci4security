@@ -1,0 +1,2 @@
+*.sarif filter=lfs diff=lfs merge=lfs -text
+codeql/output/**/*.sarif filter=lfs diff=lfs merge=lfs -text
