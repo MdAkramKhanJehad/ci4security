@@ -7,16 +7,17 @@ import datetime
 import random
 from collections import defaultdict
 from pathlib import Path
+from itertools import islice
 
 
-INPUT_FILE = 'input_file/latest.csv'
+INPUT_FILE = 'input_file/shuffled_filtered_unique_latest_with-added-date.csv'
 API_KEY_FILE = 'api_key.txt'
 OUTPUT_DIR = 'downloaded_apk'
 LOG_FILE = 'download_log.csv'
 
 SAMPLES_PER_STRATUM = 64  
 MAX_DOWNLOADS = SAMPLES_PER_STRATUM * 11 
-CONCURRENT_LIMIT = 15 
+CONCURRENT_LIMIT = 5 
 
 
 STRATA = {
@@ -73,11 +74,12 @@ async def app_exists_on_playstore(session, pkg_name):
                 html = await response.text()
                 return "Google Play" in html
             elif response.status == 404:
-                # print(f"[Play Store 404] App not found on Play Store: {pkg_name}")
+                # print(f"App not found on Play Store: {pkg_name}")
                 return False
             else:
-                print(f"[Play Store Error] Status {response.status} for {pkg_name}")
+                print(f"{response.status} for {pkg_name}")
                 return False
+                
     except Exception as e:
         print(f"[Play Store Request Error] {pkg_name}: {e}")
         return False
@@ -118,15 +120,6 @@ async def download_apk(session, apikey, sha256, path, pkg_name):
         print(f'Download Error: {pkg_name} ({sha256}) - {e}')
         return False
 
-
-def load_csv_generator():
-    print("Inside load_csv_generator. time:", datetime.datetime.now())
-    with open(INPUT_FILE, newline='', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        rows = list(reader)
-        random.shuffle(rows)
-        for row in rows:
-            yield row['sha256'], row['apk_size'], row['pkg_name'], row['vercode'], row['markets']
 
 
 def save_log(rows):
@@ -210,25 +203,44 @@ async def process_apks(apk_list, apikey):
     return log_rows
 
 
+def load_csv_in_chunks(file_path, chunk_size=100000):
+    with open(file_path, newline='', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        while True:
+            chunk = list(islice(reader, chunk_size))
+            print(len(chunk))
+            if not chunk:
+                break
+            yield chunk
+
+
 def main():
     ensure_dirs()
     apikey = read_api_key()
-    generator = load_csv_generator()
-    apk_batch = []
-    print("Inside main, input csv loaded. Time: ", datetime.datetime.now())
+    strata_counts = defaultdict(int)
+    total_log_rows = []
 
-    for apk in generator:
-        _, _, _, vercode, _ = apk
-        if not vercode.isdigit():
-            continue
-        apk_batch.append(apk)
+    # print(" Before for loop")
+    for chunk in load_csv_in_chunks(INPUT_FILE):
+        print(f"\nProcessing next chunk at {datetime.datetime.now()}...")
+        apk_batch = []
+        for row in chunk:
+            if not row['vercode'].isdigit():
+                continue
+            apk_batch.append((row['sha256'], row['apk_size'], row['pkg_name'], row['vercode'], row['markets']))
+        
+        log_rows = asyncio.run(process_apks(apk_batch, apikey))
+        save_log(log_rows)
+        total_log_rows.extend(log_rows)
 
-        if len(apk_batch) >= 2000000: 
+        strata_done = defaultdict(int)
+        for r in total_log_rows:
+            strata_done[r['strata']] += 1
+        if all(strata_done[stratum] >= SAMPLES_PER_STRATUM for stratum in STRATA):
+            print("All strata filled. Exiting early.")
             break
 
-    log_rows = asyncio.run(process_apks(apk_batch, apikey))
-    save_log(log_rows)
-    print(f"\nFinished downloading {len(log_rows)} APKs.\n")
+    print(f"\nFinished downloading {len(total_log_rows)} APKs.\n")
 
 
 if __name__ == '__main__':
