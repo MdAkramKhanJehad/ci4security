@@ -18,6 +18,8 @@ To download the APK from the AndroZoo, you must have both the API key and the SH
 - Get the API key from the authors.
 - Write the plain API key in the file named `api_key.txt`
 - To get the SHA256 of APKs, you have to download the [input file](https://androzoo.uni.lu/api_doc#:~:text=Obtaining%20SHA256%20Hashes). Consider downloading the input file with the `added` field. This input file also contains some other important fields like version code, markets from where the APK was detected.
-
-These input files are containing multiple version of the same app. That is why, first we have selected and extracted the latest version of each app 
-
+<br>
+These input files are containing multiple version of the same app. That is why, first we have selected and extracted the latest version of each app. We kept only unique APKs in the `input_file/filtered_unique_latest_with-added-date.csv`.
+Then we shuffled this file for randomness and used that file (`input_file/shuffled_filtered_unique_latest_with-added-date.csv`) as an input in the `Extract_apk.py`. After completing the download (output folder name: `downloaded_apk/` ), a log file will also be generated, which will contain some metadata about the downloaded files.
+<br>
+Then to decompile the APK files, first you need to install the Jadx in the machine. Then run the `decompile_apk.py` file.
