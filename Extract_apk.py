@@ -10,12 +10,12 @@ from pathlib import Path
 from itertools import islice
 
 
-INPUT_FILE = 'input_file/shuffled_filtered_unique_latest_with-added-date.csv'
+INPUT_FILE = 'input_files/shuffled_filtered_unique_latest_with-added-date.csv'
 API_KEY_FILE = 'api_key.txt'
-OUTPUT_DIR = 'downloaded_apk'
+OUTPUT_DIR = 'downloaded_apks_part_2'
 LOG_FILE = 'download_log.csv'
 
-SAMPLES_PER_STRATUM = 64  
+SAMPLES_PER_STRATUM = 50  
 MAX_DOWNLOADS = SAMPLES_PER_STRATUM * 11 
 CONCURRENT_LIMIT = 5 
 
@@ -114,7 +114,7 @@ async def download_apk(session, apikey, sha256, path, pkg_name):
                     await f.write(await r.read())
                 return True
             else:
-                print(f'[Download Failed] {pkg_name} ({sha256}) - Status: {r.status}')
+                print(f'Download Failed: {pkg_name} ({sha256}) - Status: {r.status}')
                 return False
     except Exception as e:
         print(f'Download Error: {pkg_name} ({sha256}) - {e}')
@@ -137,11 +137,14 @@ async def process_apks(apk_list, apikey):
     downloaded = 0
     strata_counts = defaultdict(int)
     log_rows = []
+    skip_count = 0
 
     semaphore = asyncio.Semaphore(CONCURRENT_LIMIT)
     async with aiohttp.ClientSession() as session:
         async def worker(apk):
             nonlocal downloaded
+            nonlocal skip_count
+            
             async with semaphore:
                 sha256, apk_size, pkg_name, vercode, market = apk
                 if 'play.google.com' not in market.lower():
@@ -159,9 +162,19 @@ async def process_apks(apk_list, apikey):
                     if isinstance(metadata, list) and metadata:
                         metadata = metadata[0]
 
+                    appType = metadata['details']['appDetails']['appType']
+                    if appType.lower() == "game":
+                        return
+
                     numDownloadsText = metadata['details']['appDetails']['numDownloads']
                     numDownloads = parse_download_count(numDownloadsText.split()[0])
                     stratum = get_stratum(numDownloads)
+                    
+                    out_path = f'{OUTPUT_DIR}/{stratum}/{pkg_name}_{vercode}.apk'
+                    if os.path.exists(out_path):
+                        skip_count += 1
+                        print(f"Skip Count:{skip_count} | Already exists in {stratum}: Skipping {pkg_name}_{vercode}")
+                        return
                 except Exception as e:
                     print(f'Parse Error: {pkg_name} (vercode: {vercode}) - {e}')
                     return
