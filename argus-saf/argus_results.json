@@ -1,0 +1,2792 @@
+[
+  {
+    "apk": "me.voicemap.android_1062.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/google/vr/sdk/widgets/video/deps/dv;.a:(Lcom/google/vr/sdk/widgets/video/deps/eV;)J L1ffb22 : Use non-random IV!\n  Lcom/google/vr/sdk/widgets/video/deps/fy;.f:()Z L214ea2 : Use non-random IV!\n  Lcom/google/vr/sdk/widgets/video/deps/fy;.g:()V L2154ce : Use non-random IV!"
+  },
+  {
+    "apk": "com.applocklite.fingerprint_8.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.taw9el.couponredeem_5.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.etoos.app.wm_10131.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.myhealthsphere.challenger_85003070.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "at.oamtc.cityguide_30700003.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mobincube.draw_car_muscle.sc_HGDI7G_20.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.blognawa.radio_53.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/gomfactory/adpie/sdk/security/Crypto;.decrypt:(Ljava/lang/String;)Ljava/lang/String; L3affba : Use non-random IV!\n  Lcom/fsn/cauly/blackdragoncore/utils/o;.a:(Ljava/lang/String;Z)Ljava/lang/String; L393d98 : Use ECB mode!\n  Lcom/gomfactory/adpie/sdk/security/Crypto;.encrypt:(Ljava/lang/String;)Ljava/lang/String; L3b008a : Use non-random IV!"
+  },
+  {
+    "apk": "kr.co.seoulgas.cash_137.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L232ba6 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L202702 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L232752 : Use non-random IV!"
+  },
+  {
+    "apk": "com.msf.ket_72.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.app4joy.libya_free_462.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "net.chat.app2_117.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.frontphoto.gallery_20.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.xhlab.alarmob_236.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.byappsc.shehj_266.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.barasan.cookiekingdomcode_51.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.dacappsdev.goodnight_21.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4e990e : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4e9d88 : Use non-random IV!"
+  },
+  {
+    "apk": "com.g4app_165.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L2ace22 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L254126 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2ac9a2 : Use non-random IV!"
+  },
+  {
+    "apk": "loudringtones.tonosfuertesparaelmovil_8.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "dk.mochsoft.vnc_26.apk",
+    "subfolder": "100k-500k",
+    "result": "  Ldk/mochsoft/vnc/vncxvt;.do_ard_fusk:([BII)V L2b5998 : Use non-random IV!"
+  },
+  {
+    "apk": "com.jehutyno.yomikata_65.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L3e6306 : Use non-random IV!\n  Lcom/jehutyno/yomikata/util/CopyUtils;.decodeFile:(Ljavax/crypto/spec/SecretKeySpec;[B)[B L0ca7dc : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L3e692e : Use non-random IV!\n  Lcom/jehutyno/yomikata/util/CopyUtils;.encodeFile:(Ljavax/crypto/spec/SecretKeySpec;[B)[B L0ca80c : Use ECB mode!"
+  },
+  {
+    "apk": "cz.gov.edoklady_2503251.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.musatech.digiscale_20.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "articulate.industrial.skill_25.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.gpsroutefinder.appbuzmaps_16.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.sagamill.stocksalerter_44.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "idea.online_backgammon_96.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ilib.stepbystepsalah_6.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.wovibe.hotplayer_9.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L383e7e : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L384302 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L342f36 : Use non-random IV!"
+  },
+  {
+    "apk": "com.madarsoft.alsonan_10018.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/bytedance/sdk/component/c/a;.a:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L53e8f2 : Use non-random IV!\n  Lcom/bytedance/sdk/component/c/a;.b:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L53ea3c : Use non-random IV!"
+  },
+  {
+    "apk": "com.arppha_375.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.androidfin.STFCUnoPackage_118.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/androidfin/library/GeneralScreenMode;.FN_DecryptString:(Ljava/lang/String;)Ljava/lang/String; L3b63e0 : Use ECB mode!\n  Lcom/androidfin/library/GeneralScreenMode;.FN_EncryptString:(Ljava/lang/String;)Ljava/lang/String; L3b64c8 : Use ECB mode!"
+  },
+  {
+    "apk": "id.code.wings_1300022.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ru.atomsbt.mobile_91.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L48afb2 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4e23ee : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4e286e : Use non-random IV!"
+  },
+  {
+    "apk": "rcglobal.android.kiha_109.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L4151c8 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L415276 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L4134b6 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L4134ce : Use ECB mode!"
+  },
+  {
+    "apk": "videochat.livevideocall.randomvideocall.livechat_45.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.getwheelsapp.wheels_2181.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "biblia.de.estudio.reina.valera_10.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ezp.tattoo_126.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.bosch.boschlevellingremoteapp_153.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ihad.ptt_40762.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/jcraft/jsch/jce/AES256CBC;.init:(I[B[B)V L742958 : Use non-random IV!\n  Lcom/jcraft/jsch/jce/TripleDESCTR;.init:(I[B[B)V L4a9760 : Use non-random IV!\n  Lcom/jcraft/jsch/jce/AES192CBC;.init:(I[B[B)V L4a89ec : Use non-random IV!\n  Lcom/jcraft/jsch/jce/AES192CTR;.init:(I[B[B)V L742784 : Use non-random IV!\n  Lcom/jcraft/jsch/jce/TripleDESCBC;.init:(I[B[B)V L74ff7c : Use non-random IV!\n  Lcom/jcraft/jsch/jce/AES128CBC;.init:(I[B[B)V L74eb1c : Use non-random IV!\n  Lcom/jcraft/jsch/jce/BlowfishCTR;.init:(I[B[B)V L74f140 : Use non-random IV!\n  Lcom/jcraft/jsch/jce/AES128CTR;.init:(I[B[B)V L4a8818 : Use non-random IV!\n  Lcom/jcraft/jsch/jce/BlowfishCBC;.init:(I[B[B)V L73a19c : Use non-random IV!\n  Lt0/a;.c:([B[BLjava/lang/String;)Ljava/lang/String; L97d1da : Use ECB mode!\n  Lcom/jcraft/jsch/jce/AES256CTR;.init:(I[B[B)V L7a500c : Use non-random IV!\n  Lt0/a;.e:(Ljava/lang/String;[BLjava/lang/String;)[B L97d25a : Use ECB mode!"
+  },
+  {
+    "apk": "com.autocab.driverapp_9930.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.geoactio.avanzalargorecorrido_18.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "au.com.console.tenant_11563.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.dylan.gamepad.pro_155.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "dosimi.subway_125.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.appwalied.quran_41.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.nobexinc.wls_66087017.rc_507006.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L2a1c1e : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L2612ce : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1199c2 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L11b6d4 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L11b782 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1199da : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2a179e : Use non-random IV!"
+  },
+  {
+    "apk": "com.haastgames.manastoria_188.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "eu.tresfactory.lupaalertemasina_580.apk",
+    "subfolder": "100k-500k",
+    "result": "  Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAES256:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L489004 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAESother:([BLjava/io/InputStream;Ljava/io/OutputStream;Z)V L4890dc : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.computeHash2B:([B[B[B)[B L489b34 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L48a718 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L48a5b8 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.validatePerms:(Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;IZ)V L48aa1c : Use ECB mode!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.computeEncryptedKeyRev56:([BZ[B[B[B[BI)[B L489998 : Use non-random IV!"
+  },
+  {
+    "apk": "com.redbull.wingsforlifeworldrun_90000201.apk",
+    "subfolder": "100k-500k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.xgroupsrl.dipe.smart_400403.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "es.cgb.voluntariadosalamanca_6.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.nitesh.copaiti_3.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.agiliron_5.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ensivosolutions.studyflix_6.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L385856 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L385402 : Use non-random IV!\n  Lcom/razorpay/O__Y_;.R$$r_:(Ljava/lang/String;Ljava/lang/String;Lcom/razorpay/O__Y_$d__1_;Ljava/lang/String;)Ljava/lang/String; L0ee544 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L350b0a : Use non-random IV!"
+  },
+  {
+    "apk": "com.radioco.mf7481ea08_11.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L204dda : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L2047b2 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L1eac3a : Use non-random IV!"
+  },
+  {
+    "apk": "mobile.en.com.educationalnetworksmobile.wheeler_15.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L3dc4de : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L3b996e : Use non-random IV!\n  Lmobile/en/com/educationalnetworksmobile/utils/StringUtils;.decryptMsg:(Ljava/lang/String;)Ljava/lang/String; L352d68 : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L3dcb52 : Use non-random IV!\n  Lmobile/en/com/educationalnetworksmobile/utils/StringUtils;.encryptMsg:(Ljava/lang/String;)Ljava/lang/String; L352dc8 : Use ECB mode!"
+  },
+  {
+    "apk": "com.brandbot.mobile_2121.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ch.gooods_358.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ru.rubeg38.technicianmobile_35.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.coyoapp.swsg.engage.android_2090884785.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.geliossoft.gruzolot_dispatcher_1.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.universlsoftware.germancalendar_3.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "io.github.withlet11.skyclock_11.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ztcx.ai_7.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.vidmo.freedownloader_7.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.aiobhd.statussaver_3.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.foodbooking.heatcafedubai_4433.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ie.flipdish.fd3678_52777.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.rpn.erfahislamicvoice_10.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4f1c4e : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L19aaba : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L19a63a : Use non-random IV!"
+  },
+  {
+    "apk": "com.nikssoftware.photorecover_3.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.onlister.guidancekoyilandy_9.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "nl.oosternijkerk_12.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "es.tpc.matchpoint.appclient.costaricatennisclub_81.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.nutechmobile.datenite_9.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.subsplash.thechurchapp.s_5B3SBT_2290.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/a;.c:(Lgc/m;)J L3024ba : Use non-random IV!\n  Lwj/p;.G:(Lwj/f;IZ)V L3e2a30 : Use ECB mode!\n  Lul/c$a;.a:()Ljava/lang/Object; L3cdbec : Use non-random IV!\n  Lwj/p;.u:([B[B[B)[B L3e22a4 : Use non-random IV!\n  Lwj/p;.s:([BZ[B[B[B[BI)[B L3e210a : Use non-random IV!\n  Lwj/l;.h:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L3e1ac4 : Use non-random IV!"
+  },
+  {
+    "apk": "com.eduven.cg.norway_10.apk",
+    "subfolder": "100-500",
+    "result": "  Le/c/a/f/m;.p:(Ljava/lang/String;)Ljava/lang/String; L2b81b0 : Use ECB mode!"
+  },
+  {
+    "apk": "com.ali.pashtodictionary.apps_320.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ec.kimersoft.secureapp_40.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.digion.dixim.security.app_4.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/digion/dixim/security/util/Encryptor;.decrypt:(Ljava/lang/String;)Ljava/lang/String; L222684 : Use ECB mode!\n  Lcom/digion/dixim/security/util/Encryptor;.encrypt:([B)Ljava/lang/String; L222810 : Use ECB mode!"
+  },
+  {
+    "apk": "ru.domopult.sajva.android_894.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.pixipine.jalees_17.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2200da : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L22055a : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L1e00ae : Use non-random IV!"
+  },
+  {
+    "apk": "de.appack.project.tbruit_1.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/googlecode/mp4parser/boxes/cenc/CencEncryptingSampleList;.initCipher:([BLjavax/crypto/SecretKey;)V L158124 : Use non-random IV!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L157a9a : Use non-random IV!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L157a68 : Use non-random IV!"
+  },
+  {
+    "apk": "com.omning.omniboard.lck1203_31.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.wook.market_12.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.apptegy.iberia_23.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.wego.cita_10.apk",
+    "subfolder": "100-500",
+    "result": "  Lb/l/b/c/q;.<init>:()V L306290 : Use ECB mode!\n  Lb/l/b/c/q;.c:([BLjava/lang/String;)[B L305ef6 : Use ECB mode!\n  Lb/l/b/c/q;.f:([B)[B L305fbe : Use ECB mode!\n  Lo/a/m/a;.<init>:([BLjava/lang/String;[B)V L4111a0 : Use non-random IV!\n  Lb/l/b/c/q;.e:([BLjava/lang/String;)[B L305f4a : Use ECB mode!"
+  },
+  {
+    "apk": "com.appworkout.fitbutler.demo_1277.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/appworkout/fitbutler/Helper/AESUtils;.encrypt:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L373470 : Use non-random IV!"
+  },
+  {
+    "apk": "com.nupuit.ncid_10.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L27e896 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L2362ca : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L27e416 : Use non-random IV!"
+  },
+  {
+    "apk": "com.avempace.smaart.doorphone_7365.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/avempace/smaart/doorphone/serverManager/ACr;.<init>:()V L2acdda : Use non-random IV!"
+  },
+  {
+    "apk": "com.trainerize.sustainablechangeltd_837000.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/googlecode/mp4parser/boxes/cenc/CencEncryptingSampleList;.initCipher:([BLjavax/crypto/SecretKey;)V L3b6b84 : Use non-random IV!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L3b64d0 : Use non-random IV!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L3b6502 : Use non-random IV!"
+  },
+  {
+    "apk": "gr.activesolutions.dispatch_17.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.nani_wellness_13.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "es.bandomovil.villahermosadelrio.informa_13.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "radfan.yemoney_567.apk",
+    "subfolder": "100-500",
+    "result": "  Lradfan/yemoney/b/s;.<init>:()V L2cface : Use non-random IV!"
+  },
+  {
+    "apk": "com.swapcard.apps.android.lngamericas2021_9000635.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.monbuilding.app.noecampus_3422.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ie.flipdish.fd18090_81467.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.cta.liquorestorehash_46.apk",
+    "subfolder": "100-500",
+    "result": "  Lcom/cipl/loadingdock/decrypt_aes/CryptLib;.encryptDecrypt:(Ljava/lang/String;Ljava/lang/String;Lcom/cipl/loadingdock/decrypt_aes/CryptLib$EncryptMode;Ljava/lang/String;)Ljava/lang/String; L3dfec4 : Use non-random IV!\n  Lcom/cta/liquor47/decrypt_aes/CryptLib;.encryptDecrypt:(Ljava/lang/String;Ljava/lang/String;Lcom/cta/liquor47/decrypt_aes/CryptLib$EncryptMode;Ljava/lang/String;)Ljava/lang/String; L2a2d5c : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4be25a : Use non-random IV!\n  Lcom/cipl/mickyfinns/decrypt_aes/CryptLib;.encryptDecrypt:(Ljava/lang/String;Ljava/lang/String;Lcom/cipl/mickyfinns/decrypt_aes/CryptLib$EncryptMode;Ljava/lang/String;)Ljava/lang/String; L1f6ca0 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4765d2 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4be6da : Use non-random IV!\n  Lcom/cta/liquorestorehash/decrypt_aes/CryptLib;.encryptDecrypt:(Ljava/lang/String;Ljava/lang/String;Lcom/cta/liquorestorehash/decrypt_aes/CryptLib$EncryptMode;Ljava/lang/String;)Ljava/lang/String; L34e77c : Use non-random IV!"
+  },
+  {
+    "apk": "com.apptegy.rockland_25.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "es.bandomovil.serrejon.informa_12.apk",
+    "subfolder": "100-500",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.walid.appmuslim_14.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "in.letslearnak.MarathiGrammar_17.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ribotask.sense_67.apk",
+    "subfolder": "10k-50k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2c2822 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L26acf6 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L2c2ca2 : Use non-random IV!"
+  },
+  {
+    "apk": "com.newlinks.intercomclient_43.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.engagement.ringsdesign_18.apk",
+    "subfolder": "10k-50k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4e14d2 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4e104e : Use non-random IV!"
+  },
+  {
+    "apk": "com.appg.bankdiary.client_11.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.sonidos.chilenos_6.apk",
+    "subfolder": "10k-50k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4536ca : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4883be : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L487f6a : Use non-random IV!"
+  },
+  {
+    "apk": "ru.amigo.app_46.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mobtech.ambition_23.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.knockonly.marathi.marathisuvichar_8.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.r.indian_rivers_15.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.greatcatholicmusic.app_12.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.xdevel.radiomargherita_3002000.apk",
+    "subfolder": "10k-50k",
+    "result": "  Lb6/a;.c:(Lp6/p;)J L20c086 : Use non-random IV!"
+  },
+  {
+    "apk": "kr.co.echeck.smu_20301.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.voicerecorder.recording.audiorecorder_21.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.magazinecloner.hotenglish_2034071301.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.simplexi.messenger_2021020104.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mysiteanalytics.msa_116.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.happydev4u.thaienglishtranslator_62.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "uk.co.image_plus.propertyinvestor_39.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.dabdeveloper.moviedb.android_35.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.enctech.sleeptracker_58.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.a7afidi.hidden_23.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.tegut.tbox_2000000542.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "robo.forrest.fairy.sword.tree.tower.craft_7.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "no.nordicsemi.android.nrfthingy_39.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "jp.co.a_tm.android.plus_autumn_color_1000.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.arashpayan.prayerbook_23.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.rinfo.android.notepad_82.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.filter.camera.ccd.cam1998_12.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.darkmodeapps.coverletter_4.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.appsamimanera.calendarioportugues_8.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "quran.tilawatequran.mahermaaiqli_1001.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.homecu.bwuccu_2097.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "jp.gomisuke.app.Gomisuke0003_12.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.david.mybaby_150.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.imzhiqiang.period_10701.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.blueappsllc.bomdia_1.apk",
+    "subfolder": "10k-50k",
+    "result": "  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L4d3198 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L4d34e2 : Use non-random IV!"
+  },
+  {
+    "apk": "jp.co.okinawatimes.viewer.and_25.apk",
+    "subfolder": "10k-50k",
+    "result": "  Lw0/a;.d:(Ljava/lang/String;[BLjava/lang/String;)Ljava/lang/String; L16ba1e : Use non-random IV!\n  Lw0/a;.c:(Ljava/lang/String;Ljava/io/InputStream;Ljava/lang/String;)Ljava/io/DataInputStream; L16b96a : Use non-random IV!\n  Lw0/a;.e:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)[B L16b886 : Use non-random IV!"
+  },
+  {
+    "apk": "sukron.com.animal_8.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.locatify.guide.bslauschtour_979.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "net.mohadaratdiniya.fatawa.ibnuthaymeen_1002.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "li.yapp.app69E42EC1_13.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.pccomputer.udhar_khata_book_10.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "yesthemes.gaming.dice.battlefield1.battlefield5.bf1.bf5.games.android.launcher.wallpapers_5.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.bdcricketlivescore.bangladeshcricketlivematchhd_16.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.proapps.sword.sounds_1001.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "so.ateya.ahmed.Lagna_Daamah_4.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.oustme.gsf_710.apk",
+    "subfolder": "10k-50k",
+    "result": "  Lcom/oustme/gsf/library/tools/OustTools;.decryptLoginData:(Ljava/lang/String;Ljavax/crypto/Cipher;)Lcom/oustme/gsf/pojos/response/BranchIOEncryptedResponce; L2b94ec : Use ECB mode!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L26df22 : Use non-random IV!\n  Lcom/oustme/oustsdk/tools/OustSdkTools;.decryptQuestion:(Lcom/oustme/oustsdk/response/common/EncrypQuestions;Ljavax/crypto/Cipher;)Lcom/oustme/oustsdk/room/dto/DTOQuestions; L322446 : Use ECB mode!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L258b16 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2aed22 : Use non-random IV!\n  Lcom/oustme/gsf/library/tools/OustTools;.decryptBranchData:(Lcom/oustme/oustsdk/response/common/BranchIoResponce;Ljavax/crypto/Cipher;)Lcom/oustme/oustsdk/response/common/BranchIoResponce; L2b95d0 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L3a4e0e : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3a3076 : Use ECB mode!\n  Lcom/oustme/oustsdk/tools/OustSdkTools;.decryptBranchData:(Lcom/oustme/oustsdk/response/common/BranchIoResponce;Ljavax/crypto/Cipher;)Lcom/oustme/oustsdk/response/common/BranchIoResponce; L3221d0 : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L2af1a6 : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L3a4d60 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3a308e : Use ECB mode!\n  Lcom/oustme/oustsdk/tools/OustSdkTools;.getDecryptedQuestion:(Lcom/oustme/oustsdk/response/common/PlayResponse;)Lcom/oustme/oustsdk/response/common/PlayResponse; L322374 : Use ECB mode!\n  Lcom/oustme/oustsdk/presenter/common/GeneralSettingActivityPresenter;.getEncryptPassword:(Ljava/lang/String;)Ljava/lang/String; L1ef0fa : Use ECB mode!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencEncryptingSampleList;.initCipher:([BLjavax/crypto/SecretKey;)V L259196 : Use non-random IV!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L258ae4 : Use non-random IV!"
+  },
+  {
+    "apk": "com.urvas.marathistatus_3.apk",
+    "subfolder": "10k-50k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "uk.co.travelrepublic.travelrepublic_545.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "se.jagareforbundet.wehunt_2401321.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lcom/radaee/util/PDFAESEncOld;.encrypt:(Ljava/lang/String;Ljava/lang/String;[B)Z L383688 : Use non-random IV!\n  Lh3/e$b;.l:(Ljava/util/HashMap;)V L5422ca : Use non-random IV!\n  Lcom/radaee/util/PDFAESStream;.open:(Ljava/lang/String;[B)Z L383c0a : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/a;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L49cfd2 : Use non-random IV!\n  Lh3/e$b;.j:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L541e56 : Use non-random IV!"
+  },
+  {
+    "apk": "volume.bass.virtrualizer.equalizer.sound.effect_7.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "pt.sapo.android.cloudpt_120.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lpt/sapo/mobile/android/sapokit/notification/Crypto;.encrypt:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)Ljava/lang/String; L17c1e4 : Use ECB mode!\n  Lpt/sapo/mobile/android/sapokit/notification/Crypto;.decrypt:(Ljava/lang/String;)Ljava/lang/String; L17c10e : Use ECB mode!"
+  },
+  {
+    "apk": "com.house.jjs_596.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.prompt.ma.maapplicationfinalAmul_50.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "systems.altura.aclient.cnel_1280.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.callhistory.contacts.calllog_86.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.questalliance.myquest_101.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lcom/questalliance/myquest/utils/encription/EncriptionUtils;.encrypt:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L124a44 : Use ECB mode!\n  Lcom/questalliance/myquest/utils/encription/CryptoUtil;.decryptData:(Ljava/lang/String;)Ljava/lang/String; L1240ca : Use ECB mode!\n  Lcom/questalliance/myquest/utils/encription/EncriptionUtils;.decrypt:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L1249a2 : Use ECB mode!\n  Lcom/questalliance/myquest/utils/encription/CryptoUtil;.encryptData:(Ljava/lang/String;)Ljava/lang/String; L1241d4 : Use ECB mode!"
+  },
+  {
+    "apk": "smf.kupiavto_810.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.monotype.android.font.bel.round_19.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.pixsterstudio.captions_38.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.earthglobemap.livesatellite.gps_13.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "app.medicalid.free_959.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.msseed.membership_30014.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.danale.video_10199.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lcom/danale/cloud/pay/paypal/AESUtils;.decrypt:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L4c4930 : Use non-random IV!\n  Lcom/paypal/android/sdk/eg;.b:(Ljava/lang/String;)Ljava/lang/String; L2ac020 : Use ECB mode!\n  Lcom/paypal/android/sdk/eg;.a:(Ljava/lang/String;)Ljava/lang/String; L2abf66 : Use ECB mode!\n  Lcom/eapil/lib/EapilAesUtils;.encrypt:(Ljava/lang/String;[B)[B L335c12 : Use non-random IV!\n  Lcom/danale/cloud/pay/paypal/AESUtils;.encrypt:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L4c4a0a : Use non-random IV!\n  Lcom/eapil/lib/EapilAesUtils;.decrypt:(Ljava/lang/String;[B)[B L335bae : Use non-random IV!\n  Lcom/eapil/lib/EapilAesUtils;.aesDecode:(Ljava/lang/String;)Ljava/lang/String; L335d28 : Use non-random IV!"
+  },
+  {
+    "apk": "com.rmtheis.price.comparison.scanner_102.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.londonandpartners.londonguide_31940000.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.thermometerforroom_8.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.stn.mobile_player_418995.apk",
+    "subfolder": "500k-1M",
+    "result": "  Ljh/t;.D:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L35c14c : Use ECB mode!"
+  },
+  {
+    "apk": "com.etoos.india.app_200.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lcom/spv/isp/document/decryption/FileDecrypterAsync;.c:([Ljava/io/File;)Ljava/io/File; L3a9186 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L406ede : Use ECB mode!\n  Lcom/spv/isp/document/utils/DocumentUtilities;.commonDecryption:([B)Ljava/lang/String; L3aa15c : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L408c06 : Use ECB mode!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L53f5f6 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L59704e : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L406ef6 : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L596bce : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L408b58 : Use ECB mode!"
+  },
+  {
+    "apk": "com.chereads.reader_395.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.findpenguins.app_436.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.x2line.android.milkybaby_26144281.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.bmw.ConnectedRide_551010.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "org.chennaimetrorail.appv1_161.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lcom/billdesk/utils/SecurePreferences;.c:(Ljava/lang/String;)Ljava/lang/String; L2f65de : Use ECB mode!\n  Lcom/billdesk/utils/SecurePreferences;.b:(Ljava/lang/String;)Ljava/lang/String; L2f64e2 : Use ECB mode!"
+  },
+  {
+    "apk": "com.peachlive.android_28.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lio/rong/imlib/httpdns/RongHttpDnsUtil;.decode:(Ljava/lang/String;Ljava/lang/String;[B)Ljava/lang/String; L37d8c8 : Use non-random IV!\n  Lio/rong/imlib/common/EncryptUtil;.decrypt:(Ljava/lang/String;)Ljava/lang/String; L35c024 : Use non-random IV!\n  Lio/rong/imlib/common/EncryptUtil;.encrypt:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L35c1be : Use non-random IV!\n  Lio/rong/imlib/common/EncryptUtil;.encrypt:(Ljava/lang/String;)Ljava/lang/String; L35c0f2 : Use non-random IV!\n  Lio/rong/imlib/httpdns/RongHttpDnsUtil;.encode:(Ljava/lang/String;Ljava/lang/String;[B)Ljava/lang/String; L37d9bc : Use non-random IV!"
+  },
+  {
+    "apk": "com.infinityapps.gps.location.navigation.route.maps_40.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.fasttamilkeyboard.typing.easytamiltext.inputmethod_25.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ecs.roboshadow_3601.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.figooo.second_10.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L246a68 : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L246460 : Use non-random IV!\n  Lp8/p35/p36/p46/p57/p58/C858;.m5025:(Ljava/util/HashMap;)V L4efe50 : Use non-random IV!\n  Lcom/bytedance/sdk/component/c/a;.a:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L2318f4 : Use non-random IV!\n  Lcom/bytedance/sdk/component/c/a;.b:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L23199a : Use non-random IV!\n  Lp8/p35/p36/p46/p57/p58/C858;.m5031:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4ef9d2 : Use non-random IV!"
+  },
+  {
+    "apk": "com.pocketgroup.pocketpay_340.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.discipleskies.gpsreset_42.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lnet/pubnative/lite/sdk/utils/PNCrypto;.encryptString:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L4786ea : Use non-random IV!"
+  },
+  {
+    "apk": "com.rtve.mas24_87.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3b27f6 : Use non-random IV!\n  Lcom/rtve/ztnr/encrypt/BlowFishEncrypt;.decrypt:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L37544a : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L3b2c7a : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L36ae6e : Use non-random IV!\n  Lcom/rtve/ztnr/encrypt/BlowFishEncrypt;.encrypt:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L375504 : Use non-random IV!"
+  },
+  {
+    "apk": "com.circuitjam_76.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "video.tube.play.tube.videotube.playtube.musictube.movietube_10109.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.keiind.connect_62.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.karma.life_3263.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.photomath.mathsolver_12.apk",
+    "subfolder": "500k-1M",
+    "result": "  Lj3/m;.a:()Ljavax/crypto/Cipher; L660774 : Use non-random IV!"
+  },
+  {
+    "apk": "com.bekids.gogotown.unicorns_144.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.rms.mobile.number.locator.mobilecall.tracker.callerid.location_5.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.androston.lovepictures_13.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mpayapp_194.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.hafeziquran.islamicapp_63.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ru.tutu.tutu_bus_48000.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "de.rooehler.bikecomputer_262.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.moall.farmerstore88_38.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ru.appkode.mozen_678.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ideabuilderapp.banglawordbook_8.apk",
+    "subfolder": "500k-1M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.learnateso.learn_ateso_40.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.djfoxstudio.drawtoolbox_66.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.multiestetica.companies_112.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mysalesforce.mycommunity.C00D2p000000UXa9EAG.A0OT2p000000KyjHGAS.app1_111200000.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mycinemahall_101050500.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lcom/razorpay/B_$q$;.a_$P$:(Ljava/lang/String;Ljava/lang/String;Lcom/razorpay/B_$q$$R$$r_;Ljava/lang/String;)Ljava/lang/String; L2683b8 : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2ae67e : Use ECB mode!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L412cba : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2b0436 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2b0388 : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4384de : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2ae696 : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L438932 : Use non-random IV!"
+  },
+  {
+    "apk": "com.electra.webapp.webtech_20.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.it4you.babymonitor_2001005.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.apprancher.freestuff_80000000.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lcom/robotemplates/kozuza/b;.a:([B)[B L3e928e : Use ECB mode!"
+  },
+  {
+    "apk": "in.co.mfonline_33.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.latlong.coordinates_7.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.crn.skesh_131.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lcom/crn/skesh/ProjectViewActivity;.J0:(Ljava/lang/String;)V L2d893a : Use non-random IV!\n  Lcom/crn/skesh/ProjectViewActivity;.K0:(Ljava/lang/String;)V L2d89ce : Use non-random IV!"
+  },
+  {
+    "apk": "in.myinnos.batteryinfopro_50.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "alnima.wordshapes_3.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "de.nitri.bigfive_32.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "co.dudo.podcastvn_28.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.vcis.app.kanossaschool_37.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.appking.juzs.juz9_7.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.appscho.appschov2.esg_13001.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "vmax.com.badangpet_8.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ctappstudio.imdoodle_23.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lvpadn/ag;.a:([B[B)[B L357c4c : Use non-random IV!"
+  },
+  {
+    "apk": "shah.jinraag_5.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L24947e : Use non-random IV!\n  Lwi/g;.a:(Ljava/lang/String;Lzh/i;Lvi/k;)V L473620 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L249134 : Use non-random IV!\n  Lwi/e;.l:(Le7/m;)V L47319a : Use non-random IV!"
+  },
+  {
+    "apk": "com.dragoma.frko_229.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L6bf72e : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L6bf4f4 : Use non-random IV!"
+  },
+  {
+    "apk": "com.netpulse.mobile.maxxfitnessclubzz_139.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lcom/netpulse/mobile/core/util/CryptoManager;.decrypt:([B[B)[B L256b0a : Use ECB mode!\n  Lcom/netpulse/mobile/core/util/CryptoManager;.encrypt:([B[B)[B L256b42 : Use ECB mode!"
+  },
+  {
+    "apk": "bosmap.magnum.me.il2bosmap_16.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "countries.of.the.world_4.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mobinet.musictherapy_9.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.pragma.scientistsinventionsanddiscoveries_5.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.virenter.books.aaaav_10.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.danielebachicchi.proday_23.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "so.ateya.ahmed.Akedah_Wastyah_Lib_BT_7.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "mobi.coolapps.traffic.us.oregon_223.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "uk.co.disciplemedia.thezebraclub_44214.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.frameditorapps.newyearphotomaker_10.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.landl.gzbus_42.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "aplus.droitfiscal_37.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.playlanka.bukiyewadan_56.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L52e65a : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L1c68fa : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4dc4da : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L1c65b0 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L52e1da : Use non-random IV!"
+  },
+  {
+    "apk": "com.fox.foxfast.universal_434.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.coverforyou.app_25.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.brunochanrio.dangoplayeruni_522.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.delivery.asiaExpress_245.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.gpsmycity.android.u134_55.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.lekseek.aptekarzInterakcje_134.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "eu.appcorner.skanzen_4932.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lo5/a;.a:(Ly5/h;)J L3f87f2 : Use non-random IV!"
+  },
+  {
+    "apk": "com.online.quiz_10.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.AwamiSolution.flipimagemirrorimage_13.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "play.musicplayer.musicapps.music.mp3player_2.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.deutschlandradiofm.germanyradio_7.apk",
+    "subfolder": "5k-10k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/c;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L2f5346 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/c;.r:()V L316978 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/c;.o:()Z L316354 : Use non-random IV!"
+  },
+  {
+    "apk": "com.eco.tour_47.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.hellothupten.lametro_20210802.apk",
+    "subfolder": "5k-10k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "de.danoeh.antennapod_3080095.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.polydice.icook_96360.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.liogaming.dlskits_8.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.fanstudio.lienkhucnhacvang.nhactrutinh_22.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ecoatm.ecoapp.android_87.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.tempnumber.Temp_Number.Temp_Number_69.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/tempnumber/Temp_Number/Temp_Number/api/Decryption;.decryption:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L3e2c52 : Use non-random IV!"
+  },
+  {
+    "apk": "com.rewardstyle.liketoknowit_10640.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.astroid.yodha_45840004.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.photoslideshow.birthdayvideomaker_32.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.clogica.smartvideoeditor_18.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L0570ae : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L057096 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L058d9c : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L058e4a : Use ECB mode!"
+  },
+  {
+    "apk": "com.balintinfotech.myphotokeyboard_4.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "arproductions.andrew.worklog_73.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.gps.maps.livesatellite.navigation.routefinder_92.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "pt.iol.tviplayer.android_314.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L36cc2a : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3b830a : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L3b878a : Use non-random IV!"
+  },
+  {
+    "apk": "com.nudi.bkn.sapk_82.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.evansir.runicformulas_141.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.indyzalab.transitia_430.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "fr.lapostemobile.appliclient_61.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lg/a/a/m/o;.decrypt:(Landroid/content/Context;Ljava/lang/String;)[B L2696fe : Use ECB mode!\n  Lg/a/a/m/o;.encrypt:(Landroid/content/Context;[B)Ljava/lang/String; L2698e8 : Use ECB mode!"
+  },
+  {
+    "apk": "br.lgfelicio_9268.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.channelnewsasia_233.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ihuaj.gamecc.global_143.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/limelight/nvstream/http/PairingManager;.encryptAes:([BLjavax/crypto/SecretKey;)[B L542b64 : Use ECB mode!\n  Lcom/limelight/nvstream/http/PairingManager;.decryptAes:([BLjavax/crypto/SecretKey;)[B L542b1c : Use ECB mode!"
+  },
+  {
+    "apk": "sportsguru.ipl.cricket.expert_10.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L65b850 : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L65b698 : Use non-random IV!"
+  },
+  {
+    "apk": "de.elfsoft.bestbrokers_81.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.igg.android.clashoflords2it_1000260.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/gpc/util/AESUtils;.decryptWithECB:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L535bda : Use ECB mode!\n  Lcom/gpc/operations/migrate/utils/AESUtils;.decryptWithECB:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L495546 : Use ECB mode!"
+  },
+  {
+    "apk": "com.charging.fun_119.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/yandex/mobile/ads/impl/ug$b;.b:(Ljava/util/HashMap;)V L1e73ac : Use non-random IV!\n  Ly5/a;.e:(Lp6/m;)J L5563ea : Use non-random IV!\n  Lcom/yandex/mobile/ads/impl/ug$b;.b:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L1e703a : Use non-random IV!"
+  },
+  {
+    "apk": "org.solovyev.android.calculator_164.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.hilokal_266.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.appg.ebridge_209411.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/kakao/sdk/common/util/AESCipher;.<init>:(Lcom/kakao/sdk/common/model/ContextInfo;)V L3c821e : Use non-random IV!"
+  },
+  {
+    "apk": "com.fourksoft.openvpn_407.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "it.creaweb.ucicinemas_61.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.brother.ptouch.iprintandlabel_131.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.offline.poetry_202.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "controllers.marham.marhammed_481.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "original.alarm.clock_66.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lb/b/a/a/g/a;.b:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L3a8376 : Use non-random IV!\n  Loriginal/alarm/clock/utils/mail/Utils;.decryptIt:(Ljava/lang/String;)Ljava/lang/String; L05b73c : Use ECB mode!\n  Loriginal/alarm/clock/utils/mail/Utils;.encryptIt:(Ljava/lang/String;)Ljava/lang/String; L05b842 : Use ECB mode!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L484584 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L344964 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L584b16 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L52b54a : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L484b90 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L344cb2 : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/cache/i;.a:()Z L424f96 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L584692 : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/extractor/hls/a;.a:(Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/j;)J L4004d2 : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/cache/i;.c:()V L425408 : Use non-random IV!\n  Lb/b/a/a/g/a;.a:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L3a825c : Use non-random IV!"
+  },
+  {
+    "apk": "com.hunkemoller_2791.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.teegloyalty.timezone_245.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L179ab8 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1774f6 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L179b66 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L17750e : Use ECB mode!"
+  },
+  {
+    "apk": "com.daily.holybiblelite_125.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/bytedance/sdk/component/Wz/JhQ;.Htx:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L1dc522 : Use non-random IV!\n  Lcom/bytedance/sdk/component/Wz/JhQ;.JhQ:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L1dc680 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4ed78e : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4ed30a : Use non-random IV!"
+  },
+  {
+    "apk": "com.aplicativoslegais.topstickers_49.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.czw.freefit_797.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/iflytek/sparkchain/utils/AESUtil;.encrypt:(Ljava/lang/String;[B)Ljava/lang/String; L2fbf7c : Use ECB mode!\n  Lc/g;.encrypt:(Ljava/lang/String;)Ljava/lang/String; L43ffa4 : Use ECB mode!\n  Lc/g;.decrypt:(Ljava/lang/String;)Ljava/lang/String; L43fee6 : Use ECB mode!\n  Lcom/yfanads/android/adx/thirdpart/exoplayer/hls/Aes128DataSource;.open:(Lcom/yfanads/android/adx/thirdpart/exoplayer/core/upstream/DataSpec;)J L4e59d2 : Use non-random IV!\n  Lcom/iflytek/sparkchain/utils/AESUtil;.decrypt:([B[B)[B L2fbd04 : Use ECB mode!\n  Lcom/yfanads/android/libs/utils/Util;.decryptAES7ByShort:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L54c592 : Use ECB mode!\n  Lcom/yfanads/android/libs/utils/Util;.encryptAES7:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L54c7e6 : Use ECB mode!\n  Lcom/autonavi/aps/amapapi/security/a;.<clinit>:()V L20e62e : Use non-random IV!\n  Lcom/yfanads/android/libs/utils/Util;.decryptAES7:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L54c520 : Use ECB mode!\n  Lcom/yfanads/android/libs/utils/Util;.encrypt:(Ljava/lang/String;)Ljava/lang/String; L54c64e : Use non-random IV!\n  Lcom/yfanads/android/adx/thirdpart/exoplayer/core/upstream/cache/CachedContentIndex;.readFile:()Z L4cb0e4 : Use non-random IV!\n  Lcom/iflytek/sparkchain/utils/AESUtil;.decrypt:(Ljava/lang/String;[B)Ljava/lang/String; L2fbe98 : Use ECB mode!\n  Lcom/iflytek/sparkchain/utils/AESUtil;.encrypt:([B[B)[B L2fbd5c : Use ECB mode!\n  Lcom/yfanads/android/adx/thirdpart/exoplayer/core/upstream/cache/CachedContentIndex;.writeFile:()V L4cb6de : Use non-random IV!\n  Lcom/yfanads/android/libs/utils/Util;.encryptAES7ByShort:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L54c8c4 : Use ECB mode!\n  Lcom/yfanads/android/libs/utils/Util;.encryptAES:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L54c76a : Use non-random IV!"
+  },
+  {
+    "apk": "chat.amor_110.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "net.fetnet.fetvod_937.apk",
+    "subfolder": "1M-5M",
+    "result": "  La/b;.a:([BLjava/lang/String;)[B L1bb39c : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L26d6e2 : Use non-random IV!\n  La/b;.b:([BLjava/lang/String;)[B L1bb3f0 : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L26d262 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L215e12 : Use non-random IV!"
+  },
+  {
+    "apk": "com.angel.world.clock_14.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.jksol.voicerecodeing_945.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.bhima.filterfocusname_57.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.buscounchollo_552.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.appybuilder.sarafriss1997.nokatori_36.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "es.ottplayer.tv_16842877.apk",
+    "subfolder": "1M-5M",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4cc25a : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4cbdda : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L47a2ee : Use non-random IV!"
+  },
+  {
+    "apk": "pt.cp.mobiapp_285.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.app.sefamerve_172.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "my.Frank_538.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.awabe.learnenglish_60.apk",
+    "subfolder": "1M-5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.praxinfo.gtc_10005.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.doodle.dehqon_15.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.citygovapp.washoeir_8.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L281872 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2817c4 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L27faba : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L27faa2 : Use ECB mode!"
+  },
+  {
+    "apk": "com.subsplash.thechurchapp.tricitiesbaptistchurch_2290.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/a;.c:(Lgc/m;)J L3024ba : Use non-random IV!\n  Lwj/p;.G:(Lwj/f;IZ)V L3e2a30 : Use ECB mode!\n  Lul/c$a;.a:()Ljava/lang/Object; L3cdbec : Use non-random IV!\n  Lwj/p;.u:([B[B[B)[B L3e22a4 : Use non-random IV!\n  Lwj/p;.s:([BZ[B[B[B[BI)[B L3e210a : Use non-random IV!\n  Lwj/l;.h:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L3e1ac4 : Use non-random IV!"
+  },
+  {
+    "apk": "com.socorroec.smartapps_626.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "hl.weightloss.fitness.calories.counter.diet.plan_6.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ingeniando.ciudadelaelejercito_3.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "stereo.grandeza_5.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L35bbc4 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L35bf12 : Use non-random IV!"
+  },
+  {
+    "apk": "com.beoneapps.rutadelaplata_11.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "uk.co.audiotrails.stmagnusway_9.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcom/estimote/coresdk/common/internal/utils/AuthMath;.aesDecrypt:([B[B)[B L33584e : Use ECB mode!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L49ed2e : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4e6756 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4e62d6 : Use non-random IV!\n  Lcom/estimote/coresdk/common/internal/utils/AuthMath;.aesEncrypt:([B[B)[B L33588a : Use ECB mode!"
+  },
+  {
+    "apk": "com.Reliable.AmruthPOPS_20.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "uk.co.catalinasoftware.freedomgo.crawfords_3300.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "clipescola.android.aster_10512.apk",
+    "subfolder": "500-1k",
+    "result": "  Lclipescola/commons/utils/CryptoUtils;.decrypt:([BLjavax/crypto/spec/SecretKeySpec;)[B L383a18 : Use ECB mode!\n  Lclipescola/commons/utils/CryptoUtils;.encrypt:([BLjavax/crypto/spec/SecretKeySpec;)[B L383b48 : Use ECB mode!"
+  },
+  {
+    "apk": "com.teramatrix.vos_60.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.marchas.semana_santa_3.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mercury.easydonate_27.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.apptegy.palmyra_24.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "app.madamarket.android_6.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.keywee.shipping.shipitto_29.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.areeb.doobo_535.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.netpulse.mobile.fysiozorgrijssen_106.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.fnoex.fan.uncbears_20001548.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.heydomo.vendors_19.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.stranger_thingss.wallpaper_10.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "to.ord.app_32.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.skylinedynamics.zawyt_alshawarma_26.apk",
+    "subfolder": "500-1k",
+    "result": "  Llk/b;.b:(Ljava/lang/String;[B)Llk/b$c; L1cb854 : Use non-random IV!"
+  },
+  {
+    "apk": "com.social.ekchat_78.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L27e8aa : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L33f65e : Use non-random IV!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencEncryptingSampleList;.initCipher:([BLjavax/crypto/SecretKey;)V L27ef34 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L373b2a : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3736d2 : Use non-random IV!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L27e878 : Use non-random IV!"
+  },
+  {
+    "apk": "ru.navikey.airlayobjectcollector_409.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "all.language.translator.hub.bengalitourdutranslator_48.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "net.hanulsoft.busanmba_101.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.fitnessmobileapps.sportsethealthandfitness_620000.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/a;.a:(Lcom/google/android/exoplayer2/upstream/b;)J L348b66 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/f$b;.m:(Ljava/util/HashMap;)V L36b5be : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/f$b;.k:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L36b13e : Use non-random IV!"
+  },
+  {
+    "apk": "com.formasapp.mimaquinaria_4.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.rootekstudio.repeatsandroid_2080013.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "nl.foodticket.app.orderapp1127_6.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "nl.mijnbezorgapp.kid_85_84.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1cf5ba : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2f4c14 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1cf5d6 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2f4cd6 : Use ECB mode!"
+  },
+  {
+    "apk": "com.mappytom.manager_app_63.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcom/mappytom/manager_app/activity/MainActivity;.encrypt:(Ljava/lang/String;)Ljava/lang/String; L348404 : Use non-random IV!"
+  },
+  {
+    "apk": "com.whiteclouds.christmascakeideagallery_8.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.fc2.blog9.zze128.poffxtwinkle_5.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.tokai.coraline_1.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3f9c3e : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L3fc2b6 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L3fc208 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3f9c26 : Use ECB mode!"
+  },
+  {
+    "apk": "com.alphaapps.awfarlak_11.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.appsfreestations.radiosdeadalucia_7.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/c;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L2f52f2 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/c;.o:()Z L316300 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/c;.r:()V L316924 : Use non-random IV!"
+  },
+  {
+    "apk": "kr.ac.jbnu.ch_3634.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.app.user.sureEcosystem_51.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "hicaltech87.homesteptest.threeminutesfitnesstest_2.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L359d0a : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L35a18e : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L3150a2 : Use non-random IV!"
+  },
+  {
+    "apk": "br.com.movibrasil.taxi.drivermachine_915.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1f5892 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L1f7e60 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1f58aa : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L1f7f0e : Use ECB mode!"
+  },
+  {
+    "apk": "com.tenapps.allindianews_7.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.adelya.otv2_239.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.subsplashconsulting.s_2WH3CQ_2245.apk",
+    "subfolder": "500-1k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/a;.i:(Li9/m;)J L30336a : Use non-random IV!"
+  },
+  {
+    "apk": "com.momosoft.goodmemo_4.apk",
+    "subfolder": "500-1k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.bfi.rca.gabon_2.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.olo.skrimpshack_11474.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "it.taxrefund.taxrefund_9.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lorg/jmrtd/protocol/AESSecureMessagingWrapper;.<init>:(Ljavax/crypto/SecretKey;Ljavax/crypto/SecretKey;J)V L308a3e : Use ECB mode!\n  Lorg/jmrtd/PassportApduService;.<clinit>:()V L2ef2e6 : Use non-random IV!\n  Lorg/jmrtd/protocol/DESedeSecureMessagingWrapper;.<clinit>:()V L309fc6 : Use non-random IV!"
+  },
+  {
+    "apk": "ch.cern.cernbox_43000100.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.tagalog.opm.lovesongs_7.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.technogym.mywellness.indooraction_16.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.excelatlife.moodlog_240010001.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "cn.com.tiro.virtualremote_113.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcn/com/tiro/virtualremote/base/app/QRProtocol;.decryptPassword:(Ljava/lang/String;)Ljava/lang/String; L24557c : Use ECB mode!\n  Lcn/com/tiro/virtualremote/base/app/QRProtocol;.encryptPassword:(Ljava/lang/String;)Ljava/lang/String; L2456ea : Use ECB mode!"
+  },
+  {
+    "apk": "com.ymaa.waterstyle_6.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.subsplash.thechurchapp.s_TP3JNC_2291.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/a;.c:(Lgc/m;)J L3024ba : Use non-random IV!\n  Lwj/p;.G:(Lwj/f;IZ)V L3e2a30 : Use ECB mode!\n  Lul/c$a;.a:()Ljava/lang/Object; L3cdbec : Use non-random IV!\n  Lwj/p;.u:([B[B[B)[B L3e22a4 : Use non-random IV!\n  Lwj/p;.s:([BZ[B[B[B[BI)[B L3e210a : Use non-random IV!\n  Lwj/l;.h:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L3e1ac4 : Use non-random IV!"
+  },
+  {
+    "apk": "com.zoop.caparao_107.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L37b0c2 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3791ae : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L379192 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L37b014 : Use ECB mode!"
+  },
+  {
+    "apk": "com.greenknightlabs.scp_001_24.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.magzter.atlastarih_806.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2ecd36 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2eaf82 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2eaf6a : Use ECB mode!\n  Lcom/dci/magzter/jncrypt/Security;.getD:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L4533be : Use non-random IV!\n  Lcom/dci/magzter/jncrypt/Security;.getE:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L453526 : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2ecc88 : Use ECB mode!\n  Lcom/dci/magzter/jncrypt/Security;.encryptKey:(Ljava/lang/String;)Ljava/lang/String; L453256 : Use non-random IV!"
+  },
+  {
+    "apk": "com.Citron.petersapp_5.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.coopersfiaam_35.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.gcart.android.tokojsfashion_10.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.onefitstop.fitnesstimefl_6.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.couponapp2.chain.tac15031_6080.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2e227a : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2e2292 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2e3f64 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2e4012 : Use ECB mode!"
+  },
+  {
+    "apk": "parentsalarm.green.valley.international.school.pusa.samastipur.bihar_2.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.caftrade.app_22091910.apk",
+    "subfolder": "1k-5k",
+    "result": "  Ln9/j$a;.b:(Ljava/util/HashMap;)V L50d7d2 : Use non-random IV!\n  Lx8/a;.a:(Lm9/l;)J L5af9ee : Use non-random IV!\n  Ln9/j$a;.g:(Ljava/util/HashMap;Landroid/util/SparseArray;)V L50d5c2 : Use non-random IV!"
+  },
+  {
+    "apk": "lb.android.pillcontrol_13.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "andreasagap.ktelmakedonia_38.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "vn.os.launcher_8.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lvn/os/launcher/lib/XUtil;.encryptString:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L0ef850 : Use ECB mode!"
+  },
+  {
+    "apk": "ua.radio.gsmboom_168.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L313696 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L313aea : Use non-random IV!"
+  },
+  {
+    "apk": "com.mamastudio.banglaquiz_6.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.asis.petechmobil_19.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.umnico.android_1054.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4ab1d6 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4aad56 : Use non-random IV!\n  Lcom/uxcam/internals/at;.<init>:()V L3ff130 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L45298e : Use non-random IV!"
+  },
+  {
+    "apk": "com.weblogy.acotonou.com_20.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.foodbooking.nizamat_5741.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.walking.fun.rewards.fitness.fitzu_77.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcom/razorpay/CryptLib;.a:(Ljava/lang/String;Ljava/lang/String;Lcom/razorpay/CryptLib$EncryptMode;Ljava/lang/String;)Ljava/lang/String; L4b9054 : Use non-random IV!"
+  },
+  {
+    "apk": "com.siamtele.user_94.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.calculos.laborales_60.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.blackstar.apps.teammanager_15.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.netizensconnect.student_4.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.shuvic.alumni.sungnamob_18.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.justlogin.newkiosk_40.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.sanaedutech.accounts_auditing_234.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.two.ukcitizenship_10.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcom/two/ukcitizenship/utils/Sikfghefhgdsfr;.dfhndfgfhjkrers:(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String; L3a3f50 : Use ECB mode!\n  Lcom/two/ukcitizenship/utils/Sikfghefhgdsfr;.dfhndfgfhjkrers:(Landroid/content/Context;Ljava/lang/String;)Ljava/lang/String; L3a3f44 : Use ECB mode!"
+  },
+  {
+    "apk": "com.androidappsworldmx.kissfmespana_20230326.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/a;.h:(Lcom/google/android/exoplayer2/upstream/a;)J L348052 : Use non-random IV!"
+  },
+  {
+    "apk": "sparking.photodialer.floatingdialer.neonphotodialer.lions.llc_4.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.etms.employee_15.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.biosys.tdcheck_13.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.horairesprierefrance.frenchprayertimes_18.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.Jupet.coloringfootballlogos_1.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "chat.butler.panel_88.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.sejood.elsahw_1005.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.sadanimewallpaper.masmasstudio_6.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.winterfelltech.belarusian.keyboard_5.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "edu.paulmitchell.theskillcards_4.apk",
+    "subfolder": "1k-5k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.meuradinho.radio14415_561.apk",
+    "subfolder": "1k-5k",
+    "result": "  Lcom/vhall/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/vhall/android/exoplayer2/upstream/DataSpec;)J L0d9d0a : Use non-random IV!\n  Lcom/vhall/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L0fa878 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L5371ec : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L537536 : Use non-random IV!\n  Lcom/vhall/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L0fae84 : Use non-random IV!"
+  },
+  {
+    "apk": "com.chownow.communitylanes_139.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/chownow/communitylanes/util/Decoder;.encryptData:(Ljava/lang/String;)Ljava/lang/String; L30ac26 : Use ECB mode!\n  Lcom/chownow/communitylanes/util/Decoder;.decryptData:(Ljava/lang/String;)Ljava/lang/String; L30ab6c : Use ECB mode!"
+  },
+  {
+    "apk": "com.pioneers.wahtal_abnaa_al_alamia_4.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.taximo.dispatch_11.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/stripe/bbpos/bbdevice/ota/i;.<clinit>:()V L27fa9e : Use non-random IV!\n  Lcom/stripe/bbpos/bbdevice/ota/q$a;.b:([B[B)[B L28921e : Use ECB mode!\n  Lcom/stripe/bbpos/bbdevice/ota/c0;.c:([B[B)[B L277070 : Use non-random IV!\n  Lcom/stripe/bbpos/bbdevice/ota/n;.c:([B[B)[B L28700a : Use ECB mode!\n  Lcom/stripe/bbpos/bbdevice/ota/n;.a:([B[B)[B L286eb6 : Use ECB mode!\n  Lcom/stripe/bbpos/bbdevice/ota/i;.<clinit>:()V L27fa88 : Use non-random IV!\n  Lcom/stripe/bbpos/bbdevice/ota/n;.b:([B[B)[B L286fae : Use ECB mode!\n  Lcom/stripe/bbpos/bbdevice/ota/i;.b:([B[B)[B L27f94e : Use ECB mode!"
+  },
+  {
+    "apk": "radio.eclipse8_1.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L33739e : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L35e600 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L35dff4 : Use non-random IV!"
+  },
+  {
+    "apk": "com.app.radioelsalvador_2.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L35eea2 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L385c58 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L386260 : Use non-random IV!"
+  },
+  {
+    "apk": "eu.magelansoftware.mydtassist_48.apk",
+    "subfolder": "<100",
+    "result": "  Lfr/pcsoft/wdjava/crypto/b;.k:([B[BIII)[B L4c21c0 : Use non-random IV!"
+  },
+  {
+    "apk": "com.shoutcast.stm.radiosupergospelpr_1.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L283e96 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L28452a : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L263e66 : Use non-random IV!"
+  },
+  {
+    "apk": "com.yardi.systems.rentcafe.resident.thomassafran.astra_2.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "aplus.strafrecht_37.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.rsmnm.driver_26.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/rsmnm/Utils/EncryptionHelper;.encryptAES:(Ljava/lang/String;)Ljava/lang/String; L330542 : Use ECB mode!\n  Lcom/rsmnm/Utils/EncryptionHelper;.decryptAES:(Ljava/lang/String;)Ljava/lang/String; L3304da : Use ECB mode!"
+  },
+  {
+    "apk": "com.bertholucci.potd_5.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.schoolmatenuvo.pierrepaul_100.apk",
+    "subfolder": "<100",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2a2148 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2a044e : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2a21f6 : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L41fee2 : Use non-random IV!\n  Lcom/atom/ipg/data/security/SecureCardData;.encryptData:(Ljava/lang/String;)Ljava/lang/String; L3612d6 : Use ECB mode!\n  Lcom/atom/ipg/data/security/SecureCardData;.decryptData:(Ljava/lang/String;)Ljava/lang/String; L36127e : Use ECB mode!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L3fa14a : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L41fa8e : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2a0436 : Use ECB mode!"
+  },
+  {
+    "apk": "com.pilbeo.pilbeo_pumpkin_android_17.apk",
+    "subfolder": "<100",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L06b968 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L069c6e : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L06ba16 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L069c56 : Use ECB mode!"
+  },
+  {
+    "apk": "com.pioneers.misrel_mostaabal_1.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "all.language.translator.hub.malayalamtosamoantranslator_1.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4f3926 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L1942b2 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L194736 : Use non-random IV!"
+  },
+  {
+    "apk": "com.chownow.howardscharro_140.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.questblue.sipblue2_5.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.foodbooking.plazamerengue_5469.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "in.company.krishi_2.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "translateapp.chinese.english_1.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/tappx/a/d;.<init>:([B[B)V L441b90 : Use ECB mode!\n  Lcom/tappx/a/d;.<init>:([B[B)V L441ba4 : Use ECB mode!"
+  },
+  {
+    "apk": "conversor.conversaotaxasbasico.krwisk_37.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.clavax.fence_alarm_8.apk",
+    "subfolder": "<100",
+    "result": "  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3d3ba2 : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L3d620a : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3d3b8a : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L3d615c : Use ECB mode!"
+  },
+  {
+    "apk": "net.wdsvlc.usa_radio_chicago_illinois_united_states_24.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L311ad6 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L338a0c : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L339014 : Use non-random IV!"
+  },
+  {
+    "apk": "com.tfi.eventapp_121.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ie.flipdish.fd24065_64301.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.sekaku.williamxia.tmix164_11.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.blossomsazz.app_1.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.foodbooking.popeheaven_5397.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.pegasustech.smartstores_10.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.quantresearch.exam.ccrn_10.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "hu.tell.tellmonapp_22.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.noursal.Al3qlwFadlhBook_1.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ideabytes.dgsms.midland_22.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.nupuit.agpc_5.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.service.madactylo_3.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.kuwagata.sifi_fridge_2.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.app.soivyfi_135.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "io.mimin.keyboard_5.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.emcan.ahmedsharifapp_15.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "qoresh.social.friendshipquotes_1.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mohit.ingenium.tca639_157.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L3e718e : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4c639a : Use non-random IV!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencEncryptingSampleList;.initCipher:([BLjavax/crypto/SecretKey;)V L3e7818 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L3da1e8 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAES256:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L3d8c10 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4c6822 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L3da348 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.validatePerms:(Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;IZ)V L3da648 : Use ECB mode!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.computeHash2B:([B[B[B)[B L3d975c : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAESother:([BLjava/io/InputStream;Ljava/io/OutputStream;Z)V L3d8ce8 : Use non-random IV!\n  Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L3e715c : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.computeEncryptedKeyRev56:([BZ[B[B[B[BI)[B L3d95c2 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L46e1de : Use non-random IV!\n  Lcom/razorpay/L__R$;.G__G_:(Ljava/lang/String;Ljava/lang/String;Lcom/razorpay/L__R$$d__1_;Ljava/lang/String;)Ljava/lang/String; L352044 : Use non-random IV!"
+  },
+  {
+    "apk": "com.dieffetech.eolas_2.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3d7222 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L3d7676 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L3a3c52 : Use non-random IV!"
+  },
+  {
+    "apk": "es.wemakeit.couto_51.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/paypal/android/sdk/ec;.a:(Ljava/lang/String;)Ljava/lang/String; L4b2d86 : Use ECB mode!\n  Lcom/paypal/android/sdk/ec;.b:(Ljava/lang/String;)Ljava/lang/String; L4b2e40 : Use ECB mode!"
+  },
+  {
+    "apk": "ru.quickresto.qrqueue_62001.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.chownow.pizzaparlor_1.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.cofox.kahunas.TheLabMethod_210.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.phinion.gcepluselearning_2.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "eu.pitsnaider.chameleonradio_119.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "co.massmobileapps.porkmafia_3.apk",
+    "subfolder": "<100",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L1db20a : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L20ee92 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L20f2e6 : Use non-random IV!"
+  },
+  {
+    "apk": "com.divy.englishtolithuanian_26.apk",
+    "subfolder": "<100",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.arvin.applemessagepro_30.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.controld.setuputility_132.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.goethe.hu_819.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.speechtotext.voicetyping.alllanguages.converter.notes_9.apk",
+    "subfolder": "50k-100k",
+    "result": "  Lcom/speechtotext/voicetyping/alllanguages/converter/notes/helper/FileIOUtils;.decrypt:(Ljava/lang/String;[B)Ljava/lang/String; L428c78 : Use non-random IV!\n  Lcom/speechtotext/voicetyping/alllanguages/converter/notes/translateApi/FileIOUtils;.decrypt:(Ljava/lang/String;[B)Ljava/lang/String; L42b058 : Use non-random IV!"
+  },
+  {
+    "apk": "com.aicsm.sscpreviousyearsgk_16.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mobincube.diccionario_griego_biblico.sc_HP9E26_22.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.safeme.calculator_50.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ges.com.antalyasmartcity_61.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.craftsilicon.wazalendo_33.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "pl.onet.onetaudio_5619.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.app.azantime_58.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.makeshop.powerapp.lusida_10001.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.quarantadue.cocktails_41.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.happydev4u.uzbekarabictranslator_62.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.klinqq.app_59.apk",
+    "subfolder": "50k-100k",
+    "result": "  Lcom/instabug/library/internal/storage/Encryptor;.a:(ILjava/security/Key;)V L4484c0 : Use ECB mode!\n  Lcom/instabug/library/internal/storage/Encryptor;.a:(ILjava/io/File;)Z L4481e0 : Use ECB mode!"
+  },
+  {
+    "apk": "com.phonecleaner.junkcleaner.cache.clean.phone.booster_23.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.equitygroup.equityrsa_15.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.qgroupmedia.qnews_9.apk",
+    "subfolder": "50k-100k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L323072 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L3462ba : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L345c4a : Use non-random IV!"
+  },
+  {
+    "apk": "com.mysticwind.linenotificationsupport_23.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "tamil.manthirangal_9.apk",
+    "subfolder": "50k-100k",
+    "result": "  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L2fa1ea : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L1f431c : Use non-random IV!\n  Lc9/h;.y:([B[B)[B L0dea3a : Use ECB mode!\n  Lc9/h;.x:(Ljava/lang/String;)[B L0de98c : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L33f5b6 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L1f4666 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L33f136 : Use non-random IV!"
+  },
+  {
+    "apk": "kz.alser.selfservice_2343.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.nenotech.imagecompressor_8.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.freemium.android.apps.skipal_440.apk",
+    "subfolder": "50k-100k",
+    "result": "  Lcom/bytedance/sdk/component/Wz/JhQ;.Htx:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L48f8b4 : Use non-random IV!\n  Lcom/bytedance/sdk/component/Wz/JhQ;.JhQ:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L48fa12 : Use non-random IV!"
+  },
+  {
+    "apk": "app.typographic.typographic_33.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ru.webvo.book.AOTNDEZKOFBQNZJW_10.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.minimiew.kamkomsawaddee_9.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.golfboxdk_238.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.silvertrac.mob_4058.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mcb.rahul_11.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.connectiq.r485.mapsr485companion_214.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.goder.busquerysystembeta_587.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "de.virality.dieschulapp.ui_149.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.getjoydev.ghanaradios_19.apk",
+    "subfolder": "50k-100k",
+    "result": "  Lcom/vhall/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L25a8f0 : Use non-random IV!\n  Lcom/vhall/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L25a2e4 : Use non-random IV!\n  Lcom/vhall/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/vhall/android/exoplayer2/upstream/DataSpec;)J L23b1b2 : Use non-random IV!"
+  },
+  {
+    "apk": "com.uvdevloper.uvtechsoft.fabricationtoolsandlayout_7.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.rsudalihsan.mobile_36.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.kbmmobile.kbm.user.muzammilhasballahmp3_17.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.app.radiojibi_23.apk",
+    "subfolder": "50k-100k",
+    "result": "  Lcom/solodroid/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L36660a : Use non-random IV!\n  Lcom/solodroid/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/solodroid/android/exoplayer2/upstream/DataSpec;)J L34a46e : Use non-random IV!\n  Lcom/solodroid/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L366008 : Use non-random IV!"
+  },
+  {
+    "apk": "jp.co.ponos.nanimoshinai_1000002.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.manhajona.OmarAbdelkafy_1005.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "ru.edpankov.transistors_3.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "smartcoder.click_tv_133.apk",
+    "subfolder": "50k-100k",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L46bf46 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4130d6 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L46c3c0 : Use non-random IV!"
+  },
+  {
+    "apk": "com.emlaksitem.android_423.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.shootwords.main_91.apk",
+    "subfolder": "50k-100k",
+    "result": "  Le/d/a/b/e0/u/h;.q:()V L21941e : Use non-random IV!\n  Le/d/a/b/e0/u/h;.l:()Z L218e3a : Use non-random IV!"
+  },
+  {
+    "apk": "com.irainxun.grilltempsense_148.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "org.katieone_44.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "org.lacofi.apache_41.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.krishnaapps.rtovehicleinfo_15.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.ax.hud.compass_5.apk",
+    "subfolder": "50k-100k",
+    "result": "  Lc/e/b/b/h/a/NN;.a:([B)[B L320e70 : Use non-random IV!"
+  },
+  {
+    "apk": "au.com.idfish.app_68.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.messages.chattext_14.apk",
+    "subfolder": "50k-100k",
+    "result": "No misuse."
+  },
+  {
+    "apk": "cleaner.clean.booster_231.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/yandex/mobile/ads/impl/ug$b;.b:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3b7aee : Use non-random IV!\n  Lcom/yandex/mobile/ads/impl/ug$b;.b:(Ljava/util/HashMap;)V L3b7e64 : Use non-random IV!"
+  },
+  {
+    "apk": "com.beki.live_50.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "jp.happyon.android_300002717.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.rvappstudios.flashlight_209.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.pdf.viewer.pdfreader_90.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.computeHash2B:([B[B[B)[B L326ac8 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.validatePerms:(Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;IZ)V L32788c : Use ECB mode!\n  Lff/e;.a:()Ljava/lang/Object; L0a83a2 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.computeEncryptedKeyRev56:([BZ[B[B[B[BI)[B L32692a : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L327508 : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAES256:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L3260cc : Use non-random IV!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L327490 : Use non-random IV!"
+  },
+  {
+    "apk": "com.photovideo.slideshowmaker.makerslideshow_151.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.scb.phone_9421.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "it.vincenzoamoruso.theinterpreter_20299.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.cutestudio.led.color.sms_244.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.hardgrnd.lineup11_122.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.mensajes.borrados.deleted.messages_206.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/yandex/mobile/ads/impl/ug$b;.b:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L362fca : Use non-random IV!\n  Lcom/yandex/mobile/ads/impl/ug$b;.b:(Ljava/util/HashMap;)V L363344 : Use non-random IV!"
+  },
+  {
+    "apk": "appinventor.ai_mmfrutos7878.Ancleaner_188.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4b8b2c : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L45fb22 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4b86b2 : Use non-random IV!"
+  },
+  {
+    "apk": "com.jeremysteckling.facerrel_1111820.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.cosima.ryt3mus_508.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/cache/i;.c:()V L393164 : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/extractor/hls/a;.a:(Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/j;)J L36e10e : Use non-random IV!\n  Lcom/bytedance/sdk/component/c/a;.a:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L1c8f8a : Use non-random IV!\n  Lcom/cosima/ryt3mus/PerParfitAstrologyRepresentationsGreatly;.<init>:()V L2fc0fa : Use non-random IV!\n  Lcom/yandex/mobile/ads/impl/yi$b;.b:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2ccfe2 : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/cache/i;.a:()Z L392cf2 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L545d86 : Use non-random IV!\n  Lcom/bytedance/sdk/component/c/a;.b:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L1c90d4 : Use non-random IV!\n  Lcom/yandex/mobile/ads/impl/yi$b;.a:(Ljava/util/HashMap;)V L2cd2bc : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L1bb308 : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L1bb914 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L545a38 : Use non-random IV!"
+  },
+  {
+    "apk": "com.lightinthebox.android_88602.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.kumobius.android.walljumper_23.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/cache/i;.b:()V L4a5f72 : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L332b92 : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/extractor/hls/a;.a:(Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/i;)J L480b9e : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/cache/i;.a:()Z L4a5cda : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L3327f0 : Use non-random IV!"
+  },
+  {
+    "apk": "jp.gocro.smartnews.android_884.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.bigfishgames.gummydropgoogle_51803001.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L3ebe0e : Use non-random IV!\n  Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L3eba6c : Use non-random IV!\n  Lcom/ironsource/adqualitysdk/sdk/i/jp;.m1137:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L37c52e : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L254910 : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/cache/l;.a:(Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/cache/l;)V L1fe71a : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L254f0e : Use non-random IV!\n  Lio/bidmachine/media3/exoplayer/hls/Aes128DataSource;.open:(Lio/bidmachine/media3/datasource/DataSpec;)J L17ae72 : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/cache/i;.b:()V L1fdde4 : Use non-random IV!\n  Lcom/fyber/inneractive/sdk/player/exoplayer2/extractor/hls/a;.a:(Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/k;)J L1d9a62 : Use non-random IV!"
+  },
+  {
+    "apk": "com.SouthernPacificOceanFisher.VoiceToText_memo_186.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.fehmin.bikeometer_40.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.tmobile.vvm.application_784457.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.AppRocks.now.prayer_907.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.hblackcat.mob_android_finder_16.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "in.vineetsirohi.customwidget_319.apk",
+    "subfolder": ">5M",
+    "result": "  Lkellinwood/security/zipsigner/optional/PasswordObfuscator;.encode:(Ljava/lang/String;[C)Ljava/lang/String; L4e318c : Use ECB mode!\n  Lkellinwood/security/zipsigner/optional/PasswordObfuscator;.decode:(Ljava/lang/String;Ljava/lang/String;)[C L4e3034 : Use ECB mode!"
+  },
+  {
+    "apk": "com.aryservices.arynews.en_80970.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L25904e : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L200962 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L258bce : Use non-random IV!"
+  },
+  {
+    "apk": "imagetopdf.pdfconverter.jpgtopdf.pdfeditor_80.apk",
+    "subfolder": ">5M",
+    "result": "  Llib/android/wps/fc/poifs/crypt/EcmaDecryptor;.getCipher:()Ljavax/crypto/Cipher; L3f9236 : Use ECB mode!\n  Lcom/tom_roush/pdfbox/pdmodel/encryption/i;.encryptDataAES256:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L1f2260 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/a;.j:(Lr7/k;)J L2cae3e : Use non-random IV!"
+  },
+  {
+    "apk": "handasoft.mobile.divination_2913.apk",
+    "subfolder": ">5M",
+    "result": "  La/b/a/a/g/a;.a:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L19b194 : Use non-random IV!\n  La/b/a/a/g/a;.b:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L19b2ae : Use non-random IV!\n  Lcom/nasmedia/admixerssp/common/command/b;.a:(Ljava/lang/String;Ljavax/crypto/SecretKey;)Ljava/lang/String; L2a3768 : Use ECB mode!\n  Ltv/teads/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L2b9c72 : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L1e7294 : Use non-random IV!\n  Lcom/gomfactory/adpie/sdk/security/Crypto;.encrypt:(Ljava/lang/String;)Ljava/lang/String; L565fca : Use non-random IV!\n  Lcom/gomfactory/adpie/sdk/security/Crypto;.decrypt:(Ljava/lang/String;)Ljava/lang/String; L565efa : Use non-random IV!\n  Lcom/naver/ads/internal/video/y3;.a:(Lcom/naver/ads/internal/video/mc;)J L45da76 : Use non-random IV!\n  Ltv/teads/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2b97f2 : Use non-random IV!\n  Lcom/onestore/crypto/AESCrypto;.decrypt:(Ljava/lang/String;)Ljava/lang/String; L517fb0 : Use ECB mode!\n  Lcom/onestore/crypto/AESCrypto;.encrypt:(Ljava/lang/String;)Ljava/lang/String; L51804c : Use ECB mode!\n  Lcom/naver/ads/internal/video/r8$b;.b:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3eb8da : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L1e789c : Use non-random IV!\n  Lcom/sdk/wisetracker/base/tracker/util/AES256Util;.aesEncode:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L4d7936 : Use non-random IV!\n  Lcom/naver/ads/internal/video/r8$b;.c:(Ljava/util/HashMap;)V L3ebd4c : Use non-random IV!"
+  },
+  {
+    "apk": "za.co.fnb.connect.itt_5765.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.free.neo.vpn_77761.apk",
+    "subfolder": ">5M",
+    "result": "  LLossIssuingDiscovery/SpeedBannerHorizontal;.SpeedBannerHorizontal:(Landroid/content/Context;Ljava/lang/String;[B)Ljava/lang/String; L18ea74 : Use non-random IV!\n  Lcom/yolo/networklibrary/common/util/cipher/SpeedBannerHorizontal;.SpeedBannerHorizontal:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;[B[B)Ljava/lang/String; L317074 : Use non-random IV!\n  Lcom/yolo/networklibrary/common/util/cipher/SpeedBannerHorizontal;.YetOxygenInequality:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;[B)[B L316bf0 : Use non-random IV!\n  LLossIssuingDiscovery/SpeedBannerHorizontal;.CallsCookiesNanograms:(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)[B L18e868 : Use non-random IV!"
+  },
+  {
+    "apk": "com.Seabaa.Dual_1514.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "funny.prank.sounds.airhorn.haircut.fart_65.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/bytedance/sdk/component/ZN/IT;.JAd:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L2d9a18 : Use non-random IV!\n  Lcom/bytedance/sdk/component/ZN/IT;.IT:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L2d98d6 : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L58234c : Use non-random IV!\n  Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L582956 : Use non-random IV!"
+  },
+  {
+    "apk": "com.wachanga.pregnancy_400269.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.nhn.android.navertv_1091500.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L25b726 : Use non-random IV!\n  Lcom/navercorp/nid/crypto/a;.e:(I[CLjava/lang/String;Ljava/lang/String;)[C L3b45ec : Use non-random IV!\n  Lcom/navercorp/nid/crypto/a;.j:(Ljava/lang/String;Ljavax/crypto/SecretKey;Ljava/lang/String;)Ljava/lang/String; L3b488c : Use non-random IV!\n  Lcom/nhn/android/navertv/base/utils/Aes256Utils;.decode:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L359fd8 : Use non-random IV!\n  Lcom/navercorp/nid/crypto/a;.f:([CLjavax/crypto/SecretKey;Ljava/lang/String;)[C L3b4540 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L204f0e : Use non-random IV!\n  Lcom/naver/android/jetplayer/extension/hls/a;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L271352 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L25bbaa : Use non-random IV!"
+  },
+  {
+    "apk": "com.ncloudtech.cloudoffice_2915035.apk",
+    "subfolder": ">5M",
+    "result": "  Lasposewobfuscated/zzP4;.zzf:([B)Ljavax/crypto/Cipher; L1d0794 : Use ECB mode!\n  Lasposewobfuscated/zzP4;.zzg:([B)Ljavax/crypto/Cipher; L1d07c8 : Use ECB mode!\n  Lcom/aspose/cells/zbv;.a:(Ljava/lang/String;[BII)V L49b99c : Use ECB mode!"
+  },
+  {
+    "apk": "com.chase.sig.android_464474918.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "in.mylo.pregnancy.baby.app_10703.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.vpnoneclick.android_315.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "musicdownloader.monster.videodownloader_24.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.deepseek.chat_78.apk",
+    "subfolder": ">5M",
+    "result": "  LH6/Q0;.k:(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L3836b8 : Use non-random IV!\n  Lcom/ishumei/smantifraud/l111l1111l1Il/l1111l111111Il/l1111l111111Il/l111l11111lIl;.l111l11111lIl:(Ljava/lang/String;[BI)[B L56a4f0 : Use ECB mode!\n  Lu4/a;.l:(Ljava/lang/String;[B)Ljava/lang/String; L30b6c0 : Use ECB mode!\n  LF0/c;.k:(Ljava/lang/String;[B)Ljava/lang/String; L229cd2 : Use ECB mode!\n  Lcom/ishumei/smantifraud/l111l1111llIl/l1111l111111Il;.l111l11111lIl:(Ljava/lang/String;[B)[B L56d5dc : Use ECB mode!\n  Lcom/ishumei/smantifraud/l111l1111l1Il/l1111l111111Il/l1111l111111Il/l111l11111lIl;.l111l11111lIl:(Ljava/lang/String;[B)[B L56a488 : Use ECB mode!\n  LH6/Q0;.h:(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L383608 : Use non-random IV!\n  LYa/c;.s:(Ljava/lang/String;Ljava/util/HashMap;Lorg/json/JSONObject;)Ljava/lang/String; L58cfaa : Use non-random IV!\n  Lcom/ishumei/smantifraud/l111l1111llIl/l1111l111111Il;.l111l11111lIl:(Ljava/lang/String;[BI)[B L56d644 : Use ECB mode!\n  Lk4/l;.c:(Ljava/lang/String;[B)Ljava/lang/String; L304158 : Use ECB mode!"
+  },
+  {
+    "apk": "com.compassfree.digitalcompass.forandroid.app_46.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/yandex/mobile/ads/impl/ug$b;.b:(Ljava/util/HashMap;)V L4f6970 : Use non-random IV!\n  Lcom/yandex/mobile/ads/impl/ug$b;.b:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4f65fa : Use non-random IV!"
+  },
+  {
+    "apk": "kr.co.lylstudio.httpsguard_175.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.apnax.wordpark_49.apk",
+    "subfolder": ">5M",
+    "result": "  Lt5/m$b;.k:(Ljava/util/HashMap;)V L56cb52 : Use non-random IV!\n  Lcom/bytedance/sdk/component/c/a;.a:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L47bbe2 : Use non-random IV!\n  Lcom/bytedance/sdk/component/c/a;.b:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L47bd2c : Use non-random IV!\n  Lt5/m$b;.i:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L56c6ce : Use non-random IV!"
+  },
+  {
+    "apk": "kim.uno.s8_209.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "vidstatus.com_30.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L3b9a8e : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L401ec2 : Use ECB mode!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3b963a : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L403b88 : Use ECB mode!\n  Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L38536e : Use non-random IV!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L401eaa : Use ECB mode!\n  Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L403c36 : Use ECB mode!"
+  },
+  {
+    "apk": "jp.or.nhk.news_81.apk",
+    "subfolder": ">5M",
+    "result": "  Lb4/a;.d:(Lp4/o;)J L222ac2 : Use non-random IV!"
+  },
+  {
+    "apk": "com.gameloft.android.ANMP.GloftIVHM_21401.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/gameloft/android/ANMP/GloftIVHM/iab/common/StringEncrypter;.<init>:(Ljava/lang/String;)V L3754fe : Use ECB mode!\n  Lcom/gameloft/android/ANMP/GloftIVHM/GLUtils/DefReader;.a:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L35877a : Use ECB mode!\n  Lcom/gameloft/android/ANMP/GloftIVHM/iab/common/StringEncrypter;.<init>:(Ljava/lang/String;Ljava/lang/String;)V L37574c : Use ECB mode!\n  Lcom/gameloft/android/ANMP/GloftIVHM/iab/common/StringEncrypter;.<init>:(Ljava/lang/String;Ljava/lang/String;)V L375766 : Use ECB mode!\n  Lcom/gameloft/android/ANMP/GloftIVHM/iab/common/DefReader;.a:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L375142 : Use ECB mode!\n  Lcom/gameloft/android/ANMP/GloftIVHM/iab/common/StringEncrypter;.<init>:(Ljava/lang/String;)V L375518 : Use ECB mode!"
+  },
+  {
+    "apk": "com.tmobtech.halkbank_5221.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/tmoblabs/torc/utility/crypto/SecurityUtils;.createDecryptionCipherV2:(Ljava/lang/String;[BI)Ljavax/crypto/Cipher; L1f59cc : Use non-random IV!\n  Lcom/tmoblabs/torc/utility/crypto/SecurityUtils;.createCiphers:(Ljava/lang/String;[BI)Lcom/tmoblabs/torc/utility/crypto/SecurityUtils$CipherInfo; L1f4d82 : Use non-random IV!"
+  },
+  {
+    "apk": "tv.remote.control.firetv_1153.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.koreanair.passenger_608.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/quantummetric/instrument/internal/df;.<clinit>:()V L1e62ac : Use non-random IV!\n  Lcom/kakao/sdk/common/util/AESCipher;.<init>:(Lcom/kakao/sdk/common/model/ContextInfo;)V L365eaa : Use non-random IV!"
+  },
+  {
+    "apk": "com.burakgon.netoptimizer_1386.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.erudite.translator_86.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/erudite/translator/StringDecrypterImageTranslate;.decryptAppID:(Ljava/lang/String;)Ljava/lang/String; L1ed1d8 : Use non-random IV!\n  Lcom/erudite/translator/StringDecrypterImageTranslate;.decryptAppKey:(Ljava/lang/String;)Ljava/lang/String; L1ed2ee : Use non-random IV!\n  Lcom/erudite/translator/StringDecrypterImageTranslate;.decryptGeneralKey:(Ljava/lang/String;)Ljava/lang/String; L1ed402 : Use non-random IV!\n  Lnet/pubnative/lite/sdk/utils/PNCrypto;.encryptString:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L43afd4 : Use non-random IV!"
+  },
+  {
+    "apk": "com.sgk.eganna.in_59.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.sensustech.acremotecontrol_14.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  },
+  {
+    "apk": "com.kddi.android.videopass_40000131.apk",
+    "subfolder": ">5M",
+    "result": "  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$b;.e:(Ljava/util/HashMap;)V L23d502 : Use non-random IV!\n  Lcom/google/android/exoplayer2/source/hls/a;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L1fd7b6 : Use non-random IV!\n  Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$b;.c:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L23d082 : Use non-random IV!"
+  },
+  {
+    "apk": "com.bitaksi.musteri_440830303.apk",
+    "subfolder": ">5M",
+    "result": "No misuse."
+  }
+]
