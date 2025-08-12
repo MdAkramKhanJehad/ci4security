@@ -1,0 +1,262 @@
+{
+  "$schema" : "https://json.schemastore.org/sarif-2.1.0.json",
+  "version" : "2.1.0",
+  "runs" : [ {
+    "results" : [ {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer4152)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "jp/maio/sdk/android/y0.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "jp.maio.sdk.android.y0"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String a(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer4152\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer4152 = \"MD5\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 0,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r7 = getInstance(varReplacer4875)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/google/android/gms/internal/ads/yl.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.ads.yl"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String y()"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer4875\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer4875 = \"MD5\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 1,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5 = getInstance(varReplacer6158)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/google/android/gms/internal/ads/yl.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.ads.yl"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String u(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r5 is violated due to the following reason:\\n|- First parameter \"varReplacer6158\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer6158 = \"MD5\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 5,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer3059)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "c8/r1.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "c8.r1"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] a(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer3059\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer3059 = \"MD5\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 2,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer3888)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "c8/r1.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "c8.r1"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] b(byte[])"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer3888\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer3888 = \"MD5\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 4,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer3482)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "net/nend/android/b/h/o.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "net.nend.android.b.h.o"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String a(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer3482\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer3482 = \"MD5\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 3,
+        "precedingErrors" : [ ]
+      }
+    } ],
+    "tool" : {
+      "driver" : {
+        "name" : "CryptoAnalysis",
+        "semanticVersion" : "5.0.0",
+        "fullName" : "CogniCrypt (en-US)",
+        "language" : "en-US",
+        "informationUri" : "https://github.com/CROSSINGTUD/CryptoAnalysis"
+      }
+    },
+    "properties" : {
+      "summary" : {
+        "errorCounts" : {
+          "ConstraintError" : 6
+        },
+        "totalSeedsCount" : 12,
+        "totalErrorCount" : 6,
+        "resources" : {
+          "rules" : [ "java.security.KeyPair", "javax.net.ssl.SSLContext", "java.security.AlgorithmParameterGenerator", "java.security.cert.CertificateFactory", "javax.net.ssl.KeyStoreBuilderParameters", "javax.crypto.spec.SecretKeySpec", "java.security.spec.RSAKeyGenParameterSpec", "javax.crypto.KeyGenerator", "java.security.SecureRandom", "javax.xml.crypto.dsig.spec.HMACParameterSpec", "java.security.KeyPairGenerator", "javax.net.ssl.TrustManagerFactory", "java.security.Signature", "javax.crypto.Mac", "javax.crypto.spec.PBEParameterSpec", "java.security.KeyStore", "javax.crypto.spec.DHParameterSpec", "java.security.spec.X509EncodedKeySpec", "java.security.KeyFactory", "java.security.Key", "java.security.cert.PKIXBuilderParameters", "java.security.DigestOutputStream", "java.security.spec.DSAGenParameterSpec", "java.security.PrivateKey", "javax.crypto.SecretKey", "javax.crypto.spec.GCMParameterSpec", "java.security.cert.TrustAnchor", "javax.net.ssl.CertPathTrustManagerParameters", "java.security.MessageDigest", "javax.net.ssl.SSLParameters", "javax.crypto.Cipher", "javax.net.ssl.SSLEngine", "javax.crypto.CipherInputStream", "javax.crypto.SecretKeyFactory", "java.net.PasswordAuthentication", "javax.crypto.spec.OAEPParameterSpec", "java.security.spec.ECGenParameterSpec", "javax.crypto.spec.IvParameterSpec", "javax.crypto.spec.DHGenParameterSpec", "javax.crypto.spec.PBEKeySpec", "javax.crypto.KeyAgreement", "javax.servlet.http.Cookie", "javax.crypto.CipherOutputStream", "java.security.spec.MGF1ParameterSpec", "javax.net.ssl.KeyManagerFactory", "java.security.PublicKey", "java.security.cert.PKIXParameters", "java.security.AlgorithmParameters", "java.security.spec.ECParameterSpec", "java.security.spec.DSAParameterSpec", "java.security.DigestInputStream" ]
+        },
+        "totalRulesCount" : 51,
+        "statistics" : {
+          "entryPoints" : 1,
+          "analysisTime" : "477.8 ms",
+          "edgesInCallGraph" : 21179,
+          "callGraphConstructionTime" : "1.612 min",
+          "typestateAnalysisTime" : "231.0 ms",
+          "reachableMethods" : 5577
+        }
+      }
+    },
+    "artifacts" : [ {
+      "location" : {
+        "uri" : "com/google/android/gms/internal/ads/yl.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "c8/r1.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "jp/maio/sdk/android/y0.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "net/nend/android/b/h/o.java"
+      },
+      "mimeType" : "text/java"
+    } ]
+  } ]
+}

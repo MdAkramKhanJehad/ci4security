@@ -1,0 +1,736 @@
+{
+  "$schema" : "https://json.schemastore.org/sarif-2.1.0.json",
+  "version" : "2.1.0",
+  "runs" : [ {
+    "results" : [ {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r9 = getInstance(varReplacer6325)"
+            },
+            "startLine" : 170
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void <init>(android.content.Context,com.microsoft.appcenter.utils.crypto.CryptoUtils$ICryptoFactory,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.KeyStore",
+        "text" : "Constraint \"type in {JCEKS, JKS, DKS, PKCS11, PKCS12}\" on object $r9 is violated due to the following reason:\\n|- First parameter \"varReplacer6325\" with value \"AndroidKeyStore\" should be any of {JCEKS, JKS, DKS, PKCS11, PKCS12} (extracted @ varReplacer6325 = \"AndroidKeyStore\" @ line 164)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 0,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r9 = getInstance(varReplacer6325)"
+            },
+            "startLine" : 170
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void <init>(android.content.Context,com.microsoft.appcenter.utils.crypto.CryptoUtils$ICryptoFactory,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getInstance\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 11,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "r0.registerHandler($r10)"
+            },
+            "startLine" : 181
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void <init>(android.content.Context,com.microsoft.appcenter.utils.crypto.CryptoUtils$ICryptoFactory,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"registerHandler\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 10,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = r0.getAlias($r1,varReplacer6335)"
+            },
+            "startLine" : 230
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void registerHandler(com.microsoft.appcenter.utils.crypto.CryptoHandler)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getAlias\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 1,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r6 = $r5.getCreationDate($r2)"
+            },
+            "startLine" : 231
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void registerHandler(com.microsoft.appcenter.utils.crypto.CryptoHandler)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getCreationDate\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 12,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r7 = $r5.getCreationDate($r4)"
+            },
+            "startLine" : 232
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void registerHandler(com.microsoft.appcenter.utils.crypto.CryptoHandler)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getCreationDate\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 8,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = r0.getAlias($r1,varReplacer6334)"
+            },
+            "startLine" : 229
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void registerHandler(com.microsoft.appcenter.utils.crypto.CryptoHandler)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getAlias\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 13,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$z0 = $r5.containsAlias($r3)"
+            },
+            "startLine" : 241
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void registerHandler(com.microsoft.appcenter.utils.crypto.CryptoHandler)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"containsAlias\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 17,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r11 = r0.getKeyStoreEntry($r10)"
+            },
+            "startLine" : 292
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encrypt(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getKeyStoreEntry\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 2,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "r0.<init>($r1,$r2,$i0)"
+            },
+            "startLine" : 154
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void <init>(android.content.Context)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"<init>\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 3,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r12 = r0.encrypt($r2)"
+            },
+            "startLine" : 385
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils$DecryptedData getDecryptedData(com.microsoft.appcenter.utils.crypto.CryptoHandler,int,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"encrypt\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 4,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = r0.getKeyStoreEntry($r1,$i0)"
+            },
+            "startLine" : 380
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils$DecryptedData getDecryptedData(com.microsoft.appcenter.utils.crypto.CryptoHandler,int,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getKeyStoreEntry\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 16,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.<init>($r0)"
+            },
+            "startLine" : 213
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils getInstance(android.content.Context)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"<init>\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 5,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5 = r0.getDecryptedData($r10,$i0,$r1)"
+            },
+            "startLine" : 363
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils$DecryptedData decrypt(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getDecryptedData\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 6,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = r0.getKeyStoreEntry($r1,$i0)"
+            },
+            "startLine" : 261
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyStore$Entry getKeyStoreEntry(com.microsoft.appcenter.utils.crypto.CryptoUtils$CryptoHandlerEntry)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getKeyStoreEntry\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 7,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = $r1.getEntry($r3,varReplacer6355)"
+            },
+            "startLine" : 270
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyStore$Entry getKeyStoreEntry(com.microsoft.appcenter.utils.crypto.CryptoHandler,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getEntry\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 15,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = r0.getAlias($r2,$i0)"
+            },
+            "startLine" : 269
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyStore$Entry getKeyStoreEntry(com.microsoft.appcenter.utils.crypto.CryptoHandler,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getAlias\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 9,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = $r1.getEntry($r3,varReplacer6355)"
+            },
+            "startLine" : 270
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyStore$Entry getKeyStoreEntry(com.microsoft.appcenter.utils.crypto.CryptoHandler,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for java.security.KeyStore",
+        "text" : "Operation on object of type java.security.KeyStore not completed. Expected call to one of the methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 18,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r30 = $r29.decrypt($r6)"
+            },
+            "startLine" : 504
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/microsoft/appcenter/persistence/DatabasePersistence.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.persistence.DatabasePersistence"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String getLogs(java.lang.String,java.util.Collection,int,java.util.List)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"decrypt\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 14,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r6.initialize($r11)"
+            },
+            "startLine" : 52
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoRsaHandler.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoRsaHandler"
+        }, {
+          "kind" : "method",
+          "name" : "void generateKey(com.microsoft.appcenter.utils.crypto.CryptoUtils$ICryptoFactory,java.lang.String,android.content.Context)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyPairGenerator",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.KeyPairGenerator",
+        "text" : "First parameter was not properly generated as preparedRSA"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 29,
+        "precedingErrors" : [ ]
+      }
+    } ],
+    "tool" : {
+      "driver" : {
+        "name" : "CryptoAnalysis",
+        "semanticVersion" : "5.0.0",
+        "fullName" : "CogniCrypt (en-US)",
+        "language" : "en-US",
+        "informationUri" : "https://github.com/CROSSINGTUD/CryptoAnalysis"
+      }
+    },
+    "properties" : {
+      "summary" : {
+        "errorCounts" : {
+          "RequiredPredicateError" : 1,
+          "TypestateError" : 17,
+          "ConstraintError" : 1,
+          "IncompleteOperationError" : 1
+        },
+        "totalSeedsCount" : 3,
+        "totalErrorCount" : 20,
+        "resources" : {
+          "rules" : [ "java.security.KeyPair", "javax.net.ssl.SSLContext", "java.security.AlgorithmParameterGenerator", "java.security.cert.CertificateFactory", "javax.net.ssl.KeyStoreBuilderParameters", "javax.crypto.spec.SecretKeySpec", "java.security.spec.RSAKeyGenParameterSpec", "javax.crypto.KeyGenerator", "java.security.SecureRandom", "javax.xml.crypto.dsig.spec.HMACParameterSpec", "java.security.KeyPairGenerator", "javax.net.ssl.TrustManagerFactory", "java.security.Signature", "javax.crypto.Mac", "javax.crypto.spec.PBEParameterSpec", "java.security.KeyStore", "javax.crypto.spec.DHParameterSpec", "java.security.spec.X509EncodedKeySpec", "java.security.KeyFactory", "java.security.Key", "java.security.cert.PKIXBuilderParameters", "java.security.DigestOutputStream", "java.security.spec.DSAGenParameterSpec", "java.security.PrivateKey", "javax.crypto.SecretKey", "javax.crypto.spec.GCMParameterSpec", "java.security.cert.TrustAnchor", "javax.net.ssl.CertPathTrustManagerParameters", "java.security.MessageDigest", "javax.net.ssl.SSLParameters", "javax.crypto.Cipher", "javax.net.ssl.SSLEngine", "javax.crypto.CipherInputStream", "javax.crypto.SecretKeyFactory", "java.net.PasswordAuthentication", "javax.crypto.spec.OAEPParameterSpec", "java.security.spec.ECGenParameterSpec", "javax.crypto.spec.IvParameterSpec", "javax.crypto.spec.DHGenParameterSpec", "javax.crypto.spec.PBEKeySpec", "javax.crypto.KeyAgreement", "javax.servlet.http.Cookie", "javax.crypto.CipherOutputStream", "java.security.spec.MGF1ParameterSpec", "javax.net.ssl.KeyManagerFactory", "java.security.PublicKey", "java.security.cert.PKIXParameters", "java.security.AlgorithmParameters", "java.security.spec.ECParameterSpec", "java.security.spec.DSAParameterSpec", "java.security.DigestInputStream" ]
+        },
+        "totalRulesCount" : 51,
+        "statistics" : {
+          "entryPoints" : 1,
+          "analysisTime" : "1.318 s",
+          "edgesInCallGraph" : 8233,
+          "callGraphConstructionTime" : "30.17 s",
+          "typestateAnalysisTime" : "1.241 s",
+          "reachableMethods" : 2087
+        }
+      }
+    },
+    "artifacts" : [ {
+      "location" : {
+        "uri" : "com/microsoft/appcenter/persistence/DatabasePersistence.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/microsoft/appcenter/utils/crypto/CryptoRsaHandler.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+      },
+      "mimeType" : "text/java"
+    } ]
+  } ]
+}

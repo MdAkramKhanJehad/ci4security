@@ -1,0 +1,1939 @@
+{
+  "$schema" : "https://json.schemastore.org/sarif-2.1.0.json",
+  "version" : "2.1.0",
+  "runs" : [ {
+    "results" : [ {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer4958)"
+            },
+            "startLine" : 45
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "okhttp3/internal/platform/OpenJSSEPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.OpenJSSEPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager platformTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "First parameter was not properly generated as generatedKeyStore"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 96,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = getInstance($r1,$r2)"
+            },
+            "startLine" : 43
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "okhttp3/internal/platform/OpenJSSEPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.OpenJSSEPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager platformTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.TrustManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"okhttp3.internal.platform.OpenJSSEPlatform\" @ $r1 = getDefaultAlgorithm() @ line 44"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 0,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer4985,$r2)"
+            },
+            "startLine" : 40
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "okhttp3/internal/platform/OpenJSSEPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.OpenJSSEPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext newSSLContext()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Operation on object of type javax.net.ssl.SSLContext not completed. Expected call to one of the methods {init(javax.net.ssl.KeyManager[], javax.net.ssl.TrustManager[], java.security.SecureRandom)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 5,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance($r1)"
+            },
+            "startLine" : 46
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.ConscryptPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager platformTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.TrustManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"okhttp3.internal.platform.ConscryptPlatform\" @ $r1 = getDefaultAlgorithm() @ line 46"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 1,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4970)"
+            },
+            "startLine" : 47
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.ConscryptPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager platformTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "First parameter was not properly generated as generatedKeyStore"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 98,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer4981,$r2)"
+            },
+            "startLine" : 43
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.ConscryptPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext newSSLContext()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Operation on object of type javax.net.ssl.SSLContext not completed. Expected call to one of the methods {init(javax.net.ssl.KeyManager[], javax.net.ssl.TrustManager[], java.security.SecureRandom)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 4,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer4981,$r2)"
+            },
+            "startLine" : 43
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.ConscryptPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext newSSLContext()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer4981\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer4981 = \"TLS\" @ line 43)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 3,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer4976,$r1,varReplacer4977)"
+            },
+            "startLine" : 85
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.ConscryptPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 104,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer4976,$r1,varReplacer4977)"
+            },
+            "startLine" : 85
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.ConscryptPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 101,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer4976,$r1,varReplacer4977)"
+            },
+            "startLine" : 85
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.ConscryptPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Third parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 103,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4948)"
+            },
+            "startLine" : 80
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager platformTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "First parameter was not properly generated as generatedKeyStore"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 99,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance($r1)"
+            },
+            "startLine" : 78
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager platformTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.TrustManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"okhttp3.internal.platform.Platform\" @ $r1 = getDefaultAlgorithm() @ line 79"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 2,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer4983)"
+            },
+            "startLine" : 75
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext newSSLContext()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer4983\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer4983 = \"TLS\" @ line 75)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 8,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer4983)"
+            },
+            "startLine" : 75
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext newSSLContext()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Operation on object of type javax.net.ssl.SSLContext not completed. Expected call to one of the methods {init(javax.net.ssl.KeyManager[], javax.net.ssl.TrustManager[], java.security.SecureRandom)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 9,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 110,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Third parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 111,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Third parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 114,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 107,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 106,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Third parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 108,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 113,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 112,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 102,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 100,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Third parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 105,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer4954,$r3,varReplacer4955)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory newSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 109,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer4987,$r2)"
+            },
+            "startLine" : 38
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/internal/platform/BouncyCastlePlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.BouncyCastlePlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext newSSLContext()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer4987\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer4987 = \"TLS\" @ line 38)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 6,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer4987,$r2)"
+            },
+            "startLine" : 38
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/internal/platform/BouncyCastlePlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.BouncyCastlePlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext newSSLContext()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Operation on object of type javax.net.ssl.SSLContext not completed. Expected call to one of the methods {init(javax.net.ssl.KeyManager[], javax.net.ssl.TrustManager[], java.security.SecureRandom)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 7,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.init(varReplacer4965)"
+            },
+            "startLine" : 43
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/internal/platform/BouncyCastlePlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.BouncyCastlePlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager platformTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "First parameter was not properly generated as generatedKeyStore"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 97,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = getInstance($r1)"
+            },
+            "startLine" : 85
+          },
+          "artifactLocation" : {
+            "index" : 4,
+            "uri" : "okio/ByteString.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okio.ByteString"
+        }, {
+          "kind" : "method",
+          "name" : "okio.ByteString digest$okio(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r3 is violated due to the following reason:\\n|- First parameter \"$r1\" with value \"SHA-1\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer12529 = \"SHA-1\" @ line 76)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 10,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r7 = getInstance(varReplacer9400)"
+            },
+            "startLine" : 5
+          },
+          "artifactLocation" : {
+            "index" : 5,
+            "uri" : "com/google/android/gms/internal/ads/zzbzk.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.ads.zzbzk"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String zzd()"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer9400\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer9400 = \"MD5\" @ line 4)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 11,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r6 = getInstance($r0)"
+            },
+            "startLine" : 1
+          },
+          "artifactLocation" : {
+            "index" : 5,
+            "uri" : "com/google/android/gms/internal/ads/zzbzk.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.ads.zzbzk"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String zzz(java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r6 is violated due to the following reason:\\n|- First parameter \"$r0\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer10300 = \"MD5\" @ line 3)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 12,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.<init>($r3,varReplacer5122)"
+            },
+            "startLine" : 337
+          },
+          "artifactLocation" : {
+            "index" : 6,
+            "uri" : "cn/bmob/v3/util/EncryptUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "cn.bmob.v3.util.EncryptUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encrypt(java.lang.String,java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.spec.SecretKeySpec",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+        "text" : "Constraint \"neverTypeOf[keyMaterial, java.lang.String]\" on object $r5 is violated due to the following reason:First parameter @ $r5.<init>($r3,varReplacer5122) should never be of type java.lang.String"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ 124 ],
+        "errorId" : 13,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r7 = getInstance(varReplacer5123)"
+            },
+            "startLine" : 340
+          },
+          "artifactLocation" : {
+            "index" : 6,
+            "uri" : "cn/bmob/v3/util/EncryptUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "cn.bmob.v3.util.EncryptUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encrypt(java.lang.String,java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r7 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer5123\" (transformation) with value \"AES/CBC/PKCS5PADDING\" satisfies the constraint in class cn.bmob.v3.util.EncryptUtils @ $r7 = getInstance(varReplacer5123) @ line 340\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer5123\" (transformation) with value \"AES/CBC/PKCS5PADDING\" violates the constraint in class cn.bmob.v3.util.EncryptUtils @ $r7 = getInstance(varReplacer5123) @ line 340"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 23,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r6.<init>($r4)"
+            },
+            "startLine" : 338
+          },
+          "artifactLocation" : {
+            "index" : 6,
+            "uri" : "cn/bmob/v3/util/EncryptUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "cn.bmob.v3.util.EncryptUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encrypt(java.lang.String,java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.spec.IvParameterSpec",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.spec.IvParameterSpec",
+        "text" : "First parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 116,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r7.init(varReplacer5124,$r5,$r6)"
+            },
+            "startLine" : 342
+          },
+          "artifactLocation" : {
+            "index" : 6,
+            "uri" : "cn/bmob/v3/util/EncryptUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "cn.bmob.v3.util.EncryptUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encrypt(java.lang.String,java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Second parameter parameter was not properly generated as generatedPrivkey OR generatedKey OR generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "AlternativeReqPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 124,
+        "precedingErrors" : [ 13, 115 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.<init>($r3,varReplacer5122)"
+            },
+            "startLine" : 337
+          },
+          "artifactLocation" : {
+            "index" : 6,
+            "uri" : "cn/bmob/v3/util/EncryptUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "cn.bmob.v3.util.EncryptUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encrypt(java.lang.String,java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.spec.SecretKeySpec",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+        "text" : "First parameter was not properly generated as preparedKeyMaterial"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 124 ],
+        "errorId" : 115,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer5364)"
+            },
+            "startLine" : 208
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "cn/bmob/v3/http/RequestUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "cn.bmob.v3.http.RequestUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String getCombinedDeviceID(android.content.Context)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer5364\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer5364 = \"MD5\" @ line 200)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 43,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.update($r3,varReplacer5365,$i0)"
+            },
+            "startLine" : 209
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "cn/bmob/v3/http/RequestUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "cn.bmob.v3.http.RequestUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String getCombinedDeviceID(android.content.Context)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Could not evaluate the constraint \"preLen > 0\" due to insufficient information:\\n|- Could not evaluate expression \"virtualinvoke $r1.<java.lang.String: int length()>()\" in class \"cn.bmob.v3.http.RequestUtils\" @ $i0 = $r1.length() @ line 209"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 45,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.update($r3,varReplacer5365,$i0)"
+            },
+            "startLine" : 209
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "cn/bmob/v3/http/RequestUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "cn.bmob.v3.http.RequestUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String getCombinedDeviceID(android.content.Context)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Could not evaluate the constraint \"length[preInput] >= preLen + preOffset\" due to insufficient information:\\n|- Could not evaluate expression \"virtualinvoke $r1.<java.lang.String: byte[] getBytes()>()\" in class \"cn.bmob.v3.http.RequestUtils\" @ $r3 = $r1.getBytes() @ line 209\\n\\t|- Could not evaluate expression \"virtualinvoke $r0.<java.lang.StringBuilder: java.lang.String toString()>()\" in class \"cn.bmob.v3.http.RequestUtils\" @ $r1 = $r0.toString() @ line 273\\n|- Could not evaluate expression \"virtualinvoke $r1.<java.lang.String: int length()>()\" in class \"cn.bmob.v3.http.RequestUtils\" @ $i0 = $r1.length() @ line 209"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 44,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r9 = getInstance(varReplacer12251)"
+            },
+            "startLine" : 175
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void <init>(android.content.Context,com.microsoft.appcenter.utils.crypto.CryptoUtils$ICryptoFactory,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.KeyStore",
+        "text" : "Constraint \"type in {JCEKS, JKS, DKS, PKCS11, PKCS12}\" on object $r9 is violated due to the following reason:\\n|- First parameter \"varReplacer12251\" with value \"AndroidKeyStore\" should be any of {JCEKS, JKS, DKS, PKCS11, PKCS12} (extracted @ varReplacer12251 = \"AndroidKeyStore\" @ line 170)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 46,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r9 = getInstance(varReplacer12251)"
+            },
+            "startLine" : 175
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void <init>(android.content.Context,com.microsoft.appcenter.utils.crypto.CryptoUtils$ICryptoFactory,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getInstance\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 55,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = r0.getKeyStoreEntry($r1,$i0)"
+            },
+            "startLine" : 385
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils$DecryptedData getDecryptedData(com.microsoft.appcenter.utils.crypto.CryptoHandler,int,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getKeyStoreEntry\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 47,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r12 = r0.encrypt($r2)"
+            },
+            "startLine" : 390
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils$DecryptedData getDecryptedData(com.microsoft.appcenter.utils.crypto.CryptoHandler,int,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"encrypt\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 51,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = r0.getKeyStoreEntry($r1,$i0)"
+            },
+            "startLine" : 266
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyStore$Entry getKeyStoreEntry(com.microsoft.appcenter.utils.crypto.CryptoUtils$CryptoHandlerEntry)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getKeyStoreEntry\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 48,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = $r1.getEntry($r3,varReplacer12281)"
+            },
+            "startLine" : 275
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyStore$Entry getKeyStoreEntry(com.microsoft.appcenter.utils.crypto.CryptoHandler,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getEntry\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 49,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = $r1.getEntry($r3,varReplacer12281)"
+            },
+            "startLine" : 275
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyStore$Entry getKeyStoreEntry(com.microsoft.appcenter.utils.crypto.CryptoHandler,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for java.security.KeyStore",
+        "text" : "Operation on object of type java.security.KeyStore not completed. Expected call to one of the methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 57,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = r0.getAlias($r2,$i0)"
+            },
+            "startLine" : 274
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyStore$Entry getKeyStoreEntry(com.microsoft.appcenter.utils.crypto.CryptoHandler,int)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getAlias\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 56,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r11 = r0.getKeyStoreEntry($r10)"
+            },
+            "startLine" : 297
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encrypt(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getKeyStoreEntry\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 50,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5 = r0.getDecryptedData($r10,$i0,$r1)"
+            },
+            "startLine" : 368
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils$DecryptedData decrypt(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"getDecryptedData\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 52,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "r0.<init>($r1,$r2,$i0)"
+            },
+            "startLine" : 160
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoUtils"
+        }, {
+          "kind" : "method",
+          "name" : "void <init>(android.content.Context)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"<init>\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 53,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r30 = $r29.decrypt($r6)"
+            },
+            "startLine" : 504
+          },
+          "artifactLocation" : {
+            "index" : 9,
+            "uri" : "com/microsoft/appcenter/persistence/DatabasePersistence.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.persistence.DatabasePersistence"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String getLogs(java.lang.String,java.util.Collection,int,java.util.List)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "TypestateError violating CrySL rule for java.security.KeyStore",
+        "text" : "Unexpected call to method \"decrypt\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "TypestateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 54,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = getInstance(varReplacer5442)"
+            },
+            "startLine" : 74
+          },
+          "artifactLocation" : {
+            "index" : 10,
+            "uri" : "cn/bmob/v3/util/EncryptMD5.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "cn.bmob.v3.util.EncryptMD5"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String hexdigest(byte[])"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r3 is violated due to the following reason:\\n|- First parameter \"varReplacer5442\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer5442 = \"MD5\" @ line 74)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 58,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r6.initialize($r11)"
+            },
+            "startLine" : 51
+          },
+          "artifactLocation" : {
+            "index" : 11,
+            "uri" : "com/microsoft/appcenter/utils/crypto/CryptoRsaHandler.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.microsoft.appcenter.utils.crypto.CryptoRsaHandler"
+        }, {
+          "kind" : "method",
+          "name" : "void generateKey(com.microsoft.appcenter.utils.crypto.CryptoUtils$ICryptoFactory,java.lang.String,android.content.Context)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyPairGenerator",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.KeyPairGenerator",
+        "text" : "First parameter was not properly generated as preparedRSA"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 127,
+        "precedingErrors" : [ ]
+      }
+    } ],
+    "tool" : {
+      "driver" : {
+        "name" : "CryptoAnalysis",
+        "semanticVersion" : "5.0.0",
+        "fullName" : "CogniCrypt (en-US)",
+        "language" : "en-US",
+        "informationUri" : "https://github.com/CROSSINGTUD/CryptoAnalysis"
+      }
+    },
+    "properties" : {
+      "summary" : {
+        "errorCounts" : {
+          "ImpreciseValueExtractionError" : 5,
+          "RequiredPredicateError" : 22,
+          "TypestateError" : 10,
+          "IncompleteOperationError" : 5,
+          "ConstraintError" : 11,
+          "AlternativeReqPredicateError" : 1
+        },
+        "totalSeedsCount" : 29,
+        "totalErrorCount" : 54,
+        "resources" : {
+          "rules" : [ "java.security.KeyPair", "javax.net.ssl.SSLContext", "java.security.AlgorithmParameterGenerator", "java.security.cert.CertificateFactory", "javax.net.ssl.KeyStoreBuilderParameters", "javax.crypto.spec.SecretKeySpec", "java.security.spec.RSAKeyGenParameterSpec", "javax.crypto.KeyGenerator", "java.security.SecureRandom", "javax.xml.crypto.dsig.spec.HMACParameterSpec", "java.security.KeyPairGenerator", "javax.net.ssl.TrustManagerFactory", "java.security.Signature", "javax.crypto.Mac", "javax.crypto.spec.PBEParameterSpec", "java.security.KeyStore", "javax.crypto.spec.DHParameterSpec", "java.security.spec.X509EncodedKeySpec", "java.security.KeyFactory", "java.security.Key", "java.security.cert.PKIXBuilderParameters", "java.security.DigestOutputStream", "java.security.spec.DSAGenParameterSpec", "java.security.PrivateKey", "javax.crypto.SecretKey", "javax.crypto.spec.GCMParameterSpec", "java.security.cert.TrustAnchor", "javax.net.ssl.CertPathTrustManagerParameters", "java.security.MessageDigest", "javax.net.ssl.SSLParameters", "javax.crypto.Cipher", "javax.net.ssl.SSLEngine", "javax.crypto.CipherInputStream", "javax.crypto.SecretKeyFactory", "java.net.PasswordAuthentication", "javax.crypto.spec.OAEPParameterSpec", "java.security.spec.ECGenParameterSpec", "javax.crypto.spec.IvParameterSpec", "javax.crypto.spec.DHGenParameterSpec", "javax.crypto.spec.PBEKeySpec", "javax.crypto.KeyAgreement", "javax.servlet.http.Cookie", "javax.crypto.CipherOutputStream", "java.security.spec.MGF1ParameterSpec", "javax.net.ssl.KeyManagerFactory", "java.security.PublicKey", "java.security.cert.PKIXParameters", "java.security.AlgorithmParameters", "java.security.spec.ECParameterSpec", "java.security.spec.DSAParameterSpec", "java.security.DigestInputStream" ]
+        },
+        "totalRulesCount" : 51,
+        "statistics" : {
+          "entryPoints" : 1,
+          "analysisTime" : "1.834 s",
+          "edgesInCallGraph" : 28727,
+          "callGraphConstructionTime" : "2.136 min",
+          "typestateAnalysisTime" : "1.392 s",
+          "reachableMethods" : 7693
+        }
+      }
+    },
+    "artifacts" : [ {
+      "location" : {
+        "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/microsoft/appcenter/persistence/DatabasePersistence.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "okhttp3/internal/platform/BouncyCastlePlatform.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "okhttp3/internal/platform/OpenJSSEPlatform.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "cn/bmob/v3/util/EncryptUtils.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "okio/ByteString.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "okhttp3/internal/platform/Platform.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/microsoft/appcenter/utils/crypto/CryptoRsaHandler.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/gms/internal/ads/zzbzk.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "cn/bmob/v3/util/EncryptMD5.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/microsoft/appcenter/utils/crypto/CryptoUtils.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "cn/bmob/v3/http/RequestUtils.java"
+      },
+      "mimeType" : "text/java"
+    } ]
+  } ]
+}

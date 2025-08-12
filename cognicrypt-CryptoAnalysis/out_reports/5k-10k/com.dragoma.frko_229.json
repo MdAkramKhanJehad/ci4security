@@ -1,0 +1,862 @@
+{
+  "$schema" : "https://json.schemastore.org/sarif-2.1.0.json",
+  "version" : "2.1.0",
+  "runs" : [ {
+    "results" : [ {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r7 = getInstance(varReplacer11371)"
+            },
+            "startLine" : 5
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/google/android/gms/internal/ads/zzbyt.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.ads.zzbyt"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String zzd()"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer11371\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer11371 = \"MD5\" @ line 4)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 0,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r6 = getInstance($r0)"
+            },
+            "startLine" : 1
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/google/android/gms/internal/ads/zzbyt.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.ads.zzbyt"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String zzA(java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r6 is violated due to the following reason:\\n|- First parameter \"$r0\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer13529 = \"MD5\" @ line 3)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 2,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer8212)"
+            },
+            "startLine" : 263
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/applovin/impl/sdk/utils/StringUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.applovin.impl.sdk.utils.StringUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String a(java.lang.String,java.lang.Integer)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer8212\" with value \"SHA-1\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer8212 = \"SHA-1\" @ line 259)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 1,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.init(varReplacer20895,varReplacer20896,varReplacer20897)"
+            },
+            "startLine" : 40
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/yahoo/ads/utils/YASAdsSSLSocketFactory$DefaultSSLContextFactory.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.yahoo.ads.utils.YASAdsSSLSocketFactory$DefaultSSLContextFactory"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext getInstance(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 27,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.init(varReplacer20895,varReplacer20896,varReplacer20897)"
+            },
+            "startLine" : 40
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/yahoo/ads/utils/YASAdsSSLSocketFactory$DefaultSSLContextFactory.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.yahoo.ads.utils.YASAdsSSLSocketFactory$DefaultSSLContextFactory"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext getInstance(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Third parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 25,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance($r2)"
+            },
+            "startLine" : 39
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/yahoo/ads/utils/YASAdsSSLSocketFactory$DefaultSSLContextFactory.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.yahoo.ads.utils.YASAdsSSLSocketFactory$DefaultSSLContextFactory"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext getInstance(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"$r2\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer20894 = \"TLS\" @ line 157)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 3,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.init(varReplacer20895,varReplacer20896,varReplacer20897)"
+            },
+            "startLine" : 40
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/yahoo/ads/utils/YASAdsSSLSocketFactory$DefaultSSLContextFactory.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.yahoo.ads.utils.YASAdsSSLSocketFactory$DefaultSSLContextFactory"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext getInstance(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 26,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance($r1)"
+            },
+            "startLine" : 284
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager systemDefaultTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.TrustManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"okhttp3.OkHttpClient\" @ $r1 = getDefaultAlgorithm() @ line 285"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 4,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.init(varReplacer11097)"
+            },
+            "startLine" : 286
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager systemDefaultTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "First parameter was not properly generated as generatedKeyStore"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 28,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer11094,$r8,varReplacer11095)"
+            },
+            "startLine" : 301
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 34,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer11094,$r8,varReplacer11095)"
+            },
+            "startLine" : 301
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 33,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer11094,$r8,varReplacer11095)"
+            },
+            "startLine" : 301
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 30,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer11094,$r8,varReplacer11095)"
+            },
+            "startLine" : 301
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Third parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 29,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer11094,$r8,varReplacer11095)"
+            },
+            "startLine" : 301
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 31,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer11094,$r8,varReplacer11095)"
+            },
+            "startLine" : 301
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Third parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 32,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer29279)"
+            },
+            "startLine" : 293
+          },
+          "artifactLocation" : {
+            "index" : 4,
+            "uri" : "com/applovin/impl/sdk/utils/n.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.applovin.impl.sdk.utils.n"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String a(byte[])"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer29279\" with value \"SHA-1\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer29279 = \"SHA-1\" @ line 293)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 5,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer11139,$r1)"
+            },
+            "startLine" : 91
+          },
+          "artifactLocation" : {
+            "index" : 5,
+            "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.ConscryptPlatform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext getSSLContext()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer11139\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer11139 = \"TLS\" @ line 91)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 6,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer11137)"
+            },
+            "startLine" : 269
+          },
+          "artifactLocation" : {
+            "index" : 6,
+            "uri" : "okhttp3/internal/platform/Platform.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.internal.platform.Platform"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLContext getSSLContext()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer11137\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer11137 = \"TLS\" @ line 269)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 7,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r7 = getInstance(varReplacer23724)"
+            },
+            "startLine" : 124
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "com/dragoma/frko/billing/billing/Security.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.dragoma.frko.billing.billing.Security"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.Boolean verify(java.security.PublicKey,java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.Signature",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.Signature",
+        "text" : "Constraint \"algorithm in {SHA256withRSA, SHA256withECDSA, SHA256withDSA, SHA384withRSA, SHA512withRSA, SHA384withECDSA, SHA512withECDSA}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer23724\" with value \"SHA1withRSA\" should be any of {SHA256withRSA, SHA256withECDSA, SHA256withDSA, SHA384withRSA, SHA512withRSA, SHA384withECDSA, SHA512withECDSA} (extracted @ varReplacer23724 = \"SHA1withRSA\" @ line 118)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 8,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r7.initVerify($r3)"
+            },
+            "startLine" : 125
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "com/dragoma/frko/billing/billing/Security.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.dragoma.frko.billing.billing.Security"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.Boolean verify(java.security.PublicKey,java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.Signature",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.Signature",
+        "text" : "First parameter was not properly generated as generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 37,
+        "precedingErrors" : [ 38 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.<init>($r1)"
+            },
+            "startLine" : 95
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "com/dragoma/frko/billing/billing/Security.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.dragoma.frko.billing.billing.Security"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.PublicKey generatePublicKey(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.spec.X509EncodedKeySpec",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.spec.X509EncodedKeySpec",
+        "text" : "First parameter was not properly generated as preparedKeyMaterial"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 35 ],
+        "errorId" : 36,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = $r2.generatePublic($r3)"
+            },
+            "startLine" : 95
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "com/dragoma/frko/billing/billing/Security.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.dragoma.frko.billing.billing.Security"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.PublicKey generatePublicKey(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.PublicKey",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.PublicKey",
+        "text" : "Return value was not properly generated as generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 37 ],
+        "errorId" : 38,
+        "precedingErrors" : [ 35 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = $r2.generatePublic($r3)"
+            },
+            "startLine" : 95
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "com/dragoma/frko/billing/billing/Security.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.dragoma.frko.billing.billing.Security"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.PublicKey generatePublicKey(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyFactory",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.KeyFactory",
+        "text" : "First parameter was not properly generated as speccedKey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 38 ],
+        "errorId" : 35,
+        "precedingErrors" : [ 36 ]
+      }
+    } ],
+    "tool" : {
+      "driver" : {
+        "name" : "CryptoAnalysis",
+        "semanticVersion" : "5.0.0",
+        "fullName" : "CogniCrypt (en-US)",
+        "language" : "en-US",
+        "informationUri" : "https://github.com/CROSSINGTUD/CryptoAnalysis"
+      }
+    },
+    "properties" : {
+      "summary" : {
+        "errorCounts" : {
+          "ImpreciseValueExtractionError" : 1,
+          "RequiredPredicateError" : 14,
+          "ConstraintError" : 8
+        },
+        "totalSeedsCount" : 22,
+        "totalErrorCount" : 23,
+        "resources" : {
+          "rules" : [ "java.security.KeyPair", "javax.net.ssl.SSLContext", "java.security.AlgorithmParameterGenerator", "java.security.cert.CertificateFactory", "javax.net.ssl.KeyStoreBuilderParameters", "javax.crypto.spec.SecretKeySpec", "java.security.spec.RSAKeyGenParameterSpec", "javax.crypto.KeyGenerator", "java.security.SecureRandom", "javax.xml.crypto.dsig.spec.HMACParameterSpec", "java.security.KeyPairGenerator", "javax.net.ssl.TrustManagerFactory", "java.security.Signature", "javax.crypto.Mac", "javax.crypto.spec.PBEParameterSpec", "java.security.KeyStore", "javax.crypto.spec.DHParameterSpec", "java.security.spec.X509EncodedKeySpec", "java.security.KeyFactory", "java.security.Key", "java.security.cert.PKIXBuilderParameters", "java.security.DigestOutputStream", "java.security.spec.DSAGenParameterSpec", "java.security.PrivateKey", "javax.crypto.SecretKey", "javax.crypto.spec.GCMParameterSpec", "java.security.cert.TrustAnchor", "javax.net.ssl.CertPathTrustManagerParameters", "java.security.MessageDigest", "javax.net.ssl.SSLParameters", "javax.crypto.Cipher", "javax.net.ssl.SSLEngine", "javax.crypto.CipherInputStream", "javax.crypto.SecretKeyFactory", "java.net.PasswordAuthentication", "javax.crypto.spec.OAEPParameterSpec", "java.security.spec.ECGenParameterSpec", "javax.crypto.spec.IvParameterSpec", "javax.crypto.spec.DHGenParameterSpec", "javax.crypto.spec.PBEKeySpec", "javax.crypto.KeyAgreement", "javax.servlet.http.Cookie", "javax.crypto.CipherOutputStream", "java.security.spec.MGF1ParameterSpec", "javax.net.ssl.KeyManagerFactory", "java.security.PublicKey", "java.security.cert.PKIXParameters", "java.security.AlgorithmParameters", "java.security.spec.ECParameterSpec", "java.security.spec.DSAParameterSpec", "java.security.DigestInputStream" ]
+        },
+        "totalRulesCount" : 51,
+        "statistics" : {
+          "entryPoints" : 1,
+          "analysisTime" : "789.2 ms",
+          "edgesInCallGraph" : 58786,
+          "callGraphConstructionTime" : "3.201 min",
+          "typestateAnalysisTime" : "574.2 ms",
+          "reachableMethods" : 13043
+        }
+      }
+    },
+    "artifacts" : [ {
+      "location" : {
+        "uri" : "okhttp3/internal/platform/ConscryptPlatform.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/gms/internal/ads/zzbyt.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/dragoma/frko/billing/billing/Security.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "okhttp3/OkHttpClient.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "okhttp3/internal/platform/Platform.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/applovin/impl/sdk/utils/StringUtils.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/yahoo/ads/utils/YASAdsSSLSocketFactory$DefaultSSLContextFactory.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/applovin/impl/sdk/utils/n.java"
+      },
+      "mimeType" : "text/java"
+    } ]
+  } ]
+}

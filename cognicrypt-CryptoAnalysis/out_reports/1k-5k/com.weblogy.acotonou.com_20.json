@@ -1,0 +1,333 @@
+{
+  "$schema" : "https://json.schemastore.org/sarif-2.1.0.json",
+  "version" : "2.1.0",
+  "runs" : [ {
+    "results" : [ {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5 = getInstance(varReplacer1381)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/google/android/gms/ads/internal/util/client/zza.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.ads.internal.util.client.zza"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String zzaE(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r5 is violated due to the following reason:\\n|- First parameter \"varReplacer1381\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer1381 = \"MD5\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 0,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r8 = getInstance(varReplacer1300)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/google/android/gms/internal/zzip.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.zzip"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String zzha()"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r8 is violated due to the following reason:\\n|- First parameter \"varReplacer1300\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer1300 = \"MD5\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 1,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r8.<init>($r2,varReplacer1795)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/google/android/gms/internal/zzar.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.zzar"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] zzc(byte[],java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.spec.SecretKeySpec",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+        "text" : "First parameter was not properly generated as preparedKeyMaterial"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 62 ],
+        "errorId" : 53,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r9 = getInstance(varReplacer1796)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/google/android/gms/internal/zzar.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.zzar"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] zzc(byte[],java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r9 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer1796\" (transformation) with value \"AES/CBC/PKCS5Padding\" satisfies the constraint in class com.google.android.gms.internal.zzar @ $r9 = getInstance(varReplacer1796) @ line -1\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer1796\" (transformation) with value \"AES/CBC/PKCS5Padding\" violates the constraint in class com.google.android.gms.internal.zzar @ $r9 = getInstance(varReplacer1796) @ line -1"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 11,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.<init>($r7)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/google/android/gms/internal/zzar.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.zzar"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] zzc(byte[],java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.spec.IvParameterSpec",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.spec.IvParameterSpec",
+        "text" : "First parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 64,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r9.init(varReplacer1797,$r8,$r1)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/google/android/gms/internal/zzar.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.zzar"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] zzc(byte[],java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Second parameter parameter was not properly generated as generatedPrivkey OR generatedKey OR generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "AlternativeReqPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 62,
+        "precedingErrors" : [ 53 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer2628)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "com/google/android/gms/internal/zzbm.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.zzbm"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.MessageDigest zzcG()"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Operation on object of type java.security.MessageDigest not completed. Expected call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[]), update(byte), update(byte[])}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 30,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer2628)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "com/google/android/gms/internal/zzbm.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.internal.zzbm"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.MessageDigest zzcG()"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer2628\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer2628 = \"MD5\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 29,
+        "precedingErrors" : [ ]
+      }
+    } ],
+    "tool" : {
+      "driver" : {
+        "name" : "CryptoAnalysis",
+        "semanticVersion" : "5.0.0",
+        "fullName" : "CogniCrypt (en-US)",
+        "language" : "en-US",
+        "informationUri" : "https://github.com/CROSSINGTUD/CryptoAnalysis"
+      }
+    },
+    "properties" : {
+      "summary" : {
+        "errorCounts" : {
+          "RequiredPredicateError" : 2,
+          "ConstraintError" : 4,
+          "IncompleteOperationError" : 1,
+          "AlternativeReqPredicateError" : 1
+        },
+        "totalSeedsCount" : 10,
+        "totalErrorCount" : 8,
+        "resources" : {
+          "rules" : [ "java.security.KeyPair", "javax.net.ssl.SSLContext", "java.security.AlgorithmParameterGenerator", "java.security.cert.CertificateFactory", "javax.net.ssl.KeyStoreBuilderParameters", "javax.crypto.spec.SecretKeySpec", "java.security.spec.RSAKeyGenParameterSpec", "javax.crypto.KeyGenerator", "java.security.SecureRandom", "javax.xml.crypto.dsig.spec.HMACParameterSpec", "java.security.KeyPairGenerator", "javax.net.ssl.TrustManagerFactory", "java.security.Signature", "javax.crypto.Mac", "javax.crypto.spec.PBEParameterSpec", "java.security.KeyStore", "javax.crypto.spec.DHParameterSpec", "java.security.spec.X509EncodedKeySpec", "java.security.KeyFactory", "java.security.Key", "java.security.cert.PKIXBuilderParameters", "java.security.DigestOutputStream", "java.security.spec.DSAGenParameterSpec", "java.security.PrivateKey", "javax.crypto.SecretKey", "javax.crypto.spec.GCMParameterSpec", "java.security.cert.TrustAnchor", "javax.net.ssl.CertPathTrustManagerParameters", "java.security.MessageDigest", "javax.net.ssl.SSLParameters", "javax.crypto.Cipher", "javax.net.ssl.SSLEngine", "javax.crypto.CipherInputStream", "javax.crypto.SecretKeyFactory", "java.net.PasswordAuthentication", "javax.crypto.spec.OAEPParameterSpec", "java.security.spec.ECGenParameterSpec", "javax.crypto.spec.IvParameterSpec", "javax.crypto.spec.DHGenParameterSpec", "javax.crypto.spec.PBEKeySpec", "javax.crypto.KeyAgreement", "javax.servlet.http.Cookie", "javax.crypto.CipherOutputStream", "java.security.spec.MGF1ParameterSpec", "javax.net.ssl.KeyManagerFactory", "java.security.PublicKey", "java.security.cert.PKIXParameters", "java.security.AlgorithmParameters", "java.security.spec.ECParameterSpec", "java.security.spec.DSAParameterSpec", "java.security.DigestInputStream" ]
+        },
+        "totalRulesCount" : 51,
+        "statistics" : {
+          "entryPoints" : 1,
+          "analysisTime" : "1.240 s",
+          "edgesInCallGraph" : 4508,
+          "callGraphConstructionTime" : "19.60 s",
+          "typestateAnalysisTime" : "1.111 s",
+          "reachableMethods" : 1774
+        }
+      }
+    },
+    "artifacts" : [ {
+      "location" : {
+        "uri" : "com/google/android/gms/internal/zzip.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/gms/ads/internal/util/client/zza.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/gms/internal/zzbm.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/gms/internal/zzar.java"
+      },
+      "mimeType" : "text/java"
+    } ]
+  } ]
+}

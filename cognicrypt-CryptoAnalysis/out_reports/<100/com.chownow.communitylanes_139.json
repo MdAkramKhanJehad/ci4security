@@ -1,0 +1,2307 @@
+{
+  "$schema" : "https://json.schemastore.org/sarif-2.1.0.json",
+  "version" : "2.1.0",
+  "runs" : [ {
+    "results" : [ {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.init(varReplacer12607,$r6,$r4)"
+            },
+            "startLine" : 49
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/chownow/communitylanes/util/SSLUtil.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.SSLUtil"
+        }, {
+          "kind" : "method",
+          "name" : "void shutOffSSLSecurity()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 276,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.init(varReplacer12607,$r6,$r4)"
+            },
+            "startLine" : 49
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/chownow/communitylanes/util/SSLUtil.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.SSLUtil"
+        }, {
+          "kind" : "method",
+          "name" : "void shutOffSSLSecurity()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 277,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer12606)"
+            },
+            "startLine" : 48
+          },
+          "artifactLocation" : {
+            "index" : 0,
+            "uri" : "com/chownow/communitylanes/util/SSLUtil.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.SSLUtil"
+        }, {
+          "kind" : "method",
+          "name" : "void shutOffSSLSecurity()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer12606\" with value \"SSL\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer12606 = \"SSL\" @ line 33)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 0,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4.init(varReplacer14714,$r6,$r1)"
+            },
+            "startLine" : 274
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Operation on object of type javax.crypto.Cipher not completed. Expected call to one of the methods {doFinal(byte[]), update(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[]), update(byte[]), update(byte[], int, int, byte[]), updateAAD(byte[], int, int), update(byte[], int, int), update(java.nio.ByteBuffer, java.nio.ByteBuffer), wrap(java.security.Key), updateAAD(byte[]), updateAAD(java.nio.ByteBuffer), doFinal(byte[], int, int), doFinal(java.nio.ByteBuffer, java.nio.ByteBuffer)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 26,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4.init(varReplacer14714,$r6,$r1)"
+            },
+            "startLine" : 274
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Second parameter parameter was not properly generated as generatedKey OR generatedPubkey OR generatedPrivkey"
+      },
+      "properties" : {
+        "errorType" : "AlternativeReqPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 284,
+        "precedingErrors" : [ 333 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4.init(varReplacer14717,$r6)"
+            },
+            "startLine" : 278
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Second parameter parameter was not properly generated as generatedPubkey OR generatedPrivkey OR generatedKey"
+      },
+      "properties" : {
+        "errorType" : "AlternativeReqPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 290,
+        "precedingErrors" : [ 291 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.<init>(varReplacer14713,$r2)"
+            },
+            "startLine" : 274
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.spec.GCMParameterSpec",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.spec.GCMParameterSpec",
+        "text" : "Second parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 285 ],
+        "errorId" : 286,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4.init(varReplacer14717,$r6)"
+            },
+            "startLine" : 278
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Operation on object of type javax.crypto.Cipher not completed. Expected call to one of the methods {doFinal(byte[]), update(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[]), update(byte[]), update(byte[], int, int, byte[]), updateAAD(byte[], int, int), update(byte[], int, int), update(java.nio.ByteBuffer, java.nio.ByteBuffer), wrap(java.security.Key), updateAAD(byte[]), updateAAD(java.nio.ByteBuffer), doFinal(byte[], int, int), doFinal(java.nio.ByteBuffer, java.nio.ByteBuffer)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 55,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = getInstance(varReplacer14715,varReplacer14716)"
+            },
+            "startLine" : 276
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r4 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer14715\" (transformation) with value \"AES/ECB/PKCS7Padding\" satisfies the constraint in class com.chownow.communitylanes.util.Decoder @ $r4 = getInstance(varReplacer14715,varReplacer14716) @ line 276\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer14715\" (transformation) with value \"AES/ECB/PKCS7Padding\" violates the constraint in class com.chownow.communitylanes.util.Decoder @ $r4 = getInstance(varReplacer14715,varReplacer14716) @ line 276"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 36,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4.init(varReplacer14714,$r6,$r1)"
+            },
+            "startLine" : 274
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String encryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Third parameter was not properly generated as preparedGCM"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 285,
+        "precedingErrors" : [ 286 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer14731)"
+            },
+            "startLine" : 95
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "void initKeys()"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.KeyStore",
+        "text" : "Constraint \"type in {JCEKS, JKS, DKS, PKCS11, PKCS12}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer14731\" with value \"AndroidKeyStore\" should be any of {JCEKS, JKS, DKS, PKCS11, PKCS12} (extracted @ varReplacer14731 = \"AndroidKeyStore\" @ line 95)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 60,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = $r1.getEntry(varReplacer14734,varReplacer14735)"
+            },
+            "startLine" : 105
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "void initKeys()"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for java.security.KeyStore",
+        "text" : "Operation on object of type java.security.KeyStore not completed. Expected call to one of the methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 61,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = $r1.getKey(varReplacer14729,varReplacer14730)"
+            },
+            "startLine" : 186
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.Key getSecretKeyAPIMorGreater()"
+        } ]
+      } ],
+      "ruleId" : "java.security.Key",
+      "message" : {
+        "markdown" : "AlternativeReqPredicateError violating CrySL rule for java.security.Key",
+        "text" : "Return value parameter was not properly generated as generatedKey OR generatedPubkey OR generatedPrivkey"
+      },
+      "properties" : {
+        "errorType" : "AlternativeReqPredicateError",
+        "subsequentErrors" : [ 284, 319 ],
+        "errorId" : 333,
+        "precedingErrors" : [ 62 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer14727)"
+            },
+            "startLine" : 184
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.Key getSecretKeyAPIMorGreater()"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.KeyStore",
+        "text" : "Constraint \"type in {JCEKS, JKS, DKS, PKCS11, PKCS12}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer14727\" with value \"AndroidKeyStore\" should be any of {JCEKS, JKS, DKS, PKCS11, PKCS12} (extracted @ varReplacer14727 = \"AndroidKeyStore\" @ line 184)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ 333 ],
+        "errorId" : 62,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer14762)"
+            },
+            "startLine" : 325
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "void removeKeys()"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.KeyStore",
+        "text" : "Constraint \"type in {JCEKS, JKS, DKS, PKCS11, PKCS12}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer14762\" with value \"AndroidKeyStore\" should be any of {JCEKS, JKS, DKS, PKCS11, PKCS12} (extracted @ varReplacer14762 = \"AndroidKeyStore\" @ line 325)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 63,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer14736)"
+            },
+            "startLine" : 242
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaDecryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.KeyStore",
+        "text" : "Constraint \"type in {JCEKS, JKS, DKS, PKCS11, PKCS12}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer14736\" with value \"AndroidKeyStore\" should be any of {JCEKS, JKS, DKS, PKCS11, PKCS12} (extracted @ varReplacer14736 = \"AndroidKeyStore\" @ line 242)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 64,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$i0 = $r10.read()"
+            },
+            "startLine" : 251
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaDecryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.CipherInputStream",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.crypto.CipherInputStream",
+        "text" : "Operation on object of type javax.crypto.CipherInputStream not completed. Expected call to one of the methods {close()}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 86,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = $r2.getEntry(varReplacer14738,varReplacer14739)"
+            },
+            "startLine" : 245
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaDecryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for java.security.KeyStore",
+        "text" : "Operation on object of type java.security.KeyStore not completed. Expected call to one of the methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 65,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.init(varReplacer14742,$r6)"
+            },
+            "startLine" : 247
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaDecryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Operation on object of type javax.crypto.Cipher not completed. Expected call to one of the methods {doFinal(byte[]), update(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[]), update(byte[]), update(byte[], int, int, byte[]), updateAAD(byte[], int, int), update(byte[], int, int), update(java.nio.ByteBuffer, java.nio.ByteBuffer), wrap(java.security.Key), updateAAD(byte[]), updateAAD(java.nio.ByteBuffer), doFinal(byte[], int, int), doFinal(java.nio.ByteBuffer, java.nio.ByteBuffer)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 85,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.init(varReplacer14742,$r6)"
+            },
+            "startLine" : 247
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaDecryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Second parameter parameter was not properly generated as generatedPrivkey OR generatedPubkey OR generatedKey"
+      },
+      "properties" : {
+        "errorType" : "AlternativeReqPredicateError",
+        "subsequentErrors" : [ 296 ],
+        "errorId" : 295,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r10.<init>($r9,$r5)"
+            },
+            "startLine" : 248
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaDecryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.CipherInputStream",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.CipherInputStream",
+        "text" : "Second parameter was not properly generated as generatedCipher"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 296,
+        "precedingErrors" : [ 295 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.init(varReplacer14761,$r7)"
+            },
+            "startLine" : 229
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaEncryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Operation on object of type javax.crypto.Cipher not completed. Expected call to one of the methods {doFinal(byte[]), update(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[]), update(byte[]), update(byte[], int, int, byte[]), updateAAD(byte[], int, int), update(byte[], int, int), update(java.nio.ByteBuffer, java.nio.ByteBuffer), wrap(java.security.Key), updateAAD(byte[]), updateAAD(java.nio.ByteBuffer), doFinal(byte[], int, int), doFinal(java.nio.ByteBuffer, java.nio.ByteBuffer)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 119,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = $r2.getEntry(varReplacer14757,varReplacer14758)"
+            },
+            "startLine" : 227
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaEncryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for java.security.KeyStore",
+        "text" : "Operation on object of type java.security.KeyStore not completed. Expected call to one of the methods {getKey(java.lang.String, char[])}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 97,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.init(varReplacer14761,$r7)"
+            },
+            "startLine" : 229
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaEncryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Second parameter parameter was not properly generated as generatedPrivkey OR generatedKey OR generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "AlternativeReqPredicateError",
+        "subsequentErrors" : [ 309 ],
+        "errorId" : 308,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer14755)"
+            },
+            "startLine" : 224
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaEncryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyStore",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.KeyStore",
+        "text" : "Constraint \"type in {JCEKS, JKS, DKS, PKCS11, PKCS12}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer14755\" with value \"AndroidKeyStore\" should be any of {JCEKS, JKS, DKS, PKCS11, PKCS12} (extracted @ varReplacer14755 = \"AndroidKeyStore\" @ line 224)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 96,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r9.<init>($r8,$r5)"
+            },
+            "startLine" : 232
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "byte[] rsaEncryptKey(byte[])"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.CipherOutputStream",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.CipherOutputStream",
+        "text" : "Second parameter was not properly generated as generatedCipher"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 309,
+        "precedingErrors" : [ 308 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.init(varReplacer15268,$r7)"
+            },
+            "startLine" : 310
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String decryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Operation on object of type javax.crypto.Cipher not completed. Expected call to one of the methods {doFinal(byte[]), update(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[]), update(byte[]), update(byte[], int, int, byte[]), updateAAD(byte[], int, int), update(byte[], int, int), update(java.nio.ByteBuffer, java.nio.ByteBuffer), wrap(java.security.Key), updateAAD(byte[]), updateAAD(java.nio.ByteBuffer), doFinal(byte[], int, int), doFinal(java.nio.ByteBuffer, java.nio.ByteBuffer)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 178,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.<init>(varReplacer15264,$r2)"
+            },
+            "startLine" : 307
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String decryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.spec.GCMParameterSpec",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.spec.GCMParameterSpec",
+        "text" : "Second parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 314 ],
+        "errorId" : 320,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5 = getInstance(varReplacer15266,varReplacer15267)"
+            },
+            "startLine" : 309
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String decryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r5 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer15266\" (transformation) with value \"AES/ECB/PKCS7Padding\" satisfies the constraint in class com.chownow.communitylanes.util.Decoder @ $r5 = getInstance(varReplacer15266,varReplacer15267) @ line 309\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer15266\" (transformation) with value \"AES/ECB/PKCS7Padding\" violates the constraint in class com.chownow.communitylanes.util.Decoder @ $r5 = getInstance(varReplacer15266,varReplacer15267) @ line 309"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 161,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.init(varReplacer15265,$r7,$r1)"
+            },
+            "startLine" : 307
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String decryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Third parameter was not properly generated as preparedGCM"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 314,
+        "precedingErrors" : [ 320 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.init(varReplacer15268,$r7)"
+            },
+            "startLine" : 310
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String decryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Second parameter parameter was not properly generated as generatedPubkey OR generatedKey OR generatedPrivkey"
+      },
+      "properties" : {
+        "errorType" : "AlternativeReqPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 324,
+        "precedingErrors" : [ 291 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.init(varReplacer15265,$r7,$r1)"
+            },
+            "startLine" : 307
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String decryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Second parameter parameter was not properly generated as generatedPrivkey OR generatedPubkey OR generatedKey"
+      },
+      "properties" : {
+        "errorType" : "AlternativeReqPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 319,
+        "precedingErrors" : [ 333 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.init(varReplacer15265,$r7,$r1)"
+            },
+            "startLine" : 307
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String decryptData(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.Cipher",
+      "message" : {
+        "markdown" : "IncompleteOperationError violating CrySL rule for javax.crypto.Cipher",
+        "text" : "Operation on object of type javax.crypto.Cipher not completed. Expected call to one of the methods {doFinal(byte[]), update(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[]), update(byte[]), update(byte[], int, int, byte[]), updateAAD(byte[], int, int), update(byte[], int, int), update(java.nio.ByteBuffer, java.nio.ByteBuffer), wrap(java.security.Key), updateAAD(byte[]), updateAAD(java.nio.ByteBuffer), doFinal(byte[], int, int), doFinal(java.nio.ByteBuffer, java.nio.ByteBuffer)}"
+      },
+      "properties" : {
+        "errorType" : "IncompleteOperationError",
+        "subsequentErrors" : [ ],
+        "errorId" : 151,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5.<init>($r4,varReplacer14726)"
+            },
+            "startLine" : 180
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.Key getSecretKeyAPILessThanM()"
+        } ]
+      } ],
+      "ruleId" : "javax.crypto.spec.SecretKeySpec",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+        "text" : "First parameter was not properly generated as preparedKeyMaterial"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 290, 324 ],
+        "errorId" : 291,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r9.initialize($r8)"
+            },
+            "startLine" : 165
+          },
+          "artifactLocation" : {
+            "index" : 1,
+            "uri" : "com/chownow/communitylanes/util/Decoder.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.chownow.communitylanes.util.Decoder"
+        }, {
+          "kind" : "method",
+          "name" : "void generateKeysForAPILessThanM()"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyPairGenerator",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.KeyPairGenerator",
+        "text" : "First parameter was not properly generated as preparedRSA"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 298,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer11187)"
+            },
+            "startLine" : 8
+          },
+          "artifactLocation" : {
+            "index" : 2,
+            "uri" : "com/google/android/libraries/places/internal/dh.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.libraries.places.internal.dh"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String a(android.content.pm.Signature)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer11187\" with value \"SHA-1\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer11187 = \"SHA-1\" @ line 8)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 56,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.update($r2,varReplacer6940,$i0)"
+            },
+            "startLine" : 283
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "com/facebook/appevents/AppEvent.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.facebook.appevents.AppEvent"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String md5Checksum(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Could not evaluate the constraint \"length[preInput] >= preLen + preOffset\" due to insufficient information:\\n|- Could not evaluate expression \"lengthof $r2\" in class \"com.facebook.appevents.AppEvent\" @ $i0 = lengthof $r2 @ line 283\\n\\t|- Could not evaluate expression \"virtualinvoke $r0.<java.lang.String: byte[] getBytes(java.lang.String)>(varReplacer6939)\" in class \"com.facebook.appevents.AppEvent\" @ $r2 = $r0.getBytes(varReplacer6939) @ line 282\\n\\t\\t|- Could not evaluate expression \"virtualinvoke $r2.<org.json.JSONObject: java.lang.String toString()>()\" in class \"com.newrelic.agent.android.instrumentation.JSONObjectInstrumentation\" @ $r1 = $r2.toString() @ line 39\\n|- Could not evaluate expression \"virtualinvoke $r0.<java.lang.String: byte[] getBytes(java.lang.String)>(varReplacer6939)\" in class \"com.facebook.appevents.AppEvent\" @ $r2 = $r0.getBytes(varReplacer6939) @ line 282\\n\\t|- Could not evaluate expression \"virtualinvoke $r2.<org.json.JSONObject: java.lang.String toString()>()\" in class \"com.newrelic.agent.android.instrumentation.JSONObjectInstrumentation\" @ $r1 = $r2.toString() @ line 39"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 58,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1.update($r2,varReplacer6940,$i0)"
+            },
+            "startLine" : 283
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "com/facebook/appevents/AppEvent.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.facebook.appevents.AppEvent"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String md5Checksum(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Could not evaluate the constraint \"preLen > 0\" due to insufficient information:\\n|- Could not evaluate expression \"lengthof $r2\" in class \"com.facebook.appevents.AppEvent\" @ $i0 = lengthof $r2 @ line 283\\n\\t|- Could not evaluate expression \"virtualinvoke $r0.<java.lang.String: byte[] getBytes(java.lang.String)>(varReplacer6939)\" in class \"com.facebook.appevents.AppEvent\" @ $r2 = $r0.getBytes(varReplacer6939) @ line 282\\n\\t\\t|- Could not evaluate expression \"virtualinvoke $r2.<org.json.JSONObject: java.lang.String toString()>()\" in class \"com.newrelic.agent.android.instrumentation.JSONObjectInstrumentation\" @ $r1 = $r2.toString() @ line 39"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 59,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = getInstance(varReplacer6938)"
+            },
+            "startLine" : 281
+          },
+          "artifactLocation" : {
+            "index" : 3,
+            "uri" : "com/facebook/appevents/AppEvent.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.facebook.appevents.AppEvent"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String md5Checksum(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer6938\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer6938 = \"MD5\" @ line 281)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 57,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = getInstance(varReplacer19122)"
+            },
+            "startLine" : 110
+          },
+          "artifactLocation" : {
+            "index" : 4,
+            "uri" : "com/stripe/android/StripeTextUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.stripe.android.StripeTextUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String shaHashInput(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer19122\" with value \"SHA-1\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer19122 = \"SHA-1\" @ line 105)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 90,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.update($r4,varReplacer19123,$i0)"
+            },
+            "startLine" : 112
+          },
+          "artifactLocation" : {
+            "index" : 4,
+            "uri" : "com/stripe/android/StripeTextUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.stripe.android.StripeTextUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String shaHashInput(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Could not evaluate the constraint \"length[preInput] >= preLen + preOffset\" due to insufficient information:\\n|- Could not evaluate expression \"lengthof $r4\" in class \"com.stripe.android.StripeTextUtils\" @ $i0 = lengthof $r4 @ line 112\\n\\t|- Could not evaluate expression \"virtualinvoke $r1.<java.lang.String: byte[] getBytes(java.nio.charset.Charset)>($r3)\" in class \"com.stripe.android.StripeTextUtils\" @ $r4 = $r1.getBytes($r3) @ line 111\\n|- Could not evaluate expression \"virtualinvoke $r1.<java.lang.String: byte[] getBytes(java.nio.charset.Charset)>($r3)\" in class \"com.stripe.android.StripeTextUtils\" @ $r4 = $r1.getBytes($r3) @ line 111"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 91,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2.update($r4,varReplacer19123,$i0)"
+            },
+            "startLine" : 112
+          },
+          "artifactLocation" : {
+            "index" : 4,
+            "uri" : "com/stripe/android/StripeTextUtils.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.stripe.android.StripeTextUtils"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String shaHashInput(java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Could not evaluate the constraint \"preLen > 0\" due to insufficient information:\\n|- Could not evaluate expression \"lengthof $r4\" in class \"com.stripe.android.StripeTextUtils\" @ $i0 = lengthof $r4 @ line 112\\n\\t|- Could not evaluate expression \"virtualinvoke $r1.<java.lang.String: byte[] getBytes(java.nio.charset.Charset)>($r3)\" in class \"com.stripe.android.StripeTextUtils\" @ $r4 = $r1.getBytes($r3) @ line 111"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 92,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer4032)"
+            },
+            "startLine" : 252
+          },
+          "artifactLocation" : {
+            "index" : 5,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager systemDefaultTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "First parameter was not properly generated as generatedKeyStore"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 301,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = getInstance($r2)"
+            },
+            "startLine" : 250
+          },
+          "artifactLocation" : {
+            "index" : 5,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.X509TrustManager systemDefaultTrustManager()"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.TrustManagerFactory",
+      "message" : {
+        "markdown" : "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+        "text" : "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.TrustManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"okhttp3.OkHttpClient\" @ $r2 = getDefaultAlgorithm() @ line 251"
+      },
+      "properties" : {
+        "errorType" : "ImpreciseValueExtractionError",
+        "subsequentErrors" : [ ],
+        "errorId" : 93,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer4030,$r7,varReplacer4031)"
+            },
+            "startLine" : 267
+          },
+          "artifactLocation" : {
+            "index" : 5,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Second parameter was not properly generated as generatedTrustManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 303,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer4030,$r7,varReplacer4031)"
+            },
+            "startLine" : 267
+          },
+          "artifactLocation" : {
+            "index" : 5,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "First parameter was not properly generated as generatedKeyManagers"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 304,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3.init(varReplacer4030,$r7,varReplacer4031)"
+            },
+            "startLine" : 267
+          },
+          "artifactLocation" : {
+            "index" : 5,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Third parameter was not properly generated as randomized"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 302,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = getInstance(varReplacer4029)"
+            },
+            "startLine" : 266
+          },
+          "artifactLocation" : {
+            "index" : 5,
+            "uri" : "okhttp3/OkHttpClient.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "okhttp3.OkHttpClient"
+        }, {
+          "kind" : "method",
+          "name" : "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+        } ]
+      } ],
+      "ruleId" : "javax.net.ssl.SSLContext",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+        "text" : "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r3 is violated due to the following reason:\\n|- First parameter \"varReplacer4029\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer4029 = \"TLS\" @ line 266)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 94,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = getInstance(varReplacer14353)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 6,
+            "uri" : "com/google/android/gms/iid/InstanceID.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.InstanceID"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String zzd(java.security.KeyPair)"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r4 is violated due to the following reason:\\n|- First parameter \"varReplacer14353\" with value \"SHA1\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer14353 = \"SHA1\" @ line -1)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 95,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r1 = $r0.generateKeyPair()"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "com/google/android/gms/iid/zzd.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzd"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyPair zzk()"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyPair",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.KeyPair",
+        "text" : "Return value was not properly generated as generatedKeypair"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 334,
+        "precedingErrors" : [ 121 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r0.initialize(varReplacer14277)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 7,
+            "uri" : "com/google/android/gms/iid/zzd.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzd"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyPair zzk()"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyPairGenerator",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.KeyPairGenerator",
+        "text" : "Constraint \"algorithm in {RSA} => keysize in {4096, 3072}\" on object $r0 is violated due to the following reason:\\n|- Constraint \"algorithm in {RSA} => keysize in {4096, 3072}\" evaluates to <false>:\\n\\t|- The left side \"algorithm in {RSA}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer14276\" (algorithm) with value \"RSA\" satisfies the constraint in class com.google.android.gms.iid.zzd @ $r0 = getInstance(varReplacer14276) @ line -1\\n\\t|- The right side \"keysize in {4096, 3072}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer14277\" (keysize) with value 2048 violates the constraint in class com.google.android.gms.iid.zzd @ $r0.initialize(varReplacer14277) @ line -1"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ 334 ],
+        "errorId" : 121,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r3 = getInstance($r2)"
+            },
+            "startLine" : 287
+          },
+          "artifactLocation" : {
+            "index" : 8,
+            "uri" : "com/facebook/internal/Utility.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.facebook.internal.Utility"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String hashWithAlgorithm(java.lang.String,byte[])"
+        } ]
+      } ],
+      "ruleId" : "java.security.MessageDigest",
+      "message" : {
+        "markdown" : "ConstraintError violating CrySL rule for java.security.MessageDigest",
+        "text" : "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r3 is violated due to the following reason:\\n|- First parameter \"$r2\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer7251 = \"MD5\" @ line 269)"
+      },
+      "properties" : {
+        "errorType" : "ConstraintError",
+        "subsequentErrors" : [ ],
+        "errorId" : 179,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r9.<init>($r2)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 9,
+            "uri" : "com/google/android/gms/iid/zzn.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzn"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyPair zzg(java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.spec.X509EncodedKeySpec",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.spec.X509EncodedKeySpec",
+        "text" : "First parameter was not properly generated as preparedKeyMaterial"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 326 ],
+        "errorId" : 327,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5 = $r4.generatePublic($r9)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 9,
+            "uri" : "com/google/android/gms/iid/zzn.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzn"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyPair zzg(java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.PublicKey",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.PublicKey",
+        "text" : "Return value was not properly generated as generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 328 ],
+        "errorId" : 335,
+        "precedingErrors" : [ 326, 325 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5 = $r4.generatePublic($r9)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 9,
+            "uri" : "com/google/android/gms/iid/zzn.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzn"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyPair zzg(java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyFactory",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.KeyFactory",
+        "text" : "First parameter was not properly generated as speccedKey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 335, 336 ],
+        "errorId" : 326,
+        "precedingErrors" : [ 327 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r6 = $r4.generatePrivate($r10)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 9,
+            "uri" : "com/google/android/gms/iid/zzn.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzn"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyPair zzg(java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyFactory",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.KeyFactory",
+        "text" : "First parameter was not properly generated as speccedKey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 335, 336 ],
+        "errorId" : 325,
+        "precedingErrors" : [ ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r6 = $r4.generatePrivate($r10)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 9,
+            "uri" : "com/google/android/gms/iid/zzn.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzn"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyPair zzg(java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.PrivateKey",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.PrivateKey",
+        "text" : "Return value was not properly generated as generatedPrivkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 329 ],
+        "errorId" : 336,
+        "precedingErrors" : [ 326, 325 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r11.<init>($r5,$r6)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 9,
+            "uri" : "com/google/android/gms/iid/zzn.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzn"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyPair zzg(java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyPair",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.KeyPair",
+        "text" : "Second parameter was not properly generated as generatedPrivkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 337, 342, 340, 338, 341, 339 ],
+        "errorId" : 329,
+        "precedingErrors" : [ 336 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r11.<init>($r5,$r6)"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 9,
+            "uri" : "com/google/android/gms/iid/zzn.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzn"
+        }, {
+          "kind" : "method",
+          "name" : "java.security.KeyPair zzg(java.lang.String,java.lang.String)"
+        } ]
+      } ],
+      "ruleId" : "java.security.KeyPair",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.KeyPair",
+        "text" : "First parameter was not properly generated as generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ 337, 342, 340, 338, 341, 339 ],
+        "errorId" : 328,
+        "precedingErrors" : [ 335 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r7 = $r3.getPrivate()"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 10,
+            "uri" : "com/google/android/gms/iid/zzo.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzo"
+        }, {
+          "kind" : "method",
+          "name" : "boolean equals(java.lang.Object)"
+        } ]
+      } ],
+      "ruleId" : "java.security.PrivateKey",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.PrivateKey",
+        "text" : "Return value was not properly generated as generatedPrivkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 337,
+        "precedingErrors" : [ 329, 328 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r4 = $r3.getPublic()"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 10,
+            "uri" : "com/google/android/gms/iid/zzo.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzo"
+        }, {
+          "kind" : "method",
+          "name" : "boolean equals(java.lang.Object)"
+        } ]
+      } ],
+      "ruleId" : "java.security.PublicKey",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.PublicKey",
+        "text" : "Return value was not properly generated as generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 342,
+        "precedingErrors" : [ 329, 328 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r6 = $r3.getPrivate()"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 10,
+            "uri" : "com/google/android/gms/iid/zzo.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzo"
+        }, {
+          "kind" : "method",
+          "name" : "boolean equals(java.lang.Object)"
+        } ]
+      } ],
+      "ruleId" : "java.security.PrivateKey",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.PrivateKey",
+        "text" : "Return value was not properly generated as generatedPrivkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 341,
+        "precedingErrors" : [ 329, 328 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r5 = $r3.getPublic()"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 10,
+            "uri" : "com/google/android/gms/iid/zzo.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzo"
+        }, {
+          "kind" : "method",
+          "name" : "boolean equals(java.lang.Object)"
+        } ]
+      } ],
+      "ruleId" : "java.security.PublicKey",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.PublicKey",
+        "text" : "Return value was not properly generated as generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 339,
+        "precedingErrors" : [ 329, 328 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = $r1.getPublic()"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 10,
+            "uri" : "com/google/android/gms/iid/zzo.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzo"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String zzo()"
+        } ]
+      } ],
+      "ruleId" : "java.security.PublicKey",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.PublicKey",
+        "text" : "Return value was not properly generated as generatedPubkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 338,
+        "precedingErrors" : [ 329, 328 ]
+      }
+    }, {
+      "locations" : [ {
+        "physicalLocation" : {
+          "region" : {
+            "snippet" : {
+              "text" : "$r2 = $r1.getPrivate()"
+            },
+            "startLine" : -1
+          },
+          "artifactLocation" : {
+            "index" : 10,
+            "uri" : "com/google/android/gms/iid/zzo.java"
+          }
+        }
+      }, {
+        "logicalLocations" : [ {
+          "kind" : "class",
+          "name" : "com.google.android.gms.iid.zzo"
+        }, {
+          "kind" : "method",
+          "name" : "java.lang.String zzp()"
+        } ]
+      } ],
+      "ruleId" : "java.security.PrivateKey",
+      "message" : {
+        "markdown" : "RequiredPredicateError violating CrySL rule for java.security.PrivateKey",
+        "text" : "Return value was not properly generated as generatedPrivkey"
+      },
+      "properties" : {
+        "errorType" : "RequiredPredicateError",
+        "subsequentErrors" : [ ],
+        "errorId" : 340,
+        "precedingErrors" : [ 329, 328 ]
+      }
+    } ],
+    "tool" : {
+      "driver" : {
+        "name" : "CryptoAnalysis",
+        "semanticVersion" : "5.0.0",
+        "fullName" : "CogniCrypt (en-US)",
+        "language" : "en-US",
+        "informationUri" : "https://github.com/CROSSINGTUD/CryptoAnalysis"
+      }
+    },
+    "properties" : {
+      "summary" : {
+        "errorCounts" : {
+          "ImpreciseValueExtractionError" : 5,
+          "RequiredPredicateError" : 28,
+          "ConstraintError" : 15,
+          "IncompleteOperationError" : 10,
+          "AlternativeReqPredicateError" : 7
+        },
+        "totalSeedsCount" : 58,
+        "totalErrorCount" : 65,
+        "resources" : {
+          "rules" : [ "java.security.KeyPair", "javax.net.ssl.SSLContext", "java.security.AlgorithmParameterGenerator", "java.security.cert.CertificateFactory", "javax.net.ssl.KeyStoreBuilderParameters", "javax.crypto.spec.SecretKeySpec", "java.security.spec.RSAKeyGenParameterSpec", "javax.crypto.KeyGenerator", "java.security.SecureRandom", "javax.xml.crypto.dsig.spec.HMACParameterSpec", "java.security.KeyPairGenerator", "javax.net.ssl.TrustManagerFactory", "java.security.Signature", "javax.crypto.Mac", "javax.crypto.spec.PBEParameterSpec", "java.security.KeyStore", "javax.crypto.spec.DHParameterSpec", "java.security.spec.X509EncodedKeySpec", "java.security.KeyFactory", "java.security.Key", "java.security.cert.PKIXBuilderParameters", "java.security.DigestOutputStream", "java.security.spec.DSAGenParameterSpec", "java.security.PrivateKey", "javax.crypto.SecretKey", "javax.crypto.spec.GCMParameterSpec", "java.security.cert.TrustAnchor", "javax.net.ssl.CertPathTrustManagerParameters", "java.security.MessageDigest", "javax.net.ssl.SSLParameters", "javax.crypto.Cipher", "javax.net.ssl.SSLEngine", "javax.crypto.CipherInputStream", "javax.crypto.SecretKeyFactory", "java.net.PasswordAuthentication", "javax.crypto.spec.OAEPParameterSpec", "java.security.spec.ECGenParameterSpec", "javax.crypto.spec.IvParameterSpec", "javax.crypto.spec.DHGenParameterSpec", "javax.crypto.spec.PBEKeySpec", "javax.crypto.KeyAgreement", "javax.servlet.http.Cookie", "javax.crypto.CipherOutputStream", "java.security.spec.MGF1ParameterSpec", "javax.net.ssl.KeyManagerFactory", "java.security.PublicKey", "java.security.cert.PKIXParameters", "java.security.AlgorithmParameters", "java.security.spec.ECParameterSpec", "java.security.spec.DSAParameterSpec", "java.security.DigestInputStream" ]
+        },
+        "totalRulesCount" : 51,
+        "statistics" : {
+          "entryPoints" : 1,
+          "analysisTime" : "1.021 s",
+          "edgesInCallGraph" : 52089,
+          "callGraphConstructionTime" : "2.377 min",
+          "typestateAnalysisTime" : "691.3 ms",
+          "reachableMethods" : 12583
+        }
+      }
+    },
+    "artifacts" : [ {
+      "location" : {
+        "uri" : "com/chownow/communitylanes/util/SSLUtil.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "okhttp3/OkHttpClient.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/facebook/appevents/AppEvent.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/gms/iid/zzo.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/libraries/places/internal/dh.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/facebook/internal/Utility.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/gms/iid/zzd.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/chownow/communitylanes/util/Decoder.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/stripe/android/StripeTextUtils.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/gms/iid/InstanceID.java"
+      },
+      "mimeType" : "text/java"
+    }, {
+      "location" : {
+        "uri" : "com/google/android/gms/iid/zzn.java"
+      },
+      "mimeType" : "text/java"
+    } ]
+  } ]
+}
