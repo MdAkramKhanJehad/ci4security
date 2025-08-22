@@ -5,15 +5,15 @@
     "result": [
       {
         "result": "Lcom/google/vr/sdk/widgets/video/deps/dv;.a:(Lcom/google/vr/sdk/widgets/video/deps/eV;)J L1ffb22 : Use non-random IV!",
-        "status": ""
+        "status": false
       },
       {
         "result": "Lcom/google/vr/sdk/widgets/video/deps/fy;.f:()Z L214ea2 : Use non-random IV!",
-        "status": ""
+        "status": false
       },
       {
         "result": "Lcom/google/vr/sdk/widgets/video/deps/fy;.g:()V L2154ce : Use non-random IV!",
-        "status": ""
+        "status": false
       }
     ]
   },
@@ -53,15 +53,15 @@
     "result": [
       {
         "result": "Lcom/gomfactory/adpie/sdk/security/Crypto;.decrypt:(Ljava/lang/String;)Ljava/lang/String; L3affba : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/fsn/cauly/blackdragoncore/utils/o;.a:(Ljava/lang/String;Z)Ljava/lang/String; L393d98 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/gomfactory/adpie/sdk/security/Crypto;.encrypt:(Ljava/lang/String;)Ljava/lang/String; L3b008a : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -71,15 +71,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L232ba6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L202702 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L232752 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -124,11 +124,11 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4e990e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4e9d88 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -138,15 +138,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L2ace22 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L254126 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2ac9a2 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -161,7 +161,7 @@
     "result": [
       {
         "result": "Ldk/mochsoft/vnc/vncxvt;.do_ard_fusk:([BII)V L2b5998 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -171,19 +171,19 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L3e6306 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jehutyno/yomikata/util/CopyUtils;.decodeFile:(Ljavax/crypto/spec/SecretKeySpec;[B)[B L0ca7dc : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L3e692e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jehutyno/yomikata/util/CopyUtils;.encodeFile:(Ljavax/crypto/spec/SecretKeySpec;[B)[B L0ca80c : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -228,15 +228,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L383e7e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L384302 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L342f36 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -246,11 +246,11 @@
     "result": [
       {
         "result": "Lcom/bytedance/sdk/component/c/a;.a:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L53e8f2 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/bytedance/sdk/component/c/a;.b:(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L53ea3c : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -265,11 +265,11 @@
     "result": [
       {
         "result": "Lcom/androidfin/library/GeneralScreenMode;.FN_DecryptString:(Ljava/lang/String;)Ljava/lang/String; L3b63e0 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/androidfin/library/GeneralScreenMode;.FN_EncryptString:(Ljava/lang/String;)Ljava/lang/String; L3b64c8 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -284,15 +284,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L48afb2 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4e23ee : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4e286e : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -302,19 +302,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L4151c8 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L415276 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L4134b6 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L4134ce : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -349,51 +349,51 @@
     "result": [
       {
         "result": "Lcom/jcraft/jsch/jce/AES256CBC;.init:(I[B[B)V L742958 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jcraft/jsch/jce/TripleDESCTR;.init:(I[B[B)V L4a9760 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jcraft/jsch/jce/AES192CBC;.init:(I[B[B)V L4a89ec : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jcraft/jsch/jce/AES192CTR;.init:(I[B[B)V L742784 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jcraft/jsch/jce/TripleDESCBC;.init:(I[B[B)V L74ff7c : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jcraft/jsch/jce/AES128CBC;.init:(I[B[B)V L74eb1c : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jcraft/jsch/jce/BlowfishCTR;.init:(I[B[B)V L74f140 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jcraft/jsch/jce/AES128CTR;.init:(I[B[B)V L4a8818 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jcraft/jsch/jce/BlowfishCBC;.init:(I[B[B)V L73a19c : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lt0/a;.c:([B[BLjava/lang/String;)Ljava/lang/String; L97d1da : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/jcraft/jsch/jce/AES256CTR;.init:(I[B[B)V L7a500c : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lt0/a;.e:(Ljava/lang/String;[BLjava/lang/String;)[B L97d25a : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -433,31 +433,31 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L2a1c1e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L2612ce : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1199c2 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L11b6d4 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L11b782 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1199da : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2a179e : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -472,31 +472,31 @@
     "result": [
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAES256:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L489004 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAESother:([BLjava/io/InputStream;Ljava/io/OutputStream;Z)V L4890dc : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.computeHash2B:([B[B[B)[B L489b34 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L48a718 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L48a5b8 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.validatePerms:(Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;IZ)V L48aa1c : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.computeEncryptedKeyRev56:([BZ[B[B[B[BI)[B L489998 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -543,7 +543,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L350b0a : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -561,7 +561,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L1eac3a : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -571,11 +571,11 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L3dc4de : Use non-random IV!",
-        "status": ""
+        "status": false
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L3b996e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lmobile/en/com/educationalnetworksmobile/utils/StringUtils;.decryptMsg:(Ljava/lang/String;)Ljava/lang/String; L352d68 : Use ECB mode!",
@@ -583,7 +583,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L3dcb52 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lmobile/en/com/educationalnetworksmobile/utils/StringUtils;.encryptMsg:(Ljava/lang/String;)Ljava/lang/String; L352dc8 : Use ECB mode!",
@@ -657,15 +657,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4f1c4e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L19aaba : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L19a63a : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -769,15 +769,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2200da : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L22055a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L1e00ae : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -856,15 +856,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L27e896 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L2362ca : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L27e416 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -950,7 +950,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4be25a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/cipl/mickyfinns/decrypt_aes/CryptLib;.encryptDecrypt:(Ljava/lang/String;Ljava/lang/String;Lcom/cipl/mickyfinns/decrypt_aes/CryptLib$EncryptMode;Ljava/lang/String;)Ljava/lang/String; L1f6ca0 : Use non-random IV!",
@@ -958,11 +958,11 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4765d2 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4be6da : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/cta/liquorestorehash/decrypt_aes/CryptLib;.encryptDecrypt:(Ljava/lang/String;Ljava/lang/String;Lcom/cta/liquorestorehash/decrypt_aes/CryptLib$EncryptMode;Ljava/lang/String;)Ljava/lang/String; L34e77c : Use non-random IV!",
@@ -996,15 +996,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2c2822 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L26acf6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L2c2ca2 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -1024,11 +1024,11 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4e14d2 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4e104e : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -1043,15 +1043,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4536ca : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4883be : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L487f6a : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -1297,7 +1297,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L26df22 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/oustme/oustsdk/tools/OustSdkTools;.decryptQuestion:(Lcom/oustme/oustsdk/response/common/EncrypQuestions;Ljavax/crypto/Cipher;)Lcom/oustme/oustsdk/room/dto/DTOQuestions; L322446 : Use ECB mode!",
@@ -1309,7 +1309,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L2aed22 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/oustme/gsf/library/tools/OustTools;.decryptBranchData:(Lcom/oustme/oustsdk/response/common/BranchIoResponce;Ljavax/crypto/Cipher;)Lcom/oustme/oustsdk/response/common/BranchIoResponce; L2b95d0 : Use ECB mode!",
@@ -1317,11 +1317,11 @@
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L3a4e0e : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3a3076 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/oustme/oustsdk/tools/OustSdkTools;.decryptBranchData:(Lcom/oustme/oustsdk/response/common/BranchIoResponce;Ljavax/crypto/Cipher;)Lcom/oustme/oustsdk/response/common/BranchIoResponce; L3221d0 : Use ECB mode!",
@@ -1329,15 +1329,15 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L2af1a6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L3a4d60 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3a308e : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/oustme/oustsdk/tools/OustSdkTools;.getDecryptedQuestion:(Lcom/oustme/oustsdk/response/common/PlayResponse;)Lcom/oustme/oustsdk/response/common/PlayResponse; L322374 : Use ECB mode!",
@@ -1553,7 +1553,7 @@
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L406ede : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/spv/isp/document/utils/DocumentUtilities;.commonDecryption:([B)Ljava/lang/String; L3aa15c : Use ECB mode!",
@@ -1561,27 +1561,27 @@
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L408c06 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L53f5f6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L59704e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L406ef6 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L596bce : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L408b58 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -1716,7 +1716,7 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3b27f6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/rtve/ztnr/encrypt/BlowFishEncrypt;.decrypt:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L37544a : Use non-random IV!",
@@ -1724,11 +1724,11 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L3b2c7a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L36ae6e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/rtve/ztnr/encrypt/BlowFishEncrypt;.encrypt:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L375504 : Use non-random IV!",
@@ -1846,31 +1846,31 @@
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2ae67e : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L412cba : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2b0436 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2b0388 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4384de : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2ae696 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L438932 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -2089,7 +2089,7 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L52e65a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L1c68fa : Use non-random IV!",
@@ -2097,7 +2097,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4dc4da : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L1c65b0 : Use non-random IV!",
@@ -2105,7 +2105,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L52e1da : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -2248,19 +2248,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L0570ae : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L057096 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L058d9c : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L058e4a : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -2285,15 +2285,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L36cc2a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3b830a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L3b878a : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -2472,11 +2472,11 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L584b16 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L52b54a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/mbridge/msdk/playercommon/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L484b90 : Use non-random IV!",
@@ -2492,7 +2492,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L584692 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/fyber/inneractive/sdk/player/exoplayer2/extractor/hls/a;.a:(Lcom/fyber/inneractive/sdk/player/exoplayer2/upstream/j;)J L4004d2 : Use non-random IV!",
@@ -2519,19 +2519,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L179ab8 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1774f6 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L179b66 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L17750e : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -2549,11 +2549,11 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4ed78e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4ed30a : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -2647,7 +2647,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L26d6e2 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "La/b;.b:([BLjava/lang/String;)[B L1bb3f0 : Use ECB mode!",
@@ -2655,11 +2655,11 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L26d262 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L215e12 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -2694,15 +2694,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4cc25a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4cbdda : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L47a2ee : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -2742,19 +2742,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L281872 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2817c4 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L27faba : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L27faa2 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -2832,15 +2832,15 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L49ed2e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4e6756 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4e62d6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/estimote/coresdk/common/internal/utils/AuthMath;.aesEncrypt:([B[B)[B L33588a : Use ECB mode!",
@@ -2952,7 +2952,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L33f65e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/googlecode/mp4parser/boxes/cenc/CencEncryptingSampleList;.initCipher:([BLjavax/crypto/SecretKey;)V L27ef34 : Use non-random IV!",
@@ -2960,11 +2960,11 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L373b2a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3736d2 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L27e878 : Use non-random IV!",
@@ -3026,19 +3026,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1cf5ba : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2f4c14 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1cf5d6 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2f4cd6 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3068,19 +3068,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3f9c3e : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L3fc2b6 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L3fc208 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3f9c26 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3123,15 +3123,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L359d0a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L35a18e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L3150a2 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3141,19 +3141,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1f5892 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L1f7e60 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L1f58aa : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L1f7f0e : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3285,19 +3285,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L37b0c2 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3791ae : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L379192 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L37b014 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3312,15 +3312,15 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2ecd36 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2eaf82 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2eaf6a : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/dci/magzter/jncrypt/Security;.getD:(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; L4533be : Use non-random IV!",
@@ -3332,7 +3332,7 @@
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2ecc88 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/dci/magzter/jncrypt/Security;.encryptKey:(Ljava/lang/String;)Ljava/lang/String; L453256 : Use non-random IV!",
@@ -3366,19 +3366,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2e227a : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2e2292 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2e3f64 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2e4012 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3431,11 +3431,11 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L313696 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L313aea : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3455,11 +3455,11 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4ab1d6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4aad56 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/uxcam/internals/at;.<init>:()V L3ff130 : Use non-random IV!",
@@ -3467,7 +3467,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L45298e : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3689,7 +3689,7 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L33739e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L35e600 : Use non-random IV!",
@@ -3707,7 +3707,7 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L35eea2 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L385c58 : Use non-random IV!",
@@ -3743,7 +3743,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L263e66 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3782,19 +3782,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L2a2148 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2a044e : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L2a21f6 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L41fee2 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/atom/ipg/data/security/SecureCardData;.encryptData:(Ljava/lang/String;)Ljava/lang/String; L3612d6 : Use ECB mode!",
@@ -3806,15 +3806,15 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L3fa14a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L41fa8e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L2a0436 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3824,19 +3824,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L06b968 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L069c6e : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L06ba16 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L069c56 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3851,15 +3851,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4f3926 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L1942b2 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L194736 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3908,19 +3908,19 @@
     "result": [
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3d3ba2 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L3d620a : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L3d3b8a : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L3d615c : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -3930,7 +3930,7 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L311ad6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.readFile:()Z L338a0c : Use non-random IV!",
@@ -4037,7 +4037,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4c639a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/googlecode/mp4parser/boxes/cenc/CencEncryptingSampleList;.initCipher:([BLjavax/crypto/SecretKey;)V L3e7818 : Use non-random IV!",
@@ -4049,11 +4049,11 @@
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAES256:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L3d8c10 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4c6822 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L3da348 : Use non-random IV!",
@@ -4069,7 +4069,7 @@
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAESother:([BLjava/io/InputStream;Ljava/io/OutputStream;Z)V L3d8ce8 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/googlecode/mp4parser/boxes/cenc/CencDecryptingSampleList;.getCipher:(Ljavax/crypto/SecretKey;[B)Ljavax/crypto/Cipher; L3e715c : Use non-random IV!",
@@ -4081,7 +4081,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L46e1de : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/razorpay/L__R$;.G__G_:(Ljava/lang/String;Ljava/lang/String;Lcom/razorpay/L__R$$d__1_;Ljava/lang/String;)Ljava/lang/String; L352044 : Use non-random IV!",
@@ -4095,15 +4095,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3d7222 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L3d7676 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L3a3c52 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -4152,15 +4152,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L1db20a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L20ee92 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L20f2e6 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -4278,7 +4278,7 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L323072 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex;.writeFile:()V L3462ba : Use non-random IV!",
@@ -4301,7 +4301,7 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L2fa1ea : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/ironsource/mediationsdk/utils/IronSourceAES;.decodeToBytes:(Ljava/lang/String;Ljava/lang/String;)[B L1f431c : Use non-random IV!",
@@ -4317,7 +4317,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L33f5b6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/ironsource/mediationsdk/utils/IronSourceAES;.encodeFromBytes:(Ljava/lang/String;[B)Ljava/lang/String; L1f4666 : Use non-random IV!",
@@ -4325,7 +4325,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L33f136 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -4470,15 +4470,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L46bf46 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L4130d6 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L46c3c0 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -4596,11 +4596,11 @@
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/SecurityHandler;.encryptDataAES256:(Ljava/io/InputStream;Ljava/io/OutputStream;Z)V L3260cc : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/tom_roush/pdfbox/pdmodel/encryption/StandardSecurityHandler;.prepareEncryptionDictRev6:(Ljava/lang/String;Ljava/lang/String;Lcom/tom_roush/pdfbox/pdmodel/encryption/PDEncryption;I)V L327490 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -4649,15 +4649,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L4b8b2c : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L45fb22 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L4b86b2 : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -4843,15 +4843,15 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L25904e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L200962 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L258bce : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -4899,11 +4899,11 @@
       },
       {
         "result": "Lcom/gomfactory/adpie/sdk/security/Crypto;.encrypt:(Ljava/lang/String;)Ljava/lang/String; L565fca : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/gomfactory/adpie/sdk/security/Crypto;.decrypt:(Ljava/lang/String;)Ljava/lang/String; L565efa : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/naver/ads/internal/video/y3;.a:(Lcom/naver/ads/internal/video/mc;)J L45da76 : Use non-random IV!",
@@ -5004,7 +5004,7 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L25b726 : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/navercorp/nid/crypto/a;.e:(I[CLjava/lang/String;Ljava/lang/String;)[C L3b45ec : Use non-random IV!",
@@ -5024,7 +5024,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L204f0e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/naver/android/jetplayer/extension/hls/a;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L271352 : Use non-random IV!",
@@ -5032,7 +5032,7 @@
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L25bbaa : Use non-random IV!",
-        "status": ""
+        "status": true
       }
     ]
   },
@@ -5172,31 +5172,31 @@
     "result": [
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.writeFile:(Ljava/util/HashMap;)V L3b9a8e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L401ec2 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage;.readFile:(Ljava/util/HashMap;Landroid/util/SparseArray;)Z L3b963a : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmHash:(Ljava/lang/String;)[B L403b88 : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcom/google/android/exoplayer2/source/hls/Aes128DataSource;.open:(Lcom/google/android/exoplayer2/upstream/DataSpec;)J L38536e : Use non-random IV!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen;.getLanManagerSessionKey:()[B L401eaa : Use ECB mode!",
-        "status": ""
+        "status": true
       },
       {
         "result": "Lcz/msebera/android/httpclient/impl/auth/NTLMEngineImpl;.lmResponse:([B[B)[B L403c36 : Use ECB mode!",
-        "status": ""
+        "status": true
       }
     ]
   },
