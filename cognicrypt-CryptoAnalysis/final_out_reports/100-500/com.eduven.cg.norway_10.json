@@ -1,0 +1,649 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3.init($r0)"
+                  },
+                  "startLine": 3
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "e/c/a/f/m.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "e.c.a.f.m"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String u(java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Mac",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.Mac",
+            "text": "First parameter was not properly generated as generatedKey"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 46,
+            "precedingErrors": [
+              47,
+              0
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.<init>($r4,varReplacer10377)"
+                  },
+                  "startLine": 2
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "e/c/a/f/m.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "e.c.a.f.m"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String u(java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              46
+            ],
+            "errorId": 47,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.<init>($r4,varReplacer10377)"
+                  },
+                  "startLine": 2
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "e/c/a/f/m.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "e.c.a.f.m"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String u(java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "Constraint \"neverTypeOf[keyMaterial, java.lang.String]\" on object $r0 is violated due to the following reason:First parameter @ $r0.<init>($r4,varReplacer10377) should never be of type java.lang.String"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [
+              46
+            ],
+            "errorId": 0,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2 = getInstance(varReplacer10533)"
+                  },
+                  "startLine": 2
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "e/c/a/f/m.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "e.c.a.f.m"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String p(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r2 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer10533\" (transformation) with value \"AES\" satisfies the constraint in class e.c.a.f.m @ $r2 = getInstance(varReplacer10533) @ line 2\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer10533\" (transformation) with value \"AES\" violates the constraint in class e.c.a.f.m @ $r2 = getInstance(varReplacer10533) @ line 2"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 11,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2.init(varReplacer10534,$r1)"
+                  },
+                  "startLine": 3
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "e/c/a/f/m.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "e.c.a.f.m"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String p(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Second parameter parameter was not properly generated as generatedKey OR generatedPrivkey OR generatedPubkey"
+          },
+          "properties": {
+            "errorType": "AlternativeReqPredicateError",
+            "subsequentErrors": [],
+            "errorId": 51,
+            "precedingErrors": [
+              52
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.<init>($r1,varReplacer10553)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "e/c/a/f/m.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "e.c.a.f.m"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.security.Key v()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              51
+            ],
+            "errorId": 52,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7 = getInstance(varReplacer7376)"
+                  },
+                  "startLine": 5
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/zzbbg.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.zzbbg"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zzyo()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer7376\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer7376 = \"MD5\" @ line 4)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 28,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = getInstance(varReplacer8172)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/zzbbg.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.zzbbg"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zzex(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r5 is violated due to the following reason:\\n|- First parameter \"varReplacer8172\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer8172 = \"MD5\" @ line 1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 29,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = $r5.digest()"
+                  },
+                  "startLine": 3
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/bumptech/glide/load/n/b0/j.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.n.b0.j"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String a(com.bumptech.glide.load.g)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.MessageDigest",
+            "text": "Unexpected call to method \"digest\" on object of type java.security.MessageDigest. Expected a call to one of the following methods {update(java.nio.ByteBuffer), update(byte[], int, int), update(byte[]), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 30,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.clear()"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "e/b/a/s/l/a$c.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "e.b.a.s.l.a$c"
+                },
+                {
+                  "kind": "method",
+                  "name": "void b(java.util.List)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.MessageDigest",
+            "text": "Unexpected call to method \"clear\" on object of type java.security.MessageDigest. Expected a call to one of the following methods {update(java.nio.ByteBuffer), update(byte[], int, int), update(byte[]), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 31,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3 = $r2.l()"
+                  },
+                  "startLine": 2
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "e/b/a/s/l/a$e.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "e.b.a.s.l.a$e"
+                },
+                {
+                  "kind": "method",
+                  "name": "boolean a(java.lang.Object)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.MessageDigest",
+            "text": "Unexpected call to method \"l\" on object of type java.security.MessageDigest. Expected a call to one of the following methods {update(java.nio.ByteBuffer), update(byte[], int, int), update(byte[]), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 32,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer20018)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 5,
+                  "uri": "com/bumptech/glide/load/n/b0/j$a.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.n.b0.j$a"
+                },
+                {
+                  "kind": "method",
+                  "name": "com.bumptech.glide.load.n.b0.j$b b()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Operation on object of type java.security.MessageDigest not completed. Expected call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[]), update(byte), update(byte[])}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 33,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "RequiredPredicateError": 3,
+            "TypestateError": 3,
+            "ConstraintError": 4,
+            "IncompleteOperationError": 1,
+            "AlternativeReqPredicateError": 1
+          },
+          "totalSeedsCount": 12,
+          "totalErrorCount": 12,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "7.480 min",
+            "edgesInCallGraph": 30780,
+            "callGraphConstructionTime": "1.410 min",
+            "typestateAnalysisTime": "7.470 min",
+            "reachableMethods": 7328
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "e/b/a/s/l/a$e.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/n/b0/j$a.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "e/b/a/s/l/a$c.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "e/c/a/f/m.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/ads/zzbbg.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/n/b0/j.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,655 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7 = getInstance(varReplacer3140)"
+                  },
+                  "startLine": 5
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/google/android/gms/internal/ads/zzcgm.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.zzcgm"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zzf()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer3140\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer3140 = \"MD5\" @ line 4)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 0,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = getInstance(varReplacer4541)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/google/android/gms/internal/ads/zzcgm.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.zzcgm"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zzd(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r5 is violated due to the following reason:\\n|- First parameter \"varReplacer4541\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer4541 = \"MD5\" @ line 1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 1,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.init(varReplacer1463,$r9,$r7)"
+                  },
+                  "startLine": 751
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/jsoup/helper/HttpConnection$Response.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.jsoup.helper.HttpConnection$Response"
+                },
+                {
+                  "kind": "method",
+                  "name": "void initUnSecureTSL()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Second parameter was not properly generated as generatedTrustManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 16,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4 = getInstance(varReplacer1462)"
+                  },
+                  "startLine": 750
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/jsoup/helper/HttpConnection$Response.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.jsoup.helper.HttpConnection$Response"
+                },
+                {
+                  "kind": "method",
+                  "name": "void initUnSecureTSL()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r4 is violated due to the following reason:\\n|- First parameter \"varReplacer1462\" with value \"SSL\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer1462 = \"SSL\" @ line 734)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 2,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.init(varReplacer1463,$r9,$r7)"
+                  },
+                  "startLine": 751
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/jsoup/helper/HttpConnection$Response.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.jsoup.helper.HttpConnection$Response"
+                },
+                {
+                  "kind": "method",
+                  "name": "void initUnSecureTSL()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "First parameter was not properly generated as generatedKeyManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 15,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = $r5.digest()"
+                  },
+                  "startLine": 54
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/bumptech/glide/load/engine/cache/SafeKeyGenerator.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.engine.cache.SafeKeyGenerator"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String calculateHexStringDigest(com.bumptech.glide.load.Key)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.MessageDigest",
+            "text": "Unexpected call to method \"digest\" on object of type java.security.MessageDigest. Expected a call to one of the following methods {update(java.nio.ByteBuffer), update(byte[], int, int), update(byte[]), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 3,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.update($r2)"
+                  },
+                  "startLine": 55
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/bumptech/glide/load/resource/bitmap/RoundedCorners.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.resource.bitmap.RoundedCorners"
+                },
+                {
+                  "kind": "method",
+                  "name": "void updateDiskCacheKey(java.security.MessageDigest)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Call to update on object of type java.security.MessageDigest is on a dataflow path with an incomplete operation. Potential missing call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[], int, int), update(byte[]), digest(), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 4,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.update($r2)"
+                  },
+                  "startLine": 37
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "com/bumptech/glide/load/resource/bitmap/CenterCrop.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.resource.bitmap.CenterCrop"
+                },
+                {
+                  "kind": "method",
+                  "name": "void updateDiskCacheKey(java.security.MessageDigest)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Call to update on object of type java.security.MessageDigest is on a dataflow path with an incomplete operation. Potential missing call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[], int, int), update(byte[]), digest(), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 5,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.update($r2)"
+                  },
+                  "startLine": 37
+                },
+                "artifactLocation": {
+                  "index": 5,
+                  "uri": "com/bumptech/glide/load/resource/bitmap/CenterInside.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.resource.bitmap.CenterInside"
+                },
+                {
+                  "kind": "method",
+                  "name": "void updateDiskCacheKey(java.security.MessageDigest)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Call to update on object of type java.security.MessageDigest is on a dataflow path with an incomplete operation. Potential missing call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[], int, int), update(byte[]), digest(), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 6,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.update($r2)"
+                  },
+                  "startLine": 35
+                },
+                "artifactLocation": {
+                  "index": 6,
+                  "uri": "com/bumptech/glide/load/resource/bitmap/FitCenter.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.resource.bitmap.FitCenter"
+                },
+                {
+                  "kind": "method",
+                  "name": "void updateDiskCacheKey(java.security.MessageDigest)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Call to update on object of type java.security.MessageDigest is on a dataflow path with an incomplete operation. Potential missing call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[], int, int), update(byte[]), digest(), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 7,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer7849)"
+                  },
+                  "startLine": 28
+                },
+                "artifactLocation": {
+                  "index": 7,
+                  "uri": "com/bumptech/glide/load/engine/cache/SafeKeyGenerator$1.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.engine.cache.SafeKeyGenerator$1"
+                },
+                {
+                  "kind": "method",
+                  "name": "com.bumptech.glide.load.engine.cache.SafeKeyGenerator$PoolableDigestContainer create()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Call to getInstance on object of type java.security.MessageDigest is on a dataflow path with an incomplete operation. Potential missing call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[]), update(byte), update(byte[])}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 8,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.update($r5)"
+                  },
+                  "startLine": 47
+                },
+                "artifactLocation": {
+                  "index": 8,
+                  "uri": "com/bumptech/glide/signature/ObjectKey.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.signature.ObjectKey"
+                },
+                {
+                  "kind": "method",
+                  "name": "void updateDiskCacheKey(java.security.MessageDigest)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Call to update on object of type java.security.MessageDigest is on a dataflow path with an incomplete operation. Potential missing call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[], int, int), update(byte[]), digest(), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 9,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "RequiredPredicateError": 2,
+            "TypestateError": 1,
+            "ConstraintError": 3,
+            "IncompleteOperationError": 6
+          },
+          "totalSeedsCount": 8,
+          "totalErrorCount": 12,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "1.754 min",
+            "edgesInCallGraph": 14718,
+            "callGraphConstructionTime": "39.88 s",
+            "typestateAnalysisTime": "1.751 min",
+            "reachableMethods": 4095
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "org/jsoup/helper/HttpConnection$Response.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/resource/bitmap/CenterInside.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/resource/bitmap/CenterCrop.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/engine/cache/SafeKeyGenerator.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/ads/zzcgm.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/signature/ObjectKey.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/resource/bitmap/RoundedCorners.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/resource/bitmap/FitCenter.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/engine/cache/SafeKeyGenerator$1.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

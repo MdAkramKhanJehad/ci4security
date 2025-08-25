@@ -1,0 +1,494 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.<init>($r2,varReplacer3433)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/tappx/a/d.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.tappx.a.d"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              71,
+              75
+            ],
+            "errorId": 67,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5.init(varReplacer3437,$r4)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/tappx/a/d.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.tappx.a.d"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Operation on object of type javax.crypto.Cipher not completed. Expected call to one of the methods {doFinal(byte[]), update(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[]), update(byte[]), update(byte[], int, int, byte[]), updateAAD(byte[], int, int), update(byte[], int, int), update(java.nio.ByteBuffer, java.nio.ByteBuffer), wrap(java.security.Key), updateAAD(byte[]), updateAAD(java.nio.ByteBuffer), doFinal(byte[], int, int), doFinal(java.nio.ByteBuffer, java.nio.ByteBuffer)}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 55,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5.init(varReplacer3435,$r4)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/tappx/a/d.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.tappx.a.d"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Operation on object of type javax.crypto.Cipher not completed. Expected call to one of the methods {doFinal(byte[]), update(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[], int), doFinal(byte[], int, int, byte[]), update(byte[]), update(byte[], int, int, byte[]), updateAAD(byte[], int, int), update(byte[], int, int), update(java.nio.ByteBuffer, java.nio.ByteBuffer), wrap(java.security.Key), updateAAD(byte[]), updateAAD(java.nio.ByteBuffer), doFinal(byte[], int, int), doFinal(java.nio.ByteBuffer, java.nio.ByteBuffer)}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 28,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5.init(varReplacer3435,$r4)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/tappx/a/d.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.tappx.a.d"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Second parameter parameter was not properly generated as generatedPrivkey OR generatedPubkey OR generatedKey"
+          },
+          "properties": {
+            "errorType": "AlternativeReqPredicateError",
+            "subsequentErrors": [],
+            "errorId": 71,
+            "precedingErrors": [
+              67
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = getInstance(varReplacer3434)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/tappx/a/d.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.tappx.a.d"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r5 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer3434\" (transformation) with value \"AES\" satisfies the constraint in class com.tappx.a.d @ $r5 = getInstance(varReplacer3434) @ line -1\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer3434\" (transformation) with value \"AES\" violates the constraint in class com.tappx.a.d @ $r5 = getInstance(varReplacer3434) @ line -1"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 9,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5.init(varReplacer3437,$r4)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/tappx/a/d.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.tappx.a.d"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Second parameter parameter was not properly generated as generatedPubkey OR generatedKey OR generatedPrivkey"
+          },
+          "properties": {
+            "errorType": "AlternativeReqPredicateError",
+            "subsequentErrors": [],
+            "errorId": 75,
+            "precedingErrors": [
+              67
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = getInstance(varReplacer3436)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/tappx/a/d.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.tappx.a.d"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r5 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer3436\" (transformation) with value \"AES\" satisfies the constraint in class com.tappx.a.d @ $r5 = getInstance(varReplacer3436) @ line -1\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer3436\" (transformation) with value \"AES\" violates the constraint in class com.tappx.a.d @ $r5 = getInstance(varReplacer3436) @ line -1"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 38,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7 = getInstance(varReplacer5421)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/zzcgi.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.zzcgi"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zzd()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer5421\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer5421 = \"MD5\" @ line -1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 56,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = getInstance(varReplacer7975)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/zzcgi.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.zzcgi"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zze(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r5 is violated due to the following reason:\\n|- First parameter \"varReplacer7975\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer7975 = \"MD5\" @ line -1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 57,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "RequiredPredicateError": 1,
+            "IncompleteOperationError": 2,
+            "ConstraintError": 4,
+            "AlternativeReqPredicateError": 2
+          },
+          "totalSeedsCount": 8,
+          "totalErrorCount": 9,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "1.610 min",
+            "edgesInCallGraph": 20997,
+            "callGraphConstructionTime": "1.491 min",
+            "typestateAnalysisTime": "1.593 min",
+            "reachableMethods": 6239
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/ads/zzcgi.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/tappx/a/d.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

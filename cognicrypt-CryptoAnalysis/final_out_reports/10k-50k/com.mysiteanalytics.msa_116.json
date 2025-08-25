@@ -1,0 +1,1317 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer3265)"
+                  },
+                  "startLine": 380
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "io/branch/indexing/ContentDiscoverer$HashHelper.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "io.branch.indexing.ContentDiscoverer$HashHelper"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(io.branch.indexing.ContentDiscoverer)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Operation on object of type java.security.MessageDigest not completed. Expected call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[]), update(byte), update(byte[])}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 1,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer3265)"
+                  },
+                  "startLine": 380
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "io/branch/indexing/ContentDiscoverer$HashHelper.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "io.branch.indexing.ContentDiscoverer$HashHelper"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(io.branch.indexing.ContentDiscoverer)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer3265\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer3265 = \"MD5\" @ line 378)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 0,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2 = getInstance(varReplacer1188)"
+                  },
+                  "startLine": 25
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/mysiteanalytics/msa/helpers/ExtensionsKt.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.ExtensionsKt"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String SHA1(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer1188\" with value \"SHA-1\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer1188 = \"SHA-1\" @ line 25)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 2,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r10 = getInstance($r9)"
+                  },
+                  "startLine": 29
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"getInstance\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 13,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r10 = getInstance($r9)"
+                  },
+                  "startLine": 29
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.KeyStore",
+            "text": "Call to getInstance on object of type java.security.KeyStore is on a dataflow path with an incomplete operation. Potential missing call to one of the methods {load(java.io.InputStream, char[]), load(java.security.KeyStore$LoadStoreParameter)}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 21,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r10 = getInstance($r9)"
+                  },
+                  "startLine": 29
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for java.security.KeyStore",
+            "text": "Could not evaluate the constraint \"type in {JCEKS, JKS, DKS, PKCS11, PKCS12}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <java.security.KeyStore: java.lang.String getDefaultType()>()\" in class \"com.mysiteanalytics.msa.helpers.AppKeyStore\" @ $r9 = getDefaultType() @ line 29"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [],
+            "errorId": 3,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r11 = $r5.getEntry($r2,$r10)"
+                  },
+                  "startLine": 150
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String get(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"getEntry\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 4,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = $r5.aliases()"
+                  },
+                  "startLine": 144
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String get(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"aliases\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 11,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = $r5.aliases()"
+                  },
+                  "startLine": 144
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String get(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"aliases\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[]), getEntry(java.lang.String, java.security.KeyStore$ProtectionParameter), setEntry(java.lang.String, java.security.KeyStore$Entry, java.security.KeyStore$ProtectionParameter)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 12,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r11 = $r5.getEntry($r2,$r10)"
+                  },
+                  "startLine": 150
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String get(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.KeyStore",
+            "text": "Call to getEntry on object of type java.security.KeyStore is on a dataflow path with an incomplete operation. Potential missing call to one of the methods {getKey(java.lang.String, char[])}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 20,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r14 = r0.getAccountToken($i0)"
+                  },
+                  "startLine": 62
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "boolean changePIN(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"getAccountToken\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 7,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3 = r0.getUserToken()"
+                  },
+                  "startLine": 56
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "boolean changePIN(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"getUserToken\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 6,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r15.<init>($r2,varReplacer3174)"
+                  },
+                  "startLine": 70
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "boolean changePIN(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"<init>\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 16,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r11.load($r12,$r9)"
+                  },
+                  "startLine": 103
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "com.mysiteanalytics.msa.models.Enums.CredentialStorePINStatus checkPin(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"load\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[]), getEntry(java.lang.String, java.security.KeyStore$ProtectionParameter), setEntry(java.lang.String, java.security.KeyStore$Entry, java.security.KeyStore$ProtectionParameter)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 10,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "r0.setAccessStatus($r13)"
+                  },
+                  "startLine": 104
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.AppKeyStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "com.mysiteanalytics.msa.models.Enums.CredentialStorePINStatus checkPin(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"setAccessStatus\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[]), getEntry(java.lang.String, java.security.KeyStore$ProtectionParameter), setEntry(java.lang.String, java.security.KeyStore$Entry, java.security.KeyStore$ProtectionParameter)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 8,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4 = $r3.checkPin($r1)"
+                  },
+                  "startLine": 248
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/mysiteanalytics/msa/bal/ApplicationBAL.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.bal.ApplicationBAL"
+                },
+                {
+                  "kind": "method",
+                  "name": "boolean verifyPIN(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"checkPin\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[]), getEntry(java.lang.String, java.security.KeyStore$ProtectionParameter), setEntry(java.lang.String, java.security.KeyStore$Entry, java.security.KeyStore$ProtectionParameter)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 5,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = $r3.getUserToken()"
+                  },
+                  "startLine": 251
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/mysiteanalytics/msa/bal/ApplicationBAL.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.bal.ApplicationBAL"
+                },
+                {
+                  "kind": "method",
+                  "name": "boolean verifyPIN(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"getUserToken\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[]), getEntry(java.lang.String, java.security.KeyStore$ProtectionParameter), setEntry(java.lang.String, java.security.KeyStore$Entry, java.security.KeyStore$ProtectionParameter)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 9,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = $r3.getAccountToken($i0)"
+                  },
+                  "startLine": 254
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/mysiteanalytics/msa/bal/ApplicationBAL.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.bal.ApplicationBAL"
+                },
+                {
+                  "kind": "method",
+                  "name": "boolean verifyPIN(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"getAccountToken\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[]), getEntry(java.lang.String, java.security.KeyStore$ProtectionParameter), setEntry(java.lang.String, java.security.KeyStore$Entry, java.security.KeyStore$ProtectionParameter)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 17,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = r0.get($r1)"
+                  },
+                  "startLine": 46
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "com/mysiteanalytics/msa/helpers/CredentialStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.CredentialStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String getUserToken()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"get\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[]), getEntry(java.lang.String, java.security.KeyStore$ProtectionParameter), setEntry(java.lang.String, java.security.KeyStore$Entry, java.security.KeyStore$ProtectionParameter)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 15,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = r0.get($r1)"
+                  },
+                  "startLine": 46
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "com/mysiteanalytics/msa/helpers/CredentialStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.CredentialStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String getUserToken()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"get\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 14,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = r0.get($r1)"
+                  },
+                  "startLine": 50
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "com/mysiteanalytics/msa/helpers/CredentialStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.CredentialStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String getAccountToken(int)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"get\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[])}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 18,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = r0.get($r1)"
+                  },
+                  "startLine": 50
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "com/mysiteanalytics/msa/helpers/CredentialStore.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.mysiteanalytics.msa.helpers.CredentialStore"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String getAccountToken(int)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.KeyStore",
+            "text": "Unexpected call to method \"get\" on object of type java.security.KeyStore. Expected a call to one of the following methods {getKey(java.lang.String, char[]), getEntry(java.lang.String, java.security.KeyStore$ProtectionParameter), setEntry(java.lang.String, java.security.KeyStore$Entry, java.security.KeyStore$ProtectionParameter)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 19,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = getInstance(varReplacer4960)"
+                  },
+                  "startLine": 46
+                },
+                "artifactLocation": {
+                  "index": 5,
+                  "uri": "com/github/kittinunf/fuel/core/FuelManager$socketFactory$2.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.github.kittinunf.fuel.core.FuelManager$socketFactory$2"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory invoke()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r5 is violated due to the following reason:\\n|- First parameter \"varReplacer4960\" with value \"SSL\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer4960 = \"SSL\" @ line 45)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 23,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5.init(varReplacer4962,$r6,varReplacer4963)"
+                  },
+                  "startLine": 47
+                },
+                "artifactLocation": {
+                  "index": 5,
+                  "uri": "com/github/kittinunf/fuel/core/FuelManager$socketFactory$2.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.github.kittinunf.fuel.core.FuelManager$socketFactory$2"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory invoke()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Second parameter was not properly generated as generatedTrustManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 34,
+            "precedingErrors": [
+              22,
+              31
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5.init(varReplacer4962,$r6,varReplacer4963)"
+                  },
+                  "startLine": 47
+                },
+                "artifactLocation": {
+                  "index": 5,
+                  "uri": "com/github/kittinunf/fuel/core/FuelManager$socketFactory$2.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.github.kittinunf.fuel.core.FuelManager$socketFactory$2"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory invoke()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Third parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 32,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4 = getInstance($r3)"
+                  },
+                  "startLine": 44
+                },
+                "artifactLocation": {
+                  "index": 5,
+                  "uri": "com/github/kittinunf/fuel/core/FuelManager$socketFactory$2.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.github.kittinunf.fuel.core.FuelManager$socketFactory$2"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory invoke()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.TrustManagerFactory",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+            "text": "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.TrustManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"com.github.kittinunf.fuel.core.FuelManager$socketFactory$2\" @ $r3 = getDefaultAlgorithm() @ line 44"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [
+              34
+            ],
+            "errorId": 22,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.init($r2)"
+                  },
+                  "startLine": 45
+                },
+                "artifactLocation": {
+                  "index": 5,
+                  "uri": "com/github/kittinunf/fuel/core/FuelManager$socketFactory$2.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.github.kittinunf.fuel.core.FuelManager$socketFactory$2"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory invoke()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.TrustManagerFactory",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+            "text": "First parameter was not properly generated as generatedKeyStore"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              34
+            ],
+            "errorId": 31,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5.init(varReplacer4962,$r6,varReplacer4963)"
+                  },
+                  "startLine": 47
+                },
+                "artifactLocation": {
+                  "index": 5,
+                  "uri": "com/github/kittinunf/fuel/core/FuelManager$socketFactory$2.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.github.kittinunf.fuel.core.FuelManager$socketFactory$2"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory invoke()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "First parameter was not properly generated as generatedKeyManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 33,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "ImpreciseValueExtractionError": 2,
+            "RequiredPredicateError": 4,
+            "TypestateError": 16,
+            "IncompleteOperationError": 3,
+            "ConstraintError": 3
+          },
+          "totalSeedsCount": 7,
+          "totalErrorCount": 28,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "13.68 s",
+            "edgesInCallGraph": 8857,
+            "callGraphConstructionTime": "27.20 s",
+            "typestateAnalysisTime": "6.484 s",
+            "reachableMethods": 2736
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "com/mysiteanalytics/msa/helpers/ExtensionsKt.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "io/branch/indexing/ContentDiscoverer$HashHelper.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/github/kittinunf/fuel/core/FuelManager$socketFactory$2.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/mysiteanalytics/msa/helpers/CredentialStore.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/mysiteanalytics/msa/bal/ApplicationBAL.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/mysiteanalytics/msa/helpers/AppKeyStore.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

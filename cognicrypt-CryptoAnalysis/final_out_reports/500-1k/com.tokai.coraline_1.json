@@ -1,0 +1,414 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3 = getInstance($r0)"
+                  },
+                  "startLine": 102
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/startapp/common/a/a.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.startapp.common.a.a"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String b(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+            "text": "Could not evaluate the constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" due to insufficient information:\\n|- Could not evaluate expression \"new java.lang.String\" in class \"com.startapp.common.a.a\" @ $r1 = new String @ line 27\\n|- Could not evaluate expression \"virtualinvoke $r2.<java.lang.StringBuilder: java.lang.String toString()>()\" in class \"com.startapp.android.publish.adsCommon.AdsConstants\" @ $r0 = $r2.toString() @ line 56"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [],
+            "errorId": 0,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r11 = getInstance(varReplacer11044)"
+                  },
+                  "startLine": 61
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/startapp/android/publish/ads/video/d.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.startapp.android.publish.ads.video.d"
+                },
+                {
+                  "kind": "method",
+                  "name": "void b(android.content.Context,java.lang.String,com.startapp.android.publish.ads.video.g$a,com.startapp.android.publish.ads.video.c$a)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r11 is violated due to the following reason:\\n|- First parameter \"varReplacer11044\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer11044 = \"MD5\" @ line 61)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 1,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7 = getInstance(varReplacer5731)"
+                  },
+                  "startLine": 153
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/google/android/gms/internal/ads/zzaza.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.zzaza"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zzzy()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer5731\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer5731 = \"MD5\" @ line 151)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 2,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = getInstance(varReplacer7202)"
+                  },
+                  "startLine": 56
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/google/android/gms/internal/ads/zzaza.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.zzaza"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zzeq(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r5 is violated due to the following reason:\\n|- First parameter \"varReplacer7202\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer7202 = \"MD5\" @ line 56)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 3,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = $r7.digest()"
+                  },
+                  "startLine": 614
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/startapp/common/a/c.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.startapp.common.a.c"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String a(java.io.InputStream,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.MessageDigest",
+            "text": "Unexpected call to method \"digest\" on object of type java.security.MessageDigest. Expected a call to one of the following methods {update(java.nio.ByteBuffer), update(byte[], int, int), update(byte[]), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 6,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7.update($r6,varReplacer4586,$i0)"
+                  },
+                  "startLine": 609
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/startapp/common/a/c.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.startapp.common.a.c"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String a(java.io.InputStream,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+            "text": "Could not evaluate the constraint \"preLen > 0\" due to insufficient information:\\n|- Could not evaluate expression \"virtualinvoke $r4.<java.io.InputStream: int read(byte[])>($r6)\" in class \"com.startapp.common.a.c\" @ $i0 = $r4.read($r6) @ line 605"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [],
+            "errorId": 5,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7.update($r6,varReplacer4586,$i0)"
+                  },
+                  "startLine": 609
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/startapp/common/a/c.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.startapp.common.a.c"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String a(java.io.InputStream,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+            "text": "Could not evaluate the constraint \"length[preInput] >= preLen + preOffset\" due to insufficient information:\\n|- Could not evaluate expression \"virtualinvoke $r4.<java.io.InputStream: int read(byte[])>($r6)\" in class \"com.startapp.common.a.c\" @ $i0 = $r4.read($r6) @ line 605"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [],
+            "errorId": 4,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "ImpreciseValueExtractionError": 3,
+            "TypestateError": 1,
+            "ConstraintError": 3
+          },
+          "totalSeedsCount": 12,
+          "totalErrorCount": 7,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "425.8 ms",
+            "edgesInCallGraph": 16891,
+            "callGraphConstructionTime": "49.22 s",
+            "typestateAnalysisTime": "333.6 ms",
+            "reachableMethods": 4933
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "com/startapp/common/a/a.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/startapp/android/publish/ads/video/d.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/ads/zzaza.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/startapp/common/a/c.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

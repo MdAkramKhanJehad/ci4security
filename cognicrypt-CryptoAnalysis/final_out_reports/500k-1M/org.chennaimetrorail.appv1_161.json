@@ -1,0 +1,1326 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.init(varReplacer4426,$r0)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String b(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Second parameter parameter was not properly generated as generatedPubkey OR generatedKey OR generatedPrivkey"
+          },
+          "properties": {
+            "errorType": "AlternativeReqPredicateError",
+            "subsequentErrors": [],
+            "errorId": 187,
+            "precedingErrors": [
+              188
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.<init>($r1,varReplacer4425)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String b(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              187
+            ],
+            "errorId": 188,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4 = getInstance(varReplacer4423,varReplacer4424)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String b(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r4 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer4423\" (transformation) with value \"AES\" satisfies the constraint in class com.billdesk.utils.SecurePreferences @ $r4 = getInstance(varReplacer4423,varReplacer4424) @ line -1\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer4423\" (transformation) with value \"AES\" violates the constraint in class com.billdesk.utils.SecurePreferences @ $r4 = getInstance(varReplacer4423,varReplacer4424) @ line -1"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 9,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.<init>($r1,varReplacer4418)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String c(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              192
+            ],
+            "errorId": 193,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.init(varReplacer4419,$r0)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String c(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Second parameter parameter was not properly generated as generatedPubkey OR generatedKey OR generatedPrivkey"
+          },
+          "properties": {
+            "errorType": "AlternativeReqPredicateError",
+            "subsequentErrors": [],
+            "errorId": 192,
+            "precedingErrors": [
+              193
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4 = getInstance(varReplacer4416,varReplacer4417)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String c(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r4 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer4416\" (transformation) with value \"AES\" satisfies the constraint in class com.billdesk.utils.SecurePreferences @ $r4 = getInstance(varReplacer4416,varReplacer4417) @ line -1\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer4416\" (transformation) with value \"AES\" violates the constraint in class com.billdesk.utils.SecurePreferences @ $r4 = getInstance(varReplacer4416,varReplacer4417) @ line -1"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 37,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = $r3.generateSecret($r4)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.crypto.SecretKey a(char[],byte[],java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.SecretKeyFactory",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.SecretKeyFactory",
+            "text": "First parameter was not properly generated as speccedKey"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              224
+            ],
+            "errorId": 194,
+            "precedingErrors": [
+              195,
+              55
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.<init>($r1,$r0,varReplacer4342,varReplacer4343)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.crypto.SecretKey a(char[],byte[],java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.PBEKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.PBEKeySpec",
+            "text": "Second parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              194
+            ],
+            "errorId": 195,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3 = getInstance($r2,varReplacer4341)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.crypto.SecretKey a(char[],byte[],java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.SecretKeyFactory",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.SecretKeyFactory",
+            "text": "Constraint \"algorithm in {PBKDF2WithHmacSHA512, PBKDF2WithHmacSHA384, PBKDF2WithHmacSHA256, PBKDF2WithHmacSHA224, PBEWithHmacSHA512AndAES_128, PBEWithHmacSHA384AndAES_128, PBEWithHmacSHA384AndAES_128, PBEWithHmacSHA224AndAES_128, PBEWithHmacSHA256AndAES_128, PBEWithHmacSHA224AndAES_256, PBEWithHmacSHA256AndAES_256, PBEWithHmacSHA384AndAES_256, PBEWithHmacSHA512AndAES_256}\" on object $r3 is violated due to the following reason:\\n|- First parameter \"$r2\" with value \"PBKDF2WithHmacSHA1\" should be any of {PBKDF2WithHmacSHA512, PBKDF2WithHmacSHA384, PBKDF2WithHmacSHA256, PBKDF2WithHmacSHA224, PBEWithHmacSHA512AndAES_128, PBEWithHmacSHA384AndAES_128, PBEWithHmacSHA384AndAES_128, PBEWithHmacSHA224AndAES_128, PBEWithHmacSHA256AndAES_128, PBEWithHmacSHA224AndAES_256, PBEWithHmacSHA256AndAES_256, PBEWithHmacSHA384AndAES_256, PBEWithHmacSHA512AndAES_256} (extracted @ varReplacer4308 = \"PBKDF2WithHmacSHA1\" @ line -1)\\n|- First parameter \"$r2\" with value \"PBEWithMD5AndDES\" should be any of {PBKDF2WithHmacSHA512, PBKDF2WithHmacSHA384, PBKDF2WithHmacSHA256, PBKDF2WithHmacSHA224, PBEWithHmacSHA512AndAES_128, PBEWithHmacSHA384AndAES_128, PBEWithHmacSHA384AndAES_128, PBEWithHmacSHA224AndAES_128, PBEWithHmacSHA256AndAES_128, PBEWithHmacSHA224AndAES_256, PBEWithHmacSHA256AndAES_256, PBEWithHmacSHA384AndAES_256, PBEWithHmacSHA512AndAES_256} (extracted @ varReplacer4309 = \"PBEWithMD5AndDES\" @ line -1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [
+              224
+            ],
+            "errorId": 54,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.<init>($r1,$r0,varReplacer4342,varReplacer4343)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.crypto.SecretKey a(char[],byte[],java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.PBEKeySpec",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.spec.PBEKeySpec",
+            "text": "Constraint \"iterationCount >= 10000\" on object $r4 is violated due to the following reason:\\n|- Extracted the following violating values for parameter  \"varReplacer4342\" (iterationCount) @$r4.<init>($r1,$r0,varReplacer4342,varReplacer4343) @ line -1:\\n\\t|- Value 2000 in class \"com.billdesk.utils.SecurePreferences\" @varReplacer4342 = 2000 @ line -1"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [
+              194
+            ],
+            "errorId": 55,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = $r3.generateSecret($r4)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.crypto.SecretKey a(char[],byte[],java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.SecretKey",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.SecretKey",
+            "text": "Return value was not properly generated as generatedKey"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 224,
+            "precedingErrors": [
+              194,
+              54
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.<init>($r1,$r0,varReplacer4342,varReplacer4343)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/billdesk/utils/SecurePreferences.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.billdesk.utils.SecurePreferences"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.crypto.SecretKey a(char[],byte[],java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.PBEKeySpec",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for javax.crypto.spec.PBEKeySpec",
+            "text": "Operation on object of type javax.crypto.spec.PBEKeySpec not completed. Expected call to one of the methods {clearPassword()}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 56,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.<init>($r5,varReplacer3313)"
+                  },
+                  "startLine": 169
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __encryptData(java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              203
+            ],
+            "errorId": 196,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r8.<init>($r6)"
+                  },
+                  "startLine": 173
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __encryptData(java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.IvParameterSpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.IvParameterSpec",
+            "text": "First parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 205,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7 = getInstance(varReplacer3314)"
+                  },
+                  "startLine": 172
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __encryptData(java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r7 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer3314\" (transformation) with value \"AES/CBC/PKCS5Padding\" satisfies the constraint in class org.chennaimetrorail.appv1.travelcard.Encryption @ $r7 = getInstance(varReplacer3314) @ line 172\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer3314\" (transformation) with value \"AES/CBC/PKCS5Padding\" violates the constraint in class org.chennaimetrorail.appv1.travelcard.Encryption @ $r7 = getInstance(varReplacer3314) @ line 172"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 66,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7.init(varReplacer3315,$r0,$r8)"
+                  },
+                  "startLine": 173
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __encryptData(java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Second parameter parameter was not properly generated as generatedKey OR generatedPubkey OR generatedPrivkey"
+          },
+          "properties": {
+            "errorType": "AlternativeReqPredicateError",
+            "subsequentErrors": [],
+            "errorId": 203,
+            "precedingErrors": [
+              196
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7 = getInstance(varReplacer3298)"
+                  },
+                  "startLine": 190
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __decryptData(java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r7 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer3298\" (transformation) with value \"AES/CBC/PKCS5Padding\" satisfies the constraint in class org.chennaimetrorail.appv1.travelcard.Encryption @ $r7 = getInstance(varReplacer3298) @ line 190\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer3298\" (transformation) with value \"AES/CBC/PKCS5Padding\" violates the constraint in class org.chennaimetrorail.appv1.travelcard.Encryption @ $r7 = getInstance(varReplacer3298) @ line 190"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 95,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7.init(varReplacer3299,$r0,$r8)"
+                  },
+                  "startLine": 191
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __decryptData(java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Second parameter parameter was not properly generated as generatedPubkey OR generatedPrivkey OR generatedKey"
+          },
+          "properties": {
+            "errorType": "AlternativeReqPredicateError",
+            "subsequentErrors": [],
+            "errorId": 212,
+            "precedingErrors": [
+              208
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r8.<init>($r6)"
+                  },
+                  "startLine": 191
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __decryptData(java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.IvParameterSpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.IvParameterSpec",
+            "text": "First parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 219,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.<init>($r5,varReplacer3297)"
+                  },
+                  "startLine": 187
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __decryptData(java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              212
+            ],
+            "errorId": 208,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r10.<init>($r8,varReplacer3305)"
+                  },
+                  "startLine": 154
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __computeHMAC(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              206
+            ],
+            "errorId": 207,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r9.init($r10)"
+                  },
+                  "startLine": 155
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.chennaimetrorail.appv1.travelcard.Encryption"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String __computeHMAC(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Mac",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.Mac",
+            "text": "First parameter was not properly generated as generatedKey"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 206,
+            "precedingErrors": [
+              207
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3.init(varReplacer1744)"
+                  },
+                  "startLine": 274
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "okhttp3/OkHttpClient.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "okhttp3.OkHttpClient"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.X509TrustManager systemDefaultTrustManager()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.TrustManagerFactory",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+            "text": "First parameter was not properly generated as generatedKeyStore"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 220,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3 = getInstance($r2)"
+                  },
+                  "startLine": 272
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "okhttp3/OkHttpClient.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "okhttp3.OkHttpClient"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.X509TrustManager systemDefaultTrustManager()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.TrustManagerFactory",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+            "text": "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.TrustManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"okhttp3.OkHttpClient\" @ $r2 = getDefaultAlgorithm() @ line 273"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [],
+            "errorId": 113,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3.init(varReplacer1742,$r7,varReplacer1743)"
+                  },
+                  "startLine": 289
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "okhttp3/OkHttpClient.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "okhttp3.OkHttpClient"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Second parameter was not properly generated as generatedTrustManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 221,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3 = getInstance(varReplacer1741)"
+                  },
+                  "startLine": 288
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "okhttp3/OkHttpClient.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "okhttp3.OkHttpClient"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r3 is violated due to the following reason:\\n|- First parameter \"varReplacer1741\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer1741 = \"TLS\" @ line 288)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 114,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3.init(varReplacer1742,$r7,varReplacer1743)"
+                  },
+                  "startLine": 289
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "okhttp3/OkHttpClient.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "okhttp3.OkHttpClient"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "First parameter was not properly generated as generatedKeyManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 223,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3.init(varReplacer1742,$r7,varReplacer1743)"
+                  },
+                  "startLine": 289
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "okhttp3/OkHttpClient.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "okhttp3.OkHttpClient"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLSocketFactory systemDefaultSslSocketFactory(javax.net.ssl.X509TrustManager)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Third parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 222,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "ImpreciseValueExtractionError": 1,
+            "RequiredPredicateError": 15,
+            "ConstraintError": 7,
+            "IncompleteOperationError": 1,
+            "AlternativeReqPredicateError": 4
+          },
+          "totalSeedsCount": 28,
+          "totalErrorCount": 28,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "547.3 ms",
+            "edgesInCallGraph": 12921,
+            "callGraphConstructionTime": "32.85 s",
+            "typestateAnalysisTime": "249.6 ms",
+            "reachableMethods": 3186
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "org/chennaimetrorail/appv1/travelcard/Encryption.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "okhttp3/OkHttpClient.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/billdesk/utils/SecurePreferences.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.update($r2,varReplacer1724,$i0)"
+                  },
+                  "startLine": 32
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/android/volley/InternalUtils.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.android.volley.InternalUtils"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String sha1Hash(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+            "text": "Could not evaluate the constraint \"length[preInput] >= preLen + preOffset\" due to insufficient information:\\n|- Could not evaluate expression \"lengthof $r2\" in class \"com.android.volley.InternalUtils\" @ $i0 = lengthof $r2 @ line 32\\n\\t|- Could not evaluate expression \"virtualinvoke $r0.<java.lang.String: byte[] getBytes(java.lang.String)>(varReplacer1723)\" in class \"com.android.volley.InternalUtils\" @ $r2 = $r0.getBytes(varReplacer1723) @ line 31\\n\\t\\t|- Could not evaluate expression \"virtualinvoke $r1.<java.lang.StringBuilder: java.lang.String toString()>()\" in class \"com.android.volley.Request\" @ $r0 = $r1.toString() @ line 633\\n|- Could not evaluate expression \"virtualinvoke $r0.<java.lang.String: byte[] getBytes(java.lang.String)>(varReplacer1723)\" in class \"com.android.volley.InternalUtils\" @ $r2 = $r0.getBytes(varReplacer1723) @ line 31\\n\\t|- Could not evaluate expression \"virtualinvoke $r1.<java.lang.StringBuilder: java.lang.String toString()>()\" in class \"com.android.volley.Request\" @ $r0 = $r1.toString() @ line 633"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [],
+            "errorId": 1,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer1722)"
+                  },
+                  "startLine": 30
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/android/volley/InternalUtils.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.android.volley.InternalUtils"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String sha1Hash(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer1722\" with value \"SHA-1\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer1722 = \"SHA-1\" @ line 30)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 0,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.update($r2,varReplacer1724,$i0)"
+                  },
+                  "startLine": 32
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/android/volley/InternalUtils.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.android.volley.InternalUtils"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String sha1Hash(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for java.security.MessageDigest",
+            "text": "Could not evaluate the constraint \"preLen > 0\" due to insufficient information:\\n|- Could not evaluate expression \"lengthof $r2\" in class \"com.android.volley.InternalUtils\" @ $i0 = lengthof $r2 @ line 32\\n\\t|- Could not evaluate expression \"virtualinvoke $r0.<java.lang.String: byte[] getBytes(java.lang.String)>(varReplacer1723)\" in class \"com.android.volley.InternalUtils\" @ $r2 = $r0.getBytes(varReplacer1723) @ line 31\\n\\t\\t|- Could not evaluate expression \"virtualinvoke $r1.<java.lang.StringBuilder: java.lang.String toString()>()\" in class \"com.android.volley.Request\" @ $r0 = $r1.toString() @ line 633"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [],
+            "errorId": 2,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = $r5.digest()"
+                  },
+                  "startLine": 54
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/bumptech/glide/load/engine/cache/SafeKeyGenerator.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.engine.cache.SafeKeyGenerator"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String calculateHexStringDigest(com.bumptech.glide.load.Key)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.MessageDigest",
+            "text": "Unexpected call to method \"digest\" on object of type java.security.MessageDigest. Expected a call to one of the following methods {update(java.nio.ByteBuffer), update(byte[], int, int), update(byte[]), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 3,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer3757)"
+                  },
+                  "startLine": 28
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/bumptech/glide/load/engine/cache/SafeKeyGenerator$1.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.bumptech.glide.load.engine.cache.SafeKeyGenerator$1"
+                },
+                {
+                  "kind": "method",
+                  "name": "com.bumptech.glide.load.engine.cache.SafeKeyGenerator$PoolableDigestContainer create()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Operation on object of type java.security.MessageDigest not completed. Expected call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[]), update(byte), update(byte[])}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 4,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "ImpreciseValueExtractionError": 2,
+            "TypestateError": 1,
+            "ConstraintError": 1,
+            "IncompleteOperationError": 1
+          },
+          "totalSeedsCount": 4,
+          "totalErrorCount": 5,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "34.04 s",
+            "edgesInCallGraph": 7616,
+            "callGraphConstructionTime": "26.11 s",
+            "typestateAnalysisTime": "33.92 s",
+            "reachableMethods": 2573
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/engine/cache/SafeKeyGenerator.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/android/volley/InternalUtils.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/bumptech/glide/load/engine/cache/SafeKeyGenerator$1.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

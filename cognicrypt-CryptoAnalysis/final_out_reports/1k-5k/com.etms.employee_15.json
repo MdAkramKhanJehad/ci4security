@@ -1,0 +1,452 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7 = getInstance($r6)"
+                  },
+                  "startLine": 184
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "org/apache/http/conn/ssl/SSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.apache.http.conn.ssl.SSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createSSLContext(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,org.apache.http.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.KeyManagerFactory",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.KeyManagerFactory",
+            "text": "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.KeyManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"org.apache.http.conn.ssl.SSLSocketFactory\" @ $r6 = getDefaultAlgorithm() @ line 184"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [
+              14
+            ],
+            "errorId": 0,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r14.init($r9,$r16,$r0)"
+                  },
+                  "startLine": 203
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "org/apache/http/conn/ssl/SSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.apache.http.conn.ssl.SSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createSSLContext(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,org.apache.http.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Third parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 13,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r10 = getInstance($r4)"
+                  },
+                  "startLine": 188
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "org/apache/http/conn/ssl/SSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.apache.http.conn.ssl.SSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createSSLContext(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,org.apache.http.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.TrustManagerFactory",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+            "text": "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.TrustManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"org.apache.http.conn.ssl.SSLSocketFactory\" @ $r4 = getDefaultAlgorithm() @ line 188"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [
+              15
+            ],
+            "errorId": 1,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r14 = getInstance($r2)"
+                  },
+                  "startLine": 202
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "org/apache/http/conn/ssl/SSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.apache.http.conn.ssl.SSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createSSLContext(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,org.apache.http.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r14 is violated due to the following reason:\\n|- First parameter \"$r2\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ $r2 = \"TLS\" @ line -1)\\n|- First parameter \"$r2\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer844 = \"TLS\" @ line 209)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 2,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r14.init($r9,$r16,$r0)"
+                  },
+                  "startLine": 203
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "org/apache/http/conn/ssl/SSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.apache.http.conn.ssl.SSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createSSLContext(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,org.apache.http.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "First parameter was not properly generated as generatedKeyManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 14,
+            "precedingErrors": [
+              0,
+              11
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7.init($r3,$r8)"
+                  },
+                  "startLine": 186
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "org/apache/http/conn/ssl/SSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.apache.http.conn.ssl.SSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createSSLContext(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,org.apache.http.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.KeyManagerFactory",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.KeyManagerFactory",
+            "text": "First parameter was not properly generated as generatedKeyStore"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              14
+            ],
+            "errorId": 11,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r14.init($r9,$r16,$r0)"
+                  },
+                  "startLine": 203
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "org/apache/http/conn/ssl/SSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.apache.http.conn.ssl.SSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createSSLContext(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,org.apache.http.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Second parameter was not properly generated as generatedTrustManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 15,
+            "precedingErrors": [
+              1,
+              12
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r10.init($r5)"
+                  },
+                  "startLine": 190
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "org/apache/http/conn/ssl/SSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "org.apache.http.conn.ssl.SSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createSSLContext(java.lang.String,java.security.KeyStore,java.lang.String,java.security.KeyStore,java.security.SecureRandom,org.apache.http.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.TrustManagerFactory",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+            "text": "First parameter was not properly generated as generatedKeyStore"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              15
+            ],
+            "errorId": 12,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "ImpreciseValueExtractionError": 2,
+            "RequiredPredicateError": 5,
+            "ConstraintError": 1
+          },
+          "totalSeedsCount": 5,
+          "totalErrorCount": 8,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "320.4 ms",
+            "edgesInCallGraph": 4185,
+            "callGraphConstructionTime": "18.19 s",
+            "typestateAnalysisTime": "167.7 ms",
+            "reachableMethods": 1318
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "org/apache/http/conn/ssl/SSLSocketFactory.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r8 = getInstance(varReplacer5801)"
+                  },
+                  "startLine": 43
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "j3/t.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "j3.t"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String Z(android.content.Context)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r8 is violated due to the following reason:\\n|- First parameter \"varReplacer5801\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer5801 = \"MD5\" @ line 40)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 0,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer7989)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.crypto.Cipher c()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Unexpected call to method \"getInstance\" on object of type javax.crypto.Cipher. Expected a call to one of the following methods {init(int, java.security.Key), init(int, java.security.Key, java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom), init(int, java.security.Key, java.security.spec.AlgorithmParameterSpec), init(int, java.security.Key, java.security.AlgorithmParameters, java.security.SecureRandom), init(int, java.security.cert.Certificate), init(int, java.security.Key, java.security.SecureRandom), init(int, java.security.Key, java.security.AlgorithmParameters), init(int, java.security.cert.Certificate, java.security.SecureRandom)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 40,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer7989)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.crypto.Cipher c()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" on object $r1 is violated due to the following reason:\\n|- Constraint \"alg(transformation) in {AES} => mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t|- The left side \"alg(transformation) in {AES}\" evaluates to <true>:\\n\\t\\t|- First parameter \"varReplacer7989\" (transformation) with value \"AES/CBC/PKCS5Padding\" satisfies the constraint in class com.google.android.gms.internal.ads.p8 @ $r1 = getInstance(varReplacer7989) @ line 1\\n\\t|- The right side \"mode(transformation) in {GCM, CTR, CTS, CFB, OFB}\" evaluates to <false>:\\n\\t\\t|- First parameter \"varReplacer7989\" (transformation) with value \"AES/CBC/PKCS5Padding\" violates the constraint in class com.google.android.gms.internal.ads.p8 @ $r1 = getInstance(varReplacer7989) @ line 1"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 17,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r18.<init>($r2)"
+                  },
+                  "startLine": 74
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "byte[] b(java.lang.String,byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.IvParameterSpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.IvParameterSpec",
+            "text": "First parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 80,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = $r7.doFinal($r5)"
+                  },
+                  "startLine": 84
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "byte[] b(java.lang.String,byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Unexpected call to method \"doFinal\" on object of type javax.crypto.Cipher. Expected a call to one of the following methods {init(int, java.security.Key), init(int, java.security.Key, java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom), init(int, java.security.Key, java.security.spec.AlgorithmParameterSpec), init(int, java.security.Key, java.security.AlgorithmParameters, java.security.SecureRandom), init(int, java.security.cert.Certificate), init(int, java.security.Key, java.security.SecureRandom), init(int, java.security.Key, java.security.AlgorithmParameters), init(int, java.security.cert.Certificate, java.security.SecureRandom)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 38,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r17.<init>($r1,varReplacer7946)"
+                  },
+                  "startLine": 62
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "byte[] b(java.lang.String,byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              94
+            ],
+            "errorId": 79,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7.init(varReplacer7947,$r17,$r18)"
+                  },
+                  "startLine": 77
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "byte[] b(java.lang.String,byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Second parameter parameter was not properly generated as generatedPrivkey OR generatedPubkey OR generatedKey"
+          },
+          "properties": {
+            "errorType": "AlternativeReqPredicateError",
+            "subsequentErrors": [],
+            "errorId": 94,
+            "precedingErrors": [
+              79
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3.init(varReplacer8434,$r13,varReplacer8435)"
+                  },
+                  "startLine": 20
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String a(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "AlternativeReqPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Second parameter parameter was not properly generated as generatedPrivkey OR generatedPubkey OR generatedKey"
+          },
+          "properties": {
+            "errorType": "AlternativeReqPredicateError",
+            "subsequentErrors": [],
+            "errorId": 89,
+            "precedingErrors": [
+              96
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r13.<init>($r0,varReplacer8433)"
+                  },
+                  "startLine": 8
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String a(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              89
+            ],
+            "errorId": 96,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3.init(varReplacer8434,$r13,varReplacer8435)"
+                  },
+                  "startLine": 20
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String a(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Third parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 81,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0 = $r3.doFinal($r1)"
+                  },
+                  "startLine": 27
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/p8.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.p8"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String a(byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Cipher",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for javax.crypto.Cipher",
+            "text": "Unexpected call to method \"doFinal\" on object of type javax.crypto.Cipher. Expected a call to one of the following methods {init(int, java.security.Key), init(int, java.security.Key, java.security.spec.AlgorithmParameterSpec, java.security.SecureRandom), init(int, java.security.Key, java.security.spec.AlgorithmParameterSpec), init(int, java.security.Key, java.security.AlgorithmParameters, java.security.SecureRandom), init(int, java.security.cert.Certificate), init(int, java.security.Key, java.security.SecureRandom), init(int, java.security.Key, java.security.AlgorithmParameters), init(int, java.security.cert.Certificate, java.security.SecureRandom)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 39,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = getInstance($r0)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/google/android/gms/internal/ads/xr.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.xr"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String m(java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r6 is violated due to the following reason:\\n|- First parameter \"$r0\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer7994 = \"MD5\" @ line 2)\\n|- First parameter \"$r0\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer6190 = \"MD5\" @ line 1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 41,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2 = getInstance(varReplacer7884)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/google/android/gms/internal/ads/va.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.va"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.security.MessageDigest c()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Operation on object of type java.security.MessageDigest not completed. Expected call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[]), update(byte), update(byte[])}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 43,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2 = getInstance(varReplacer7884)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/google/android/gms/internal/ads/va.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.va"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.security.MessageDigest c()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"varReplacer7884\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer7884 = \"MD5\" @ line 1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 42,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r49 = getInstance(varReplacer8495)"
+                  },
+                  "startLine": 686
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "com/google/android/gms/internal/ads/u7.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.u7"
+                },
+                {
+                  "kind": "method",
+                  "name": "void run()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r49 is violated due to the following reason:\\n|- First parameter \"varReplacer8495\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer8495 = \"MD5\" @ line 683)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 44,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r49 = getInstance(varReplacer8495)"
+                  },
+                  "startLine": 686
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "com/google/android/gms/internal/ads/u7.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.u7"
+                },
+                {
+                  "kind": "method",
+                  "name": "void run()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Operation on object of type java.security.MessageDigest not completed. Expected call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[]), update(byte), update(byte[])}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 45,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "RequiredPredicateError": 4,
+            "TypestateError": 3,
+            "ConstraintError": 5,
+            "IncompleteOperationError": 2,
+            "AlternativeReqPredicateError": 2
+          },
+          "totalSeedsCount": 16,
+          "totalErrorCount": 16,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "8.575 min",
+            "edgesInCallGraph": 15946,
+            "callGraphConstructionTime": "34.19 s",
+            "typestateAnalysisTime": "1.311 min",
+            "reachableMethods": 3510
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "j3/t.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/ads/p8.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/ads/va.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/ads/xr.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/ads/u7.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

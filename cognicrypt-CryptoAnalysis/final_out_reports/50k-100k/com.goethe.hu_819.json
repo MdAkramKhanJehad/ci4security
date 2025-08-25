@@ -1,0 +1,513 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7 = getInstance(varReplacer6071)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/google/android/gms/ads/internal/util/client/zzf.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.ads.internal.util.client.zzf"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zze()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer6071\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer6071 = \"MD5\" @ line -1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 0,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = getInstance($r0)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "com/google/android/gms/ads/internal/util/client/zzf.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.ads.internal.util.client.zzf"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zzA(java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r6 is violated due to the following reason:\\n|- First parameter \"$r0\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer6688 = \"MD5\" @ line -1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 2,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = getInstance(varReplacer6988)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/consent_sdk/zzcl.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.consent_sdk.zzcl"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String zzb(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r5 is violated due to the following reason:\\n|- First parameter \"varReplacer6988\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer6988 = \"MD5\" @ line -1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 1,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r3.<init>($r1)"
+                  },
+                  "startLine": 108
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/pairip/licensecheck3/ResponseValidator.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.pairip.licensecheck3.ResponseValidator"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.security.PublicKey getPublicKey()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.spec.X509EncodedKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for java.security.spec.X509EncodedKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              12
+            ],
+            "errorId": 13,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4 = $r2.generatePublic($r3)"
+                  },
+                  "startLine": 108
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/pairip/licensecheck3/ResponseValidator.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.pairip.licensecheck3.ResponseValidator"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.security.PublicKey getPublicKey()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.PublicKey",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for java.security.PublicKey",
+            "text": "Return value was not properly generated as generatedPubkey"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              14
+            ],
+            "errorId": 17,
+            "precedingErrors": [
+              12
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4 = $r2.generatePublic($r3)"
+                  },
+                  "startLine": 108
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/pairip/licensecheck3/ResponseValidator.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.pairip.licensecheck3.ResponseValidator"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.security.PublicKey getPublicKey()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyFactory",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for java.security.KeyFactory",
+            "text": "First parameter was not properly generated as speccedKey"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              17
+            ],
+            "errorId": 12,
+            "precedingErrors": [
+              13
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.initVerify($r3)"
+                  },
+                  "startLine": 87
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/pairip/licensecheck3/ResponseValidator.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.pairip.licensecheck3.ResponseValidator"
+                },
+                {
+                  "kind": "method",
+                  "name": "void verifySignature(java.lang.String,java.lang.String,java.lang.String,java.security.PublicKey)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.Signature",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for java.security.Signature",
+            "text": "First parameter was not properly generated as generatedPubkey"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 14,
+            "precedingErrors": [
+              17
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2.<init>($r0,$r3)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/android/utils/EncryptionUtils.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.android.utils.EncryptionUtils"
+                },
+                {
+                  "kind": "method",
+                  "name": "byte[] hmac(java.lang.String,byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [
+              15
+            ],
+            "errorId": 16,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.init($r2)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "com/android/utils/EncryptionUtils.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.android.utils.EncryptionUtils"
+                },
+                {
+                  "kind": "method",
+                  "name": "byte[] hmac(java.lang.String,byte[],byte[])"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.crypto.Mac",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.Mac",
+            "text": "First parameter was not properly generated as generatedKey"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 15,
+            "precedingErrors": [
+              16
+            ],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "RequiredPredicateError": 6,
+            "ConstraintError": 3
+          },
+          "totalSeedsCount": 16,
+          "totalErrorCount": 9,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "419.9 ms",
+            "edgesInCallGraph": 11774,
+            "callGraphConstructionTime": "55.29 s",
+            "typestateAnalysisTime": "290.9 ms",
+            "reachableMethods": 3082
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "com/google/android/gms/ads/internal/util/client/zzf.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/android/utils/EncryptionUtils.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/pairip/licensecheck3/ResponseValidator.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/consent_sdk/zzcl.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}

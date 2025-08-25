@@ -1,0 +1,984 @@
+{
+  "$schema": "https://json.schemastore.org/sarif-2.1.0.json",
+  "version": "2.1.0",
+  "runs": [
+    {
+      "results": [
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r5 = getInstance(varReplacer13844)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 0,
+                  "uri": "e4/d0.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "e4.d0"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String 'abstract'(java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r5 is violated due to the following reason:\\n|- First parameter \"varReplacer13844\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer13844 = \"MD5\" @ line 1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 0,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r7 = getInstance(varReplacer14908)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/cg0.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.cg0"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String 'goto'()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r7 is violated due to the following reason:\\n|- First parameter \"varReplacer14908\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer14908 = \"MD5\" @ line 1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 1,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = getInstance($r0)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 1,
+                  "uri": "com/google/android/gms/internal/ads/cg0.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.google.android.gms.internal.ads.cg0"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String package(java.lang.String,java.lang.String)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
+            "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r6 is violated due to the following reason:\\n|- First parameter \"$r0\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer16986 = \"MD5\" @ line 1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 5,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance($r0)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/loopj/android/http/MySSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.loopj.android.http.MySSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.security.KeyStore getKeystore()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.KeyStore",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for java.security.KeyStore",
+            "text": "Could not evaluate the constraint \"type in {JCEKS, JKS, DKS, PKCS11, PKCS12}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <java.security.KeyStore: java.lang.String getDefaultType()>()\" in class \"com.loopj.android.http.MySSLSocketFactory\" @ $r0 = getDefaultType() @ line -1"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [
+              29
+            ],
+            "errorId": 2,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.init(varReplacer13178,$r5,varReplacer13179)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/loopj/android/http/MySSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.loopj.android.http.MySSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(java.security.KeyStore)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Second parameter was not properly generated as generatedTrustManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 22,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer13177)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/loopj/android/http/MySSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.loopj.android.http.MySSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(java.security.KeyStore)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r1 is violated due to the following reason:\\n|- First parameter \"varReplacer13177\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer13177 = \"TLS\" @ line -1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 3,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.init(varReplacer13178,$r5,varReplacer13179)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/loopj/android/http/MySSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.loopj.android.http.MySSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(java.security.KeyStore)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Third parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 20,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1.init(varReplacer13178,$r5,varReplacer13179)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 2,
+                  "uri": "com/loopj/android/http/MySSLSocketFactory.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "com.loopj.android.http.MySSLSocketFactory"
+                },
+                {
+                  "kind": "method",
+                  "name": "void <init>(java.security.KeyStore)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "First parameter was not properly generated as generatedKeyManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 21,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.init(varReplacer13174,varReplacer13175,varReplacer13176)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContexts.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContexts"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createDefault()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Third parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 23,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.init(varReplacer13174,varReplacer13175,varReplacer13176)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContexts.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContexts"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createDefault()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "First parameter was not properly generated as generatedKeyManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 25,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0.init(varReplacer13174,varReplacer13175,varReplacer13176)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContexts.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContexts"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createDefault()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Second parameter was not properly generated as generatedTrustManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 24,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r0 = getInstance(varReplacer13173)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 3,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContexts.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContexts"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext createDefault()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r0 is violated due to the following reason:\\n|- First parameter \"varReplacer13173\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer13173 = \"TLS\" @ line -1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 4,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2.init($r5,$r4,$r7)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContextBuilder.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext build()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Third parameter was not properly generated as randomized"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 27,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2.init($r5,$r4,$r7)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContextBuilder.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext build()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "First parameter was not properly generated as generatedKeyManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 28,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2 = getInstance($r1)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContextBuilder.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext build()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"$r1\" with value null should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer13225 = null @ line -1)\\n|- First parameter \"$r1\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ $r1 = \"TLS\" @ line -1)"
+          },
+          "properties": {
+            "errorType": "ConstraintError",
+            "subsequentErrors": [],
+            "errorId": 6,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r2.init($r5,$r4,$r7)"
+                  },
+                  "startLine": -1
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContextBuilder.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder"
+                },
+                {
+                  "kind": "method",
+                  "name": "javax.net.ssl.SSLContext build()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.SSLContext",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.SSLContext",
+            "text": "Second parameter was not properly generated as generatedTrustManagers"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 26,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4 = getInstance($r3)"
+                  },
+                  "startLine": 2
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContextBuilder.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder"
+                },
+                {
+                  "kind": "method",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder loadTrustMaterial(java.security.KeyStore,cz.msebera.android.httpclient.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.TrustManagerFactory",
+          "message": {
+            "markdown": "ImpreciseValueExtractionError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+            "text": "Could not evaluate the constraint \"algorithm in {PKIX, SunX509}\" due to insufficient information:\\n|- Could not evaluate expression \"staticinvoke <javax.net.ssl.TrustManagerFactory: java.lang.String getDefaultAlgorithm()>()\" in class \"cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder\" @ $r3 = getDefaultAlgorithm() @ line 2"
+          },
+          "properties": {
+            "errorType": "ImpreciseValueExtractionError",
+            "subsequentErrors": [],
+            "errorId": 7,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r4.init($r1)"
+                  },
+                  "startLine": 2
+                },
+                "artifactLocation": {
+                  "index": 4,
+                  "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContextBuilder.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder"
+                },
+                {
+                  "kind": "method",
+                  "name": "cz.msebera.android.httpclient.conn.ssl.SSLContextBuilder loadTrustMaterial(java.security.KeyStore,cz.msebera.android.httpclient.conn.ssl.TrustStrategy)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "javax.net.ssl.TrustManagerFactory",
+          "message": {
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.net.ssl.TrustManagerFactory",
+            "text": "First parameter was not properly generated as generatedKeyStore"
+          },
+          "properties": {
+            "errorType": "RequiredPredicateError",
+            "subsequentErrors": [],
+            "errorId": 29,
+            "precedingErrors": [
+              2
+            ],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r6 = $r5.digest()"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 5,
+                  "uri": "h0/Com4.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "h0.Com4"
+                },
+                {
+                  "kind": "method",
+                  "name": "java.lang.String finally(c0.cOM7)"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "TypestateError violating CrySL rule for java.security.MessageDigest",
+            "text": "Unexpected call to method \"digest\" on object of type java.security.MessageDigest. Expected a call to one of the following methods {update(java.nio.ByteBuffer), update(byte[], int, int), update(byte[]), digest(byte[]), update(byte)}"
+          },
+          "properties": {
+            "errorType": "TypestateError",
+            "subsequentErrors": [],
+            "errorId": 8,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        },
+        {
+          "locations": [
+            {
+              "physicalLocation": {
+                "region": {
+                  "snippet": {
+                    "text": "$r1 = getInstance(varReplacer21676)"
+                  },
+                  "startLine": 1
+                },
+                "artifactLocation": {
+                  "index": 6,
+                  "uri": "h0/Com4$lpt3.java"
+                }
+              }
+            },
+            {
+              "logicalLocations": [
+                {
+                  "kind": "class",
+                  "name": "h0.Com4$lpt3"
+                },
+                {
+                  "kind": "method",
+                  "name": "h0.Com4$lpT8 'volatile'()"
+                }
+              ]
+            }
+          ],
+          "ruleId": "java.security.MessageDigest",
+          "message": {
+            "markdown": "IncompleteOperationError violating CrySL rule for java.security.MessageDigest",
+            "text": "Operation on object of type java.security.MessageDigest not completed. Expected call to one of the methods {update(java.nio.ByteBuffer), update(byte[], int, int), digest(byte[]), update(byte), update(byte[])}"
+          },
+          "properties": {
+            "errorType": "IncompleteOperationError",
+            "subsequentErrors": [],
+            "errorId": 9,
+            "precedingErrors": [],
+            "verificationStatus": ""
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "CryptoAnalysis",
+          "semanticVersion": "5.0.0",
+          "fullName": "CogniCrypt (en-US)",
+          "language": "en-US",
+          "informationUri": "https://github.com/CROSSINGTUD/CryptoAnalysis"
+        }
+      },
+      "properties": {
+        "summary": {
+          "errorCounts": {
+            "ImpreciseValueExtractionError": 2,
+            "RequiredPredicateError": 10,
+            "TypestateError": 1,
+            "ConstraintError": 6,
+            "IncompleteOperationError": 1
+          },
+          "totalSeedsCount": 14,
+          "totalErrorCount": 20,
+          "resources": {
+            "rules": [
+              "java.security.KeyPair",
+              "javax.net.ssl.SSLContext",
+              "java.security.AlgorithmParameterGenerator",
+              "java.security.cert.CertificateFactory",
+              "javax.net.ssl.KeyStoreBuilderParameters",
+              "javax.crypto.spec.SecretKeySpec",
+              "java.security.spec.RSAKeyGenParameterSpec",
+              "javax.crypto.KeyGenerator",
+              "java.security.SecureRandom",
+              "javax.xml.crypto.dsig.spec.HMACParameterSpec",
+              "java.security.KeyPairGenerator",
+              "javax.net.ssl.TrustManagerFactory",
+              "java.security.Signature",
+              "javax.crypto.Mac",
+              "javax.crypto.spec.PBEParameterSpec",
+              "java.security.KeyStore",
+              "javax.crypto.spec.DHParameterSpec",
+              "java.security.spec.X509EncodedKeySpec",
+              "java.security.KeyFactory",
+              "java.security.Key",
+              "java.security.cert.PKIXBuilderParameters",
+              "java.security.DigestOutputStream",
+              "java.security.spec.DSAGenParameterSpec",
+              "java.security.PrivateKey",
+              "javax.crypto.SecretKey",
+              "javax.crypto.spec.GCMParameterSpec",
+              "java.security.cert.TrustAnchor",
+              "javax.net.ssl.CertPathTrustManagerParameters",
+              "java.security.MessageDigest",
+              "javax.net.ssl.SSLParameters",
+              "javax.crypto.Cipher",
+              "javax.net.ssl.SSLEngine",
+              "javax.crypto.CipherInputStream",
+              "javax.crypto.SecretKeyFactory",
+              "java.net.PasswordAuthentication",
+              "javax.crypto.spec.OAEPParameterSpec",
+              "java.security.spec.ECGenParameterSpec",
+              "javax.crypto.spec.IvParameterSpec",
+              "javax.crypto.spec.DHGenParameterSpec",
+              "javax.crypto.spec.PBEKeySpec",
+              "javax.crypto.KeyAgreement",
+              "javax.servlet.http.Cookie",
+              "javax.crypto.CipherOutputStream",
+              "java.security.spec.MGF1ParameterSpec",
+              "javax.net.ssl.KeyManagerFactory",
+              "java.security.PublicKey",
+              "java.security.cert.PKIXParameters",
+              "java.security.AlgorithmParameters",
+              "java.security.spec.ECParameterSpec",
+              "java.security.spec.DSAParameterSpec",
+              "java.security.DigestInputStream"
+            ]
+          },
+          "totalRulesCount": 51,
+          "statistics": {
+            "entryPoints": 1,
+            "analysisTime": "34.11 s",
+            "edgesInCallGraph": 26080,
+            "callGraphConstructionTime": "1.141 min",
+            "typestateAnalysisTime": "33.90 s",
+            "reachableMethods": 6764
+          }
+        }
+      },
+      "artifacts": [
+        {
+          "location": {
+            "uri": "h0/Com4$lpt3.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContextBuilder.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "h0/Com4.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "cz/msebera/android/httpclient/conn/ssl/SSLContexts.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/loopj/android/http/MySSLSocketFactory.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "e4/d0.java"
+          },
+          "mimeType": "text/java"
+        },
+        {
+          "location": {
+            "uri": "com/google/android/gms/internal/ads/cg0.java"
+          },
+          "mimeType": "text/java"
+        }
+      ]
+    }
+  ]
+}
