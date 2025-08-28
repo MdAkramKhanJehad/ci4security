@@ -43,7 +43,7 @@
             "subsequentErrors": [],
             "errorId": 276,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -85,7 +85,7 @@
             "subsequentErrors": [],
             "errorId": 277,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -127,7 +127,7 @@
             "subsequentErrors": [],
             "errorId": 0,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -169,7 +169,7 @@
             "subsequentErrors": [],
             "errorId": 26,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -213,7 +213,7 @@
             "precedingErrors": [
               333
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -257,7 +257,7 @@
             "precedingErrors": [
               291
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -301,7 +301,7 @@
             ],
             "errorId": 286,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -343,7 +343,7 @@
             "subsequentErrors": [],
             "errorId": 55,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -385,7 +385,7 @@
             "subsequentErrors": [],
             "errorId": 36,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -429,7 +429,7 @@
             "precedingErrors": [
               286
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -471,7 +471,7 @@
             "subsequentErrors": [],
             "errorId": 60,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -513,7 +513,7 @@
             "subsequentErrors": [],
             "errorId": 61,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -560,7 +560,7 @@
             "precedingErrors": [
               62
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -604,7 +604,7 @@
             ],
             "errorId": 62,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -646,7 +646,7 @@
             "subsequentErrors": [],
             "errorId": 63,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -688,7 +688,7 @@
             "subsequentErrors": [],
             "errorId": 64,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -730,7 +730,7 @@
             "subsequentErrors": [],
             "errorId": 86,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -772,7 +772,7 @@
             "subsequentErrors": [],
             "errorId": 65,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -814,7 +814,7 @@
             "subsequentErrors": [],
             "errorId": 85,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -858,7 +858,7 @@
             ],
             "errorId": 295,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -902,7 +902,7 @@
             "precedingErrors": [
               295
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -944,7 +944,7 @@
             "subsequentErrors": [],
             "errorId": 119,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -986,7 +986,7 @@
             "subsequentErrors": [],
             "errorId": 97,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1030,7 +1030,7 @@
             ],
             "errorId": 308,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1072,7 +1072,7 @@
             "subsequentErrors": [],
             "errorId": 96,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1102,7 +1102,7 @@
                   "name": "byte[] rsaEncryptKey(byte[])"
                 }
               ]
-            }
+            } 
           ],
           "ruleId": "javax.crypto.CipherOutputStream",
           "message": {
@@ -1116,7 +1116,7 @@
             "precedingErrors": [
               308
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1147,7 +1147,7 @@
                 }
               ]
             }
-          ],
+          ], 
           "ruleId": "javax.crypto.Cipher",
           "message": {
             "markdown": "IncompleteOperationError violating CrySL rule for javax.crypto.Cipher",
@@ -1158,7 +1158,7 @@
             "subsequentErrors": [],
             "errorId": 178,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1202,7 +1202,7 @@
             ],
             "errorId": 320,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -1244,7 +1244,7 @@
             "subsequentErrors": [],
             "errorId": 161,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -1288,7 +1288,7 @@
             "precedingErrors": [
               320
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -1332,7 +1332,7 @@
             "precedingErrors": [
               291
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1376,7 +1376,7 @@
             "precedingErrors": [
               333
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1418,7 +1418,7 @@
             "subsequentErrors": [],
             "errorId": 151,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1463,7 +1463,7 @@
             ],
             "errorId": 291,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1505,7 +1505,7 @@
             "subsequentErrors": [],
             "errorId": 298,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1547,7 +1547,7 @@
             "subsequentErrors": [],
             "errorId": 56,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -1673,7 +1673,7 @@
             "subsequentErrors": [],
             "errorId": 57,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -1715,7 +1715,7 @@
             "subsequentErrors": [],
             "errorId": 90,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -1841,7 +1841,7 @@
             "subsequentErrors": [],
             "errorId": 301,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1883,7 +1883,7 @@
             "subsequentErrors": [],
             "errorId": 93,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1925,7 +1925,7 @@
             "subsequentErrors": [],
             "errorId": 303,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -1967,7 +1967,7 @@
             "subsequentErrors": [],
             "errorId": 304,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -2009,7 +2009,7 @@
             "subsequentErrors": [],
             "errorId": 302,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -2051,7 +2051,7 @@
             "subsequentErrors": [],
             "errorId": 94,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2093,7 +2093,7 @@
             "subsequentErrors": [],
             "errorId": 95,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2137,7 +2137,7 @@
             "precedingErrors": [
               121
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -2181,7 +2181,7 @@
             ],
             "errorId": 121,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2223,7 +2223,7 @@
             "subsequentErrors": [],
             "errorId": 179,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2267,7 +2267,7 @@
             ],
             "errorId": 327,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2314,7 +2314,7 @@
               326,
               325
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2361,7 +2361,7 @@
             "precedingErrors": [
               327
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2406,7 +2406,7 @@
             ],
             "errorId": 325,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2453,7 +2453,7 @@
               326,
               325
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2504,7 +2504,7 @@
             "precedingErrors": [
               336
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2555,7 +2555,7 @@
             "precedingErrors": [
               335
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -2571,7 +2571,7 @@
                 "artifactLocation": {
                   "index": 10,
                   "uri": "com/google/android/gms/iid/zzo.java"
-                }
+                } 
               }
             },
             {
@@ -2600,7 +2600,7 @@
               329,
               328
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -2645,7 +2645,7 @@
               329,
               328
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -2690,7 +2690,7 @@
               329,
               328
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -2735,7 +2735,7 @@
               329,
               328
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -2780,7 +2780,7 @@
               329,
               328
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -2825,7 +2825,7 @@
               329,
               328
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         }
       ],
