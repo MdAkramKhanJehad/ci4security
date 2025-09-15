@@ -43,7 +43,7 @@
             "subsequentErrors": [],
             "errorId": 0,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -213,7 +213,7 @@
             "subsequentErrors": [],
             "errorId": 18,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -255,7 +255,7 @@
             "subsequentErrors": [],
             "errorId": 4,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -297,7 +297,7 @@
             "subsequentErrors": [],
             "errorId": 19,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -339,7 +339,7 @@
             "subsequentErrors": [],
             "errorId": 20,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -381,7 +381,7 @@
             "subsequentErrors": [],
             "errorId": 22,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -423,7 +423,7 @@
             "subsequentErrors": [],
             "errorId": 23,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -465,7 +465,7 @@
             "subsequentErrors": [],
             "errorId": 21,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -507,7 +507,7 @@
             "subsequentErrors": [],
             "errorId": 5,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -541,7 +541,6 @@
           ],
           "ruleId": "javax.net.ssl.SSLContext",
           "message": {
-            "markdown": "ConstraintError violating CrySL rule for javax.net.ssl.SSLContext",
             "text": "Constraint \"protocol in {TLSv1.2, TLSv1.3}\" on object $r2 is violated due to the following reason:\\n|- First parameter \"$r1\" with value null should be any of {TLSv1.2, TLSv1.3} (extracted @ varReplacer2418 = null @ line -1)\\n|- First parameter \"$r1\" with value \"TLS\" should be any of {TLSv1.2, TLSv1.3} (extracted @ $r1 = \"TLS\" @ line -1)"
           },
           "properties": {
@@ -549,7 +548,7 @@
             "subsequentErrors": [],
             "errorId": 6,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -591,7 +590,7 @@
             "subsequentErrors": [],
             "errorId": 24,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -633,7 +632,7 @@
             "subsequentErrors": [],
             "errorId": 26,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -675,7 +674,7 @@
             "subsequentErrors": [],
             "errorId": 25,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
@@ -719,7 +718,7 @@
             "precedingErrors": [
               3
             ],
-            "verificationStatus": ""
+            "verificationStatus": false
           }
         },
         {
