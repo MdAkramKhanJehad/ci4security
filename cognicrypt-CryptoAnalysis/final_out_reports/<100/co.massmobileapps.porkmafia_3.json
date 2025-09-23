@@ -302,7 +302,7 @@
             "subsequentErrors": [],
             "errorId": 9,
             "precedingErrors": [],
-            "verificationStatus": true
+            "verificationStatus": ""
           }
         },
         {
@@ -470,7 +470,7 @@
             "subsequentErrors": [],
             "errorId": 11,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -764,7 +764,7 @@
             "subsequentErrors": [],
             "errorId": 8,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1352,7 +1352,7 @@
             "subsequentErrors": [],
             "errorId": 6,
             "precedingErrors": [],
-            "verificationStatus": true
+            "verificationStatus": ""
           }
         },
         {
@@ -1430,7 +1430,7 @@
           "message": {
             "markdown": "ConstraintError violating CrySL rule for java.security.MessageDigest",
             "text": "Constraint \"algorithm in {SHA-256, SHA-384, SHA-512}\" on object $r3 is violated due to the following reason:\\n|- First parameter \"$r2\" with value \"SHA-1\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer11002 = \"SHA-1\" @ line 155)\\n|- First parameter \"$r2\" with value \"MD5\" should be any of {SHA-256, SHA-384, SHA-512} (extracted @ varReplacer11447 = \"MD5\" @ line 151)"
-          },  
+          },
           "properties": {
             "errorType": "ConstraintError",
             "subsequentErrors": [],
@@ -1604,7 +1604,7 @@
             "subsequentErrors": [],
             "errorId": 15,
             "precedingErrors": [],
-            "verificationStatus": true
+            "verificationStatus": ""
           }
         },
         {
@@ -1646,7 +1646,7 @@
             "subsequentErrors": [],
             "errorId": 16,
             "precedingErrors": [],
-            "verificationStatus": true
+            "verificationStatus": ""
           }
         },
         {

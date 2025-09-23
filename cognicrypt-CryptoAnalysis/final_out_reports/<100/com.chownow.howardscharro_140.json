@@ -169,7 +169,7 @@
             "subsequentErrors": [],
             "errorId": 8,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -793,13 +793,13 @@
           "message": {
             "markdown": "IncompleteOperationError violating CrySL rule for javax.net.ssl.SSLContext",
             "text": "Operation on object of type javax.net.ssl.SSLContext not completed. Expected call to one of the methods {init(javax.net.ssl.KeyManager[], javax.net.ssl.TrustManager[], java.security.SecureRandom)}"
-          },  
+          },
           "properties": {
             "errorType": "IncompleteOperationError",
             "subsequentErrors": [],
             "errorId": 9,
             "precedingErrors": [],
-            "verificationStatus": true
+            "verificationStatus": ""
           }
         },
         {
@@ -925,7 +925,7 @@
             "subsequentErrors": [],
             "errorId": 11,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1135,7 +1135,7 @@
             "subsequentErrors": [],
             "errorId": 4,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1219,7 +1219,7 @@
             "subsequentErrors": [],
             "errorId": 6,
             "precedingErrors": [],
-            "verificationStatus": true
+            "verificationStatus": ""
           }
         },
         {
@@ -1471,7 +1471,7 @@
             "subsequentErrors": [],
             "errorId": 15,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1681,7 +1681,7 @@
             "subsequentErrors": [],
             "errorId": 20,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1723,7 +1723,7 @@
             "subsequentErrors": [],
             "errorId": 21,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1765,7 +1765,7 @@
             "subsequentErrors": [],
             "errorId": 22,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1807,7 +1807,7 @@
             "subsequentErrors": [],
             "errorId": 23,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1849,7 +1849,7 @@
             "subsequentErrors": [],
             "errorId": 24,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1891,7 +1891,7 @@
             "subsequentErrors": [],
             "errorId": 25,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         },
         {
@@ -1933,7 +1933,7 @@
             "subsequentErrors": [],
             "errorId": 26,
             "precedingErrors": [],
-            "verificationStatus": false
+            "verificationStatus": ""
           }
         }
       ],
