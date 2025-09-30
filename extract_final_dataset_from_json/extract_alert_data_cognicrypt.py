@@ -89,7 +89,4 @@ if __name__ == "__main__":
     ROOT_FOLDER = '../cognicrypt-CryptoAnalysis/final_out_reports'
     OUTPUT_FILE = 'verified_cognicrypt_alerts.csv'
 
-    if not os.path.isdir(ROOT_FOLDER):
-        print(f"The directory '{ROOT_FOLDER}' was not found.")
-    else:
-        process_sarif_reports(ROOT_FOLDER, OUTPUT_FILE)
+    process_sarif_reports(ROOT_FOLDER, OUTPUT_FILE)
