@@ -46,7 +46,7 @@
               41,
               0
             ],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -90,7 +90,7 @@
             ],
             "errorId": 41,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -176,7 +176,7 @@
             "subsequentErrors": [],
             "errorId": 10,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         },
         {
@@ -208,17 +208,17 @@
               ]
             }
           ],
-          "ruleId": "javax.crypto.spec.IvParameterSpec",
+          "ruleId": "javax.crypto.spec.SecretKeySpec",
           "message": {
-            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.IvParameterSpec",
-            "text": "First parameter was not properly generated as randomized"
+            "markdown": "RequiredPredicateError violating CrySL rule for javax.crypto.spec.SecretKeySpec",
+            "text": "First parameter was not properly generated as preparedKeyMaterial"
           },
           "properties": {
             "errorType": "RequiredPredicateError",
             "subsequentErrors": [],
             "errorId": 40,
             "precedingErrors": [],
-            "verificationStatus": ""
+            "verificationStatus": true
           }
         }
       ],
