@@ -1,7 +1,7 @@
 import pandas as pd
 
 INPUT_CSV = "alerts_with_category-and-apk-size.csv"
-OUTPUT_CSV = "alerts_with_category-with-apk-size-updated.csv"
+OUTPUT_CSV = "alerts_with_category_with_apk_size_updated.csv"
 
 df = pd.read_csv(INPUT_CSV, dtype=str).fillna("")
 
@@ -23,6 +23,22 @@ def update_row(row):
         else:
             row["code_location"] = "Android"
             row["3rd_party_library_name"] = "com.google.android.gms"
+    
+    elif "/analytics/" in artifact:
+        row["code_location"] = "Analytics"
+        row["3rd_party_library_name"] = "unknown"
+
+    elif "/okhttp/" in artifact:
+        row["code_location"] = "Utilities"
+        row["3rd_party_library_name"] = "unknown"
+    
+    elif ("com/facebook/" in artifact) and (row["code_location"] != "SocialMedia"):
+        if "com/facebook/appevents" in artifact:
+            row["code_location"] = "SocialMedia"
+            row["3rd_party_library_name"] = "Facebook-App-Links"
+        else:
+            row["code_location"] = "SocialMedia"
+            row["3rd_party_library_name"] = "Facebook-Core"
 
     return row
 

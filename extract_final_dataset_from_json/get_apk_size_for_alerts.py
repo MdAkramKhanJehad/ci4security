@@ -1,8 +1,8 @@
 import pandas as pd
 
 INPUT_APK_CSV = "../input_files/shuffled_filtered_unique_latest_with-added-date.csv"
-ALERTS_CSV = "../library_classification/alerts_with_category-initial.csv"
-OUTPUT_CSV = "alerts_with_category-and-apk-size.csv"
+ALERTS_CSV = "alerts_with_category.csv"
+OUTPUT_CSV = "alerts_with_category_and_apk_size.csv"
 
 apk_df = pd.read_csv(INPUT_APK_CSV, dtype=str)
 alerts_df = pd.read_csv(ALERTS_CSV, dtype=str)
