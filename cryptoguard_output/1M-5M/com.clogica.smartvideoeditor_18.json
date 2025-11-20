@@ -1,1 +1,471 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/1M-5M/com.clogica.smartvideoeditor_18.apk -m D -o cryptoguard_output/1M-5M/com.clogica.smartvideoeditor_18.json","FullPath":"com.clogica.smartvideoeditor_18.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/1M-5M/com.clogica.smartvideoeditor_18.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09","_ProjectName":"com"},"Issues":[{"Message":"Found: \"DES/ECB/NoPadding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.class","_Id":"0"},{"Message":"Found: \"DES/ECB/NoPadding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class","_Id":"1"},{"Message":"Found: \"DES/ECB/NoPadding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class","_Id":"2"},{"Message":"Found: \"RC4\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/k7/lpT8$lpt3.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/firebase/installations/cOM7.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/cw2.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/ads/internal/client/zzay.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/lm4.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/lm4.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/lm4.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/i90.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/measurement/internal/e9.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/c1/aUX.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/ib4.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/androidx/profileinstaller/ProfileInstallerInitializer.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/androidx/activity/result/aUX.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/entity/mime/MultipartEntityBuilder.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/measurement/a2.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/f1/aUX.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/loopj/android/http/SimpleMultipartEntity.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/df.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/lm4.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/q0/CoM8.class","_Id":"24"},{"Message":"Didn't manually verify hostname in create","Description":"Should check HostnameVerification manually","RuleNumber":12,"RuleDesc":"Should check HostnameVerification manually","CWEId":297,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/pool/BasicConnFactory.class","_Id":"25"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of http.MySSLSocketFactory","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/http/MySSLSocketFactory.class","_Id":"26"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of http.MySSLSocketFactory","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/http/MySSLSocketFactory.class","_Id":"27"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/cg0.class","_Id":"28"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/td.class","_Id":"29"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/e4/d0.class","_Id":"30"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/p3/i.class","_Id":"31"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/w3/lpt3.class","_Id":"32"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/cg0.class","_Id":"33"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/DigestScheme.class","_Id":"34"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/ck.class","_Id":"35"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/cg0.class","_Id":"36"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$HMACMD5.class","_Id":"37"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/u5/lpT8.class","_Id":"38"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/measurement/internal/e9.class","_Id":"39"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class","_Id":"40"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/DigestScheme.class","_Id":"41"},{"Message":"Found: Constant \"1681310438574\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/mg.class","_Id":"42"},{"Message":"Found: Constant \"1681310438574\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/mg.class","_Id":"43"},{"Message":"Found: \"http://example.com/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/client/cache/CacheKeyGenerator.class","_Id":"44"}],"_SchemaVersion":3,"_DateTime":"2025-07-29_05:02:12","_UUID":"3cf393ba-1e2d-4796-ab41-19f0a841e547"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/1M-5M/com.clogica.smartvideoeditor_18.apk -m D -o cryptoguard_output/1M-5M/com.clogica.smartvideoeditor_18.json",
+        "FullPath": "com.clogica.smartvideoeditor_18.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/1M-5M/com.clogica.smartvideoeditor_18.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"DES/ECB/NoPadding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: \"DES/ECB/NoPadding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: \"DES/ECB/NoPadding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: \"RC4\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/k7/lpT8$lpt3.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/firebase/installations/cOM7.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/cw2.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/ads/internal/client/zzay.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/lm4.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/lm4.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/lm4.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/i90.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/measurement/internal/e9.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/c1/aUX.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/ib4.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/androidx/profileinstaller/ProfileInstallerInitializer.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/androidx/activity/result/aUX.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/entity/mime/MultipartEntityBuilder.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/measurement/a2.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/f1/aUX.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/loopj/android/http/SimpleMultipartEntity.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/df.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/lm4.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/q0/CoM8.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Didn't manually verify hostname in create",
+            "Description": "Should check HostnameVerification manually",
+            "RuleNumber": 12,
+            "RuleDesc": "Should check HostnameVerification manually",
+            "CWEId": 297,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/pool/BasicConnFactory.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of http.MySSLSocketFactory",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/http/MySSLSocketFactory.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of http.MySSLSocketFactory",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/http/MySSLSocketFactory.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/cg0.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/td.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/e4/d0.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/p3/i.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/w3/lpt3.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/cg0.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/DigestScheme.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/ck.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/cg0.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$HMACMD5.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/u5/lpT8.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/measurement/internal/e9.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/auth/DigestScheme.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: Constant \"1681310438574\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/mg.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: Constant \"1681310438574\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/com/google/android/gms/internal/ads/mg.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"http://example.com/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.clogica.smartvideoeditor_18.apk/cz/msebera/android/httpclient/impl/client/cache/CacheKeyGenerator.class",
+            "_Id": "44"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-29_05:02:12",
+    "_UUID": "3cf393ba-1e2d-4796-ab41-19f0a841e547"
+}

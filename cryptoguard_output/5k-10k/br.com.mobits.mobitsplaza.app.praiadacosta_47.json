@@ -1,1 +1,271 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/5k-10k/br.com.mobits.mobitsplaza.app.praiadacosta_47.apk -m D -o cryptoguard_output/5k-10k/br.com.mobits.mobitsplaza.app.praiadacosta_47.json","FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/br.com.mobits.mobitsplaza.app.praiadacosta_47.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"br"},"Issues":[{"Message":"Found: \"AES\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/b4/l.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/h6/b.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ba/a.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/com/facebook/FacebookException.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/a7/a.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ib/e.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/androidx/activity/result/f.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/l8/w6.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ad/b$a.class","_Id":"8"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/hb/b.class","_Id":"9"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/l8/w6.class","_Id":"10"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/r/h.class","_Id":"11"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/a5/a.class","_Id":"12"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/kb/n.class","_Id":"13"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/e7/n.class","_Id":"14"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/r5/i.class","_Id":"15"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/r5/k.class","_Id":"16"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/gd/c.class","_Id":"17"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/x5/p.class","_Id":"18"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ib/c.class","_Id":"19"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/j5/d$a.class","_Id":"20"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/id/b.class","_Id":"21"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/b4/l.class","_Id":"22"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ja/e.class","_Id":"23"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/id/b.class","_Id":"24"}],"_SchemaVersion":3,"_DateTime":"2025-08-02_23:05:38","_UUID":"c6de82fc-baea-48bf-b4e2-f7f52d4df0c2"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/5k-10k/br.com.mobits.mobitsplaza.app.praiadacosta_47.apk -m D -o cryptoguard_output/5k-10k/br.com.mobits.mobitsplaza.app.praiadacosta_47.json",
+        "FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/br.com.mobits.mobitsplaza.app.praiadacosta_47.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "br"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"AES\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/b4/l.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/h6/b.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ba/a.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/com/facebook/FacebookException.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/a7/a.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ib/e.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/androidx/activity/result/f.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/l8/w6.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ad/b$a.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/hb/b.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/l8/w6.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/r/h.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/a5/a.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/kb/n.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/e7/n.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/r5/i.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/r5/k.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/gd/c.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/x5/p.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ib/c.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/j5/d$a.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/id/b.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/b4/l.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/ja/e.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.mobits.mobitsplaza.app.praiadacosta_47.apk/id/b.class",
+            "_Id": "24"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-02_23:05:38",
+    "_UUID": "c6de82fc-baea-48bf-b4e2-f7f52d4df0c2"
+}

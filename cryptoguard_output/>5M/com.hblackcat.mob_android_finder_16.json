@@ -1,1 +1,201 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/>5M/com.hblackcat.mob_android_finder_16.apk -m D -o cryptoguard_output/>5M/com.hblackcat.mob_android_finder_16.json","FullPath":"com.hblackcat.mob_android_finder_16.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/>5M/com.hblackcat.mob_android_finder_16.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/measurement/zzx.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzaro.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzdu.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzwe.class","_Id":"4"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/common/zzm.class","_Id":"5"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"6"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzbat.class","_Id":"7"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzbat.class","_Id":"8"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzcz.class","_Id":"9"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzrq.class","_Id":"10"},{"Message":"Found: Constant \"1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/java/math/BigInteger.class","_Id":"11"},{"Message":"Found: Constant \"1588462714860\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzex.class","_Id":"12"},{"Message":"Found: Constant \"3\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzedo.class","_Id":"13"},{"Message":"Found: Constant \"4\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzedo.class","_Id":"14"},{"Message":"Found: Constant \"1588462714860\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzex.class","_Id":"15"},{"Message":"Found: Constant \"2\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzedo.class","_Id":"16"},{"Message":"Found: Constant \"-1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.hblackcat.mob_android_finder_16.apk/java/math/BigInteger.class","_Id":"17"}],"_SchemaVersion":3,"_DateTime":"2025-07-31_03:06:58","_UUID":"cd582952-03a4-4ffa-8285-8b4e997f551c"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/>5M/com.hblackcat.mob_android_finder_16.apk -m D -o cryptoguard_output/>5M/com.hblackcat.mob_android_finder_16.json",
+        "FullPath": "com.hblackcat.mob_android_finder_16.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/>5M/com.hblackcat.mob_android_finder_16.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/measurement/zzx.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzaro.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzdu.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzwe.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/common/zzm.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzbat.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzbat.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzcz.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzrq.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Constant \"1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/java/math/BigInteger.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Constant \"1588462714860\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzex.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Constant \"3\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzedo.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Constant \"4\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzedo.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Constant \"1588462714860\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzex.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Constant \"2\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/com/google/android/gms/internal/ads/zzedo.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Constant \"-1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.hblackcat.mob_android_finder_16.apk/java/math/BigInteger.class",
+            "_Id": "17"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-31_03:06:58",
+    "_UUID": "cd582952-03a4-4ffa-8285-8b4e997f551c"
+}

@@ -1,1 +1,1461 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/>5M/com.koreanair.passenger_608.apk -m D -o cryptoguard_output/>5M/com.koreanair.passenger_608.json","FullPath":"com.koreanair.passenger_608.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/>5M/com.koreanair.passenger_608.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/androidx/transition/Explode.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/common/hash/Striped64.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/useinsider/insider/H.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/RandomUtils.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okhttp3/OkHttpClient.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/kotlin/random/KotlinRandom.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/database/connection/util/RetryHelper.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/android/gms/internal/measurement/zzds.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/android/gms/internal/firebase-auth-api/zzly.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/database/tubesock/WebSocketHandshake.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/common/cache/Striped64.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/useinsider/insider/SessionPayloadJobService.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/installations/Utils.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/crypto/tink/integration/android/AndroidKeystoreAesGcm.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/android/gms/measurement/internal/zznt.class","_Id":"24"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/sessions/SessionFirelogPublisherImpl.class","_Id":"25"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/database/core/utilities/PushIdGenerator.class","_Id":"26"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"27"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/android/gms/internal/firebase-auth-api/zzma.class","_Id":"28"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/useinsider/insider/H.class","_Id":"29"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/jsoup/helper/DataUtil.class","_Id":"30"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/database/tubesock/WebSocketWriter.class","_Id":"31"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/annimon/stream/RandomCompat.class","_Id":"32"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/carbon/drawable/ripple/RippleForeground.class","_Id":"33"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/RandomStringUtils.class","_Id":"34"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/annimon/stream/RandomCompat.class","_Id":"35"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/j$/util/concurrent/ThreadLocalRandom.class","_Id":"36"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/carbon/internal/MathUtils.class","_Id":"37"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class","_Id":"38"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"39"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/crypto/tink/integration/android/AndroidKeystoreKmsClient.class","_Id":"40"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of api.a","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/api/a.class","_Id":"41"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of api.a","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/api/a.class","_Id":"42"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/UNKNOWN.class","_Id":"43"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/UNKNOWN.class","_Id":"44"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/UNKNOWN.class","_Id":"45"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/UNKNOWN.class","_Id":"46"},{"Message":"Found: \"SHA\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/koreanair/passenger/util/FuncExtensionsKt.class","_Id":"47"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/common/hash/Hashing$Md5Holder.class","_Id":"48"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/database/core/utilities/Utilities.class","_Id":"49"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/conscrypt/NativeCrypto.class","_Id":"50"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/io/realm/mongodb/sync/SyncConfiguration$Builder.class","_Id":"51"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"52"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/installations/local/IidStore.class","_Id":"53"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/android/gms/measurement/internal/zznt.class","_Id":"54"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okio/HashingSink$Companion.class","_Id":"55"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okio/HashingSource$Companion.class","_Id":"56"},{"Message":"Found: \"SHA\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/koreanair/passenger/util/FuncExtensionsKt.class","_Id":"57"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okio/HashingSink$Companion.class","_Id":"58"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okio/HashingSource$Companion.class","_Id":"59"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class","_Id":"60"},{"Message":"Found: \"SHA\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/Utility.class","_Id":"61"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/firebase/messaging/GmsRpc.class","_Id":"62"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okio/ByteString.class","_Id":"63"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okio/Buffer.class","_Id":"64"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/airbnb/lottie/network/NetworkCache.class","_Id":"65"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/facebook/stetho/websocket/WebSocketHandler.class","_Id":"66"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/org/conscrypt/NativeCrypto.class","_Id":"67"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/google/common/hash/Hashing$Sha1Holder.class","_Id":"68"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okio/ByteString.class","_Id":"69"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okio/Buffer.class","_Id":"70"},{"Message":"Found: Constant \"75\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"71"},{"Message":"Found: Constant \"55\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"72"},{"Message":"Found: Constant \"-48\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"73"},{"Message":"Found: Constant \"92\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"74"},{"Message":"Found: Constant \"PRJ59Q2GHPT844TQ\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/koreanair/passenger/ui/home/mypage/GalaxiaMTCipher.class","_Id":"75"},{"Message":"Found: Constant \"-126\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"76"},{"Message":"Found: Constant \"-126\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"77"},{"Message":"Found: Constant \"-30\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"78"},{"Message":"Found: Constant \"112\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"79"},{"Message":"Found: Constant \"102\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"80"},{"Message":"Found: Constant \"-116\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"81"},{"Message":"Found: Constant \"-55\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"82"},{"Message":"Found: Constant \"-10\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"83"},{"Message":"Found: Constant \"78\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"84"},{"Message":"Found: Constant \"__insider_security_pref_key_set__\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/useinsider/insider/F.class","_Id":"85"},{"Message":"Found: Constant \"44\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"86"},{"Message":"Found: Constant \"-54\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"87"},{"Message":"Found: Constant \"-123\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"88"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"89"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"90"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"91"},{"Message":"Found: \"PRJ59Q2GHPT844TQ\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/koreanair/passenger/ui/home/mypage/GalaxiaMTCipher.class","_Id":"92"},{"Message":"Found: \"-30\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"93"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"94"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"95"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"96"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"97"},{"Message":"Found: \"-116\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"98"},{"Message":"Found: \"-55\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"99"},{"Message":"Found: \"-10\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"100"},{"Message":"Found: \"78\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"101"},{"Message":"Found: \"-54\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"102"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"103"},{"Message":"Found: \"75\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"104"},{"Message":"Found: \"55\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"105"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"106"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"107"},{"Message":"Found: \"-48\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"108"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"109"},{"Message":"Found: \"92\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"110"},{"Message":"Found: \"-126\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"111"},{"Message":"Found: \"-126\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"112"},{"Message":"Found: \"112\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"113"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"114"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"115"},{"Message":"Found: \"102\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"116"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"117"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"118"},{"Message":"Found: \"44\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"119"},{"Message":"Found: \"-123\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"120"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class","_Id":"121"},{"Message":"Found: \"75\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"122"},{"Message":"Found: \"55\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"123"},{"Message":"Found: \"-48\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"124"},{"Message":"Found: \"92\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"125"},{"Message":"Found: \"-126\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"126"},{"Message":"Found: \"-126\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"127"},{"Message":"Found: \"-30\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"128"},{"Message":"Found: \"112\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"129"},{"Message":"Found: \"102\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"130"},{"Message":"Found: \"-116\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"131"},{"Message":"Found: \"-55\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"132"},{"Message":"Found: \"-10\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"133"},{"Message":"Found: \"78\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"134"},{"Message":"Found: \"44\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"135"},{"Message":"Found: \"-54\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"136"},{"Message":"Found: \"-123\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class","_Id":"137"},{"Message":"Found: \"jks\"","Description":"Used Predictable KeyStore Password","RuleNumber":14,"RuleDesc":"Used Predictable KeyStore Password","CWEId":321,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/java/security/KeyStore.class","_Id":"138"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/retrofit2/Response.class","_Id":"139"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/retrofit2/Response.class","_Id":"140"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/retrofit2/Response.class","_Id":"141"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/retrofit2/Response.class","_Id":"142"},{"Message":"Found: \"http:\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.koreanair.passenger_608.apk/okhttp3/Request$Builder.class","_Id":"143"}],"_SchemaVersion":3,"_DateTime":"2025-07-31_00:11:17","_UUID":"a39700aa-b1aa-42aa-8a13-33ec81feda21"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/>5M/com.koreanair.passenger_608.apk -m D -o cryptoguard_output/>5M/com.koreanair.passenger_608.json",
+        "FullPath": "com.koreanair.passenger_608.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/>5M/com.koreanair.passenger_608.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/androidx/transition/Explode.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/common/hash/Striped64.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/useinsider/insider/H.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/RandomUtils.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okhttp3/OkHttpClient.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/database/connection/util/RetryHelper.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/android/gms/internal/measurement/zzds.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/android/gms/internal/firebase-auth-api/zzly.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/database/tubesock/WebSocketHandshake.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/common/cache/Striped64.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/useinsider/insider/SessionPayloadJobService.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/installations/Utils.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/crypto/tink/integration/android/AndroidKeystoreAesGcm.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/android/gms/measurement/internal/zznt.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/sessions/SessionFirelogPublisherImpl.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/database/core/utilities/PushIdGenerator.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/android/gms/internal/firebase-auth-api/zzma.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/useinsider/insider/H.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/jsoup/helper/DataUtil.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/database/tubesock/WebSocketWriter.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/annimon/stream/RandomCompat.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/carbon/drawable/ripple/RippleForeground.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/RandomStringUtils.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/annimon/stream/RandomCompat.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/j$/util/concurrent/ThreadLocalRandom.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/carbon/internal/MathUtils.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/crypto/tink/integration/android/AndroidKeystoreKmsClient.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of api.a",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/api/a.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of api.a",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/api/a.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/UNKNOWN.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/UNKNOWN.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/UNKNOWN.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/UNKNOWN.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"SHA\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/koreanair/passenger/util/FuncExtensionsKt.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/common/hash/Hashing$Md5Holder.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/database/core/utilities/Utilities.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/conscrypt/NativeCrypto.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/io/realm/mongodb/sync/SyncConfiguration$Builder.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/android/gms/measurement/internal/zznt.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okio/HashingSink$Companion.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okio/HashingSource$Companion.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: \"SHA\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/koreanair/passenger/util/FuncExtensionsKt.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okio/HashingSink$Companion.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okio/HashingSource$Companion.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: \"SHA\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/Utility.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/firebase/messaging/GmsRpc.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okio/ByteString.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okio/Buffer.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/airbnb/lottie/network/NetworkCache.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/facebook/stetho/websocket/WebSocketHandler.class",
+            "_Id": "66"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/org/conscrypt/NativeCrypto.class",
+            "_Id": "67"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/google/common/hash/Hashing$Sha1Holder.class",
+            "_Id": "68"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okio/ByteString.class",
+            "_Id": "69"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okio/Buffer.class",
+            "_Id": "70"
+        },
+        {
+            "Message": "Found: Constant \"75\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "71"
+        },
+        {
+            "Message": "Found: Constant \"55\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "72"
+        },
+        {
+            "Message": "Found: Constant \"-48\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "73"
+        },
+        {
+            "Message": "Found: Constant \"92\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "74"
+        },
+        {
+            "Message": "Found: Constant \"PRJ59Q2GHPT844TQ\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/koreanair/passenger/ui/home/mypage/GalaxiaMTCipher.class",
+            "_Id": "75"
+        },
+        {
+            "Message": "Found: Constant \"-126\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "76"
+        },
+        {
+            "Message": "Found: Constant \"-126\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "77"
+        },
+        {
+            "Message": "Found: Constant \"-30\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "78"
+        },
+        {
+            "Message": "Found: Constant \"112\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "79"
+        },
+        {
+            "Message": "Found: Constant \"102\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "80"
+        },
+        {
+            "Message": "Found: Constant \"-116\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "81"
+        },
+        {
+            "Message": "Found: Constant \"-55\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "82"
+        },
+        {
+            "Message": "Found: Constant \"-10\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "83"
+        },
+        {
+            "Message": "Found: Constant \"78\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "84"
+        },
+        {
+            "Message": "Found: Constant \"__insider_security_pref_key_set__\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/useinsider/insider/F.class",
+            "_Id": "85"
+        },
+        {
+            "Message": "Found: Constant \"44\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "86"
+        },
+        {
+            "Message": "Found: Constant \"-54\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "87"
+        },
+        {
+            "Message": "Found: Constant \"-123\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "88"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "89"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "90"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "91"
+        },
+        {
+            "Message": "Found: \"PRJ59Q2GHPT844TQ\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/koreanair/passenger/ui/home/mypage/GalaxiaMTCipher.class",
+            "_Id": "92"
+        },
+        {
+            "Message": "Found: \"-30\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "93"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "94"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "95"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "96"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "97"
+        },
+        {
+            "Message": "Found: \"-116\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "98"
+        },
+        {
+            "Message": "Found: \"-55\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "99"
+        },
+        {
+            "Message": "Found: \"-10\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "100"
+        },
+        {
+            "Message": "Found: \"78\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "101"
+        },
+        {
+            "Message": "Found: \"-54\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "102"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "103"
+        },
+        {
+            "Message": "Found: \"75\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "104"
+        },
+        {
+            "Message": "Found: \"55\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "105"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "106"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "107"
+        },
+        {
+            "Message": "Found: \"-48\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "108"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "109"
+        },
+        {
+            "Message": "Found: \"92\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "110"
+        },
+        {
+            "Message": "Found: \"-126\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "111"
+        },
+        {
+            "Message": "Found: \"-126\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "112"
+        },
+        {
+            "Message": "Found: \"112\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "113"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "114"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "115"
+        },
+        {
+            "Message": "Found: \"102\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "116"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "117"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "118"
+        },
+        {
+            "Message": "Found: \"44\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "119"
+        },
+        {
+            "Message": "Found: \"-123\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "120"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/quantummetric/instrument/internal/df.class",
+            "_Id": "121"
+        },
+        {
+            "Message": "Found: \"75\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "122"
+        },
+        {
+            "Message": "Found: \"55\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "123"
+        },
+        {
+            "Message": "Found: \"-48\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "124"
+        },
+        {
+            "Message": "Found: \"92\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "125"
+        },
+        {
+            "Message": "Found: \"-126\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "126"
+        },
+        {
+            "Message": "Found: \"-126\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "127"
+        },
+        {
+            "Message": "Found: \"-30\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "128"
+        },
+        {
+            "Message": "Found: \"112\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "129"
+        },
+        {
+            "Message": "Found: \"102\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "130"
+        },
+        {
+            "Message": "Found: \"-116\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "131"
+        },
+        {
+            "Message": "Found: \"-55\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "132"
+        },
+        {
+            "Message": "Found: \"-10\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "133"
+        },
+        {
+            "Message": "Found: \"78\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "134"
+        },
+        {
+            "Message": "Found: \"44\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "135"
+        },
+        {
+            "Message": "Found: \"-54\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "136"
+        },
+        {
+            "Message": "Found: \"-123\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/com/kakao/sdk/common/util/AESCipher.class",
+            "_Id": "137"
+        },
+        {
+            "Message": "Found: \"jks\"",
+            "Description": "Used Predictable KeyStore Password",
+            "RuleNumber": 14,
+            "RuleDesc": "Used Predictable KeyStore Password",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/java/security/KeyStore.class",
+            "_Id": "138"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/retrofit2/Response.class",
+            "_Id": "139"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/retrofit2/Response.class",
+            "_Id": "140"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/retrofit2/Response.class",
+            "_Id": "141"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/retrofit2/Response.class",
+            "_Id": "142"
+        },
+        {
+            "Message": "Found: \"http:\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.koreanair.passenger_608.apk/okhttp3/Request$Builder.class",
+            "_Id": "143"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-31_00:11:17",
+    "_UUID": "a39700aa-b1aa-42aa-8a13-33ec81feda21"
+}

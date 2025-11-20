@@ -1,1 +1,441 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/<100/com.noursal.Al3qlwFadlhBook_1.apk -m D -o cryptoguard_output/<100/com.noursal.Al3qlwFadlhBook_1.json","FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/<100/com.noursal.Al3qlwFadlhBook_1.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/t94.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/onesignal/OSUtils.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/t94.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/t6/b$a.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/md.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/je0.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/d3/h.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/androidx/activity/result/d.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/fw2.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/noursal/Al3qlwFadlhBook/NotifyService.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/o2/a.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/measurement/internal/ba.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/s2/q.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/measurement/v2.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/l24.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/firebase/installations/i.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/t94.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/t94.class","_Id":"17"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/lk0.class","_Id":"18"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/j3/y.class","_Id":"19"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/lk0.class","_Id":"20"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/ec.class","_Id":"21"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/qr.class","_Id":"22"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/gtm/zzfs.class","_Id":"23"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/measurement/internal/ba.class","_Id":"24"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/s5/b.class","_Id":"25"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/firebase/iid/o.class","_Id":"26"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/q3/a.class","_Id":"27"},{"Message":"Found: Constant \"1644353911296\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/te.class","_Id":"28"},{"Message":"Found: Constant \"1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/java/math/BigInteger.class","_Id":"29"},{"Message":"Found: Constant \"2\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/dn3.class","_Id":"30"},{"Message":"Found: Constant \"1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/java/math/BigInteger.class","_Id":"31"},{"Message":"Found: Constant \"-1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/java/math/BigInteger.class","_Id":"32"},{"Message":"Found: Constant \"HmacSha256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/of3.class","_Id":"33"},{"Message":"Found: Constant \"-128\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/um3.class","_Id":"34"},{"Message":"Found: Constant \"3\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/dn3.class","_Id":"35"},{"Message":"Found: Constant \"-1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/java/math/BigInteger.class","_Id":"36"},{"Message":"Found: Constant \"1644353911296\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/te.class","_Id":"37"},{"Message":"Found: Constant \"4\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/dn3.class","_Id":"38"},{"Message":"Found: Constant \"HmacSha256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/of3.class","_Id":"39"},{"Message":"Found: \"-128\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/um3.class","_Id":"40"},{"Message":"Found: \"http://www.google-analytics.com\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/gtm/zzeu.class","_Id":"41"}],"_SchemaVersion":3,"_DateTime":"2025-08-05_04:47:42","_UUID":"ccc0398a-d312-498a-aa3b-57fc150c5b22"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/<100/com.noursal.Al3qlwFadlhBook_1.apk -m D -o cryptoguard_output/<100/com.noursal.Al3qlwFadlhBook_1.json",
+        "FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/<100/com.noursal.Al3qlwFadlhBook_1.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/t94.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/onesignal/OSUtils.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/t94.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/t6/b$a.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/md.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/je0.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/d3/h.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/androidx/activity/result/d.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/fw2.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/noursal/Al3qlwFadlhBook/NotifyService.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/o2/a.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/measurement/internal/ba.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/s2/q.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/measurement/v2.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/l24.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/firebase/installations/i.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/t94.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/t94.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/lk0.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/j3/y.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/lk0.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/ec.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/qr.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/gtm/zzfs.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/measurement/internal/ba.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/s5/b.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/firebase/iid/o.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/q3/a.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Constant \"1644353911296\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/te.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Constant \"1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/java/math/BigInteger.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Constant \"2\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/dn3.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Constant \"1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/java/math/BigInteger.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Constant \"-1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/java/math/BigInteger.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/of3.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: Constant \"-128\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/um3.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: Constant \"3\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/dn3.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: Constant \"-1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/java/math/BigInteger.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: Constant \"1644353911296\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/te.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: Constant \"4\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/dn3.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/of3.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"-128\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/ads/um3.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"http://www.google-analytics.com\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.noursal.Al3qlwFadlhBook_1.apk/com/google/android/gms/internal/gtm/zzeu.class",
+            "_Id": "41"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-05_04:47:42",
+    "_UUID": "ccc0398a-d312-498a-aa3b-57fc150c5b22"
+}

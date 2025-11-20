@@ -1,1 +1,321 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/10k-50k/jp.co.okinawatimes.viewer.and_25.apk -m D -o cryptoguard_output/10k-50k/jp.co.okinawatimes.viewer.and_25.json","FullPath":"jp.co.okinawatimes.viewer.and_25.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/10k-50k/jp.co.okinawatimes.viewer.and_25.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09","_ProjectName":"jp"},"Issues":[{"Message":"Found: \"DES/CBC/PKCS5Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/w0/a.class","_Id":"0"},{"Message":"Found: \"DES/CBC/PKCS5Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/w0/a.class","_Id":"1"},{"Message":"Found: \"DES/CBC/PKCS5Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/w0/a.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/okhttp3/OkHttpClient.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/q2/e.class","_Id":"5"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/UNKNOWN.class","_Id":"6"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/w0/a.class","_Id":"7"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/f4/g.class","_Id":"8"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/p2/b.class","_Id":"9"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/s2/s.class","_Id":"10"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/q2/c.class","_Id":"11"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/k3/c.class","_Id":"12"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/okhttp3/Cache$Companion.class","_Id":"13"},{"Message":"Found: Constant \"https://viewerpro.okinawatimes.co.jp/epaper/Setting.jd\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/top/TopAct$d.class","_Id":"14"},{"Message":"Found: Constant \"A0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/home/HomeAct.class","_Id":"15"},{"Message":"Found: Constant \"A0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/home/b.class","_Id":"16"},{"Message":"Found: Constant \"top_data/\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/top/TopAct$d.class","_Id":"17"},{"Message":"Found: Constant \"00000000\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/l3/d.class","_Id":"18"},{"Message":"Found: \"https://viewerpro.okinawatimes.co.jp/epaper/Setting.jd\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/top/TopAct$d.class","_Id":"19"},{"Message":"Found: \"A0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/home/HomeAct.class","_Id":"20"},{"Message":"Found: \"A0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/home/b.class","_Id":"21"},{"Message":"Found: \"00000000\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/m3/a.class","_Id":"22"},{"Message":"Found: \"00000000\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/l.class","_Id":"23"},{"Message":"Found: \"00000000\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/m3/a.class","_Id":"24"},{"Message":"Found: \"00000000\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/f3/d.class","_Id":"25"},{"Message":"Found: \"00000000\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/n.class","_Id":"26"},{"Message":"Found: \"top_data/\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/top/TopAct$d.class","_Id":"27"},{"Message":"Found: \"00000000\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/f3/d.class","_Id":"28"},{"Message":"Found: \"00000000\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"jp.co.okinawatimes.viewer.and_25.apk/l3/d.class","_Id":"29"}],"_SchemaVersion":3,"_DateTime":"2025-07-30_00:03:02","_UUID":"4ebe93da-1851-421c-be07-34fceeb5066d"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/10k-50k/jp.co.okinawatimes.viewer.and_25.apk -m D -o cryptoguard_output/10k-50k/jp.co.okinawatimes.viewer.and_25.json",
+        "FullPath": "jp.co.okinawatimes.viewer.and_25.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/10k-50k/jp.co.okinawatimes.viewer.and_25.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09",
+        "_ProjectName": "jp"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"DES/CBC/PKCS5Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/w0/a.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: \"DES/CBC/PKCS5Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/w0/a.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: \"DES/CBC/PKCS5Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/w0/a.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/okhttp3/OkHttpClient.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/q2/e.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/UNKNOWN.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/w0/a.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/f4/g.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/p2/b.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/s2/s.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/q2/c.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/k3/c.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/okhttp3/Cache$Companion.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Constant \"https://viewerpro.okinawatimes.co.jp/epaper/Setting.jd\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/top/TopAct$d.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Constant \"A0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/home/HomeAct.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Constant \"A0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/home/b.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Constant \"top_data/\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/top/TopAct$d.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Constant \"00000000\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/l3/d.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"https://viewerpro.okinawatimes.co.jp/epaper/Setting.jd\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/top/TopAct$d.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"A0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/home/HomeAct.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"A0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/home/b.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"00000000\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/m3/a.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"00000000\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/l.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"00000000\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/m3/a.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: \"00000000\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/f3/d.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: \"00000000\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/n.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: \"top_data/\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/jp/co/okinawatimes/viewer/and/top/TopAct$d.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: \"00000000\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/f3/d.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: \"00000000\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "jp.co.okinawatimes.viewer.and_25.apk/l3/d.class",
+            "_Id": "29"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-30_00:03:02",
+    "_UUID": "4ebe93da-1851-421c-be07-34fceeb5066d"
+}

@@ -1,1 +1,831 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/500k-1M/com.questalliance.myquest_101.apk -m D -o cryptoguard_output/500k-1M/com.questalliance.myquest_101.json","FullPath":"com.questalliance.myquest_101.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/com.questalliance.myquest_101.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: \"AES/ECB/PKCS7Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/CryptoUtil.class","_Id":"0"},{"Message":"Found: \"AES/ECB/PKCS5Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/EncriptionUtils.class","_Id":"1"},{"Message":"Found: \"AES/ECB/PKCS5Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/EncriptionUtils.class","_Id":"2"},{"Message":"Found: \"AES\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/crypto/ContentCryptoMaterial.class","_Id":"3"},{"Message":"Found: \"x-amz-matdesc\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/crypto/ContentCryptoMaterial.class","_Id":"4"},{"Message":"Found: \"AES/ECB/PKCS7Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/CryptoUtil.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/transition/Explode.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/io/grpc/internal/ExponentialBackoffPolicy.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/firebase/firestore/util/ExponentialBackoff.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/analytics/DefaultPlaybackSessionManager.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/io/grpc/util/RoundRobinLoadBalancer.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/common/hash/Striped64.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/questalliance/myquest/new_ui/community2/Comments2RvAdap$CommentsVH.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/questalliance/myquest/new_ui/community2/CommunityPost2RvAdap$CommunityVH.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/okhttp3/OkHttpClient.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/CryptoUtil.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/android/gms/internal/measurement/zzee.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/kotlin/random/KotlinRandom.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/io/grpc/okhttp/OkHttpClientTransport.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/retry/PredefinedRetryPolicies$SDKDefaultBackoffStrategy.class","_Id":"24"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/trackselection/RandomTrackSelection$Factory.class","_Id":"25"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/io/grpc/internal/RetriableStream.class","_Id":"26"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/firebase/remoteconfig/RemoteConfigComponent.class","_Id":"27"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/io/grpc/okhttp/OkHttpClientTransport.class","_Id":"28"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"29"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/dash/BaseUrlExclusionList.class","_Id":"30"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/common/cache/Striped64.class","_Id":"31"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/util/SntpClient.class","_Id":"32"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class","_Id":"33"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/trackselection/RandomTrackSelection$Factory.class","_Id":"34"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"35"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/android/gms/measurement/internal/zzlt.class","_Id":"36"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"37"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"38"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/ExtensionsKt.class","_Id":"39"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/firebase/installations/Utils.class","_Id":"40"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/io/grpc/internal/DnsNameResolver.class","_Id":"41"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/androidx/media3/datasource/cache/SimpleCache.class","_Id":"42"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/okio/HashingSink.class","_Id":"43"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/firebase/installations/local/IidStore.class","_Id":"44"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/squareup/okhttp/internal/Util.class","_Id":"45"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/okio/HashingSink.class","_Id":"46"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/common/hash/Hashing$Sha1Holder.class","_Id":"47"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class","_Id":"48"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/firebase/messaging/GmsRpc.class","_Id":"49"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/okio/HashingSource.class","_Id":"50"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/android/gms/measurement/internal/zzlt.class","_Id":"51"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/io/grpc/okhttp/internal/Util.class","_Id":"52"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/okio/Buffer.class","_Id":"53"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/squareup/okhttp/internal/Util.class","_Id":"54"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"55"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/okio/HashingSource.class","_Id":"56"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/MD5DigestCalculatingInputStream.class","_Id":"57"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/io/grpc/okhttp/internal/Util.class","_Id":"58"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/services/s3/AmazonS3Client.class","_Id":"59"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/google/common/hash/Hashing$Md5Holder.class","_Id":"60"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/util/Md5Utils.class","_Id":"61"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/okio/ByteString.class","_Id":"62"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/util/Md5Utils.class","_Id":"63"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/squareup/okhttp/internal/Util.class","_Id":"64"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/okio/Buffer.class","_Id":"65"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/okio/ByteString.class","_Id":"66"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/facebook/stetho/websocket/WebSocketHandler.class","_Id":"67"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/io/grpc/okhttp/internal/Util.class","_Id":"68"},{"Message":"Found: Constant \"PASSWORD_VERIFIER\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/cognitoidentityprovider/CognitoUser.class","_Id":"69"},{"Message":"Found: Constant \"1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/java/math/BigInteger.class","_Id":"70"},{"Message":"Found: Constant \":\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/mobileconnectors/cognitoidentityprovider/CognitoUser$AuthenticationHelper.class","_Id":"71"},{"Message":"Found: Constant \"-1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/java/math/BigInteger.class","_Id":"72"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/crypto/ContentCryptoMaterial.class","_Id":"73"},{"Message":"Found: Constant \"PASSWORD_VERIFIER\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/cognitoidentityprovider/CognitoUser.class","_Id":"74"},{"Message":"Found: Constant \"HmacSHA256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/mobileconnectors/cognitoidentityprovider/CognitoUser$AuthenticationHelper.class","_Id":"75"},{"Message":"Found: \"AES\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/crypto/ContentCryptoMaterial.class","_Id":"76"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/retrofit2/Response.class","_Id":"77"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/retrofit2/Response.class","_Id":"78"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/retrofit2/Response.class","_Id":"79"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.questalliance.myquest_101.apk/retrofit2/Response.class","_Id":"80"}],"_SchemaVersion":3,"_DateTime":"2025-08-02_17:19:25","_UUID":"0c588ed4-298f-4090-bc6c-6e628af2aecb"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/500k-1M/com.questalliance.myquest_101.apk -m D -o cryptoguard_output/500k-1M/com.questalliance.myquest_101.json",
+        "FullPath": "com.questalliance.myquest_101.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/com.questalliance.myquest_101.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"AES/ECB/PKCS7Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/CryptoUtil.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: \"AES/ECB/PKCS5Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/EncriptionUtils.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: \"AES/ECB/PKCS5Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/EncriptionUtils.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: \"AES\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/crypto/ContentCryptoMaterial.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: \"x-amz-matdesc\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/crypto/ContentCryptoMaterial.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: \"AES/ECB/PKCS7Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/CryptoUtil.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/transition/Explode.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/io/grpc/internal/ExponentialBackoffPolicy.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/firebase/firestore/util/ExponentialBackoff.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/analytics/DefaultPlaybackSessionManager.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/io/grpc/util/RoundRobinLoadBalancer.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/common/hash/Striped64.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/questalliance/myquest/new_ui/community2/Comments2RvAdap$CommentsVH.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/questalliance/myquest/new_ui/community2/CommunityPost2RvAdap$CommunityVH.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/okhttp3/OkHttpClient.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/encription/CryptoUtil.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/android/gms/internal/measurement/zzee.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/io/grpc/okhttp/OkHttpClientTransport.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/retry/PredefinedRetryPolicies$SDKDefaultBackoffStrategy.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/trackselection/RandomTrackSelection$Factory.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/io/grpc/internal/RetriableStream.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/firebase/remoteconfig/RemoteConfigComponent.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/io/grpc/okhttp/OkHttpClientTransport.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/dash/BaseUrlExclusionList.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/common/cache/Striped64.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/util/SntpClient.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/trackselection/RandomTrackSelection$Factory.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/android/gms/measurement/internal/zzlt.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/questalliance/myquest/utils/ExtensionsKt.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/firebase/installations/Utils.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/io/grpc/internal/DnsNameResolver.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/androidx/media3/datasource/cache/SimpleCache.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/okio/HashingSink.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/squareup/okhttp/internal/Util.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/okio/HashingSink.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/common/hash/Hashing$Sha1Holder.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/firebase/messaging/GmsRpc.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/okio/HashingSource.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/android/gms/measurement/internal/zzlt.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/io/grpc/okhttp/internal/Util.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/okio/Buffer.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/squareup/okhttp/internal/Util.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/okio/HashingSource.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/MD5DigestCalculatingInputStream.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/io/grpc/okhttp/internal/Util.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/services/s3/AmazonS3Client.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/google/common/hash/Hashing$Md5Holder.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/util/Md5Utils.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/okio/ByteString.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/util/Md5Utils.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/squareup/okhttp/internal/Util.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/okio/Buffer.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/okio/ByteString.class",
+            "_Id": "66"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/facebook/stetho/websocket/WebSocketHandler.class",
+            "_Id": "67"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/io/grpc/okhttp/internal/Util.class",
+            "_Id": "68"
+        },
+        {
+            "Message": "Found: Constant \"PASSWORD_VERIFIER\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/cognitoidentityprovider/CognitoUser.class",
+            "_Id": "69"
+        },
+        {
+            "Message": "Found: Constant \"1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/java/math/BigInteger.class",
+            "_Id": "70"
+        },
+        {
+            "Message": "Found: Constant \":\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/mobileconnectors/cognitoidentityprovider/CognitoUser$AuthenticationHelper.class",
+            "_Id": "71"
+        },
+        {
+            "Message": "Found: Constant \"-1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/java/math/BigInteger.class",
+            "_Id": "72"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/crypto/ContentCryptoMaterial.class",
+            "_Id": "73"
+        },
+        {
+            "Message": "Found: Constant \"PASSWORD_VERIFIER\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/cognitoidentityprovider/CognitoUser.class",
+            "_Id": "74"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/mobileconnectors/cognitoidentityprovider/CognitoUser$AuthenticationHelper.class",
+            "_Id": "75"
+        },
+        {
+            "Message": "Found: \"AES\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/com/amazonaws/services/s3/internal/crypto/ContentCryptoMaterial.class",
+            "_Id": "76"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/retrofit2/Response.class",
+            "_Id": "77"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/retrofit2/Response.class",
+            "_Id": "78"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/retrofit2/Response.class",
+            "_Id": "79"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.questalliance.myquest_101.apk/retrofit2/Response.class",
+            "_Id": "80"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-02_17:19:25",
+    "_UUID": "0c588ed4-298f-4090-bc6c-6e628af2aecb"
+}

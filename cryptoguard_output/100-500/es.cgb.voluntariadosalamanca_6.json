@@ -1,1 +1,101 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/100-500/es.cgb.voluntariadosalamanca_6.apk -m D -o cryptoguard_output/100-500/es.cgb.voluntariadosalamanca_6.json","FullPath":"es.cgb.voluntariadosalamanca_6.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/100-500/es.cgb.voluntariadosalamanca_6.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"es"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"es.cgb.voluntariadosalamanca_6.apk/androidx/transition/Explode.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"es.cgb.voluntariadosalamanca_6.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"es.cgb.voluntariadosalamanca_6.apk/kotlin/random/KotlinRandom.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"es.cgb.voluntariadosalamanca_6.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"es.cgb.voluntariadosalamanca_6.apk/com/google/android/material/color/utilities/QuantizerWsmeans.class","_Id":"4"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"es.cgb.voluntariadosalamanca_6.apk/UNKNOWN.class","_Id":"5"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"es.cgb.voluntariadosalamanca_6.apk/UNKNOWN.class","_Id":"6"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"es.cgb.voluntariadosalamanca_6.apk/security/SSLConection.class","_Id":"7"}],"_SchemaVersion":3,"_DateTime":"2025-08-04_05:16:52","_UUID":"6362ee71-023c-4073-9b10-7904804c82a2"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/100-500/es.cgb.voluntariadosalamanca_6.apk -m D -o cryptoguard_output/100-500/es.cgb.voluntariadosalamanca_6.json",
+        "FullPath": "es.cgb.voluntariadosalamanca_6.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/100-500/es.cgb.voluntariadosalamanca_6.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "es"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "es.cgb.voluntariadosalamanca_6.apk/androidx/transition/Explode.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "es.cgb.voluntariadosalamanca_6.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "es.cgb.voluntariadosalamanca_6.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "es.cgb.voluntariadosalamanca_6.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "es.cgb.voluntariadosalamanca_6.apk/com/google/android/material/color/utilities/QuantizerWsmeans.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "es.cgb.voluntariadosalamanca_6.apk/UNKNOWN.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "es.cgb.voluntariadosalamanca_6.apk/UNKNOWN.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "es.cgb.voluntariadosalamanca_6.apk/security/SSLConection.class",
+            "_Id": "7"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-04_05:16:52",
+    "_UUID": "6362ee71-023c-4073-9b10-7904804c82a2"
+}

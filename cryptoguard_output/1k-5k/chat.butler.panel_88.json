@@ -1,1 +1,371 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/1k-5k/chat.butler.panel_88.apk -m D -o cryptoguard_output/1k-5k/chat.butler.panel_88.json","FullPath":"chat.butler.panel_88.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/1k-5k/chat.butler.panel_88.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"chat"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/google/android/gms/internal/auth-api/zzal.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okhttp3/OkHttpClient.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/kotlin/random/KotlinRandom.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/google/firebase/installations/Utils.class","_Id":"5"},{"Message":"Didn't manually verify hostname in upgradeSocketToSSL","Description":"Should check HostnameVerification manually","RuleNumber":12,"RuleDesc":"Should check HostnameVerification manually","CWEId":297,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/org/java_websocket/client/WebSocketClient.class","_Id":"6"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/UNKNOWN.class","_Id":"7"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/pusher/pushnotifications/internal/ServerSyncProcessHandler.class","_Id":"8"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/google/firebase/iid/GmsRpc.class","_Id":"9"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okio/Buffer.class","_Id":"10"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okio/HashingSink$Companion.class","_Id":"11"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okio/HashingSource$Companion.class","_Id":"12"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/io/ktor/client/plugins/cache/storage/FileCacheStorage.class","_Id":"13"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/org/java_websocket/drafts/Draft_6455.class","_Id":"14"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/google/firebase/installations/local/IidStore.class","_Id":"15"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/io/ktor/util/CryptoKt__CryptoJvmKt.class","_Id":"16"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/google/android/gms/common/zzl.class","_Id":"17"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okio/HashingSource$Companion.class","_Id":"18"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okio/Buffer.class","_Id":"19"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/google/firebase/messaging/GmsRpc.class","_Id":"20"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okio/ByteString.class","_Id":"21"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"22"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okio/ByteString.class","_Id":"23"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okio/HashingSink$Companion.class","_Id":"24"},{"Message":"Found: \"30000L\"","Description":"Found predictable seeds in code","RuleNumber":11,"RuleDesc":"Found predictable seeds in code","CWEId":760,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/io/ktor/util/NonceKt$nonceGeneratorJob$1.class","_Id":"25"},{"Message":"Found: \"0L\"","Description":"Found predictable seeds in code","RuleNumber":11,"RuleDesc":"Found predictable seeds in code","CWEId":760,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/io/ktor/util/NonceKt$nonceGeneratorJob$1.class","_Id":"26"},{"Message":"Found: \"http://localhost:3030/pusher/auth\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/pusher/client/example/PresenceChannelExampleApp.class","_Id":"27"},{"Message":"Found: \"http://localhost:3030/pusher/auth\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/pusher/client/example/PrivateEncryptedChannelExampleApp.class","_Id":"28"},{"Message":"Found: \"http://localhost:3030/pusher/auth\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/com/pusher/client/example/PrivateChannelExampleApp.class","_Id":"29"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/retrofit2/Response.class","_Id":"30"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/retrofit2/Response.class","_Id":"31"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/retrofit2/Response.class","_Id":"32"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/retrofit2/Response.class","_Id":"33"},{"Message":"Found: \"http:\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"chat.butler.panel_88.apk/okhttp3/Request$Builder.class","_Id":"34"}],"_SchemaVersion":3,"_DateTime":"2025-08-06_10:51:58","_UUID":"770c8d16-e683-4185-ab9a-c1ae6e7fdc36"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/1k-5k/chat.butler.panel_88.apk -m D -o cryptoguard_output/1k-5k/chat.butler.panel_88.json",
+        "FullPath": "chat.butler.panel_88.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/1k-5k/chat.butler.panel_88.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "chat"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/google/android/gms/internal/auth-api/zzal.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okhttp3/OkHttpClient.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/google/firebase/installations/Utils.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Didn't manually verify hostname in upgradeSocketToSSL",
+            "Description": "Should check HostnameVerification manually",
+            "RuleNumber": 12,
+            "RuleDesc": "Should check HostnameVerification manually",
+            "CWEId": 297,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/org/java_websocket/client/WebSocketClient.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/UNKNOWN.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/pusher/pushnotifications/internal/ServerSyncProcessHandler.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/google/firebase/iid/GmsRpc.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okio/Buffer.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okio/HashingSink$Companion.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okio/HashingSource$Companion.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/io/ktor/client/plugins/cache/storage/FileCacheStorage.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/org/java_websocket/drafts/Draft_6455.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/io/ktor/util/CryptoKt__CryptoJvmKt.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/google/android/gms/common/zzl.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okio/HashingSource$Companion.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okio/Buffer.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/google/firebase/messaging/GmsRpc.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okio/ByteString.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okio/ByteString.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okio/HashingSink$Companion.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: \"30000L\"",
+            "Description": "Found predictable seeds in code",
+            "RuleNumber": 11,
+            "RuleDesc": "Found predictable seeds in code",
+            "CWEId": 760,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/io/ktor/util/NonceKt$nonceGeneratorJob$1.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: \"0L\"",
+            "Description": "Found predictable seeds in code",
+            "RuleNumber": 11,
+            "RuleDesc": "Found predictable seeds in code",
+            "CWEId": 760,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/io/ktor/util/NonceKt$nonceGeneratorJob$1.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: \"http://localhost:3030/pusher/auth\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/pusher/client/example/PresenceChannelExampleApp.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: \"http://localhost:3030/pusher/auth\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/pusher/client/example/PrivateEncryptedChannelExampleApp.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: \"http://localhost:3030/pusher/auth\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/com/pusher/client/example/PrivateChannelExampleApp.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/retrofit2/Response.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/retrofit2/Response.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/retrofit2/Response.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/retrofit2/Response.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"http:\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "chat.butler.panel_88.apk/okhttp3/Request$Builder.class",
+            "_Id": "34"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-06_10:51:58",
+    "_UUID": "770c8d16-e683-4185-ab9a-c1ae6e7fdc36"
+}

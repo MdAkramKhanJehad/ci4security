@@ -1,1 +1,111 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/5k-10k/aplus.droitfiscal_37.apk -m D -o cryptoguard_output/5k-10k/aplus.droitfiscal_37.json","FullPath":"aplus.droitfiscal_37.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/aplus.droitfiscal_37.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"aplus"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"aplus.droitfiscal_37.apk/com/google/android/gms/internal/zztj.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"aplus.droitfiscal_37.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzjj.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzcn.class","_Id":"3"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzhf.class","_Id":"4"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzaiy.class","_Id":"5"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzbx.class","_Id":"6"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzagz.class","_Id":"7"},{"Message":"Found: Constant \"1489418796403\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzdb.class","_Id":"8"}],"_SchemaVersion":3,"_DateTime":"2025-08-03_04:38:14","_UUID":"a6211a60-b417-4c50-95aa-1ed128c6b742"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/5k-10k/aplus.droitfiscal_37.apk -m D -o cryptoguard_output/5k-10k/aplus.droitfiscal_37.json",
+        "FullPath": "aplus.droitfiscal_37.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/aplus.droitfiscal_37.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "aplus"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "aplus.droitfiscal_37.apk/com/google/android/gms/internal/zztj.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "aplus.droitfiscal_37.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzjj.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzcn.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzhf.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzaiy.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzbx.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzagz.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Constant \"1489418796403\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "aplus.droitfiscal_37.apk/com/google/android/gms/internal/zzdb.class",
+            "_Id": "8"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-03_04:38:14",
+    "_UUID": "a6211a60-b417-4c50-95aa-1ed128c6b742"
+}

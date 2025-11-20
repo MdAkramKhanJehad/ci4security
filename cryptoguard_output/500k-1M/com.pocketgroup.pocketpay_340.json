@@ -1,1 +1,1071 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/500k-1M/com.pocketgroup.pocketpay_340.apk -m D -o cryptoguard_output/500k-1M/com.pocketgroup.pocketpay_340.json","FullPath":"com.pocketgroup.pocketpay_340.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/com.pocketgroup.pocketpay_340.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Cause: Used default key size","Description":"Used export grade public Key","RuleNumber":5,"RuleDesc":"Used export grade public Key","CWEId":321,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/io/jsonwebtoken/impl/crypto/RsaProvider.class","_Id":"0"},{"Message":"Found: \"384\"","Description":"Used export grade public Key","RuleNumber":5,"RuleDesc":"Used export grade public Key","CWEId":321,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class","_Id":"1"},{"Message":"Found: \"256\"","Description":"Used export grade public Key","RuleNumber":5,"RuleDesc":"Used export grade public Key","CWEId":321,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class","_Id":"2"},{"Message":"Found: \"384\"","Description":"Used export grade public Key","RuleNumber":5,"RuleDesc":"Used export grade public Key","CWEId":321,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class","_Id":"3"},{"Message":"Found: \"256\"","Description":"Used export grade public Key","RuleNumber":5,"RuleDesc":"Used export grade public Key","CWEId":321,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/androidx/transition/Explode.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/common/hash/Striped64.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okhttp3/OkHttpClient.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/pocketgroup/pocketpay/service/SwapServiceMessaging.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/kotlin/random/KotlinRandom.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzasn.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/org/mozilla/javascript/NativeMath.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/internal/Utility.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/parse/LocalIdManager.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/measurement/zzef.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/a.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/common/cache/Striped64.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/auth-api/zzba.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/firebase/installations/Utils.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/parse/ParsePushBroadcastReceiver.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzwq.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/org/jsoup/helper/DataUtil.class","_Id":"24"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/salesforce/android/smi/ui/internal/conversation/viewHolder/EntryPlaceholderViewHolder.class","_Id":"25"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/parse/ParseRequest.class","_Id":"26"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class","_Id":"27"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzdt.class","_Id":"28"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/measurement/internal/zzlb.class","_Id":"29"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/androidx/profileinstaller/ProfileInstallerInitializer.class","_Id":"30"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/FacebookException.class","_Id":"31"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/UNKNOWN.class","_Id":"32"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okio/Buffer.class","_Id":"33"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/common/hash/Hashing$Md5Holder.class","_Id":"34"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/FacebookSdk.class","_Id":"35"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzayr.class","_Id":"36"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okio/HashingSink$Companion.class","_Id":"37"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/firebase/installations/local/IidStore.class","_Id":"38"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class","_Id":"39"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/common/hash/Hashing$Sha1Holder.class","_Id":"40"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/appevents/AppEvent.class","_Id":"41"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzcz.class","_Id":"42"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/af.class","_Id":"43"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/af.class","_Id":"44"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class","_Id":"45"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okio/Buffer.class","_Id":"46"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okio/ByteString.class","_Id":"47"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/org/mozilla/javascript/tools/shell/Main.class","_Id":"48"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/internal/Utility.class","_Id":"49"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzrq.class","_Id":"50"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class","_Id":"51"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okio/HashingSource$Companion.class","_Id":"52"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"53"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/parse/ParseDigestUtils.class","_Id":"54"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class","_Id":"55"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzayr.class","_Id":"56"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/internal/security/CertificateUtil.class","_Id":"57"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/stetho/websocket/WebSocketHandler.class","_Id":"58"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/firebase/iid/zzt.class","_Id":"59"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/appevents/internal/HashUtils.class","_Id":"60"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okio/HashingSource$Companion.class","_Id":"61"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/measurement/internal/zzlb.class","_Id":"62"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okio/ByteString.class","_Id":"63"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/internal/Utility.class","_Id":"64"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okio/HashingSink$Companion.class","_Id":"65"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/facebook/internal/Utility.class","_Id":"66"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/ECDH.class","_Id":"67"},{"Message":"Found: Constant \"16\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"68"},{"Message":"Found: Constant \"4\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzehc.class","_Id":"69"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"70"},{"Message":"Found: Constant \"3\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzehc.class","_Id":"71"},{"Message":"Found: Constant \"24\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"72"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"73"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/AESGCMKW.class","_Id":"74"},{"Message":"Found: Constant \"-1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/java/math/BigInteger.class","_Id":"75"},{"Message":"Found: Constant \"v2\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/ak.class","_Id":"76"},{"Message":"Found: Constant \"HMACSHA256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"77"},{"Message":"Found: Constant \"32\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"78"},{"Message":"Found: Constant \"GET\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/ao.class","_Id":"79"},{"Message":"Found: Constant \"1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/java/math/BigInteger.class","_Id":"80"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"81"},{"Message":"Found: Constant \"HmacSHA256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"82"},{"Message":"Found: Constant \"HMACSHA512\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"83"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PBKDF2.class","_Id":"84"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/RSA1_5.class","_Id":"85"},{"Message":"Found: Constant \"1596060835607\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzfa.class","_Id":"86"},{"Message":"Found: Constant \"HMACSHA384\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"87"},{"Message":"Found: Constant \"HmacSHA512\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"88"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/RSA_OAEP.class","_Id":"89"},{"Message":"Found: Constant \"cryptoPassword\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/pocketgroup/pocketpay/activity/MainActivity.class","_Id":"90"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/LegacyConcatKDF.class","_Id":"91"},{"Message":"Found: Constant \"2\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzehc.class","_Id":"92"},{"Message":"Found: Constant \"POST\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/appsflyer/CreateOneLinkHttpTask.class","_Id":"93"},{"Message":"Found: Constant \"1596060835607\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzfa.class","_Id":"94"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/ContentCryptoProvider.class","_Id":"95"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/RSA_OAEP_SHA2.class","_Id":"96"},{"Message":"Found: Constant \"HmacSHA384\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"97"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/ECDH.class","_Id":"98"},{"Message":"Found: \"2023100660013202\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/com/pocketgroup/pocketpay/activity/MainActivity.class","_Id":"99"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/retrofit2/Response.class","_Id":"100"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/retrofit2/Response.class","_Id":"101"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/retrofit2/Response.class","_Id":"102"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/retrofit2/Response.class","_Id":"103"},{"Message":"Found: \"http:\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.pocketgroup.pocketpay_340.apk/okhttp3/Request$Builder.class","_Id":"104"}],"_SchemaVersion":3,"_DateTime":"2025-08-02_19:20:30","_UUID":"8af376d2-0398-46d3-ae78-269404889b8d"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/500k-1M/com.pocketgroup.pocketpay_340.apk -m D -o cryptoguard_output/500k-1M/com.pocketgroup.pocketpay_340.json",
+        "FullPath": "com.pocketgroup.pocketpay_340.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/com.pocketgroup.pocketpay_340.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Cause: Used default key size",
+            "Description": "Used export grade public Key",
+            "RuleNumber": 5,
+            "RuleDesc": "Used export grade public Key",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/io/jsonwebtoken/impl/crypto/RsaProvider.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: \"384\"",
+            "Description": "Used export grade public Key",
+            "RuleNumber": 5,
+            "RuleDesc": "Used export grade public Key",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: \"256\"",
+            "Description": "Used export grade public Key",
+            "RuleNumber": 5,
+            "RuleDesc": "Used export grade public Key",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: \"384\"",
+            "Description": "Used export grade public Key",
+            "RuleNumber": 5,
+            "RuleDesc": "Used export grade public Key",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: \"256\"",
+            "Description": "Used export grade public Key",
+            "RuleNumber": 5,
+            "RuleDesc": "Used export grade public Key",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/androidx/transition/Explode.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/common/hash/Striped64.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okhttp3/OkHttpClient.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/pocketgroup/pocketpay/service/SwapServiceMessaging.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzasn.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/org/mozilla/javascript/NativeMath.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/internal/Utility.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/parse/LocalIdManager.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/measurement/zzef.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/a.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/common/cache/Striped64.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/auth-api/zzba.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/firebase/installations/Utils.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/parse/ParsePushBroadcastReceiver.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzwq.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/org/jsoup/helper/DataUtil.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/salesforce/android/smi/ui/internal/conversation/viewHolder/EntryPlaceholderViewHolder.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/parse/ParseRequest.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzdt.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/measurement/internal/zzlb.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/androidx/profileinstaller/ProfileInstallerInitializer.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/FacebookException.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/UNKNOWN.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okio/Buffer.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/common/hash/Hashing$Md5Holder.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/FacebookSdk.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzayr.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okio/HashingSink$Companion.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/common/hash/Hashing$Sha1Holder.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/appevents/AppEvent.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzcz.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/af.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/af.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okio/Buffer.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okio/ByteString.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/org/mozilla/javascript/tools/shell/Main.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/internal/Utility.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzrq.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okio/HashingSource$Companion.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/parse/ParseDigestUtils.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/io/fusionauth/jwt/JWTUtils.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzayr.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/internal/security/CertificateUtil.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/stetho/websocket/WebSocketHandler.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/firebase/iid/zzt.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/appevents/internal/HashUtils.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okio/HashingSource$Companion.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/measurement/internal/zzlb.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okio/ByteString.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/internal/Utility.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okio/HashingSink$Companion.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/facebook/internal/Utility.class",
+            "_Id": "66"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/ECDH.class",
+            "_Id": "67"
+        },
+        {
+            "Message": "Found: Constant \"16\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "68"
+        },
+        {
+            "Message": "Found: Constant \"4\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzehc.class",
+            "_Id": "69"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "70"
+        },
+        {
+            "Message": "Found: Constant \"3\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzehc.class",
+            "_Id": "71"
+        },
+        {
+            "Message": "Found: Constant \"24\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "72"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "73"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/AESGCMKW.class",
+            "_Id": "74"
+        },
+        {
+            "Message": "Found: Constant \"-1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/java/math/BigInteger.class",
+            "_Id": "75"
+        },
+        {
+            "Message": "Found: Constant \"v2\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/ak.class",
+            "_Id": "76"
+        },
+        {
+            "Message": "Found: Constant \"HMACSHA256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "77"
+        },
+        {
+            "Message": "Found: Constant \"32\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "78"
+        },
+        {
+            "Message": "Found: Constant \"GET\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/appsflyer/internal/ao.class",
+            "_Id": "79"
+        },
+        {
+            "Message": "Found: Constant \"1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/java/math/BigInteger.class",
+            "_Id": "80"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "81"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "82"
+        },
+        {
+            "Message": "Found: Constant \"HMACSHA512\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "83"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PBKDF2.class",
+            "_Id": "84"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/RSA1_5.class",
+            "_Id": "85"
+        },
+        {
+            "Message": "Found: Constant \"1596060835607\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzfa.class",
+            "_Id": "86"
+        },
+        {
+            "Message": "Found: Constant \"HMACSHA384\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "87"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA512\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "88"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/RSA_OAEP.class",
+            "_Id": "89"
+        },
+        {
+            "Message": "Found: Constant \"cryptoPassword\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/pocketgroup/pocketpay/activity/MainActivity.class",
+            "_Id": "90"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/LegacyConcatKDF.class",
+            "_Id": "91"
+        },
+        {
+            "Message": "Found: Constant \"2\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzehc.class",
+            "_Id": "92"
+        },
+        {
+            "Message": "Found: Constant \"POST\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/appsflyer/CreateOneLinkHttpTask.class",
+            "_Id": "93"
+        },
+        {
+            "Message": "Found: Constant \"1596060835607\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/google/android/gms/internal/ads/zzfa.class",
+            "_Id": "94"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/ContentCryptoProvider.class",
+            "_Id": "95"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/RSA_OAEP_SHA2.class",
+            "_Id": "96"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA384\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "97"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/nimbusds/jose/crypto/impl/ECDH.class",
+            "_Id": "98"
+        },
+        {
+            "Message": "Found: \"2023100660013202\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/com/pocketgroup/pocketpay/activity/MainActivity.class",
+            "_Id": "99"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/retrofit2/Response.class",
+            "_Id": "100"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/retrofit2/Response.class",
+            "_Id": "101"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/retrofit2/Response.class",
+            "_Id": "102"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/retrofit2/Response.class",
+            "_Id": "103"
+        },
+        {
+            "Message": "Found: \"http:\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.pocketgroup.pocketpay_340.apk/okhttp3/Request$Builder.class",
+            "_Id": "104"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-02_19:20:30",
+    "_UUID": "8af376d2-0398-46d3-ae78-269404889b8d"
+}

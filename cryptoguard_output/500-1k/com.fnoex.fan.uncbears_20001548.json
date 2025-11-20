@@ -1,1 +1,1731 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/500-1k/com.fnoex.fan.uncbears_20001548.apk -m D -o cryptoguard_output/500-1k/com.fnoex.fan.uncbears_20001548.json","FullPath":"com.fnoex.fan.uncbears_20001548.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/500-1k/com.fnoex.fan.uncbears_20001548.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Cause: Used default key size","Description":"Used export grade public Key","RuleNumber":5,"RuleDesc":"Used export grade public Key","CWEId":321,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/jsonwebtoken/impl/crypto/RsaProvider.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/o/b.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/androidx/transition/Explode.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/firestore/util/ExponentialBackoff.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/common/hash/Striped64.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzanx.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/cast/internal/CastUtils.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/o/h.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/okhttp3/OkHttpClient.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/kotlin/random/KotlinRandom.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/analytics/DefaultPlaybackSessionManager.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/upstream/cache/SimpleCache.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/Utility.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/grpc/internal/RetriableStream.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zztt.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzmo.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/OkHttpClientTransport.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/cueaudio/live/fragments/CUETriviaGameFragment.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/util/SntpClient.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfp.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"24"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/n0/e.class","_Id":"25"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/common/cache/Striped64.class","_Id":"26"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzbyy.class","_Id":"27"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"28"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zztt.class","_Id":"29"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/installations/Utils.class","_Id":"30"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/grpc/internal/DnsNameResolver.class","_Id":"31"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/grpc/internal/ExponentialBackoffPolicy.class","_Id":"32"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/grpc/util/RoundRobinLoadBalancer.class","_Id":"33"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/ccue/j0.class","_Id":"34"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"35"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/ads/internal/client/zzaw.class","_Id":"36"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/measurement/zzee.class","_Id":"37"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/OkHttpClientTransport.class","_Id":"38"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/v1/r.class","_Id":"39"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/dash/BaseUrlExclusionList.class","_Id":"40"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"41"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/measurement/internal/zzln.class","_Id":"42"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/onesignal/OSUtils.class","_Id":"43"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.class","_Id":"44"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/cueaudio/live/repository/ScoreRepository.class","_Id":"45"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzfhu.class","_Id":"46"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/c/c.class","_Id":"47"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zztt.class","_Id":"48"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/ccue/z1.class","_Id":"49"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class","_Id":"50"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/auth-api/zbbb.class","_Id":"51"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"52"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zztt.class","_Id":"53"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/instacart/library/truetime/SntpClient.class","_Id":"54"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"55"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/FacebookException.class","_Id":"56"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/v1/l.class","_Id":"57"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/UNKNOWN.class","_Id":"58"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzcfb.class","_Id":"59"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class","_Id":"60"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/iid/GmsRpc.class","_Id":"61"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/Utility.class","_Id":"62"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzcfb.class","_Id":"63"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/rtsp/RtspAuthenticationInfo.class","_Id":"64"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/soloader/SoLoader.class","_Id":"65"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/squareup/okhttp/internal/Util.class","_Id":"66"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/consent_sdk/zzbx.class","_Id":"67"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/internal/Util.class","_Id":"68"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/FacebookSdk.class","_Id":"69"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/internal/Util.class","_Id":"70"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/Utility.class","_Id":"71"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/security/CertificateUtil.class","_Id":"72"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/axs/sdk/repositories/impl/barcode/MobileIdDataGenerator$generateMobileIdData$bytes$1.class","_Id":"73"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/appevents/internal/HashUtils.class","_Id":"74"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/common/util/SecureHashUtil.class","_Id":"75"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/okio/HashingSink$Companion.class","_Id":"76"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/common/util/SecureHashUtil.class","_Id":"77"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/okio/ByteString.class","_Id":"78"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/axs/sdk/core/utils/EncodingUtilsKt.class","_Id":"79"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/squareup/okhttp/internal/Util.class","_Id":"80"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/org/eclipse/paho/client/mqttv3/internal/websocket/WebSocketHandshake.class","_Id":"81"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/okio/Buffer.class","_Id":"82"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/squareup/okhttp/internal/Util.class","_Id":"83"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/okio/Buffer.class","_Id":"84"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/okio/HashingSink$Companion.class","_Id":"85"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"86"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/okio/HashingSource$Companion.class","_Id":"87"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzbbo.class","_Id":"88"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/internal/Util.class","_Id":"89"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/common/hash/Hashing$Md5Holder.class","_Id":"90"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/Utility.class","_Id":"91"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/measurement/internal/zzln.class","_Id":"92"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/common/hash/Hashing$Sha1Holder.class","_Id":"93"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/common/util/SecureHashUtil.class","_Id":"94"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/okio/ByteString.class","_Id":"95"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/okio/HashingSource$Companion.class","_Id":"96"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/appevents/AppEvent$Companion.class","_Id":"97"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/common/util/SecureHashUtil.class","_Id":"98"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzamq.class","_Id":"99"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/installations/local/IidStore.class","_Id":"100"},{"Message":"Found: Constant \"1651189566953\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzapc.class","_Id":"101"},{"Message":"Found: Constant \"HmacSHA512\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class","_Id":"102"},{"Message":"Found: Constant \"-1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/java/math/BigInteger.class","_Id":"103"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/AESGCMKW.class","_Id":"104"},{"Message":"Found: Constant \"1651189566953\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzapc.class","_Id":"105"},{"Message":"Found: Constant \"HmacSha512\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfa.class","_Id":"106"},{"Message":"Found: Constant \"-1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/java/math/BigInteger.class","_Id":"107"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class","_Id":"108"},{"Message":"Found: Constant \"-111\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"109"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class","_Id":"110"},{"Message":"Found: Constant \"HMACSHA256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class","_Id":"111"},{"Message":"Found: Constant \"100\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"112"},{"Message":"Found: Constant \"4\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghp.class","_Id":"113"},{"Message":"Found: Constant \"1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/java/math/BigInteger.class","_Id":"114"},{"Message":"Found: Constant \"-128\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghg.class","_Id":"115"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PBKDF2.class","_Id":"116"},{"Message":"Found: Constant \"3\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghp.class","_Id":"117"},{"Message":"Found: Constant \"32\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class","_Id":"118"},{"Message":"Found: Constant \"52\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"119"},{"Message":"Found: Constant \"HmacSha256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfa.class","_Id":"120"},{"Message":"Found: Constant \"24\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class","_Id":"121"},{"Message":"Found: Constant \"-108\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"122"},{"Message":"Found: Constant \"2\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghp.class","_Id":"123"},{"Message":"Found: Constant \"HmacSha256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfa.class","_Id":"124"},{"Message":"Found: Constant \"HmacSHA256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class","_Id":"125"},{"Message":"Found: Constant \"HmacSha384\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfa.class","_Id":"126"},{"Message":"Found: Constant \"-119\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"127"},{"Message":"Found: Constant \"39\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"128"},{"Message":"Found: Constant \"HmacSha256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzgah.class","_Id":"129"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/ECDH.class","_Id":"130"},{"Message":"Found: Constant \"HmacSha256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzgah.class","_Id":"131"},{"Message":"Found: Constant \"16\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class","_Id":"132"},{"Message":"Found: Constant \"HMACSHA512\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class","_Id":"133"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class","_Id":"134"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/RSA_OAEP_256.class","_Id":"135"},{"Message":"Found: Constant \"HmacSHA384\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class","_Id":"136"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/RSA_OAEP.class","_Id":"137"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/ContentCryptoProvider.class","_Id":"138"},{"Message":"Found: Constant \"83\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"139"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/LegacyConcatKDF.class","_Id":"140"},{"Message":"Found: Constant \"1651189566953\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzapc.class","_Id":"141"},{"Message":"Found: Constant \"1\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/java/math/BigInteger.class","_Id":"142"},{"Message":"Found: Constant \"123\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/r/a.class","_Id":"143"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/RSA1_5.class","_Id":"144"},{"Message":"Found: Constant \"HMACSHA384\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class","_Id":"145"},{"Message":"Found: Constant \"120\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"146"},{"Message":"Found: \"-9223372036854775807L\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/hls/HlsSampleStreamWrapper.class","_Id":"147"},{"Message":"Found: \"-128\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghg.class","_Id":"148"},{"Message":"Found: \"-9223372036854775807L\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/hls/HlsChunkSource.class","_Id":"149"},{"Message":"Found: \"-9223372036854775807L\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/hls/HlsSampleStreamWrapper.class","_Id":"150"},{"Message":"Found: \"1L\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/hls/HlsChunkSource.class","_Id":"151"},{"Message":"Found: \"1000L\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/util/Util.class","_Id":"152"},{"Message":"Found: \"83\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"153"},{"Message":"Found: \"-119\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"154"},{"Message":"Found: \"39\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"155"},{"Message":"Found: \"100\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"156"},{"Message":"Found: \"52\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"157"},{"Message":"Found: \"120\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"158"},{"Message":"Found: \"-108\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"159"},{"Message":"Found: \"-111\"","Description":"Found constant salts in code","RuleNumber":9,"RuleDesc":"Found constant salts in code","CWEId":547,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class","_Id":"160"},{"Message":"Found: \"3\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/n0/h.class","_Id":"161"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/retrofit2/Response.class","_Id":"162"},{"Message":"Found: \"http://%s/%s\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class","_Id":"163"},{"Message":"Found: \"http://%s/status\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class","_Id":"164"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/retrofit2/Response.class","_Id":"165"},{"Message":"Found: \"http://%s/open-stack-frame\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class","_Id":"166"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/retrofit2/Response.class","_Id":"167"},{"Message":"Found: \"http://%s/launch-js-devtools\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class","_Id":"168"},{"Message":"Found: \"http://\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/flurry/sdk/de.class","_Id":"169"},{"Message":"Found: \"http://%s/symbolicate\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class","_Id":"170"}],"_SchemaVersion":3,"_DateTime":"2025-08-01_00:08:56","_UUID":"9c9726d7-d89f-45c4-a48a-add5c349fddd"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/500-1k/com.fnoex.fan.uncbears_20001548.apk -m D -o cryptoguard_output/500-1k/com.fnoex.fan.uncbears_20001548.json",
+        "FullPath": "com.fnoex.fan.uncbears_20001548.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/500-1k/com.fnoex.fan.uncbears_20001548.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Cause: Used default key size",
+            "Description": "Used export grade public Key",
+            "RuleNumber": 5,
+            "RuleDesc": "Used export grade public Key",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/jsonwebtoken/impl/crypto/RsaProvider.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/o/b.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/androidx/transition/Explode.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/firestore/util/ExponentialBackoff.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/common/hash/Striped64.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzanx.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/cast/internal/CastUtils.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/o/h.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/okhttp3/OkHttpClient.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/analytics/DefaultPlaybackSessionManager.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/upstream/cache/SimpleCache.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/Utility.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/grpc/internal/RetriableStream.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zztt.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzmo.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/OkHttpClientTransport.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/cueaudio/live/fragments/CUETriviaGameFragment.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/util/SntpClient.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfp.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/n0/e.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/common/cache/Striped64.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzbyy.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zztt.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/installations/Utils.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/grpc/internal/DnsNameResolver.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/grpc/internal/ExponentialBackoffPolicy.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/grpc/util/RoundRobinLoadBalancer.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/ccue/j0.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/ads/internal/client/zzaw.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/measurement/zzee.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/OkHttpClientTransport.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/v1/r.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/dash/BaseUrlExclusionList.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/measurement/internal/zzln.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/onesignal/OSUtils.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/cueaudio/live/repository/ScoreRepository.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzfhu.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/c/c.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zztt.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/ccue/z1.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/auth-api/zbbb.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zztt.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/instacart/library/truetime/SntpClient.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/FacebookException.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/v1/l.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/UNKNOWN.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzcfb.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/iid/GmsRpc.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/Utility.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzcfb.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/rtsp/RtspAuthenticationInfo.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/soloader/SoLoader.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/squareup/okhttp/internal/Util.class",
+            "_Id": "66"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/consent_sdk/zzbx.class",
+            "_Id": "67"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/internal/Util.class",
+            "_Id": "68"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/FacebookSdk.class",
+            "_Id": "69"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/internal/Util.class",
+            "_Id": "70"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/Utility.class",
+            "_Id": "71"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/security/CertificateUtil.class",
+            "_Id": "72"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/axs/sdk/repositories/impl/barcode/MobileIdDataGenerator$generateMobileIdData$bytes$1.class",
+            "_Id": "73"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/appevents/internal/HashUtils.class",
+            "_Id": "74"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/common/util/SecureHashUtil.class",
+            "_Id": "75"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/okio/HashingSink$Companion.class",
+            "_Id": "76"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/common/util/SecureHashUtil.class",
+            "_Id": "77"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/okio/ByteString.class",
+            "_Id": "78"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/axs/sdk/core/utils/EncodingUtilsKt.class",
+            "_Id": "79"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/squareup/okhttp/internal/Util.class",
+            "_Id": "80"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/org/eclipse/paho/client/mqttv3/internal/websocket/WebSocketHandshake.class",
+            "_Id": "81"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/okio/Buffer.class",
+            "_Id": "82"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/squareup/okhttp/internal/Util.class",
+            "_Id": "83"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/okio/Buffer.class",
+            "_Id": "84"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/okio/HashingSink$Companion.class",
+            "_Id": "85"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "86"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/okio/HashingSource$Companion.class",
+            "_Id": "87"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzbbo.class",
+            "_Id": "88"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/io/grpc/okhttp/internal/Util.class",
+            "_Id": "89"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/common/hash/Hashing$Md5Holder.class",
+            "_Id": "90"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/internal/Utility.class",
+            "_Id": "91"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/measurement/internal/zzln.class",
+            "_Id": "92"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/common/hash/Hashing$Sha1Holder.class",
+            "_Id": "93"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/common/util/SecureHashUtil.class",
+            "_Id": "94"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/okio/ByteString.class",
+            "_Id": "95"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/okio/HashingSource$Companion.class",
+            "_Id": "96"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/appevents/AppEvent$Companion.class",
+            "_Id": "97"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/common/util/SecureHashUtil.class",
+            "_Id": "98"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzamq.class",
+            "_Id": "99"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "100"
+        },
+        {
+            "Message": "Found: Constant \"1651189566953\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzapc.class",
+            "_Id": "101"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA512\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class",
+            "_Id": "102"
+        },
+        {
+            "Message": "Found: Constant \"-1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/java/math/BigInteger.class",
+            "_Id": "103"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/AESGCMKW.class",
+            "_Id": "104"
+        },
+        {
+            "Message": "Found: Constant \"1651189566953\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzapc.class",
+            "_Id": "105"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha512\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfa.class",
+            "_Id": "106"
+        },
+        {
+            "Message": "Found: Constant \"-1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/java/math/BigInteger.class",
+            "_Id": "107"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class",
+            "_Id": "108"
+        },
+        {
+            "Message": "Found: Constant \"-111\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "109"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class",
+            "_Id": "110"
+        },
+        {
+            "Message": "Found: Constant \"HMACSHA256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class",
+            "_Id": "111"
+        },
+        {
+            "Message": "Found: Constant \"100\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "112"
+        },
+        {
+            "Message": "Found: Constant \"4\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghp.class",
+            "_Id": "113"
+        },
+        {
+            "Message": "Found: Constant \"1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/java/math/BigInteger.class",
+            "_Id": "114"
+        },
+        {
+            "Message": "Found: Constant \"-128\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghg.class",
+            "_Id": "115"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PBKDF2.class",
+            "_Id": "116"
+        },
+        {
+            "Message": "Found: Constant \"3\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghp.class",
+            "_Id": "117"
+        },
+        {
+            "Message": "Found: Constant \"32\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class",
+            "_Id": "118"
+        },
+        {
+            "Message": "Found: Constant \"52\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "119"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfa.class",
+            "_Id": "120"
+        },
+        {
+            "Message": "Found: Constant \"24\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class",
+            "_Id": "121"
+        },
+        {
+            "Message": "Found: Constant \"-108\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "122"
+        },
+        {
+            "Message": "Found: Constant \"2\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghp.class",
+            "_Id": "123"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfa.class",
+            "_Id": "124"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class",
+            "_Id": "125"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha384\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/firebase-auth-api/zzfa.class",
+            "_Id": "126"
+        },
+        {
+            "Message": "Found: Constant \"-119\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "127"
+        },
+        {
+            "Message": "Found: Constant \"39\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "128"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzgah.class",
+            "_Id": "129"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/ECDH.class",
+            "_Id": "130"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzgah.class",
+            "_Id": "131"
+        },
+        {
+            "Message": "Found: Constant \"16\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class",
+            "_Id": "132"
+        },
+        {
+            "Message": "Found: Constant \"HMACSHA512\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class",
+            "_Id": "133"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class",
+            "_Id": "134"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/RSA_OAEP_256.class",
+            "_Id": "135"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA384\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/PRFParams.class",
+            "_Id": "136"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/RSA_OAEP.class",
+            "_Id": "137"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/ContentCryptoProvider.class",
+            "_Id": "138"
+        },
+        {
+            "Message": "Found: Constant \"83\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "139"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/LegacyConcatKDF.class",
+            "_Id": "140"
+        },
+        {
+            "Message": "Found: Constant \"1651189566953\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzapc.class",
+            "_Id": "141"
+        },
+        {
+            "Message": "Found: Constant \"1\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/java/math/BigInteger.class",
+            "_Id": "142"
+        },
+        {
+            "Message": "Found: Constant \"123\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/r/a.class",
+            "_Id": "143"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/RSA1_5.class",
+            "_Id": "144"
+        },
+        {
+            "Message": "Found: Constant \"HMACSHA384\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/nimbusds/jose/crypto/CompositeKey.class",
+            "_Id": "145"
+        },
+        {
+            "Message": "Found: Constant \"120\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "146"
+        },
+        {
+            "Message": "Found: \"-9223372036854775807L\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/hls/HlsSampleStreamWrapper.class",
+            "_Id": "147"
+        },
+        {
+            "Message": "Found: \"-128\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/gms/internal/ads/zzghg.class",
+            "_Id": "148"
+        },
+        {
+            "Message": "Found: \"-9223372036854775807L\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/hls/HlsChunkSource.class",
+            "_Id": "149"
+        },
+        {
+            "Message": "Found: \"-9223372036854775807L\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/hls/HlsSampleStreamWrapper.class",
+            "_Id": "150"
+        },
+        {
+            "Message": "Found: \"1L\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/source/hls/HlsChunkSource.class",
+            "_Id": "151"
+        },
+        {
+            "Message": "Found: \"1000L\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/google/android/exoplayer2/util/Util.class",
+            "_Id": "152"
+        },
+        {
+            "Message": "Found: \"83\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "153"
+        },
+        {
+            "Message": "Found: \"-119\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "154"
+        },
+        {
+            "Message": "Found: \"39\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "155"
+        },
+        {
+            "Message": "Found: \"100\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "156"
+        },
+        {
+            "Message": "Found: \"52\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "157"
+        },
+        {
+            "Message": "Found: \"120\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "158"
+        },
+        {
+            "Message": "Found: \"-108\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "159"
+        },
+        {
+            "Message": "Found: \"-111\"",
+            "Description": "Found constant salts in code",
+            "RuleNumber": 9,
+            "RuleDesc": "Found constant salts in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/k1/a.class",
+            "_Id": "160"
+        },
+        {
+            "Message": "Found: \"3\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/gimbal/sdk/n0/h.class",
+            "_Id": "161"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/retrofit2/Response.class",
+            "_Id": "162"
+        },
+        {
+            "Message": "Found: \"http://%s/%s\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class",
+            "_Id": "163"
+        },
+        {
+            "Message": "Found: \"http://%s/status\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class",
+            "_Id": "164"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/retrofit2/Response.class",
+            "_Id": "165"
+        },
+        {
+            "Message": "Found: \"http://%s/open-stack-frame\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class",
+            "_Id": "166"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/retrofit2/Response.class",
+            "_Id": "167"
+        },
+        {
+            "Message": "Found: \"http://%s/launch-js-devtools\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class",
+            "_Id": "168"
+        },
+        {
+            "Message": "Found: \"http://\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/flurry/sdk/de.class",
+            "_Id": "169"
+        },
+        {
+            "Message": "Found: \"http://%s/symbolicate\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fnoex.fan.uncbears_20001548.apk/com/facebook/react/devsupport/DevServerHelper.class",
+            "_Id": "170"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-01_00:08:56",
+    "_UUID": "9c9726d7-d89f-45c4-a48a-add5c349fddd"
+}

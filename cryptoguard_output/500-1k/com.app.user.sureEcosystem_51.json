@@ -1,1 +1,201 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/500-1k/com.app.user.sureEcosystem_51.apk -m D -o cryptoguard_output/500-1k/com.app.user.sureEcosystem_51.json","FullPath":"com.app.user.sureEcosystem_51.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/500-1k/com.app.user.sureEcosystem_51.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/androidx/transition/Explode.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/app/user/sureEcosystem/Tools/CaptureSignature.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/app/user/sureEcosystem/Tools/Utility.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/google/android/gms/internal/zzaut.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/google/firebase/iid/zzf.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/org/jsoup/helper/DataUtil.class","_Id":"6"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/UNKNOWN.class","_Id":"7"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/UNKNOWN.class","_Id":"8"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/UNKNOWN.class","_Id":"9"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/google/android/gms/internal/zzaua.class","_Id":"10"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/okio/Buffer.class","_Id":"11"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/squareup/okhttp/internal/Util.class","_Id":"12"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/google/android/gms/internal/zzaut.class","_Id":"13"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/okio/ByteString.class","_Id":"14"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/google/android/gms/internal/zzaut.class","_Id":"15"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/google/firebase/iid/FirebaseInstanceId.class","_Id":"16"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.app.user.sureEcosystem_51.apk/com/squareup/okhttp/internal/Util.class","_Id":"17"}],"_SchemaVersion":3,"_DateTime":"2025-08-01_12:57:13","_UUID":"89e5d69b-8d61-4a75-88c6-24e92bb7de0f"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/500-1k/com.app.user.sureEcosystem_51.apk -m D -o cryptoguard_output/500-1k/com.app.user.sureEcosystem_51.json",
+        "FullPath": "com.app.user.sureEcosystem_51.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/500-1k/com.app.user.sureEcosystem_51.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/androidx/transition/Explode.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/app/user/sureEcosystem/Tools/CaptureSignature.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/app/user/sureEcosystem/Tools/Utility.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/google/android/gms/internal/zzaut.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/google/firebase/iid/zzf.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/org/jsoup/helper/DataUtil.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/UNKNOWN.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/UNKNOWN.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/UNKNOWN.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/google/android/gms/internal/zzaua.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/okio/Buffer.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/squareup/okhttp/internal/Util.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/google/android/gms/internal/zzaut.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/okio/ByteString.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/google/android/gms/internal/zzaut.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/google/firebase/iid/FirebaseInstanceId.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.app.user.sureEcosystem_51.apk/com/squareup/okhttp/internal/Util.class",
+            "_Id": "17"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-01_12:57:13",
+    "_UUID": "89e5d69b-8d61-4a75-88c6-24e92bb7de0f"
+}

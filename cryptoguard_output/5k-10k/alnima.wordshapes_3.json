@@ -1,1 +1,61 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/5k-10k/alnima.wordshapes_3.apk -m D -o cryptoguard_output/5k-10k/alnima.wordshapes_3.json","FullPath":"alnima.wordshapes_3.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/alnima.wordshapes_3.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"alnima"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"alnima.wordshapes_3.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"alnima.wordshapes_3.apk/kotlin/random/KotlinRandom.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"alnima.wordshapes_3.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"2"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"alnima.wordshapes_3.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"3"}],"_SchemaVersion":3,"_DateTime":"2025-08-03_03:09:05","_UUID":"d4b6ab04-6339-4e62-9f63-463c96c3fa59"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/5k-10k/alnima.wordshapes_3.apk -m D -o cryptoguard_output/5k-10k/alnima.wordshapes_3.json",
+        "FullPath": "alnima.wordshapes_3.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/alnima.wordshapes_3.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "alnima"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "alnima.wordshapes_3.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "alnima.wordshapes_3.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "alnima.wordshapes_3.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "alnima.wordshapes_3.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "3"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-03_03:09:05",
+    "_UUID": "d4b6ab04-6339-4e62-9f63-463c96c3fa59"
+}

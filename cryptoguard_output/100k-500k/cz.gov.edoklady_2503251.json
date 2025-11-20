@@ -1,1 +1,611 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/100k-500k/cz.gov.edoklady_2503251.apk -m D -o cryptoguard_output/100k-500k/cz.gov.edoklady_2503251.json","FullPath":"cz.gov.edoklady_2503251.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/100k-500k/cz.gov.edoklady_2503251.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"cz"},"Issues":[{"Message":"Found: \"AES/ECB/NoPadding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/e.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/ht/f$d.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/androidx/profileinstaller/ProfileInstallerInitializer.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/qt/c.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/v3/g.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/rb/c.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/rb/b.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/pp/z.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/ht/e$b.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/mn/b$a.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/androidx/activity/result/d.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/br/e.class","_Id":"11"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/facebook/soloader/SoLoader$a.class","_Id":"12"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/a.class","_Id":"13"},{"Message":"Found: \"sha1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/rnfs/RNFSManager.class","_Id":"14"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/rnfs/RNFSManager.class","_Id":"15"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/x4/b.class","_Id":"16"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/a.class","_Id":"17"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/eq/h.class","_Id":"18"},{"Message":"Found: \"md5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/rnfs/RNFSManager.class","_Id":"19"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/rnfs/RNFSManager.class","_Id":"20"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/sha256lib/Sha256Module.class","_Id":"21"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/sha256lib/Sha256Module.class","_Id":"22"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/eq/h.class","_Id":"23"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/v2/g.class","_Id":"24"},{"Message":"Found: Constant \"255L\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/d.class","_Id":"25"},{"Message":"Found: Constant \"password:\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/util/ParameterUtil.class","_Id":"26"},{"Message":"Found: Constant \"255L\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/d.class","_Id":"27"},{"Message":"Found: Constant \"SHA-512\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/e.class","_Id":"28"},{"Message":"Found: Constant \"255L\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/d.class","_Id":"29"},{"Message":"Found: Constant \"SHA-384\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/e.class","_Id":"30"},{"Message":"Found: Constant \"255L\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/d.class","_Id":"31"},{"Message":"Found: Constant \"SHA-256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/e.class","_Id":"32"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/Twofish$PBEWithSHA.class","_Id":"33"},{"Message":"Found: \"3\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class","_Id":"34"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithMD5AndRC2.class","_Id":"35"},{"Message":"Found: \"1\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class","_Id":"36"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC128.class","_Id":"37"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC256.class","_Id":"38"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD2.class","_Id":"39"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC128.class","_Id":"40"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class","_Id":"41"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class","_Id":"42"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC192.class","_Id":"43"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD5.class","_Id":"44"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHA1AndRC2.class","_Id":"45"},{"Message":"Found: \"20\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/pkcs12/PKCS12KeyStoreSpi.class","_Id":"46"},{"Message":"Found: \"4\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class","_Id":"47"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd128BitRC2.class","_Id":"48"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC192.class","_Id":"49"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd40BitRC2.class","_Id":"50"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES2Key.class","_Id":"51"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC256.class","_Id":"52"},{"Message":"Found: \"1\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class","_Id":"53"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES3Key.class","_Id":"54"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithSHA1.class","_Id":"55"},{"Message":"Found: \"http:\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/pp/b0$a.class","_Id":"56"},{"Message":"Found: \"http://%s/launch-js-devtools\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/com/facebook/react/devsupport/e.class","_Id":"57"},{"Message":"Found: \"http://%s/status\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"cz.gov.edoklady_2503251.apk/t6/j.class","_Id":"58"}],"_SchemaVersion":3,"_DateTime":"2025-08-02_04:15:27","_UUID":"80fb442f-1ab9-4fd2-9d3d-8950d3c8c09a"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/100k-500k/cz.gov.edoklady_2503251.apk -m D -o cryptoguard_output/100k-500k/cz.gov.edoklady_2503251.json",
+        "FullPath": "cz.gov.edoklady_2503251.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/100k-500k/cz.gov.edoklady_2503251.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "cz"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"AES/ECB/NoPadding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/e.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/ht/f$d.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/androidx/profileinstaller/ProfileInstallerInitializer.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/qt/c.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/v3/g.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/rb/c.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/rb/b.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/pp/z.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/ht/e$b.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/mn/b$a.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/androidx/activity/result/d.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/br/e.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/facebook/soloader/SoLoader$a.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/a.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: \"sha1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/rnfs/RNFSManager.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/rnfs/RNFSManager.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/x4/b.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/a.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/eq/h.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"md5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/rnfs/RNFSManager.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/rnfs/RNFSManager.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/sha256lib/Sha256Module.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/sha256lib/Sha256Module.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/eq/h.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/v2/g.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Constant \"255L\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/d.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Constant \"password:\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/util/ParameterUtil.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Constant \"255L\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/d.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Constant \"SHA-512\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/e.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Constant \"255L\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/d.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Constant \"SHA-384\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/e.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Constant \"255L\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/d.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Constant \"SHA-256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/tom_roush/pdfbox/pdmodel/encryption/e.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/Twofish$PBEWithSHA.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"3\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithMD5AndRC2.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: \"1\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC128.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC256.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD2.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC128.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC192.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD5.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHA1AndRC2.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"20\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/pkcs12/PKCS12KeyStoreSpi.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"4\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd128BitRC2.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC192.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd40BitRC2.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES2Key.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC256.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: \"1\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES3Key.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithSHA1.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: \"http:\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/pp/b0$a.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: \"http://%s/launch-js-devtools\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/com/facebook/react/devsupport/e.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: \"http://%s/status\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "cz.gov.edoklady_2503251.apk/t6/j.class",
+            "_Id": "58"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-02_04:15:27",
+    "_UUID": "80fb442f-1ab9-4fd2-9d3d-8950d3c8c09a"
+}

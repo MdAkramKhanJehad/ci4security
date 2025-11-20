@@ -1,1 +1,1051 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/1M-5M/com.fourksoft.openvpn_407.apk -m D -o cryptoguard_output/1M-5M/com.fourksoft.openvpn_407.json","FullPath":"com.fourksoft.openvpn_407.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/1M-5M/com.fourksoft.openvpn_407.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/androidx/transition/Explode.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/tagmanager/zzal.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/RandomUtils.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/analytics/Tracker.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/firebase/remoteconfig/internal/ConfigRealtimeHttpClient.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okhttp3/OkHttpClient.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/kotlin/random/KotlinRandom.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFa1qSDK.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/facebook/internal/Utility.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFb1pSDK.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/firebase/remoteconfig/RemoteConfigComponent.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/tagmanager/zzea.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/RandomStringUtils.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/measurement/zzef.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzgu.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFa1wSDK.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"24"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/firebase/remoteconfig/internal/ConfigAutoFetch.class","_Id":"25"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"26"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/androidx/profileinstaller/ProfileInstallerInitializer.class","_Id":"27"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/measurement/internal/zzlo.class","_Id":"28"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/facebook/FacebookException.class","_Id":"29"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/fourksoft/openvpn/api/ServersManager.class","_Id":"30"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzoo.class","_Id":"31"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/tagmanager/zzet.class","_Id":"32"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/firebase/installations/Utils.class","_Id":"33"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"34"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class","_Id":"35"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of response.NetworkService","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/response/NetworkService.class","_Id":"36"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of response.NetworkService","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/response/NetworkService.class","_Id":"37"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/UNKNOWN.class","_Id":"38"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/UNKNOWN.class","_Id":"39"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of api.RestClient","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/api/RestClient.class","_Id":"40"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of api.RestClient","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/api/RestClient.class","_Id":"41"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/UNKNOWN.class","_Id":"42"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/UNKNOWN.class","_Id":"43"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/UNKNOWN.class","_Id":"44"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/facebook/internal/Utility.class","_Id":"45"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okio/HashingSink$Companion.class","_Id":"46"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/adapty/internal/utils/VariationPicker.class","_Id":"47"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/firebase/installations/local/IidStore.class","_Id":"48"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFb1zSDK.class","_Id":"49"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/facebook/appevents/AppEvent$Companion.class","_Id":"50"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okio/HashingSource$Companion.class","_Id":"51"},{"Message":"Found: \"sha-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/xbill/DNS/DNSSEC.class","_Id":"52"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okio/Buffer.class","_Id":"53"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzof.class","_Id":"54"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/measurement/internal/zzlo.class","_Id":"55"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/firebase/messaging/GmsRpc.class","_Id":"56"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/fourksoft/vpn/data/repository/common/NetworkRepository.class","_Id":"57"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class","_Id":"58"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okio/ByteString.class","_Id":"59"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/iid/InstanceID.class","_Id":"60"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/tagmanager/zzby.class","_Id":"61"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/de/blinkt/openvpn/api/AppRestrictions.class","_Id":"62"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okio/Buffer.class","_Id":"63"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okio/HashingSource$Companion.class","_Id":"64"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"65"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFb1zSDK.class","_Id":"66"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/facebook/internal/Utility.class","_Id":"67"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okio/ByteString.class","_Id":"68"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/facebook/internal/security/CertificateUtil.class","_Id":"69"},{"Message":"Found: \"sha-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/org/xbill/DNS/NSEC3Record.class","_Id":"70"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/facebook/internal/Utility.class","_Id":"71"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzfu.class","_Id":"72"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/de/blinkt/openvpn/core/LogItem.class","_Id":"73"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/facebook/appevents/internal/HashUtils.class","_Id":"74"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/adapty/internal/utils/HashingHelper.class","_Id":"75"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/facebook/FacebookSdk.class","_Id":"76"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okio/HashingSink$Companion.class","_Id":"77"},{"Message":"Found: Constant \"true\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"78"},{"Message":"object Object Found value \"[object Object]\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"79"},{"Message":"Found: Constant \"undefined\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"80"},{"Message":"Found: Constant \"false\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"81"},{"Message":"Found: Constant \"0.\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"82"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"83"},{"Message":"Found: \"true\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"84"},{"Message":"Found: \"object Object\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"85"},{"Message":"Found: \"undefined\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"86"},{"Message":"Found: \"false\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"87"},{"Message":"Found: \"0.\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"88"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"89"},{"Message":"Found: \"http://gapi.softwaredashboard.info\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/fragment/ProxyConfigurationFragment.class","_Id":"90"},{"Message":"Found: \"http://%s/speedtest/speedtest/random4000x4000.jpg\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/fourksoft/openvpn/utils/SpeedTest.class","_Id":"91"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/retrofit2/Response.class","_Id":"92"},{"Message":"Found: \"http://www.google-analytics.com\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzew.class","_Id":"93"},{"Message":"Found: \"http://gapi.softwaredashboard.info\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/fourksoft/vpn/core/di/ApplicationModule.class","_Id":"94"},{"Message":"Found: \"HTTP: [\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFc1mSDK.class","_Id":"95"},{"Message":"Found: \"http://\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/fourksoft/openvpn/until/WorkerThread.class","_Id":"96"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/retrofit2/Response.class","_Id":"97"},{"Message":"Found: \"http://%s/speedtest/speedtest/random4000x4000.jpg\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/fourksoft/openvpn/utils/SpeedTest.class","_Id":"98"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/retrofit2/Response.class","_Id":"99"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/retrofit2/Response.class","_Id":"100"},{"Message":"Found: \"http:\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/okhttp3/Request$Builder.class","_Id":"101"},{"Message":"Found: \"http://gapi.softwaredashboard.info\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.fourksoft.openvpn_407.apk/com/fourksoft/vpn/gui/fragments/settings/ProxyCheckFragment.class","_Id":"102"}],"_SchemaVersion":3,"_DateTime":"2025-07-28_09:10:00","_UUID":"edb6c422-fcdf-40aa-b18e-89e89d62f8a3"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/1M-5M/com.fourksoft.openvpn_407.apk -m D -o cryptoguard_output/1M-5M/com.fourksoft.openvpn_407.json",
+        "FullPath": "com.fourksoft.openvpn_407.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/1M-5M/com.fourksoft.openvpn_407.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/androidx/transition/Explode.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/tagmanager/zzal.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/RandomUtils.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/analytics/Tracker.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/firebase/remoteconfig/internal/ConfigRealtimeHttpClient.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okhttp3/OkHttpClient.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFa1qSDK.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/facebook/internal/Utility.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFb1pSDK.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/firebase/remoteconfig/RemoteConfigComponent.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/tagmanager/zzea.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/RandomStringUtils.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/measurement/zzef.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzgu.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFa1wSDK.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/firebase/remoteconfig/internal/ConfigAutoFetch.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/androidx/profileinstaller/ProfileInstallerInitializer.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/measurement/internal/zzlo.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/facebook/FacebookException.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/fourksoft/openvpn/api/ServersManager.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzoo.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/tagmanager/zzet.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/firebase/installations/Utils.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/apache/commons/lang3/ArrayUtils.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of response.NetworkService",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/response/NetworkService.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of response.NetworkService",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/response/NetworkService.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/UNKNOWN.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/UNKNOWN.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of api.RestClient",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/api/RestClient.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of api.RestClient",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/api/RestClient.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/UNKNOWN.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/UNKNOWN.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/UNKNOWN.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/facebook/internal/Utility.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okio/HashingSink$Companion.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/adapty/internal/utils/VariationPicker.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFb1zSDK.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/facebook/appevents/AppEvent$Companion.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okio/HashingSource$Companion.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"sha-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/xbill/DNS/DNSSEC.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okio/Buffer.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzof.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/measurement/internal/zzlo.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/firebase/messaging/GmsRpc.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/fourksoft/vpn/data/repository/common/NetworkRepository.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okio/ByteString.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/iid/InstanceID.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/tagmanager/zzby.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/de/blinkt/openvpn/api/AppRestrictions.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okio/Buffer.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okio/HashingSource$Companion.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFb1zSDK.class",
+            "_Id": "66"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/facebook/internal/Utility.class",
+            "_Id": "67"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okio/ByteString.class",
+            "_Id": "68"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/facebook/internal/security/CertificateUtil.class",
+            "_Id": "69"
+        },
+        {
+            "Message": "Found: \"sha-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/org/xbill/DNS/NSEC3Record.class",
+            "_Id": "70"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/facebook/internal/Utility.class",
+            "_Id": "71"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzfu.class",
+            "_Id": "72"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/de/blinkt/openvpn/core/LogItem.class",
+            "_Id": "73"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/facebook/appevents/internal/HashUtils.class",
+            "_Id": "74"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/adapty/internal/utils/HashingHelper.class",
+            "_Id": "75"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/facebook/FacebookSdk.class",
+            "_Id": "76"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okio/HashingSink$Companion.class",
+            "_Id": "77"
+        },
+        {
+            "Message": "Found: Constant \"true\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "78"
+        },
+        {
+            "Message": "object Object Found value \"[object Object]\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "79"
+        },
+        {
+            "Message": "Found: Constant \"undefined\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "80"
+        },
+        {
+            "Message": "Found: Constant \"false\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "81"
+        },
+        {
+            "Message": "Found: Constant \"0.\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "82"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "83"
+        },
+        {
+            "Message": "Found: \"true\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "84"
+        },
+        {
+            "Message": "Found: \"object Object\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "85"
+        },
+        {
+            "Message": "Found: \"undefined\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "86"
+        },
+        {
+            "Message": "Found: \"false\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "87"
+        },
+        {
+            "Message": "Found: \"0.\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "88"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "89"
+        },
+        {
+            "Message": "Found: \"http://gapi.softwaredashboard.info\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/fragment/ProxyConfigurationFragment.class",
+            "_Id": "90"
+        },
+        {
+            "Message": "Found: \"http://%s/speedtest/speedtest/random4000x4000.jpg\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/fourksoft/openvpn/utils/SpeedTest.class",
+            "_Id": "91"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/retrofit2/Response.class",
+            "_Id": "92"
+        },
+        {
+            "Message": "Found: \"http://www.google-analytics.com\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/google/android/gms/internal/gtm/zzew.class",
+            "_Id": "93"
+        },
+        {
+            "Message": "Found: \"http://gapi.softwaredashboard.info\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/fourksoft/vpn/core/di/ApplicationModule.class",
+            "_Id": "94"
+        },
+        {
+            "Message": "Found: \"HTTP: [\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/appsflyer/internal/AFc1mSDK.class",
+            "_Id": "95"
+        },
+        {
+            "Message": "Found: \"http://\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/fourksoft/openvpn/until/WorkerThread.class",
+            "_Id": "96"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/retrofit2/Response.class",
+            "_Id": "97"
+        },
+        {
+            "Message": "Found: \"http://%s/speedtest/speedtest/random4000x4000.jpg\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/fourksoft/openvpn/utils/SpeedTest.class",
+            "_Id": "98"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/retrofit2/Response.class",
+            "_Id": "99"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/retrofit2/Response.class",
+            "_Id": "100"
+        },
+        {
+            "Message": "Found: \"http:\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/okhttp3/Request$Builder.class",
+            "_Id": "101"
+        },
+        {
+            "Message": "Found: \"http://gapi.softwaredashboard.info\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.fourksoft.openvpn_407.apk/com/fourksoft/vpn/gui/fragments/settings/ProxyCheckFragment.class",
+            "_Id": "102"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-28_09:10:00",
+    "_UUID": "edb6c422-fcdf-40aa-b18e-89e89d62f8a3"
+}

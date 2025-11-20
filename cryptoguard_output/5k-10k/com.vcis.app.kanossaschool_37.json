@@ -1,1 +1,621 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/5k-10k/com.vcis.app.kanossaschool_37.apk -m D -o cryptoguard_output/5k-10k/com.vcis.app.kanossaschool_37.json","FullPath":"com.vcis.app.kanossaschool_37.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/com.vcis.app.kanossaschool_37.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/okhttp3/OkHttpClient.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/androidx/transition/Explode.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/com/google/firebase/installations/i.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/s6/b$a.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/w5/j.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/androidx/activity/result/d.class","_Id":"5"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/com/google/firebase/messaging/z.class","_Id":"6"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/k3/a.class","_Id":"7"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/p7/i.class","_Id":"8"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/f5/b.class","_Id":"9"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/p7/i.class","_Id":"10"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/com/google/firebase/iid/k.class","_Id":"11"},{"Message":"Found: Constant \"121\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"12"},{"Message":"Found: Constant \"111\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"13"},{"Message":"Found: Constant \"112\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"14"},{"Message":"Found: Constant \"107\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"15"},{"Message":"Found: Constant \"109\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"16"},{"Message":"Found: Constant \"55\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"17"},{"Message":"Found: Constant \"89\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"18"},{"Message":"Found: Constant \"33\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"19"},{"Message":"Found: Constant \"69\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"20"},{"Message":"Found: Constant \"112\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"21"},{"Message":"Found: Constant \"110\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"22"},{"Message":"Found: Constant \"52\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"23"},{"Message":"Found: Constant \"101\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"24"},{"Message":"Found: Constant \"114\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"25"},{"Message":"Found: Constant \"57\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"26"},{"Message":"Found: Constant \"64\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"27"},{"Message":"Found: \"121\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"28"},{"Message":"Found: \"64\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"29"},{"Message":"Found: \"112\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"30"},{"Message":"Found: \"35\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"31"},{"Message":"Found: \"109\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"32"},{"Message":"Found: \"38\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"33"},{"Message":"Found: \"35\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"34"},{"Message":"Found: \"55\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"35"},{"Message":"Found: \"89\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"36"},{"Message":"Found: \"69\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"37"},{"Message":"Found: \"64\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"38"},{"Message":"Found: \"110\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"39"},{"Message":"Found: \"38\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"40"},{"Message":"Found: \"101\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"41"},{"Message":"Found: \"38\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"42"},{"Message":"Found: \"64\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"43"},{"Message":"Found: \"57\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"44"},{"Message":"Found: \"38\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"45"},{"Message":"Found: \"35\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"46"},{"Message":"Found: \"64\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"47"},{"Message":"Found: \"35\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"48"},{"Message":"Found: \"36\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"49"},{"Message":"Found: \"111\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"50"},{"Message":"Found: \"107\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"51"},{"Message":"Found: \"33\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"52"},{"Message":"Found: \"112\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"53"},{"Message":"Found: \"52\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"54"},{"Message":"Found: \"114\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"55"},{"Message":"Found: \"36\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"56"},{"Message":"Found: \"36\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"57"},{"Message":"Found: \"64\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"58"},{"Message":"Found: \"36\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.vcis.app.kanossaschool_37.apk/d6/c.class","_Id":"59"}],"_SchemaVersion":3,"_DateTime":"2025-08-02_20:50:47","_UUID":"409f2d01-3bc7-433e-9fbd-8eaf5dec73d6"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/5k-10k/com.vcis.app.kanossaschool_37.apk -m D -o cryptoguard_output/5k-10k/com.vcis.app.kanossaschool_37.json",
+        "FullPath": "com.vcis.app.kanossaschool_37.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/com.vcis.app.kanossaschool_37.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/okhttp3/OkHttpClient.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/androidx/transition/Explode.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/com/google/firebase/installations/i.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/s6/b$a.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/w5/j.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/androidx/activity/result/d.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/com/google/firebase/messaging/z.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/k3/a.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/p7/i.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/f5/b.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/p7/i.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/com/google/firebase/iid/k.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Constant \"121\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Constant \"111\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Constant \"112\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Constant \"107\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Constant \"109\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Constant \"55\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Constant \"89\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Constant \"33\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Constant \"69\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Constant \"112\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Constant \"110\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Constant \"52\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Constant \"101\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Constant \"114\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Constant \"57\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Constant \"64\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: \"121\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: \"64\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: \"112\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: \"35\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: \"109\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: \"38\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"35\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"55\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: \"89\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: \"69\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"64\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"110\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"38\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"101\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: \"38\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"64\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"57\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"38\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"35\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"64\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"35\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"36\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: \"111\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: \"107\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"33\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: \"112\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: \"52\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: \"114\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: \"36\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: \"36\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: \"64\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: \"36\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.vcis.app.kanossaschool_37.apk/d6/c.class",
+            "_Id": "59"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-02_20:50:47",
+    "_UUID": "409f2d01-3bc7-433e-9fbd-8eaf5dec73d6"
+}

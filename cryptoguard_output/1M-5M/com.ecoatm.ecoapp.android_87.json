@@ -1,1 +1,381 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/1M-5M/com.ecoatm.ecoapp.android_87.apk -m D -o cryptoguard_output/1M-5M/com.ecoatm.ecoapp.android_87.json","FullPath":"com.ecoatm.ecoapp.android_87.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/1M-5M/com.ecoatm.ecoapp.android_87.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/ig/b$a.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/ch/v.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/ed/l.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/l4/f.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/firebase/remoteconfig/internal/d.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/bd/e.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/z9/b9.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/jd/a0.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/ub/a.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/p8/a.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/androidx/activity/result/f.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzoo.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/firebase/remoteconfig/internal/a.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/q8/i.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzgu.class","_Id":"14"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/b9/a.class","_Id":"15"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/libraries/places/internal/zzfu.class","_Id":"16"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/ec/g.class","_Id":"17"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/oh/d.class","_Id":"18"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/m3/e.class","_Id":"19"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/m3/e.class","_Id":"20"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/z9/b9.class","_Id":"21"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/ad/b.class","_Id":"22"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzfu.class","_Id":"23"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzof.class","_Id":"24"},{"Message":"Found: Constant \"true\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"25"},{"Message":"object Object Found value \"[object Object]\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"26"},{"Message":"Found: Constant \"undefined\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"27"},{"Message":"Found: Constant \"false\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"28"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"29"},{"Message":"Found: \"true\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"30"},{"Message":"Found: \"object Object\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"31"},{"Message":"Found: \"undefined\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"32"},{"Message":"Found: \"false\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"33"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class","_Id":"34"},{"Message":"Found: \"http://www.google-analytics.com\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzew.class","_Id":"35"}],"_SchemaVersion":3,"_DateTime":"2025-07-28_09:04:47","_UUID":"b1926f5a-dbd8-4bf6-9613-fb3b73cb8e98"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/1M-5M/com.ecoatm.ecoapp.android_87.apk -m D -o cryptoguard_output/1M-5M/com.ecoatm.ecoapp.android_87.json",
+        "FullPath": "com.ecoatm.ecoapp.android_87.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/1M-5M/com.ecoatm.ecoapp.android_87.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/ig/b$a.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/ch/v.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/ed/l.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/l4/f.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/firebase/remoteconfig/internal/d.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/bd/e.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/z9/b9.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/jd/a0.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/ub/a.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/p8/a.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/androidx/activity/result/f.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzoo.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/firebase/remoteconfig/internal/a.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/q8/i.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzgu.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/b9/a.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/libraries/places/internal/zzfu.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/ec/g.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/oh/d.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/m3/e.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/m3/e.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/z9/b9.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/ad/b.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzfu.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzof.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Constant \"true\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "object Object Found value \"[object Object]\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Constant \"undefined\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Constant \"false\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: \"true\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: \"object Object\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: \"undefined\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: \"false\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzjx.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"http://www.google-analytics.com\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ecoatm.ecoapp.android_87.apk/com/google/android/gms/internal/gtm/zzew.class",
+            "_Id": "35"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-28_09:04:47",
+    "_UUID": "b1926f5a-dbd8-4bf6-9613-fb3b73cb8e98"
+}

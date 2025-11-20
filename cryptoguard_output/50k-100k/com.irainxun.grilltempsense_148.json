@@ -1,1 +1,20 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/50k-100k/com.irainxun.grilltempsense_148.apk -m D -o cryptoguard_output/50k-100k/com.irainxun.grilltempsense_148.json","FullPath":"com.irainxun.grilltempsense_148.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/50k-100k/com.irainxun.grilltempsense_148.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09","_ProjectName":"com"},"Issues":[],"_SchemaVersion":3,"_DateTime":"2025-07-29_13:38:20","_UUID":"45e16353-9328-4595-a1af-9c659a1b3358"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/50k-100k/com.irainxun.grilltempsense_148.apk -m D -o cryptoguard_output/50k-100k/com.irainxun.grilltempsense_148.json",
+        "FullPath": "com.irainxun.grilltempsense_148.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/50k-100k/com.irainxun.grilltempsense_148.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09",
+        "_ProjectName": "com"
+    },
+    "Issues": [],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-29_13:38:20",
+    "_UUID": "45e16353-9328-4595-a1af-9c659a1b3358"
+}

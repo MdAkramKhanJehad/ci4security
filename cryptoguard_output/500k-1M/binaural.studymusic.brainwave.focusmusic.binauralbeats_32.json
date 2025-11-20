@@ -1,1 +1,561 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/500k-1M/binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk -m D -o cryptoguard_output/500k-1M/binaural.studymusic.brainwave.focusmusic.binauralbeats_32.json","FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"binaural"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/internal/client/zzay.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zznt.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wp.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/smaato/sdk/core/errorreport/Report.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wj$a.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/firebase/remoteconfig/internal/Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wj$a.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/firebase/installations/Wwwwwwwwwwwwwwwwwwwwwwwwwww.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/pg.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzwa.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzauj.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/smaato/sdk/core/violationreporter/Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzbtq.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/androidx/transition/Explode.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzfki.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/vpaid/macros/GenericMacros.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wj$a.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/yp.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzwa.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/measurement/zzef.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wj$a.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/rewarded/HyBidRewardedBroadcastReceiver.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzwa.class","_Id":"24"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/ac$Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.class","_Id":"25"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/firebase/remoteconfig/internal/Wwwwwwwwwwwwwwwwwwwwwwwwwwww.class","_Id":"26"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzwa.class","_Id":"27"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/mq.class","_Id":"28"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/views/CloseableContainer$ClosePosition.class","_Id":"29"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/measurement/internal/zzlp.class","_Id":"30"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/firebase/remoteconfig/Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.class","_Id":"31"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/smaato/sdk/video/utils/RandomUtils.class","_Id":"32"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/interstitial/HyBidInterstitialBroadcastReceiver.class","_Id":"33"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/Wwwwwwwwwwwwwwwwwwwxwww.class","_Id":"34"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/consent_sdk/zzcl.class","_Id":"35"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/vi.class","_Id":"36"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/internal/util/client/zzf.class","_Id":"37"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/internal/util/client/zzf.class","_Id":"38"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzayx.class","_Id":"39"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/smaato/sdk/core/mvvm/model/video/Md5Digester.class","_Id":"40"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/sdk/utils/StringUtils.class","_Id":"41"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/utils/PNCrypto.class","_Id":"42"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/fl.class","_Id":"43"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/measurement/internal/zzlp.class","_Id":"44"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzatc.class","_Id":"45"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/utils/PNCrypto.class","_Id":"46"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"47"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/internal/util/client/zzf.class","_Id":"48"},{"Message":"Found: Constant \"1708042440713\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzavp.class","_Id":"49"},{"Message":"Found: Constant \"1708042440713\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzavp.class","_Id":"50"},{"Message":"Found: Constant \"1708042440713\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzavp.class","_Id":"51"},{"Message":"Found: \"http://\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/sdk/n.class","_Id":"52"},{"Message":"Found: \"http://pv.sohu.com/cityjson?ie=utf-8\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/Wwwwwwwwwwwwwwvv.class","_Id":"53"}],"_SchemaVersion":3,"_DateTime":"2025-08-02_12:31:15","_UUID":"ca18d031-3dc9-438a-8996-189a2333a6a5"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/500k-1M/binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk -m D -o cryptoguard_output/500k-1M/binaural.studymusic.brainwave.focusmusic.binauralbeats_32.json",
+        "FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "binaural"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/internal/client/zzay.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zznt.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wp.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/smaato/sdk/core/errorreport/Report.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wj$a.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/firebase/remoteconfig/internal/Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wj$a.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/firebase/installations/Wwwwwwwwwwwwwwwwwwwwwwwwwww.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/pg.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzwa.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzauj.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/smaato/sdk/core/violationreporter/Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzbtq.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/androidx/transition/Explode.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzfki.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/vpaid/macros/GenericMacros.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wj$a.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/yp.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzwa.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/measurement/zzef.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/wj$a.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/rewarded/HyBidRewardedBroadcastReceiver.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzwa.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/ac$Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/firebase/remoteconfig/internal/Wwwwwwwwwwwwwwwwwwwwwwwwwwww.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzwa.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/mq.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/views/CloseableContainer$ClosePosition.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/measurement/internal/zzlp.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/firebase/remoteconfig/Wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/smaato/sdk/video/utils/RandomUtils.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/interstitial/HyBidInterstitialBroadcastReceiver.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/Wwwwwwwwwwwwwwwwwwwxwww.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/consent_sdk/zzcl.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/vi.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/internal/util/client/zzf.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/internal/util/client/zzf.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzayx.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/smaato/sdk/core/mvvm/model/video/Md5Digester.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/sdk/utils/StringUtils.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/utils/PNCrypto.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/fl.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/measurement/internal/zzlp.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzatc.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/net/pubnative/lite/sdk/utils/PNCrypto.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/ads/internal/util/client/zzf.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: Constant \"1708042440713\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzavp.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: Constant \"1708042440713\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzavp.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: Constant \"1708042440713\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/google/android/gms/internal/ads/zzavp.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"http://\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/com/applovin/impl/sdk/n.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: \"http://pv.sohu.com/cityjson?ie=utf-8\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "binaural.studymusic.brainwave.focusmusic.binauralbeats_32.apk/Wwwwwwwwwwwwwwvv.class",
+            "_Id": "53"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-02_12:31:15",
+    "_UUID": "ca18d031-3dc9-438a-8996-189a2333a6a5"
+}

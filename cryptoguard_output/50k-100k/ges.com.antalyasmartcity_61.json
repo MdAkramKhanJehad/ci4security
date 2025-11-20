@@ -1,1 +1,151 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/50k-100k/ges.com.antalyasmartcity_61.apk -m D -o cryptoguard_output/50k-100k/ges.com.antalyasmartcity_61.json","FullPath":"ges.com.antalyasmartcity_61.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/50k-100k/ges.com.antalyasmartcity_61.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09","_ProjectName":"ges"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/e/a/o/p/g/g.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/h/a/b/a/a/a.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/h/a/b/j/b/y9.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/h/a/b/h/g/h.class","_Id":"3"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/h/b/h/e/k/g.class","_Id":"4"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/h/a/b/j/b/y9.class","_Id":"5"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/h/b/o/q/c.class","_Id":"6"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/i/h.class","_Id":"7"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/h/a/b/e/e0.class","_Id":"8"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/h/b/m/q.class","_Id":"9"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/ges/com/antalyasmartcity/scenes/webview/WebViewActivity.class","_Id":"10"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/c/h/b/o/p/b.class","_Id":"11"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"ges.com.antalyasmartcity_61.apk/i/h.class","_Id":"12"}],"_SchemaVersion":3,"_DateTime":"2025-07-29_15:13:25","_UUID":"2c6c4e0b-8f3a-40f4-8d3b-41847484c955"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/50k-100k/ges.com.antalyasmartcity_61.apk -m D -o cryptoguard_output/50k-100k/ges.com.antalyasmartcity_61.json",
+        "FullPath": "ges.com.antalyasmartcity_61.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/50k-100k/ges.com.antalyasmartcity_61.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09",
+        "_ProjectName": "ges"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/e/a/o/p/g/g.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/h/a/b/a/a/a.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/h/a/b/j/b/y9.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/h/a/b/h/g/h.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/h/b/h/e/k/g.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/h/a/b/j/b/y9.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/h/b/o/q/c.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/i/h.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/h/a/b/e/e0.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/h/b/m/q.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/ges/com/antalyasmartcity/scenes/webview/WebViewActivity.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/c/h/b/o/p/b.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "ges.com.antalyasmartcity_61.apk/i/h.class",
+            "_Id": "12"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-29_15:13:25",
+    "_UUID": "2c6c4e0b-8f3a-40f4-8d3b-41847484c955"
+}

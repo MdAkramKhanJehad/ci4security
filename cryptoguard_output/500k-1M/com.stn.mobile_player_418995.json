@@ -1,1 +1,1161 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/500k-1M/com.stn.mobile_player_418995.apk -m D -o cryptoguard_output/500k-1M/com.stn.mobile_player_418995.json","FullPath":"com.stn.mobile_player_418995.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/com.stn.mobile_player_418995.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: \"AES/ECB/PKCS7Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/jh/t.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/vb/g.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/datasource/cache/p.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/df/x.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/trackselection/c0$a.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/bl/b$a.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/qm/b0.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/'if'/j0.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/dash/b.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/firebase/installations/Utils.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/bl/c.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/analytics/w1.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/a.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/org/jsoup/helper/DataUtil.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/f.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/trackselection/c0$a.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/android/gms/measurement/internal/zzne.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/m9/k.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/util/SntpClient.class","_Id":"24"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/sd/k6.class","_Id":"25"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class","_Id":"26"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/firebase/sessions/FirebaseSessions.class","_Id":"27"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/android/gms/internal/measurement/zzdf.class","_Id":"28"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/profileinstaller/ProfileInstallerInitializer.class","_Id":"29"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/kj/b.class","_Id":"30"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class","_Id":"31"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/'if'/t$f.class","_Id":"32"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/hn/d0$a.class","_Id":"33"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/hn/o.class","_Id":"34"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/hn/l.class","_Id":"35"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/hn/l.class","_Id":"36"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/firebase/messaging/GmsRpc.class","_Id":"37"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/kollus/sdk/media/util/Utils.class","_Id":"38"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/firebase/installations/local/IidStore.class","_Id":"39"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/hn/c0$a.class","_Id":"40"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/android/gms/measurement/internal/zzne.class","_Id":"41"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/hn/d0$a.class","_Id":"42"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/hn/o.class","_Id":"43"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/'if'/t$e.class","_Id":"44"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/rtsp/k.class","_Id":"45"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"46"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/kollus/sdk/media/util/Utils.class","_Id":"47"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/hn/c0$a.class","_Id":"48"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/com/kollus/sdk/media/util/Utils.class","_Id":"49"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"50"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"51"},{"Message":"Found: Constant \"-108\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"52"},{"Message":"Found: Constant \"-117\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"53"},{"Message":"Found: Constant \"22\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"54"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"55"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"56"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"57"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"58"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"59"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"60"},{"Message":"Found: Constant \"43\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"61"},{"Message":"Found: Constant \"-123\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"62"},{"Message":"Found: Constant \"-107\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"63"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"64"},{"Message":"Found: Constant \"-104\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"65"},{"Message":"Found: Constant \"-115\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"66"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"67"},{"Message":"Found: Constant \"-122\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"68"},{"Message":"Found: Constant \"-106\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"69"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"70"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"71"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"72"},{"Message":"Found: Constant \"-117\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"73"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"74"},{"Message":"Found: Constant \"-107\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"75"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"76"},{"Message":"Found: Constant \"-105\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/xi/g.class","_Id":"77"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"78"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"79"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"80"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"81"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"82"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"83"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"84"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"85"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"86"},{"Message":"Found: \"1L\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/hls/f.class","_Id":"87"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"88"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"89"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"90"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"91"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"92"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"93"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"94"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"95"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"96"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"97"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"98"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"99"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"100"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"101"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"102"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"103"},{"Message":"Found: \"-9223372036854775807L\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/hls/f.class","_Id":"104"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"105"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"106"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"107"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/za/b.class","_Id":"108"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"109"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"110"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"111"},{"Message":"Found: \"0\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/yi/a.class","_Id":"112"},{"Message":"Found: \"http://undefined/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.stn.mobile_player_418995.apk/org/jsoup/helper/HttpConnection$Base.class","_Id":"113"}],"_SchemaVersion":3,"_DateTime":"2025-08-02_19:17:04","_UUID":"d679a3bb-db80-471b-9ac4-da5ff1bbba00"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/500k-1M/com.stn.mobile_player_418995.apk -m D -o cryptoguard_output/500k-1M/com.stn.mobile_player_418995.json",
+        "FullPath": "com.stn.mobile_player_418995.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/com.stn.mobile_player_418995.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"AES/ECB/PKCS7Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/jh/t.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/vb/g.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/datasource/cache/p.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/df/x.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/trackselection/c0$a.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/bl/b$a.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/qm/b0.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/'if'/j0.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/dash/b.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/firebase/installations/Utils.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/bl/c.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/analytics/w1.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/a.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/org/jsoup/helper/DataUtil.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/f.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/trackselection/c0$a.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/android/gms/measurement/internal/zzne.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/m9/k.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/util/SntpClient.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/sd/k6.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/source/ShuffleOrder$a.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/firebase/sessions/FirebaseSessions.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/android/gms/internal/measurement/zzdf.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/profileinstaller/ProfileInstallerInitializer.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/kj/b.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/'if'/t$f.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/hn/d0$a.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/hn/o.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/hn/l.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/hn/l.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/firebase/messaging/GmsRpc.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/kollus/sdk/media/util/Utils.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/hn/c0$a.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/android/gms/measurement/internal/zzne.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/hn/d0$a.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/hn/o.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/'if'/t$e.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/rtsp/k.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/kollus/sdk/media/util/Utils.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/hn/c0$a.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/com/kollus/sdk/media/util/Utils.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: Constant \"-108\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: Constant \"-117\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: Constant \"22\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: Constant \"43\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: Constant \"-123\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: Constant \"-107\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: Constant \"-104\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: Constant \"-115\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "66"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "67"
+        },
+        {
+            "Message": "Found: Constant \"-122\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "68"
+        },
+        {
+            "Message": "Found: Constant \"-106\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "69"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "70"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "71"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "72"
+        },
+        {
+            "Message": "Found: Constant \"-117\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "73"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "74"
+        },
+        {
+            "Message": "Found: Constant \"-107\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "75"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "76"
+        },
+        {
+            "Message": "Found: Constant \"-105\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/xi/g.class",
+            "_Id": "77"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "78"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "79"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "80"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "81"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "82"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "83"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "84"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "85"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "86"
+        },
+        {
+            "Message": "Found: \"1L\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/hls/f.class",
+            "_Id": "87"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "88"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "89"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "90"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "91"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "92"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "93"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "94"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "95"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "96"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "97"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "98"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "99"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "100"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "101"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "102"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "103"
+        },
+        {
+            "Message": "Found: \"-9223372036854775807L\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/androidx/media3/exoplayer/hls/f.class",
+            "_Id": "104"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "105"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "106"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "107"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/za/b.class",
+            "_Id": "108"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "109"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "110"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "111"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/yi/a.class",
+            "_Id": "112"
+        },
+        {
+            "Message": "Found: \"http://undefined/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.stn.mobile_player_418995.apk/org/jsoup/helper/HttpConnection$Base.class",
+            "_Id": "113"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-02_19:17:04",
+    "_UUID": "d679a3bb-db80-471b-9ac4-da5ff1bbba00"
+}

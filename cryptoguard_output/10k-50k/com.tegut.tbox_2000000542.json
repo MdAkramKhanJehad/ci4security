@@ -1,1 +1,1271 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/10k-50k/com.tegut.tbox_2000000542.apk -m D -o cryptoguard_output/10k-50k/com.tegut.tbox_2000000542.json","FullPath":"com.tegut.tbox_2000000542.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/10k-50k/com.tegut.tbox_2000000542.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: \"256\"","Description":"Used export grade public Key","RuleNumber":5,"RuleDesc":"Used export grade public Key","CWEId":321,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/okhttp3/tls/HeldCertificate$Builder.class","_Id":"0"},{"Message":"Found: \"256\"","Description":"Used export grade public Key","RuleNumber":5,"RuleDesc":"Used export grade public Key","CWEId":321,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/okhttp3/tls/HeldCertificate$Builder.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/androidx/profileinstaller/ProfileInstallerInitializer.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/org/apache/commons/lang3/RandomUtils.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/org/apache/commons/lang3/RandomStringUtils.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/j$/util/concurrent/ThreadLocalRandom.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/okhttp3/OkHttpClient.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/com/microsoft/appcenter/http/HttpClientRetryer.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/org/iban4j/bban/BbanStructureEntry.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/com/google/firebase/installations/remote/RequestLimiter.class","_Id":"11"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/UNKNOWN.class","_Id":"12"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/UNKNOWN.class","_Id":"13"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/UNKNOWN.class","_Id":"14"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/UNKNOWN.class","_Id":"15"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/okhttp3/internal/ws/RealWebSocket.class","_Id":"16"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/com/google/firebase/installations/local/IidStore.class","_Id":"17"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/com/google/firebase/installations/remote/FirebaseInstallationServiceClient.class","_Id":"18"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/Utils.class","_Id":"19"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/okhttp3/Cache$Companion.class","_Id":"20"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/com/airbnb/lottie/network/NetworkCache.class","_Id":"21"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/okhttp3/CertificatePinner$Companion.class","_Id":"22"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/b/a/a/k.class","_Id":"23"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/com/google/firebase/messaging/GmsRpc.class","_Id":"24"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/sentry/SentryOptions.class","_Id":"25"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/okhttp3/internal/ws/WebSocketProtocol.class","_Id":"26"},{"Message":"Found: Constant \"-82\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"27"},{"Message":"Found: Constant \"-115\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"28"},{"Message":"Found: Constant \"-87\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"29"},{"Message":"Found: Constant \"103\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"30"},{"Message":"Found: Constant \"-16\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"31"},{"Message":"Found: Constant \"120\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"32"},{"Message":"Found: Constant \"59\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"33"},{"Message":"Found: Constant \"10\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"34"},{"Message":"Found: Constant \"112\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"35"},{"Message":"Found: Constant \"-19\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"36"},{"Message":"Found: Constant \"-64\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"37"},{"Message":"Found: Constant \"104\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"38"},{"Message":"Found: Constant \"-44\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"39"},{"Message":"Found: Constant \"-95\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"40"},{"Message":"Found: Constant \"-43\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"41"},{"Message":"Found: Constant \"-101\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"42"},{"Message":"Found: Constant \"77\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"43"},{"Message":"Found: Constant \"12\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"44"},{"Message":"Found: Constant \"-126\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"45"},{"Message":"Found: Constant \"99\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"46"},{"Message":"Found: Constant \"-10\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"47"},{"Message":"Found: Constant \"-59\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"48"},{"Message":"Found: Constant \"106\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"49"},{"Message":"Found: Constant \"51\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"50"},{"Message":"Found: Constant \"-118\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"51"},{"Message":"Found: Constant \"-14\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"52"},{"Message":"Found: Constant \"44\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"53"},{"Message":"Found: Constant \"125\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"54"},{"Message":"Found: Constant \"110\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"55"},{"Message":"Found: Constant \"26\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"56"},{"Message":"Found: Constant \"86\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"57"},{"Message":"Found: Constant \"-69\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"58"},{"Message":"Found: Constant \"126\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"59"},{"Message":"Found: Constant \"-82\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"60"},{"Message":"Found: Constant \"17\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"61"},{"Message":"Found: Constant \"-82\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"62"},{"Message":"Found: Constant \"125\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"63"},{"Message":"Found: Constant \"35\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"64"},{"Message":"Found: Constant \"55\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"65"},{"Message":"Found: Constant \"34\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"66"},{"Message":"Found: Constant \"-50\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"67"},{"Message":"Found: Constant \"-29\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"68"},{"Message":"Found: Constant \"98\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"69"},{"Message":"Found: Constant \"58\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"70"},{"Message":"Found: Constant \"-90\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"71"},{"Message":"Found: Constant \"-6\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"72"},{"Message":"Found: Constant \"97\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"73"},{"Message":"Found: Constant \"-112\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"74"},{"Message":"Found: Constant \"-45\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"75"},{"Message":"Found: Constant \"-92\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"76"},{"Message":"Found: Constant \"-59\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"77"},{"Message":"Found: Constant \"UTF-8\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/lib/android/paypal/com/magnessdk/i.class","_Id":"78"},{"Message":"Found: Constant \"-117\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"79"},{"Message":"Found: Constant \"119\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"80"},{"Message":"Found: Constant \"-86\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"81"},{"Message":"Found: Constant \"-51\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"82"},{"Message":"Found: Constant \"90\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"83"},{"Message":"Found: Constant \"72\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"84"},{"Message":"Found: Constant \"106\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"85"},{"Message":"Found: Constant \"106\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"86"},{"Message":"Found: Constant \"47\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"87"},{"Message":"Found: Constant \"-127\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"88"},{"Message":"Found: Constant \"125\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"89"},{"Message":"Found: Constant \"-81\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"90"},{"Message":"Found: Constant \"113\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class","_Id":"91"},{"Message":"Found: \"29\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"92"},{"Message":"Found: \"115\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"93"},{"Message":"Found: \"115\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"94"},{"Message":"Found: \"114\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"95"},{"Message":"Found: \"107\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"96"},{"Message":"Found: \"28\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"97"},{"Message":"Found: \"33\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"98"},{"Message":"Found: \"62\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"99"},{"Message":"Found: \"-116\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"100"},{"Message":"Found: \"-75\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"101"},{"Message":"Found: \"-75\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"102"},{"Message":"Found: \"35\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"103"},{"Message":"Found: \"107\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"104"},{"Message":"Found: \"-116\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"105"},{"Message":"Found: \"30\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"106"},{"Message":"Found: \"114\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"107"},{"Message":"Found: \"-41\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"108"},{"Message":"Found: \"62\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"109"},{"Message":"Found: \"30\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"110"},{"Message":"Found: \"-41\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"111"},{"Message":"Found: \"123\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"112"},{"Message":"Found: \"33\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"113"},{"Message":"Found: \"123\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"114"},{"Message":"Found: \"119\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"115"},{"Message":"Found: \"40\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"116"},{"Message":"Found: \"119\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"117"},{"Message":"Found: \"35\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"118"},{"Message":"Found: \"29\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"119"},{"Message":"Found: \"40\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"120"},{"Message":"Found: \"-26\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"121"},{"Message":"Found: \"-26\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class","_Id":"122"},{"Message":"Found: \"28\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class","_Id":"123"},{"Message":"Found: \"password\"","Description":"Used Predictable KeyStore Password","RuleNumber":14,"RuleDesc":"Used Predictable KeyStore Password","CWEId":321,"Severity":"1","_FullPath":"com.tegut.tbox_2000000542.apk/okhttp3/tls/internal/TlsUtil.class","_Id":"124"}],"_SchemaVersion":3,"_DateTime":"2025-07-30_21:22:23","_UUID":"9bcb93b5-c741-4f94-a19a-90d6c5f23216"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/10k-50k/com.tegut.tbox_2000000542.apk -m D -o cryptoguard_output/10k-50k/com.tegut.tbox_2000000542.json",
+        "FullPath": "com.tegut.tbox_2000000542.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/10k-50k/com.tegut.tbox_2000000542.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"256\"",
+            "Description": "Used export grade public Key",
+            "RuleNumber": 5,
+            "RuleDesc": "Used export grade public Key",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/okhttp3/tls/HeldCertificate$Builder.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: \"256\"",
+            "Description": "Used export grade public Key",
+            "RuleNumber": 5,
+            "RuleDesc": "Used export grade public Key",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/okhttp3/tls/HeldCertificate$Builder.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/androidx/profileinstaller/ProfileInstallerInitializer.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/org/apache/commons/lang3/RandomUtils.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/org/apache/commons/lang3/RandomStringUtils.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/j$/util/concurrent/ThreadLocalRandom.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/okhttp3/OkHttpClient.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/com/microsoft/appcenter/http/HttpClientRetryer.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/org/iban4j/bban/BbanStructureEntry.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/com/google/firebase/installations/remote/RequestLimiter.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/UNKNOWN.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/UNKNOWN.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/UNKNOWN.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/UNKNOWN.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/okhttp3/internal/ws/RealWebSocket.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/com/google/firebase/installations/remote/FirebaseInstallationServiceClient.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/Utils.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/okhttp3/Cache$Companion.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/com/airbnb/lottie/network/NetworkCache.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/okhttp3/CertificatePinner$Companion.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/b/a/a/k.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/com/google/firebase/messaging/GmsRpc.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/sentry/SentryOptions.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/okhttp3/internal/ws/WebSocketProtocol.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Constant \"-82\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Constant \"-115\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Constant \"-87\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Constant \"103\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Constant \"-16\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Constant \"120\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: Constant \"59\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: Constant \"10\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: Constant \"112\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: Constant \"-19\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: Constant \"-64\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: Constant \"104\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: Constant \"-44\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: Constant \"-95\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: Constant \"-43\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: Constant \"-101\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: Constant \"77\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: Constant \"12\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: Constant \"-126\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: Constant \"99\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: Constant \"-10\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: Constant \"-59\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: Constant \"106\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: Constant \"51\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: Constant \"-118\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: Constant \"-14\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: Constant \"44\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: Constant \"125\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: Constant \"110\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: Constant \"26\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: Constant \"86\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: Constant \"-69\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: Constant \"126\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: Constant \"-82\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: Constant \"17\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: Constant \"-82\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: Constant \"125\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: Constant \"35\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: Constant \"55\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: Constant \"34\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "66"
+        },
+        {
+            "Message": "Found: Constant \"-50\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "67"
+        },
+        {
+            "Message": "Found: Constant \"-29\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "68"
+        },
+        {
+            "Message": "Found: Constant \"98\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "69"
+        },
+        {
+            "Message": "Found: Constant \"58\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "70"
+        },
+        {
+            "Message": "Found: Constant \"-90\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "71"
+        },
+        {
+            "Message": "Found: Constant \"-6\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "72"
+        },
+        {
+            "Message": "Found: Constant \"97\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "73"
+        },
+        {
+            "Message": "Found: Constant \"-112\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "74"
+        },
+        {
+            "Message": "Found: Constant \"-45\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "75"
+        },
+        {
+            "Message": "Found: Constant \"-92\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "76"
+        },
+        {
+            "Message": "Found: Constant \"-59\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "77"
+        },
+        {
+            "Message": "Found: Constant \"UTF-8\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/lib/android/paypal/com/magnessdk/i.class",
+            "_Id": "78"
+        },
+        {
+            "Message": "Found: Constant \"-117\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "79"
+        },
+        {
+            "Message": "Found: Constant \"119\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "80"
+        },
+        {
+            "Message": "Found: Constant \"-86\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "81"
+        },
+        {
+            "Message": "Found: Constant \"-51\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "82"
+        },
+        {
+            "Message": "Found: Constant \"90\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "83"
+        },
+        {
+            "Message": "Found: Constant \"72\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "84"
+        },
+        {
+            "Message": "Found: Constant \"106\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "85"
+        },
+        {
+            "Message": "Found: Constant \"106\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "86"
+        },
+        {
+            "Message": "Found: Constant \"47\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "87"
+        },
+        {
+            "Message": "Found: Constant \"-127\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "88"
+        },
+        {
+            "Message": "Found: Constant \"125\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "89"
+        },
+        {
+            "Message": "Found: Constant \"-81\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "90"
+        },
+        {
+            "Message": "Found: Constant \"113\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/a/a/a/o/m0.class",
+            "_Id": "91"
+        },
+        {
+            "Message": "Found: \"29\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "92"
+        },
+        {
+            "Message": "Found: \"115\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "93"
+        },
+        {
+            "Message": "Found: \"115\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "94"
+        },
+        {
+            "Message": "Found: \"114\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "95"
+        },
+        {
+            "Message": "Found: \"107\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "96"
+        },
+        {
+            "Message": "Found: \"28\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "97"
+        },
+        {
+            "Message": "Found: \"33\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "98"
+        },
+        {
+            "Message": "Found: \"62\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "99"
+        },
+        {
+            "Message": "Found: \"-116\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "100"
+        },
+        {
+            "Message": "Found: \"-75\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "101"
+        },
+        {
+            "Message": "Found: \"-75\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "102"
+        },
+        {
+            "Message": "Found: \"35\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "103"
+        },
+        {
+            "Message": "Found: \"107\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "104"
+        },
+        {
+            "Message": "Found: \"-116\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "105"
+        },
+        {
+            "Message": "Found: \"30\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "106"
+        },
+        {
+            "Message": "Found: \"114\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "107"
+        },
+        {
+            "Message": "Found: \"-41\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "108"
+        },
+        {
+            "Message": "Found: \"62\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "109"
+        },
+        {
+            "Message": "Found: \"30\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "110"
+        },
+        {
+            "Message": "Found: \"-41\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "111"
+        },
+        {
+            "Message": "Found: \"123\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "112"
+        },
+        {
+            "Message": "Found: \"33\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "113"
+        },
+        {
+            "Message": "Found: \"123\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "114"
+        },
+        {
+            "Message": "Found: \"119\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "115"
+        },
+        {
+            "Message": "Found: \"40\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "116"
+        },
+        {
+            "Message": "Found: \"119\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "117"
+        },
+        {
+            "Message": "Found: \"35\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "118"
+        },
+        {
+            "Message": "Found: \"29\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "119"
+        },
+        {
+            "Message": "Found: \"40\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "120"
+        },
+        {
+            "Message": "Found: \"-26\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "121"
+        },
+        {
+            "Message": "Found: \"-26\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.class",
+            "_Id": "122"
+        },
+        {
+            "Message": "Found: \"28\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.class",
+            "_Id": "123"
+        },
+        {
+            "Message": "Found: \"password\"",
+            "Description": "Used Predictable KeyStore Password",
+            "RuleNumber": 14,
+            "RuleDesc": "Used Predictable KeyStore Password",
+            "CWEId": 321,
+            "Severity": "1",
+            "_FullPath": "com.tegut.tbox_2000000542.apk/okhttp3/tls/internal/TlsUtil.class",
+            "_Id": "124"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-30_21:22:23",
+    "_UUID": "9bcb93b5-c741-4f94-a19a-90d6c5f23216"
+}

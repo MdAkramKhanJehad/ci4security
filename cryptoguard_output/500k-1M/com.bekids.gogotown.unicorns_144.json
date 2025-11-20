@@ -1,1 +1,1901 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/500k-1M/com.bekids.gogotown.unicorns_144.apk -m D -o cryptoguard_output/500k-1M/com.bekids.gogotown.unicorns_144.json","FullPath":"com.bekids.gogotown.unicorns_144.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/com.bekids.gogotown.unicorns_144.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: \"AES\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/GZipUtil.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/androidx/transition/Explode.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/common/hash/Striped64.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/net/lingala/zip4j/tasks/AbstractModifyFileTask.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/f/c.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/okhttp3/OkHttpClient.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/bugly/proguard/s.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/internal/measurement/zzee.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/kotlin/random/KotlinRandom.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFa1qSDK.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHDeviceUtils.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFb1pSDK.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/org/jsoup/helper/DataUtil.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/Header.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHDeviceUtils.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/common/cache/Striped64.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFa1wSDK.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/beacon/c/b.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/measurement/internal/zzlt.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHDeviceUtils.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/firebase/installations/Utils.class","_Id":"24"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/beacon/a/b/c.class","_Id":"25"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/beacon/a/e/b.class","_Id":"26"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class","_Id":"27"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class","_Id":"28"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of proguard.s","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/proguard/s.class","_Id":"29"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of proguard.s","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/proguard/s.class","_Id":"30"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class","_Id":"31"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class","_Id":"32"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class","_Id":"33"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class","_Id":"34"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class","_Id":"35"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class","_Id":"36"},{"Message":"Cause: Fixed \"[0, 1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class","_Id":"37"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/common/hash/Hashing$Md5Holder.class","_Id":"38"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/core/HttpSignTools.class","_Id":"39"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/okio/Buffer.class","_Id":"40"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/firebase/installations/local/IidStore.class","_Id":"41"},{"Message":"Found: \"sha-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/TSIG.class","_Id":"42"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFb1zSDK.class","_Id":"43"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/common/hash/Hashing$Sha1Holder.class","_Id":"44"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/MD5Utils.class","_Id":"45"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/okio/HashingSink$Companion.class","_Id":"46"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/okio/HashingSource$Companion.class","_Id":"47"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/utils/DigestUtils.class","_Id":"48"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/okio/HashingSink$Companion.class","_Id":"49"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/d/a.class","_Id":"50"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/filedownloader/util/FileDownloadUtils.class","_Id":"51"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/utils/DigestUtils.class","_Id":"52"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/svgaplayer/SVGACache.class","_Id":"53"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/g/g/e.class","_Id":"54"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/firebase/messaging/GmsRpc.class","_Id":"55"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/okio/ByteString.class","_Id":"56"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/bekids/gogotown/util/file/IHFileUtil.class","_Id":"57"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/measurement/internal/zzlt.class","_Id":"58"},{"Message":"Found: \"sha-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/DNSSEC.class","_Id":"59"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/a/c.class","_Id":"60"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/okio/ByteString.class","_Id":"61"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qcloud/core/auth/Utils.class","_Id":"62"},{"Message":"Found: \"md5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/TSIG.class","_Id":"63"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/bekids/gogotown/util/string/MD5Util.class","_Id":"64"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/beacon/a/e/b.class","_Id":"65"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/media/player/core/cipher/SecureCipher.class","_Id":"66"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"67"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/utils/DigestUtils.class","_Id":"68"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/bekids/gogotown/util/file/FileUtils.class","_Id":"69"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/bugly/proguard/ab.class","_Id":"70"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/persistence/file/IHFileStorage.class","_Id":"71"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFb1zSDK.class","_Id":"72"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/utils/DigestUtils.class","_Id":"73"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHMD5Utils.class","_Id":"74"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHMD5Utils.class","_Id":"75"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/FileEncrypt.class","_Id":"76"},{"Message":"Found: \"sha-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/NSEC3Record.class","_Id":"77"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/FileEncrypt.class","_Id":"78"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/okio/HashingSource$Companion.class","_Id":"79"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qcloud/core/http/StreamingRequestBody.class","_Id":"80"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/StringEncrypt.class","_Id":"81"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/okio/Buffer.class","_Id":"82"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/model/object/CopyObjectRequest.class","_Id":"83"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/model/object/ObjectRequest.class","_Id":"84"},{"Message":"Found: Constant \"-7\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"85"},{"Message":"Found: Constant \"21\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"86"},{"Message":"Found: Constant \"25\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"87"},{"Message":"Found: Constant \"87\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"88"},{"Message":"Found: Constant \"-128\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"89"},{"Message":"Found: Constant \"116\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"90"},{"Message":"Found: Constant \"65\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"91"},{"Message":"Found: Constant \"-119\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"92"},{"Message":"Found: Constant \"84\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"93"},{"Message":"Found: Constant \"117\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"94"},{"Message":"Found: Constant \"11\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"95"},{"Message":"Found: Constant \"-78\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"96"},{"Message":"Found: Constant \"-3\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"97"},{"Message":"Found: Constant \"-112\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"98"},{"Message":"Found: Constant \"-29\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"99"},{"Message":"Found: Constant \"-14\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"100"},{"Message":"Found: Constant \"40\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"101"},{"Message":"Found: Constant \"15\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"102"},{"Message":"Found: Constant \"49\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"103"},{"Message":"Found: Constant \"-21\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"104"},{"Message":"Found: Constant \"121\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"105"},{"Message":"Found: Constant \"81\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"106"},{"Message":"Found: Constant \"123\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"107"},{"Message":"Found: Constant \"-51\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"108"},{"Message":"Found: Constant \"-19\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"109"},{"Message":"Found: Constant \"13\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"110"},{"Message":"Found: Constant \"99\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"111"},{"Message":"Found: Constant \"91\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"112"},{"Message":"Found: Constant \"-58\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"113"},{"Message":"Found: Constant \"-67\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"114"},{"Message":"Found: Constant \"12\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"115"},{"Message":"Found: Constant \"4\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"116"},{"Message":"Found: Constant \"39\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"117"},{"Message":"Found: Constant \"118\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"118"},{"Message":"Found: Constant \"40\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"119"},{"Message":"Found: Constant \"-84\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"120"},{"Message":"Found: Constant \"85\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"121"},{"Message":"Found: Constant \"-3\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"122"},{"Message":"Found: Constant \"-26\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"123"},{"Message":"Found: Constant \"-40\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"124"},{"Message":"Found: Constant \"UTF-8\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/AES256Cipher.class","_Id":"125"},{"Message":"Found: Constant \"33\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"126"},{"Message":"Found: Constant \"115\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"127"},{"Message":"Found: Constant \"63\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"128"},{"Message":"Found: Constant \"30\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"129"},{"Message":"Found: Constant \"zntmba3kdopQhuajhqIserb6eahazrhc\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHDeviceUtils.class","_Id":"130"},{"Message":"Found: Constant \"71\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"131"},{"Message":"Found: \"-7\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"132"},{"Message":"Found: \"21\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"133"},{"Message":"Found: \"25\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"134"},{"Message":"Found: \"87\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"135"},{"Message":"Found: \"-128\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"136"},{"Message":"Found: \"116\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"137"},{"Message":"Found: \"65\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"138"},{"Message":"Found: \"-119\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"139"},{"Message":"Found: \"84\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"140"},{"Message":"Found: \"117\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"141"},{"Message":"Found: \"11\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"142"},{"Message":"Found: \"-78\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"143"},{"Message":"Found: \"-3\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"144"},{"Message":"Found: \"c)5Gh@DCBXN6+8op\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/AES256Cipher.class","_Id":"145"},{"Message":"Found: \"-112\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"146"},{"Message":"Found: \"-29\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"147"},{"Message":"Found: \"-14\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"148"},{"Message":"Found: \"40\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"149"},{"Message":"Found: \"15\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"150"},{"Message":"Found: \"49\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"151"},{"Message":"Found: \"-21\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"152"},{"Message":"Found: \"121\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"153"},{"Message":"Found: \"81\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"154"},{"Message":"Found: \"123\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"155"},{"Message":"Found: \"-51\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"156"},{"Message":"Found: \"-19\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"157"},{"Message":"Found: \"13\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"158"},{"Message":"Found: \"99\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"159"},{"Message":"Found: \"91\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"160"},{"Message":"Found: \"-58\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"161"},{"Message":"Found: \"-67\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"162"},{"Message":"Found: \"12\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"163"},{"Message":"Found: \"4\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"164"},{"Message":"Found: \"39\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"165"},{"Message":"Found: \"118\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"166"},{"Message":"Found: \"40\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"167"},{"Message":"Found: \"-84\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"168"},{"Message":"Found: \"85\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"169"},{"Message":"Found: \"-3\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"170"},{"Message":"Found: \"-26\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"171"},{"Message":"Found: \"-40\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"172"},{"Message":"Found: \"33\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"173"},{"Message":"Found: \"115\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"174"},{"Message":"Found: \"63\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"175"},{"Message":"Found: \"30\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"176"},{"Message":"Found: \"71\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class","_Id":"177"},{"Message":"Found: \"c)5Gh@DCBXN6+8op\"","Description":"Found predictable seeds in code","RuleNumber":11,"RuleDesc":"Found predictable seeds in code","CWEId":760,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/AES256Cipher.class","_Id":"178"},{"Message":"Found: \"http://ifconfig.me/ip\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/statistics/manager/FaunaLogger.class","_Id":"179"},{"Message":"Found: \"HTTP: [\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFc1mSDK.class","_Id":"180"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/retrofit2/Response.class","_Id":"181"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/retrofit2/Response.class","_Id":"182"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/retrofit2/Response.class","_Id":"183"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/retrofit2/Response.class","_Id":"184"},{"Message":"Found: \"http://pv.sohu.com/cityjson?ie=utf-8\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/utils/IHNetworkUtils$Companion.class","_Id":"185"},{"Message":"Found: \"http://ipecho.net/plain\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/statistics/manager/FaunaLogger.class","_Id":"186"},{"Message":"Found: \"http://icanhazip.com/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/statistics/manager/FaunaLogger.class","_Id":"187"}],"_SchemaVersion":3,"_DateTime":"2025-08-02_19:40:19","_UUID":"c2da4982-5ee5-4bb9-9e09-fa9b39ebdb5c"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/500k-1M/com.bekids.gogotown.unicorns_144.apk -m D -o cryptoguard_output/500k-1M/com.bekids.gogotown.unicorns_144.json",
+        "FullPath": "com.bekids.gogotown.unicorns_144.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/com.bekids.gogotown.unicorns_144.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"AES\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/GZipUtil.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/androidx/transition/Explode.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/common/hash/Striped64.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/net/lingala/zip4j/tasks/AbstractModifyFileTask.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/f/c.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/okhttp3/OkHttpClient.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/bugly/proguard/s.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/internal/measurement/zzee.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFa1qSDK.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHDeviceUtils.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFb1pSDK.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/org/jsoup/helper/DataUtil.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/Header.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHDeviceUtils.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/common/cache/Striped64.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFa1wSDK.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/beacon/c/b.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/measurement/internal/zzlt.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHDeviceUtils.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/firebase/installations/Utils.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/beacon/a/b/c.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/beacon/a/e/b.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of proguard.s",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/proguard/s.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of proguard.s",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/proguard/s.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Cause: Fixed \"[0, 1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/UNKNOWN.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/common/hash/Hashing$Md5Holder.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/core/HttpSignTools.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/okio/Buffer.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: \"sha-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/TSIG.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFb1zSDK.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/common/hash/Hashing$Sha1Holder.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/MD5Utils.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/okio/HashingSink$Companion.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/okio/HashingSource$Companion.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/utils/DigestUtils.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/okio/HashingSink$Companion.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/d/a.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/filedownloader/util/FileDownloadUtils.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/utils/DigestUtils.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/svgaplayer/SVGACache.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/g/g/e.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/firebase/messaging/GmsRpc.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/okio/ByteString.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/bekids/gogotown/util/file/IHFileUtil.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/measurement/internal/zzlt.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: \"sha-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/DNSSEC.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/a/c.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/okio/ByteString.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qcloud/core/auth/Utils.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: \"md5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/TSIG.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/bekids/gogotown/util/string/MD5Util.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/beacon/a/e/b.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/media/player/core/cipher/SecureCipher.class",
+            "_Id": "66"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "67"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/utils/DigestUtils.class",
+            "_Id": "68"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/bekids/gogotown/util/file/FileUtils.class",
+            "_Id": "69"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/bugly/proguard/ab.class",
+            "_Id": "70"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/persistence/file/IHFileStorage.class",
+            "_Id": "71"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFb1zSDK.class",
+            "_Id": "72"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/utils/DigestUtils.class",
+            "_Id": "73"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHMD5Utils.class",
+            "_Id": "74"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHMD5Utils.class",
+            "_Id": "75"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/FileEncrypt.class",
+            "_Id": "76"
+        },
+        {
+            "Message": "Found: \"sha-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/dns/NSEC3Record.class",
+            "_Id": "77"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/FileEncrypt.class",
+            "_Id": "78"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/okio/HashingSource$Companion.class",
+            "_Id": "79"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qcloud/core/http/StreamingRequestBody.class",
+            "_Id": "80"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/StringEncrypt.class",
+            "_Id": "81"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/okio/Buffer.class",
+            "_Id": "82"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/model/object/CopyObjectRequest.class",
+            "_Id": "83"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/cos/xml/model/object/ObjectRequest.class",
+            "_Id": "84"
+        },
+        {
+            "Message": "Found: Constant \"-7\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "85"
+        },
+        {
+            "Message": "Found: Constant \"21\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "86"
+        },
+        {
+            "Message": "Found: Constant \"25\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "87"
+        },
+        {
+            "Message": "Found: Constant \"87\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "88"
+        },
+        {
+            "Message": "Found: Constant \"-128\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "89"
+        },
+        {
+            "Message": "Found: Constant \"116\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "90"
+        },
+        {
+            "Message": "Found: Constant \"65\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "91"
+        },
+        {
+            "Message": "Found: Constant \"-119\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "92"
+        },
+        {
+            "Message": "Found: Constant \"84\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "93"
+        },
+        {
+            "Message": "Found: Constant \"117\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "94"
+        },
+        {
+            "Message": "Found: Constant \"11\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "95"
+        },
+        {
+            "Message": "Found: Constant \"-78\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "96"
+        },
+        {
+            "Message": "Found: Constant \"-3\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "97"
+        },
+        {
+            "Message": "Found: Constant \"-112\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "98"
+        },
+        {
+            "Message": "Found: Constant \"-29\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "99"
+        },
+        {
+            "Message": "Found: Constant \"-14\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "100"
+        },
+        {
+            "Message": "Found: Constant \"40\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "101"
+        },
+        {
+            "Message": "Found: Constant \"15\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "102"
+        },
+        {
+            "Message": "Found: Constant \"49\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "103"
+        },
+        {
+            "Message": "Found: Constant \"-21\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "104"
+        },
+        {
+            "Message": "Found: Constant \"121\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "105"
+        },
+        {
+            "Message": "Found: Constant \"81\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "106"
+        },
+        {
+            "Message": "Found: Constant \"123\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "107"
+        },
+        {
+            "Message": "Found: Constant \"-51\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "108"
+        },
+        {
+            "Message": "Found: Constant \"-19\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "109"
+        },
+        {
+            "Message": "Found: Constant \"13\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "110"
+        },
+        {
+            "Message": "Found: Constant \"99\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "111"
+        },
+        {
+            "Message": "Found: Constant \"91\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "112"
+        },
+        {
+            "Message": "Found: Constant \"-58\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "113"
+        },
+        {
+            "Message": "Found: Constant \"-67\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "114"
+        },
+        {
+            "Message": "Found: Constant \"12\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "115"
+        },
+        {
+            "Message": "Found: Constant \"4\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "116"
+        },
+        {
+            "Message": "Found: Constant \"39\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "117"
+        },
+        {
+            "Message": "Found: Constant \"118\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "118"
+        },
+        {
+            "Message": "Found: Constant \"40\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "119"
+        },
+        {
+            "Message": "Found: Constant \"-84\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "120"
+        },
+        {
+            "Message": "Found: Constant \"85\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "121"
+        },
+        {
+            "Message": "Found: Constant \"-3\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "122"
+        },
+        {
+            "Message": "Found: Constant \"-26\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "123"
+        },
+        {
+            "Message": "Found: Constant \"-40\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "124"
+        },
+        {
+            "Message": "Found: Constant \"UTF-8\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/AES256Cipher.class",
+            "_Id": "125"
+        },
+        {
+            "Message": "Found: Constant \"33\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "126"
+        },
+        {
+            "Message": "Found: Constant \"115\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "127"
+        },
+        {
+            "Message": "Found: Constant \"63\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "128"
+        },
+        {
+            "Message": "Found: Constant \"30\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "129"
+        },
+        {
+            "Message": "Found: Constant \"zntmba3kdopQhuajhqIserb6eahazrhc\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/IHDeviceUtils.class",
+            "_Id": "130"
+        },
+        {
+            "Message": "Found: Constant \"71\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "131"
+        },
+        {
+            "Message": "Found: \"-7\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "132"
+        },
+        {
+            "Message": "Found: \"21\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "133"
+        },
+        {
+            "Message": "Found: \"25\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "134"
+        },
+        {
+            "Message": "Found: \"87\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "135"
+        },
+        {
+            "Message": "Found: \"-128\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "136"
+        },
+        {
+            "Message": "Found: \"116\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "137"
+        },
+        {
+            "Message": "Found: \"65\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "138"
+        },
+        {
+            "Message": "Found: \"-119\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "139"
+        },
+        {
+            "Message": "Found: \"84\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "140"
+        },
+        {
+            "Message": "Found: \"117\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "141"
+        },
+        {
+            "Message": "Found: \"11\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "142"
+        },
+        {
+            "Message": "Found: \"-78\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "143"
+        },
+        {
+            "Message": "Found: \"-3\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "144"
+        },
+        {
+            "Message": "Found: \"c)5Gh@DCBXN6+8op\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/AES256Cipher.class",
+            "_Id": "145"
+        },
+        {
+            "Message": "Found: \"-112\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "146"
+        },
+        {
+            "Message": "Found: \"-29\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "147"
+        },
+        {
+            "Message": "Found: \"-14\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "148"
+        },
+        {
+            "Message": "Found: \"40\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "149"
+        },
+        {
+            "Message": "Found: \"15\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "150"
+        },
+        {
+            "Message": "Found: \"49\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "151"
+        },
+        {
+            "Message": "Found: \"-21\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "152"
+        },
+        {
+            "Message": "Found: \"121\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "153"
+        },
+        {
+            "Message": "Found: \"81\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "154"
+        },
+        {
+            "Message": "Found: \"123\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "155"
+        },
+        {
+            "Message": "Found: \"-51\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "156"
+        },
+        {
+            "Message": "Found: \"-19\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "157"
+        },
+        {
+            "Message": "Found: \"13\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "158"
+        },
+        {
+            "Message": "Found: \"99\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "159"
+        },
+        {
+            "Message": "Found: \"91\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "160"
+        },
+        {
+            "Message": "Found: \"-58\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "161"
+        },
+        {
+            "Message": "Found: \"-67\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "162"
+        },
+        {
+            "Message": "Found: \"12\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "163"
+        },
+        {
+            "Message": "Found: \"4\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "164"
+        },
+        {
+            "Message": "Found: \"39\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "165"
+        },
+        {
+            "Message": "Found: \"118\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "166"
+        },
+        {
+            "Message": "Found: \"40\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "167"
+        },
+        {
+            "Message": "Found: \"-84\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "168"
+        },
+        {
+            "Message": "Found: \"85\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "169"
+        },
+        {
+            "Message": "Found: \"-3\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "170"
+        },
+        {
+            "Message": "Found: \"-26\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "171"
+        },
+        {
+            "Message": "Found: \"-40\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "172"
+        },
+        {
+            "Message": "Found: \"33\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "173"
+        },
+        {
+            "Message": "Found: \"115\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "174"
+        },
+        {
+            "Message": "Found: \"63\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "175"
+        },
+        {
+            "Message": "Found: \"30\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "176"
+        },
+        {
+            "Message": "Found: \"71\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/tencent/qmsp/sdk/b/a.class",
+            "_Id": "177"
+        },
+        {
+            "Message": "Found: \"c)5Gh@DCBXN6+8op\"",
+            "Description": "Found predictable seeds in code",
+            "RuleNumber": 11,
+            "RuleDesc": "Found predictable seeds in code",
+            "CWEId": 760,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/utils/AES256Cipher.class",
+            "_Id": "178"
+        },
+        {
+            "Message": "Found: \"http://ifconfig.me/ip\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/statistics/manager/FaunaLogger.class",
+            "_Id": "179"
+        },
+        {
+            "Message": "Found: \"HTTP: [\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/appsflyer/internal/AFc1mSDK.class",
+            "_Id": "180"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/retrofit2/Response.class",
+            "_Id": "181"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/retrofit2/Response.class",
+            "_Id": "182"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/retrofit2/Response.class",
+            "_Id": "183"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/retrofit2/Response.class",
+            "_Id": "184"
+        },
+        {
+            "Message": "Found: \"http://pv.sohu.com/cityjson?ie=utf-8\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/network/utils/IHNetworkUtils$Companion.class",
+            "_Id": "185"
+        },
+        {
+            "Message": "Found: \"http://ipecho.net/plain\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/statistics/manager/FaunaLogger.class",
+            "_Id": "186"
+        },
+        {
+            "Message": "Found: \"http://icanhazip.com/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.bekids.gogotown.unicorns_144.apk/com/ihuman/sdk/lib/statistics/manager/FaunaLogger.class",
+            "_Id": "187"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-02_19:40:19",
+    "_UUID": "c2da4982-5ee5-4bb9-9e09-fa9b39ebdb5c"
+}

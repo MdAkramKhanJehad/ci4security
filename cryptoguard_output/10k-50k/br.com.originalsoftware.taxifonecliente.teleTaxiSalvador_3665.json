@@ -1,1 +1,331 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/10k-50k/br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk -m D -o cryptoguard_output/10k-50k/br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.json","FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/10k-50k/br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"br"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/androidx/transition/Explode.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/annimon/stream/RandomCompat.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/annimon/stream/RandomCompat.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/internal/measurement/zzbs.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/internal/auth-api/zzba.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/measurement/internal/zzkp.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/internal/Utility.class","_Id":"8"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of http.HttpRequest","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/http/HttpRequest.class","_Id":"9"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of http.HttpRequest","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/http/HttpRequest.class","_Id":"10"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/http/HttpRequest.class","_Id":"11"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/iid/InstanceID.class","_Id":"12"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/internal/Utility.class","_Id":"13"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/FacebookSdk.class","_Id":"14"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/util/StringUtils.class","_Id":"15"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/measurement/internal/zzkp.class","_Id":"16"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/appevents/AppEvent.class","_Id":"17"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"18"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/common/zzs.class","_Id":"19"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/internal/Utility.class","_Id":"20"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/firebase/installations/local/IidStore.class","_Id":"21"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/internal/Utility.class","_Id":"22"},{"Message":"Found: \"http://\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/activity/SplashScreenActivity.class","_Id":"23"},{"Message":"Found: \"http://compartilhamento.no-ip.org:8699/consultar\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/remote/service/TaxifoneServiceClient.class","_Id":"24"},{"Message":"Found: \"http://www.geoportal.com.br/WS/service.asmx/rota\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/DirectionsService.class","_Id":"25"},{"Message":"Found: \"http://dev.virtualearth.net/REST/V1/Routes/Driving?o=json&avoid=minimizeTolls&wp.0=%f,%f&wp.1=%f,%f&key=%s\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/DirectionsService.class","_Id":"26"},{"Message":"Found: \"http://dev.virtualearth.net/REST/v1/Locations?c=pt-BR&addressLine=%s&userLocation=%s,%s&key=%s\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/BingTaxifoneGeocoder.class","_Id":"27"},{"Message":"Found: \"http://dev.virtualearth.net/REST/v1/Locations/%s,%s?o=json&c=pt-BR&inclnb=0&key=%s\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/BingTaxifoneGeocoder.class","_Id":"28"},{"Message":"Found: \"http://\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/remote/service/TaxifoneServiceClient.class","_Id":"29"},{"Message":"Found: \"http://www.originalsoftware.com.br/config/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/PropertiesUpdater.class","_Id":"30"}],"_SchemaVersion":3,"_DateTime":"2025-07-30_21:00:27","_UUID":"4b02695c-d8c7-4629-8c4e-2e45d0554ee7"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/10k-50k/br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk -m D -o cryptoguard_output/10k-50k/br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.json",
+        "FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/10k-50k/br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "br"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/androidx/transition/Explode.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/annimon/stream/RandomCompat.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/annimon/stream/RandomCompat.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/internal/measurement/zzbs.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/internal/auth-api/zzba.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/measurement/internal/zzkp.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/internal/Utility.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of http.HttpRequest",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/http/HttpRequest.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of http.HttpRequest",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/http/HttpRequest.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/http/HttpRequest.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/iid/InstanceID.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/internal/Utility.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/FacebookSdk.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/util/StringUtils.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/measurement/internal/zzkp.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/appevents/AppEvent.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/android/gms/common/zzs.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/internal/Utility.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/com/facebook/internal/Utility.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"http://\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/activity/SplashScreenActivity.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"http://compartilhamento.no-ip.org:8699/consultar\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/remote/service/TaxifoneServiceClient.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: \"http://www.geoportal.com.br/WS/service.asmx/rota\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/DirectionsService.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: \"http://dev.virtualearth.net/REST/V1/Routes/Driving?o=json&avoid=minimizeTolls&wp.0=%f,%f&wp.1=%f,%f&key=%s\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/DirectionsService.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: \"http://dev.virtualearth.net/REST/v1/Locations?c=pt-BR&addressLine=%s&userLocation=%s,%s&key=%s\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/BingTaxifoneGeocoder.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: \"http://dev.virtualearth.net/REST/v1/Locations/%s,%s?o=json&c=pt-BR&inclnb=0&key=%s\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/BingTaxifoneGeocoder.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: \"http://\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/remote/service/TaxifoneServiceClient.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: \"http://www.originalsoftware.com.br/config/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "br.com.originalsoftware.taxifonecliente.teleTaxiSalvador_3665.apk/br/com/originalsoftware/taxifonecliente/service/PropertiesUpdater.class",
+            "_Id": "30"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-30_21:00:27",
+    "_UUID": "4b02695c-d8c7-4629-8c4e-2e45d0554ee7"
+}

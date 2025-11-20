@@ -1,1 +1,991 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/<100/com.chownow.communitylanes_139.apk -m D -o cryptoguard_output/<100/com.chownow.communitylanes_139.json","FullPath":"com.chownow.communitylanes_139.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/<100/com.chownow.communitylanes_139.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: \"AES/ECB/PKCS7Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/chownow/communitylanes/util/Decoder.class","_Id":"0"},{"Message":"Found: \"AES/ECB/PKCS7Padding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/chownow/communitylanes/util/Decoder.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/pqc/math/linearalgebra/GF2nPolynomialElement.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/common/hash/Striped64.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/math/ec/ECFieldElement$Fp.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/apache/commons/lang3/RandomUtils.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/apache/commons/lang3/RandomStringUtils.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/asn1/ua/DSTU4145PointEncoder.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/newrelic/agent/android/util/Util.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/tagmanager/zzai.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/math/raw/Mod.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/common/cache/Striped64.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/tagmanager/zzfb.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/math/ec/ECCurve$AbstractF2m.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/analytics/Tracker.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/newrelic/agent/android/analytics/EventManagerImpl.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/tagmanager/zzei.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/kotlin/random/KotlinRandom.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/pqc/math/linearalgebra/GF2Polynomial.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/facebook/internal/Utility.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/pqc/math/linearalgebra/GF2nONBField.class","_Id":"23"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of util.SSLUtil","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/util/SSLUtil.class","_Id":"24"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of util.SSLUtil","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/util/SSLUtil.class","_Id":"25"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/util/SSLUtil.class","_Id":"26"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/common/zzm.class","_Id":"27"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/libraries/places/internal/dh.class","_Id":"28"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/newrelic/agent/android/harvest/HttpError.class","_Id":"29"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/facebook/internal/Utility.class","_Id":"30"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/common/hash/Hashing$Md5Holder.class","_Id":"31"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/facebook/appevents/AppEvent.class","_Id":"32"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/facebook/internal/Utility.class","_Id":"33"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okhttp3/internal/Util.class","_Id":"34"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okio/Buffer.class","_Id":"35"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okhttp3/internal/Util.class","_Id":"36"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okio/Buffer.class","_Id":"37"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okio/HashingSource.class","_Id":"38"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/internal/measurement/zzah.class","_Id":"39"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/stripe/android/StripeTextUtils.class","_Id":"40"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okio/ByteString.class","_Id":"41"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okhttp3/internal/Util.class","_Id":"42"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okio/ByteString.class","_Id":"43"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okio/HashingSink.class","_Id":"44"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/iid/InstanceID.class","_Id":"45"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okio/HashingSource.class","_Id":"46"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/okio/HashingSink.class","_Id":"47"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/facebook/internal/Utility.class","_Id":"48"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/facebook/FacebookSdk.class","_Id":"49"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/common/hash/Hashing$Sha1Holder.class","_Id":"50"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"51"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/tagmanager/zzbv.class","_Id":"52"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PBKDF2.class","_Id":"53"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/RSA1_5.class","_Id":"54"},{"Message":"Found: Constant \"16\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"55"},{"Message":"Found: Constant \"HMACSHA384\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"56"},{"Message":"Found: Constant \"HmacSHA512\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"57"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/RSA_OAEP.class","_Id":"58"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"59"},{"Message":"Found: Constant \"24\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"60"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/LegacyConcatKDF.class","_Id":"61"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"62"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/AESGCMKW.class","_Id":"63"},{"Message":"Found: Constant \"HMACSHA256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"64"},{"Message":"Found: Constant \"32\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"65"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/RSA_OAEP_256.class","_Id":"66"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"67"},{"Message":"Found: Constant \"HmacSHA256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"68"},{"Message":"Found: Constant \"AES\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/ContentCryptoProvider.class","_Id":"69"},{"Message":"Found: Constant \"HMACSHA512\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class","_Id":"70"},{"Message":"Found: Constant \"HmacSHA384\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class","_Id":"71"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/Twofish$PBEWithSHA.class","_Id":"72"},{"Message":"Found: \"3\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class","_Id":"73"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithMD5AndRC2.class","_Id":"74"},{"Message":"Found: \"1\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class","_Id":"75"},{"Message":"Found: \"20\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/pkcs12/PKCS12KeyStoreSpi.class","_Id":"76"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC128.class","_Id":"77"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC256.class","_Id":"78"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD2.class","_Id":"79"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC128.class","_Id":"80"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class","_Id":"81"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC192.class","_Id":"82"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD5.class","_Id":"83"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHA1AndRC2.class","_Id":"84"},{"Message":"Found: \"4\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class","_Id":"85"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd128BitRC2.class","_Id":"86"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC192.class","_Id":"87"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd40BitRC2.class","_Id":"88"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES2Key.class","_Id":"89"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC256.class","_Id":"90"},{"Message":"Found: \"1\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class","_Id":"91"},{"Message":"Found: \"2\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES3Key.class","_Id":"92"},{"Message":"Found: \"0\"","Description":"Used < 1000 iteration for PBE","RuleNumber":8,"RuleDesc":"Used < 1000 iteration for PBE","CWEId":326,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithSHA1.class","_Id":"93"},{"Message":"Found: \"www.bouncycastle.org\"","Description":"Found predictable seeds in code","RuleNumber":11,"RuleDesc":"Found predictable seeds in code","CWEId":760,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/org/bouncycastle/crypto/examples/DESExample.class","_Id":"94"},{"Message":"Found: \"http://www.google-analytics.com\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/google/android/gms/internal/measurement/zzcc.class","_Id":"95"},{"Message":"Found: \"http://\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.chownow.communitylanes_139.apk/com/newrelic/agent/android/payload/PayloadSender.class","_Id":"96"}],"_SchemaVersion":3,"_DateTime":"2025-08-04_11:18:35","_UUID":"44d70f73-9f61-43a6-914d-82b49b67a1a2"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/<100/com.chownow.communitylanes_139.apk -m D -o cryptoguard_output/<100/com.chownow.communitylanes_139.json",
+        "FullPath": "com.chownow.communitylanes_139.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/<100/com.chownow.communitylanes_139.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"AES/ECB/PKCS7Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/chownow/communitylanes/util/Decoder.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: \"AES/ECB/PKCS7Padding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/chownow/communitylanes/util/Decoder.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/pqc/math/linearalgebra/GF2nPolynomialElement.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/common/hash/Striped64.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/math/ec/ECFieldElement$Fp.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/apache/commons/lang3/RandomUtils.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/apache/commons/lang3/RandomStringUtils.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/asn1/ua/DSTU4145PointEncoder.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/newrelic/agent/android/util/Util.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/tagmanager/zzai.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/math/raw/Mod.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/common/cache/Striped64.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/tagmanager/zzfb.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/math/ec/ECCurve$AbstractF2m.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/analytics/Tracker.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/newrelic/agent/android/analytics/EventManagerImpl.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/tagmanager/zzei.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/pqc/math/linearalgebra/GF2Polynomial.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/facebook/internal/Utility.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/pqc/math/linearalgebra/GF2nONBField.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of util.SSLUtil",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/util/SSLUtil.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of util.SSLUtil",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/util/SSLUtil.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/util/SSLUtil.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/common/zzm.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/libraries/places/internal/dh.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/newrelic/agent/android/harvest/HttpError.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/facebook/internal/Utility.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/common/hash/Hashing$Md5Holder.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/facebook/appevents/AppEvent.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/facebook/internal/Utility.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okhttp3/internal/Util.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okio/Buffer.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okhttp3/internal/Util.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okio/Buffer.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okio/HashingSource.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/internal/measurement/zzah.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/stripe/android/StripeTextUtils.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okio/ByteString.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okhttp3/internal/Util.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okio/ByteString.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okio/HashingSink.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/iid/InstanceID.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okio/HashingSource.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/okio/HashingSink.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/facebook/internal/Utility.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/facebook/FacebookSdk.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/common/hash/Hashing$Sha1Holder.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/tagmanager/zzbv.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PBKDF2.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/RSA1_5.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: Constant \"16\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: Constant \"HMACSHA384\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA512\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/RSA_OAEP.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: Constant \"24\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/LegacyConcatKDF.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/AESGCMKW.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: Constant \"HMACSHA256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: Constant \"32\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/RSA_OAEP_256.class",
+            "_Id": "66"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "67"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "68"
+        },
+        {
+            "Message": "Found: Constant \"AES\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/ContentCryptoProvider.class",
+            "_Id": "69"
+        },
+        {
+            "Message": "Found: Constant \"HMACSHA512\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/CompositeKey.class",
+            "_Id": "70"
+        },
+        {
+            "Message": "Found: Constant \"HmacSHA384\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/nimbusds/jose/crypto/impl/PRFParams.class",
+            "_Id": "71"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/Twofish$PBEWithSHA.class",
+            "_Id": "72"
+        },
+        {
+            "Message": "Found: \"3\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class",
+            "_Id": "73"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithMD5AndRC2.class",
+            "_Id": "74"
+        },
+        {
+            "Message": "Found: \"1\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class",
+            "_Id": "75"
+        },
+        {
+            "Message": "Found: \"20\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/pkcs12/PKCS12KeyStoreSpi.class",
+            "_Id": "76"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC128.class",
+            "_Id": "77"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC256.class",
+            "_Id": "78"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD2.class",
+            "_Id": "79"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC128.class",
+            "_Id": "80"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.class",
+            "_Id": "81"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC192.class",
+            "_Id": "82"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD5.class",
+            "_Id": "83"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHA1AndRC2.class",
+            "_Id": "84"
+        },
+        {
+            "Message": "Found: \"4\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class",
+            "_Id": "85"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd128BitRC2.class",
+            "_Id": "86"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC192.class",
+            "_Id": "87"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd40BitRC2.class",
+            "_Id": "88"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES2Key.class",
+            "_Id": "89"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC256.class",
+            "_Id": "90"
+        },
+        {
+            "Message": "Found: \"1\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.class",
+            "_Id": "91"
+        },
+        {
+            "Message": "Found: \"2\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES3Key.class",
+            "_Id": "92"
+        },
+        {
+            "Message": "Found: \"0\"",
+            "Description": "Used < 1000 iteration for PBE",
+            "RuleNumber": 8,
+            "RuleDesc": "Used < 1000 iteration for PBE",
+            "CWEId": 326,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithSHA1.class",
+            "_Id": "93"
+        },
+        {
+            "Message": "Found: \"www.bouncycastle.org\"",
+            "Description": "Found predictable seeds in code",
+            "RuleNumber": 11,
+            "RuleDesc": "Found predictable seeds in code",
+            "CWEId": 760,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/org/bouncycastle/crypto/examples/DESExample.class",
+            "_Id": "94"
+        },
+        {
+            "Message": "Found: \"http://www.google-analytics.com\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/google/android/gms/internal/measurement/zzcc.class",
+            "_Id": "95"
+        },
+        {
+            "Message": "Found: \"http://\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.chownow.communitylanes_139.apk/com/newrelic/agent/android/payload/PayloadSender.class",
+            "_Id": "96"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-04_11:18:35",
+    "_UUID": "44d70f73-9f61-43a6-914d-82b49b67a1a2"
+}

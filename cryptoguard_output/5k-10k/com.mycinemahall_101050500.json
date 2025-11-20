@@ -1,1 +1,691 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/5k-10k/com.mycinemahall_101050500.apk -m D -o cryptoguard_output/5k-10k/com.mycinemahall_101050500.json","FullPath":"com.mycinemahall_101050500.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/com.mycinemahall_101050500.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: \"RC4\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class","_Id":"0"},{"Message":"Found: \"DES/ECB/NoPadding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class","_Id":"1"},{"Message":"Found: \"DES/ECB/NoPadding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.class","_Id":"2"},{"Message":"Found: \"DES/ECB/NoPadding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class","_Id":"3"},{"Message":"Found: \"DES/ECB/NoPadding\"","Description":"Found broken crypto schemes","RuleNumber":1,"RuleDesc":"Found broken crypto schemes","CWEId":256,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/androidx/transition/Explode.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/gms/internal/measurement/zzag.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/gms/internal/auth-api/zzal.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/okhttp3/OkHttpClient.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/entity/mime/MultipartEntityBuilder.class","_Id":"16"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"17"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"18"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection.class","_Id":"19"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/kotlin/random/KotlinRandom.class","_Id":"20"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/loopj/android/http/SimpleMultipartEntity.class","_Id":"21"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"22"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/gms/measurement/internal/zzkw.class","_Id":"23"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class","_Id":"24"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage.class","_Id":"25"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/vdocipher/aegis/player/a/t/a.class","_Id":"26"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/upstream/cache/SimpleCache.class","_Id":"27"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.class","_Id":"28"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/AnalyticsUtil.class","_Id":"29"},{"Message":"Didn't manually verify hostname in create","Description":"Should check HostnameVerification manually","RuleNumber":12,"RuleDesc":"Should check HostnameVerification manually","CWEId":297,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/pool/BasicConnFactory.class","_Id":"30"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of http.MySSLSocketFactory","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/http/MySSLSocketFactory.class","_Id":"31"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of http.MySSLSocketFactory","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/http/MySSLSocketFactory.class","_Id":"32"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/okio/HashingSink.class","_Id":"33"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/okio/Buffer.class","_Id":"34"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class","_Id":"35"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/okio/HashingSource.class","_Id":"36"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/gms/common/zzl.class","_Id":"37"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/okio/HashingSink.class","_Id":"38"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/okio/ByteString.class","_Id":"39"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class","_Id":"40"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/vdocipher/aegis/player/a/s/a.class","_Id":"41"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/DigestScheme.class","_Id":"42"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"43"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/okio/ByteString.class","_Id":"44"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/android/gms/measurement/internal/zzkw.class","_Id":"45"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/firebase/iid/zzt.class","_Id":"46"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$HMACMD5.class","_Id":"47"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/okio/HashingSource.class","_Id":"48"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class","_Id":"49"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/google/firebase/installations/local/IidStore.class","_Id":"50"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class","_Id":"51"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/okio/Buffer.class","_Id":"52"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/DigestScheme.class","_Id":"53"},{"Message":"Found: Constant \"40\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class","_Id":"54"},{"Message":"Found: Constant \"11\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class","_Id":"55"},{"Message":"Found: Constant \"72\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class","_Id":"56"},{"Message":"Found: Constant \"37\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class","_Id":"57"},{"Message":"Found: \"40\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class","_Id":"58"},{"Message":"Found: \"11\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class","_Id":"59"},{"Message":"Found: \"72\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class","_Id":"60"},{"Message":"Found: \"37\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class","_Id":"61"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/retrofit2/Response.class","_Id":"62"},{"Message":"Found: \"http://example.com/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/client/cache/CacheKeyGenerator.class","_Id":"63"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/retrofit2/Response.class","_Id":"64"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/retrofit2/Response.class","_Id":"65"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.mycinemahall_101050500.apk/retrofit2/Response.class","_Id":"66"}],"_SchemaVersion":3,"_DateTime":"2025-08-03_07:33:06","_UUID":"29f6cd58-2b7d-4be4-a6aa-668bd6577dbd"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/5k-10k/com.mycinemahall_101050500.apk -m D -o cryptoguard_output/5k-10k/com.mycinemahall_101050500.json",
+        "FullPath": "com.mycinemahall_101050500.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/com.mycinemahall_101050500.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: \"RC4\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: \"DES/ECB/NoPadding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: \"DES/ECB/NoPadding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: \"DES/ECB/NoPadding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: \"DES/ECB/NoPadding\"",
+            "Description": "Found broken crypto schemes",
+            "RuleNumber": 1,
+            "RuleDesc": "Found broken crypto schemes",
+            "CWEId": 256,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/androidx/transition/Explode.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/gms/internal/measurement/zzag.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/gms/internal/auth-api/zzal.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/okhttp3/OkHttpClient.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/entity/mime/MultipartEntityBuilder.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/loopj/android/http/SimpleMultipartEntity.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/gms/measurement/internal/zzkw.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/vdocipher/aegis/player/a/t/a.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/upstream/cache/SimpleCache.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/AnalyticsUtil.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Didn't manually verify hostname in create",
+            "Description": "Should check HostnameVerification manually",
+            "RuleNumber": 12,
+            "RuleDesc": "Should check HostnameVerification manually",
+            "CWEId": 297,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/pool/BasicConnFactory.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of http.MySSLSocketFactory",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/http/MySSLSocketFactory.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of http.MySSLSocketFactory",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/http/MySSLSocketFactory.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/okio/HashingSink.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/okio/Buffer.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/okio/HashingSource.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/gms/common/zzl.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/okio/HashingSink.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/okio/ByteString.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/vdocipher/aegis/player/a/s/a.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/DigestScheme.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/okio/ByteString.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/android/gms/measurement/internal/zzkw.class",
+            "_Id": "45"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/firebase/iid/zzt.class",
+            "_Id": "46"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$HMACMD5.class",
+            "_Id": "47"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/okio/HashingSource.class",
+            "_Id": "48"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/firebase/crashlytics/internal/common/CommonUtils.class",
+            "_Id": "49"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "50"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.class",
+            "_Id": "51"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/okio/Buffer.class",
+            "_Id": "52"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/auth/DigestScheme.class",
+            "_Id": "53"
+        },
+        {
+            "Message": "Found: Constant \"40\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class",
+            "_Id": "54"
+        },
+        {
+            "Message": "Found: Constant \"11\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class",
+            "_Id": "55"
+        },
+        {
+            "Message": "Found: Constant \"72\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class",
+            "_Id": "56"
+        },
+        {
+            "Message": "Found: Constant \"37\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class",
+            "_Id": "57"
+        },
+        {
+            "Message": "Found: \"40\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class",
+            "_Id": "58"
+        },
+        {
+            "Message": "Found: \"11\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class",
+            "_Id": "59"
+        },
+        {
+            "Message": "Found: \"72\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class",
+            "_Id": "60"
+        },
+        {
+            "Message": "Found: \"37\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/com/razorpay/BaseUtils.class",
+            "_Id": "61"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/retrofit2/Response.class",
+            "_Id": "62"
+        },
+        {
+            "Message": "Found: \"http://example.com/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/cz/msebera/android/httpclient/impl/client/cache/CacheKeyGenerator.class",
+            "_Id": "63"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/retrofit2/Response.class",
+            "_Id": "64"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/retrofit2/Response.class",
+            "_Id": "65"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.mycinemahall_101050500.apk/retrofit2/Response.class",
+            "_Id": "66"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-03_07:33:06",
+    "_UUID": "29f6cd58-2b7d-4be4-a6aa-668bd6577dbd"
+}

@@ -1,1 +1,61 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/500-1k/nl.foodticket.app.orderapp1127_6.apk -m D -o cryptoguard_output/500-1k/nl.foodticket.app.orderapp1127_6.json","FullPath":"nl.foodticket.app.orderapp1127_6.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/500-1k/nl.foodticket.app.orderapp1127_6.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"nl"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"nl.foodticket.app.orderapp1127_6.apk/com/google/android/gms/ads/identifier/zzb.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"nl.foodticket.app.orderapp1127_6.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"nl.foodticket.app.orderapp1127_6.apk/com/google/firebase/iid/zzl.class","_Id":"2"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"nl.foodticket.app.orderapp1127_6.apk/com/google/firebase/iid/FirebaseInstanceId.class","_Id":"3"}],"_SchemaVersion":3,"_DateTime":"2025-07-31_23:56:57","_UUID":"f03bb88a-e0f9-457a-9df7-714e8dc9b8cc"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/500-1k/nl.foodticket.app.orderapp1127_6.apk -m D -o cryptoguard_output/500-1k/nl.foodticket.app.orderapp1127_6.json",
+        "FullPath": "nl.foodticket.app.orderapp1127_6.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/500-1k/nl.foodticket.app.orderapp1127_6.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "nl"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "nl.foodticket.app.orderapp1127_6.apk/com/google/android/gms/ads/identifier/zzb.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "nl.foodticket.app.orderapp1127_6.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "nl.foodticket.app.orderapp1127_6.apk/com/google/firebase/iid/zzl.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "nl.foodticket.app.orderapp1127_6.apk/com/google/firebase/iid/FirebaseInstanceId.class",
+            "_Id": "3"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-31_23:56:57",
+    "_UUID": "f03bb88a-e0f9-457a-9df7-714e8dc9b8cc"
+}

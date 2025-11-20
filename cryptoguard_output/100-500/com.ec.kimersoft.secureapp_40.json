@@ -1,1 +1,341 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/100-500/com.ec.kimersoft.secureapp_40.apk -m D -o cryptoguard_output/100-500/com.ec.kimersoft.secureapp_40.json","FullPath":"com.ec.kimersoft.secureapp_40.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/100-500/com.ec.kimersoft.secureapp_40.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/crashlytics/android/answers/RandomBackoff.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/org/osmdroid/tileprovider/tilesource/BitmapTileSourceBase.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/crashlytics/android/core/CrashTest.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/org/jsoup/helper/DataUtil.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/github/anastr/speedviewlib/Gauge.class","_Id":"4"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/UNKNOWN.class","_Id":"5"},{"Message":"Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/UNKNOWN.class","_Id":"6"},{"Message":"Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN","Description":"Uses untrusted TrustManager","RuleNumber":4,"RuleDesc":"Uses untrusted TrustManager","CWEId":349,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/UNKNOWN.class","_Id":"7"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/UNKNOWN.class","_Id":"8"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/io/fabric/sdk/android/services/network/PinningTrustManager.class","_Id":"9"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"10"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/google/android/gms/common/zzm.class","_Id":"11"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/io/fabric/sdk/android/services/common/CommonUtils.class","_Id":"12"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/io/fabric/sdk/android/services/common/CommonUtils.class","_Id":"13"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/despachos\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"14"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/despachos/socios\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"15"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/despachos/enlinea\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"16"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/cooperativas/getrutas?\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"17"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/despachos/ack\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"18"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/cooperativas?tipo_usuario=\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"19"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/login?\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"20"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/cooperativas/getcoordenadas?\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"21"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/unidades?usuario_id=\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"22"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/despachos/panic\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"23"},{"Message":"Found: \"http://dev.virtualearth.net/REST/V1/Imagery/Metadata/%s?mapVersion=v1&output=json&key=%s\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/org/osmdroid/tileprovider/tilesource/bing/BingMapTileSource.class","_Id":"24"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/cooperativas/getall\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"25"},{"Message":"Found: \"http://auth.cloudmade.com/token/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/org/osmdroid/tileprovider/util/CloudmadeUtil.class","_Id":"26"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/unidad/velocidadEspecifica\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"27"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/cooperativas/getPC?cooperativa_id=\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"28"},{"Message":"Found: \"http://geocoding.kimerasoftec.com/reverse?format=json&lat=\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"29"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/unidad/velocidadGeneral\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"30"},{"Message":"Found: \"http://trackingsystem-m2m.com/api/login?\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class","_Id":"31"}],"_SchemaVersion":3,"_DateTime":"2025-08-04_03:31:37","_UUID":"7687c075-5dbb-419a-8aeb-2f99ceb9ab7e"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/100-500/com.ec.kimersoft.secureapp_40.apk -m D -o cryptoguard_output/100-500/com.ec.kimersoft.secureapp_40.json",
+        "FullPath": "com.ec.kimersoft.secureapp_40.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/100-500/com.ec.kimersoft.secureapp_40.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/crashlytics/android/answers/RandomBackoff.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/org/osmdroid/tileprovider/tilesource/BitmapTileSourceBase.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/crashlytics/android/core/CrashTest.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/org/jsoup/helper/DataUtil.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/github/anastr/speedviewlib/Gauge.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/UNKNOWN.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/UNKNOWN.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+            "Description": "Uses untrusted TrustManager",
+            "RuleNumber": 4,
+            "RuleDesc": "Uses untrusted TrustManager",
+            "CWEId": 349,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/UNKNOWN.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/UNKNOWN.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/io/fabric/sdk/android/services/network/PinningTrustManager.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/google/android/gms/common/zzm.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/io/fabric/sdk/android/services/common/CommonUtils.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/io/fabric/sdk/android/services/common/CommonUtils.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/despachos\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/despachos/socios\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/despachos/enlinea\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas/getrutas?\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/despachos/ack\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas?tipo_usuario=\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/login?\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas/getcoordenadas?\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/unidades?usuario_id=\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/despachos/panic\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"http://dev.virtualearth.net/REST/V1/Imagery/Metadata/%s?mapVersion=v1&output=json&key=%s\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/org/osmdroid/tileprovider/tilesource/bing/BingMapTileSource.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas/getall\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: \"http://auth.cloudmade.com/token/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/org/osmdroid/tileprovider/util/CloudmadeUtil.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/unidad/velocidadEspecifica\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas/getPC?cooperativa_id=\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: \"http://geocoding.kimerasoftec.com/reverse?format=json&lat=\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/unidad/velocidadGeneral\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: \"http://trackingsystem-m2m.com/api/login?\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.ec.kimersoft.secureapp_40.apk/com/ec/kimersoft/secureapp/WS/HelperWS.class",
+            "_Id": "31"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-04_03:31:37",
+    "_UUID": "7687c075-5dbb-419a-8aeb-2f99ceb9ab7e"
+}

@@ -1,1 +1,481 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/5k-10k/com.appking.juzs.juz9_7.apk -m D -o cryptoguard_output/5k-10k/com.appking.juzs.juz9_7.json","FullPath":"com.appking.juzs.juz9_7.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/com.appking.juzs.juz9_7.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/androidx/transition/Explode.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/ads/internal/client/zzay.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/material/color/utilities/QuantizerWsmeans.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzmt.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzcat.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzub.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzub.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzub.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/measurement/zzee.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/kotlin/random/KotlinRandom.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzape.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzfoy.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzub.class","_Id":"15"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzbcy.class","_Id":"16"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzchh.class","_Id":"17"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzchh.class","_Id":"18"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"19"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/consent_sdk/zzbx.class","_Id":"20"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzchh.class","_Id":"21"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzanx.class","_Id":"22"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/common/zzm.class","_Id":"23"},{"Message":"Found: Constant \"-128\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgog.class","_Id":"24"},{"Message":"Found: Constant \"1664557424545\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzaqj.class","_Id":"25"},{"Message":"Found: Constant \"2\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgvc.class","_Id":"26"},{"Message":"Found: Constant \"HmacSha256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgkm.class","_Id":"27"},{"Message":"Found: Constant \"HmacSha512\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgkm.class","_Id":"28"},{"Message":"Found: Constant \"5\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class","_Id":"29"},{"Message":"Found: Constant \"4\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class","_Id":"30"},{"Message":"Found: Constant \"1664557424545\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzaqj.class","_Id":"31"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class","_Id":"32"},{"Message":"Found: Constant \"2\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class","_Id":"33"},{"Message":"Found: Constant \"3\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgvc.class","_Id":"34"},{"Message":"Found: Constant \"HmacSha384\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgkm.class","_Id":"35"},{"Message":"Found: Constant \"2\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class","_Id":"36"},{"Message":"Found: Constant \"3\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class","_Id":"37"},{"Message":"Found: Constant \"0\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class","_Id":"38"},{"Message":"Found: Constant \"HmacSha256\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgkm.class","_Id":"39"},{"Message":"Found: Constant \"4\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgvc.class","_Id":"40"},{"Message":"Found: Constant \"6\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class","_Id":"41"},{"Message":"Found: Constant \"4\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class","_Id":"42"},{"Message":"Found: Constant \"7\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class","_Id":"43"},{"Message":"Found: Constant \"5\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class","_Id":"44"},{"Message":"Found: \"-128\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgog.class","_Id":"45"}],"_SchemaVersion":3,"_DateTime":"2025-08-02_22:02:57","_UUID":"7cefc489-8fcd-4f50-9c26-f00caa8075e3"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/5k-10k/com.appking.juzs.juz9_7.apk -m D -o cryptoguard_output/5k-10k/com.appking.juzs.juz9_7.json",
+        "FullPath": "com.appking.juzs.juz9_7.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/com.appking.juzs.juz9_7.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/androidx/transition/Explode.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/ads/internal/client/zzay.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/material/color/utilities/QuantizerWsmeans.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzmt.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzcat.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzub.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzub.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzub.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/measurement/zzee.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzape.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzfoy.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzub.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzbcy.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzchh.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzchh.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/consent_sdk/zzbx.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzchh.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzanx.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/common/zzm.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: Constant \"-128\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgog.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: Constant \"1664557424545\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzaqj.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: Constant \"2\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgvc.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgkm.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha512\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgkm.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: Constant \"5\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: Constant \"4\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: Constant \"1664557424545\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzaqj.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: Constant \"2\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: Constant \"3\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgvc.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha384\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgkm.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: Constant \"2\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: Constant \"3\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: Constant \"0\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: Constant \"HmacSha256\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgkm.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: Constant \"4\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgvc.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: Constant \"6\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: Constant \"4\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: Constant \"7\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrq.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: Constant \"5\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgrh.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"-128\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appking.juzs.juz9_7.apk/com/google/android/gms/internal/ads/zzgog.class",
+            "_Id": "45"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-08-02_22:02:57",
+    "_UUID": "7cefc489-8fcd-4f50-9c26-f00caa8075e3"
+}

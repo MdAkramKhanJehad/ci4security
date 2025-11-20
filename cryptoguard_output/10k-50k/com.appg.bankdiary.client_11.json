@@ -1,1 +1,481 @@
-{"projectName":"CryptoGuard","ProjectVersion":"04.05.03_2020-11-25-02-42","Target":{"RawCommand":"-in apk -s downloaded_apks/10k-50k/com.appg.bankdiary.client_11.apk -m D -o cryptoguard_output/10k-50k/com.appg.bankdiary.client_11.json","FullPath":"com.appg.bankdiary.client_11.apk/","Type":"APK","TargetSources":["/home/mkhan04/Desktop/ci4security/downloaded_apks/10k-50k/com.appg.bankdiary.client_11.apk"],"_PropertiesFilePath":"gradle.properties","_ComputerOS":"Linux_5.15.0-142-generic","_JVMVersion":"1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08","_ProjectName":"com"},"Issues":[{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/androidx/transition/Explode.class","_Id":"0"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class","_Id":"1"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/android/gms/internal/measurement/zzag.class","_Id":"2"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class","_Id":"3"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okhttp3/OkHttpClient.class","_Id":"4"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Keyboard/Character/AppIronCKDPresenter.class","_Id":"5"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/android/gms/internal/auth-api/zbbb.class","_Id":"6"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/androidx/activity/result/ActivityResultRegistry.class","_Id":"7"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class","_Id":"8"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Keyboard/Number/AppIronNKDPresenter.class","_Id":"9"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/android/gms/measurement/internal/zzkv.class","_Id":"10"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/android/gms/internal/firebase-auth-api/zzdu.class","_Id":"11"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/kotlin/random/KotlinRandom.class","_Id":"12"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Keyboard/Number/AppIronNKDPresenter.class","_Id":"13"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/firebase/installations/Utils.class","_Id":"14"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Keyboard/Character/AppIronCKDPresenter.class","_Id":"15"},{"Message":"Found: Untrused PRNG (java.util.Random)","Description":"Used untrusted PRNG","RuleNumber":13,"RuleDesc":"Used untrusted PRNG","CWEId":338,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Worker/DataWorker/b.class","_Id":"16"},{"Message":"Cause: Fixed \"[1]\"","Description":"Used untrusted HostNameVerifier","RuleNumber":6,"RuleDesc":"Used untrusted HostNameVerifier","CWEId":601,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/UNKNOWN.class","_Id":"17"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/kwic/saib/util/crypto/KeyGenerator.class","_Id":"18"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/android/gms/common/util/AndroidUtilsLight.class","_Id":"19"},{"Message":"Found: \"SHA1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/firebase/installations/local/IidStore.class","_Id":"20"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okio/HashingSink$Companion.class","_Id":"21"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okio/HashingSource$Companion.class","_Id":"22"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/android/gms/measurement/internal/zzkv.class","_Id":"23"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okio/HashingSink$Companion.class","_Id":"24"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okio/HashingSource$Companion.class","_Id":"25"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/google/firebase/messaging/GmsRpc.class","_Id":"26"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okio/ByteString.class","_Id":"27"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okio/Buffer.class","_Id":"28"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/kwic/saib/util/crypto/KeyGenerator.class","_Id":"29"},{"Message":"Found: \"MD5\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okio/ByteString.class","_Id":"30"},{"Message":"Found: \"SHA-1\"","Description":"Found broken hash functions","RuleNumber":2,"RuleDesc":"Found broken hash functions","CWEId":759,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okio/Buffer.class","_Id":"31"},{"Message":"Found: Constant \"bbC2H19lkVbQDfakxcrtNMQdd0FloLyw\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class","_Id":"32"},{"Message":"Found: Constant \"bbC2H19lkVbQDfak\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class","_Id":"33"},{"Message":"Found: Constant \"jbvgyQscBCwBzq3c7hr4ZGzJhBLtjDWC\"","Description":"Used constant keys in code","RuleNumber":3,"RuleDesc":"Used constant keys in code","CWEId":547,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class","_Id":"34"},{"Message":"Found: \"bbC2H19lkVbQDfakxcrtNMQdd0FloLyw\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class","_Id":"35"},{"Message":"Found: \"ZvGhtA732ADGFUKA\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class","_Id":"36"},{"Message":"Found: \"gqLOHUioQ0QjhuvI\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class","_Id":"37"},{"Message":"Found: \"bbC2H19lkVbQDfak\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class","_Id":"38"},{"Message":"Found: \"jbvgyQscBCwBzq3c7hr4ZGzJhBLtjDWC\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class","_Id":"39"},{"Message":"Found: \"gqLOHUioQ0QjhuvI\"","Description":"Found constant IV in code","RuleNumber":10,"RuleDesc":"Found constant IV in code","CWEId":547,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class","_Id":"40"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/retrofit2/Response.class","_Id":"41"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/retrofit2/Response.class","_Id":"42"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/retrofit2/Response.class","_Id":"43"},{"Message":"Found: \"http:\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/okhttp3/Request$Builder.class","_Id":"44"},{"Message":"Found: \"http://localhost/\"","Description":"Used HTTP Protocol","RuleNumber":7,"RuleDesc":"Used HTTP Protocol","CWEId":650,"Severity":"1","_FullPath":"com.appg.bankdiary.client_11.apk/retrofit2/Response.class","_Id":"45"}],"_SchemaVersion":3,"_DateTime":"2025-07-30_11:40:50","_UUID":"a48520ea-a1d8-4ae7-b40a-5da686c696fa"}
+{
+    "projectName": "CryptoGuard",
+    "ProjectVersion": "04.05.03_2020-11-25-02-42",
+    "Target": {
+        "RawCommand": "-in apk -s downloaded_apks/10k-50k/com.appg.bankdiary.client_11.apk -m D -o cryptoguard_output/10k-50k/com.appg.bankdiary.client_11.json",
+        "FullPath": "com.appg.bankdiary.client_11.apk/",
+        "Type": "APK",
+        "TargetSources": [
+            "/home/mkhan04/Desktop/ci4security/downloaded_apks/10k-50k/com.appg.bankdiary.client_11.apk"
+        ],
+        "_PropertiesFilePath": "gradle.properties",
+        "_ComputerOS": "Linux_5.15.0-142-generic",
+        "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+        "_ProjectName": "com"
+    },
+    "Issues": [
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/androidx/transition/Explode.class",
+            "_Id": "0"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/kotlin/random/FallbackThreadLocalRandom$implStorage$1.class",
+            "_Id": "1"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/android/gms/internal/measurement/zzag.class",
+            "_Id": "2"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/bumptech/glide/load/resource/gif/GifFrameLoader.class",
+            "_Id": "3"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okhttp3/OkHttpClient.class",
+            "_Id": "4"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Keyboard/Character/AppIronCKDPresenter.class",
+            "_Id": "5"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/android/gms/internal/auth-api/zbbb.class",
+            "_Id": "6"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/androidx/activity/result/ActivityResultRegistry.class",
+            "_Id": "7"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/android/gms/ads/identifier/AdvertisingIdClient.class",
+            "_Id": "8"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Keyboard/Number/AppIronNKDPresenter.class",
+            "_Id": "9"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/android/gms/measurement/internal/zzkv.class",
+            "_Id": "10"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/android/gms/internal/firebase-auth-api/zzdu.class",
+            "_Id": "11"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/kotlin/random/KotlinRandom.class",
+            "_Id": "12"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Keyboard/Number/AppIronNKDPresenter.class",
+            "_Id": "13"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/firebase/installations/Utils.class",
+            "_Id": "14"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Keyboard/Character/AppIronCKDPresenter.class",
+            "_Id": "15"
+        },
+        {
+            "Message": "Found: Untrused PRNG (java.util.Random)",
+            "Description": "Used untrusted PRNG",
+            "RuleNumber": 13,
+            "RuleDesc": "Used untrusted PRNG",
+            "CWEId": 338,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/secucen/appiron/keypad/Worker/DataWorker/b.class",
+            "_Id": "16"
+        },
+        {
+            "Message": "Cause: Fixed \"[1]\"",
+            "Description": "Used untrusted HostNameVerifier",
+            "RuleNumber": 6,
+            "RuleDesc": "Used untrusted HostNameVerifier",
+            "CWEId": 601,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/UNKNOWN.class",
+            "_Id": "17"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/kwic/saib/util/crypto/KeyGenerator.class",
+            "_Id": "18"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/android/gms/common/util/AndroidUtilsLight.class",
+            "_Id": "19"
+        },
+        {
+            "Message": "Found: \"SHA1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/firebase/installations/local/IidStore.class",
+            "_Id": "20"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okio/HashingSink$Companion.class",
+            "_Id": "21"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okio/HashingSource$Companion.class",
+            "_Id": "22"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/android/gms/measurement/internal/zzkv.class",
+            "_Id": "23"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okio/HashingSink$Companion.class",
+            "_Id": "24"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okio/HashingSource$Companion.class",
+            "_Id": "25"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/google/firebase/messaging/GmsRpc.class",
+            "_Id": "26"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okio/ByteString.class",
+            "_Id": "27"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okio/Buffer.class",
+            "_Id": "28"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/kwic/saib/util/crypto/KeyGenerator.class",
+            "_Id": "29"
+        },
+        {
+            "Message": "Found: \"MD5\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okio/ByteString.class",
+            "_Id": "30"
+        },
+        {
+            "Message": "Found: \"SHA-1\"",
+            "Description": "Found broken hash functions",
+            "RuleNumber": 2,
+            "RuleDesc": "Found broken hash functions",
+            "CWEId": 759,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okio/Buffer.class",
+            "_Id": "31"
+        },
+        {
+            "Message": "Found: Constant \"bbC2H19lkVbQDfakxcrtNMQdd0FloLyw\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class",
+            "_Id": "32"
+        },
+        {
+            "Message": "Found: Constant \"bbC2H19lkVbQDfak\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class",
+            "_Id": "33"
+        },
+        {
+            "Message": "Found: Constant \"jbvgyQscBCwBzq3c7hr4ZGzJhBLtjDWC\"",
+            "Description": "Used constant keys in code",
+            "RuleNumber": 3,
+            "RuleDesc": "Used constant keys in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class",
+            "_Id": "34"
+        },
+        {
+            "Message": "Found: \"bbC2H19lkVbQDfakxcrtNMQdd0FloLyw\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class",
+            "_Id": "35"
+        },
+        {
+            "Message": "Found: \"ZvGhtA732ADGFUKA\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class",
+            "_Id": "36"
+        },
+        {
+            "Message": "Found: \"gqLOHUioQ0QjhuvI\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class",
+            "_Id": "37"
+        },
+        {
+            "Message": "Found: \"bbC2H19lkVbQDfak\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class",
+            "_Id": "38"
+        },
+        {
+            "Message": "Found: \"jbvgyQscBCwBzq3c7hr4ZGzJhBLtjDWC\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class",
+            "_Id": "39"
+        },
+        {
+            "Message": "Found: \"gqLOHUioQ0QjhuvI\"",
+            "Description": "Found constant IV in code",
+            "RuleNumber": 10,
+            "RuleDesc": "Found constant IV in code",
+            "CWEId": 547,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/com/appg/bankdiary/client/insurance/AESEncryptUtils.class",
+            "_Id": "40"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/retrofit2/Response.class",
+            "_Id": "41"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/retrofit2/Response.class",
+            "_Id": "42"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/retrofit2/Response.class",
+            "_Id": "43"
+        },
+        {
+            "Message": "Found: \"http:\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/okhttp3/Request$Builder.class",
+            "_Id": "44"
+        },
+        {
+            "Message": "Found: \"http://localhost/\"",
+            "Description": "Used HTTP Protocol",
+            "RuleNumber": 7,
+            "RuleDesc": "Used HTTP Protocol",
+            "CWEId": 650,
+            "Severity": "1",
+            "_FullPath": "com.appg.bankdiary.client_11.apk/retrofit2/Response.class",
+            "_Id": "45"
+        }
+    ],
+    "_SchemaVersion": 3,
+    "_DateTime": "2025-07-30_11:40:50",
+    "_UUID": "a48520ea-a1d8-4ae7-b40a-5da686c696fa"
+}
