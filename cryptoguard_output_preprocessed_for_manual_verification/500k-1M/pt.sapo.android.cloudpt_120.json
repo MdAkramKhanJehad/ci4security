@@ -1,0 +1,342 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/500k-1M/pt.sapo.android.cloudpt_120.apk -m D -o cryptoguard_output/500k-1M/pt.sapo.android.cloudpt_120.json",
+    "FullPath": "pt.sapo.android.cloudpt_120.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/pt.sapo.android.cloudpt_120.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+    "_ProjectName": "pt"
+  },
+  "Issues": [
+    {
+      "Message": "Found: \"AES\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: \"AES\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/android/cloudpt/services/MediaPlayerService.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "oauth/signpost/AbstractOAuthConsumer.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/android/sapokit/analytics/Tracker.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: \"SHA\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/commons/codec/digest/DigestUtils.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/ui/widget/AbstractAsyncImageView.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/android/cloudpt/DiscoAbstractAsyncImageView.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/commons/codec/digest/DigestUtils.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Found: Constant \"XPTO\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/android/cloudpt/ui/PIN.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Found: Constant \"XPTO\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/android/cloudpt/ui/PIN.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Found: Constant \"XPTO\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/android/cloudpt/ui/PIN.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Found: Constant \"XPTO\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/android/cloudpt/ui/PIN.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Found: \"107\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Found: \"53\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: \"106\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: \"104\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: \"121\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: \"100\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: \"106\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: \"101\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: \"51\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: \"104\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: \"52\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: \"97\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: \"100\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: \"115\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: \"99\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "29"
+    },
+    {
+      "Message": "Found: \"55\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "30"
+    },
+    {
+      "Message": "Found: \"51\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "pt/sapo/mobile/android/sapokit/notification/Crypto.java",
+      "_Id": "31"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-08-02_13:51:13",
+  "_UUID": "e496126c-e4aa-498d-a27e-c7a35be7ae75",
+  "total_issues": 32
+}

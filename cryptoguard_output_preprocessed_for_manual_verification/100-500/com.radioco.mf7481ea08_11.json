@@ -1,0 +1,72 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/100-500/com.radioco.mf7481ea08_11.apk -m D -o cryptoguard_output/100-500/com.radioco.mf7481ea08_11.json",
+    "FullPath": "com.radioco.mf7481ea08_11.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/100-500/com.radioco.mf7481ea08_11.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+    "_ProjectName": "com"
+  },
+  "Issues": [
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/exoplayer2/upstream/cache/CachedContentIndex.java",
+      "_Id": "4"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-08-04_04:12:36",
+  "_UUID": "faec9c47-5f37-44f9-a2c5-adb36f66067d",
+  "total_issues": 5
+}

@@ -1,0 +1,622 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/5k-10k/com.vcis.app.kanossaschool_37.apk -m D -o cryptoguard_output/5k-10k/com.vcis.app.kanossaschool_37.json",
+    "FullPath": "com.vcis.app.kanossaschool_37.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/5k-10k/com.vcis.app.kanossaschool_37.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+    "_ProjectName": "com"
+  },
+  "Issues": [
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "okhttp3/OkHttpClient.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/transition/Explode.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/installations/i.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "s6/b$a.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "w5/j.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/activity/result/d.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/messaging/z.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "k3/a.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "p7/i.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "f5/b.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "p7/i.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/iid/k.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Found: Constant \"121\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Found: Constant \"111\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Found: Constant \"112\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Found: Constant \"107\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Found: Constant \"109\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: Constant \"55\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: Constant \"89\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: Constant \"33\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: Constant \"69\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: Constant \"112\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: Constant \"110\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: Constant \"52\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: Constant \"101\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: Constant \"114\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: Constant \"57\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: Constant \"64\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: \"121\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: \"64\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "29"
+    },
+    {
+      "Message": "Found: \"112\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "30"
+    },
+    {
+      "Message": "Found: \"35\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "31"
+    },
+    {
+      "Message": "Found: \"109\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "32"
+    },
+    {
+      "Message": "Found: \"38\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "33"
+    },
+    {
+      "Message": "Found: \"35\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "34"
+    },
+    {
+      "Message": "Found: \"55\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "35"
+    },
+    {
+      "Message": "Found: \"89\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "36"
+    },
+    {
+      "Message": "Found: \"69\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "37"
+    },
+    {
+      "Message": "Found: \"64\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "38"
+    },
+    {
+      "Message": "Found: \"110\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "39"
+    },
+    {
+      "Message": "Found: \"38\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "40"
+    },
+    {
+      "Message": "Found: \"101\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "41"
+    },
+    {
+      "Message": "Found: \"38\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "42"
+    },
+    {
+      "Message": "Found: \"64\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "43"
+    },
+    {
+      "Message": "Found: \"57\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "44"
+    },
+    {
+      "Message": "Found: \"38\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "45"
+    },
+    {
+      "Message": "Found: \"35\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "46"
+    },
+    {
+      "Message": "Found: \"64\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "47"
+    },
+    {
+      "Message": "Found: \"35\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "48"
+    },
+    {
+      "Message": "Found: \"36\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "49"
+    },
+    {
+      "Message": "Found: \"111\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "50"
+    },
+    {
+      "Message": "Found: \"107\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "51"
+    },
+    {
+      "Message": "Found: \"33\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "52"
+    },
+    {
+      "Message": "Found: \"112\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "53"
+    },
+    {
+      "Message": "Found: \"52\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "54"
+    },
+    {
+      "Message": "Found: \"114\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "55"
+    },
+    {
+      "Message": "Found: \"36\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "56"
+    },
+    {
+      "Message": "Found: \"36\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "57"
+    },
+    {
+      "Message": "Found: \"64\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "58"
+    },
+    {
+      "Message": "Found: \"36\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "d6/c.java",
+      "_Id": "59"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-08-02_20:50:47",
+  "_UUID": "409f2d01-3bc7-433e-9fbd-8eaf5dec73d6",
+  "total_issues": 60
+}

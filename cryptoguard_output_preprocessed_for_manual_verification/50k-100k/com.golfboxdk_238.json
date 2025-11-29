@@ -1,0 +1,432 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/50k-100k/com.golfboxdk_238.apk -m D -o cryptoguard_output/50k-100k/com.golfboxdk_238.json",
+    "FullPath": "com.golfboxdk_238.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/50k-100k/com.golfboxdk_238.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09",
+    "_ProjectName": "com"
+  },
+  "Issues": [
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/transition/Explode.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/utils/SessionUtils.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/apache/commons/lang/util/IdentifierUtils$StringSessionIdentifierFactory.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/components/uuid/SimpleUUIDGen.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "okhttp3/OkHttpClient.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/KotlinRandom.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/apache/commons/lang/RandomStringUtils.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/jsoup/helper/DataUtil.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/components/uuid/FastUUIDGen.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of utils.MySSLSocketFactory",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "utils/MySSLSocketFactory.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of utils.MySSLSocketFactory",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "utils/MySSLSocketFactory.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Cause: Fixed \"[1]\"",
+      "Description": "Used untrusted HostNameVerifier",
+      "RuleNumber": 6,
+      "RuleDesc": "Used untrusted HostNameVerifier",
+      "CWEId": 601,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSink$Companion.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/androidquery/util/AQUtility.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSource$Companion.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/Buffer.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/ByteString.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/zzs.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSink$Companion.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSource$Companion.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/ByteString.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/Buffer.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/handlers/MD5AttachHandler.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: \"changeit\"",
+      "Description": "Used Predictable KeyStore Password",
+      "RuleNumber": 14,
+      "RuleDesc": "Used Predictable KeyStore Password",
+      "CWEId": 321,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/components/net/SunJSSESocketFactory.java",
+      "_Id": "29"
+    },
+    {
+      "Message": "Found: \"http://localhost/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "retrofit2/Response.java",
+      "_Id": "30"
+    },
+    {
+      "Message": "Found: \"http://localhost:8080/axis/services/AdminService\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/client/AdminClient.java",
+      "_Id": "31"
+    },
+    {
+      "Message": "Found: \"http://localhost/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "retrofit2/Response.java",
+      "_Id": "32"
+    },
+    {
+      "Message": "Found: \"http://localhost:8080/axis/servlet/AxisServlet\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/utils/Options.java",
+      "_Id": "33"
+    },
+    {
+      "Message": "Found: \"http://localhost/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "retrofit2/Response.java",
+      "_Id": "34"
+    },
+    {
+      "Message": "Found: \"http://schemas.xmlsoap.org/soap/encoding/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/wsdl/fromJava/Emitter.java",
+      "_Id": "35"
+    },
+    {
+      "Message": "Found: \"http:\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "okhttp3/Request$Builder.java",
+      "_Id": "36"
+    },
+    {
+      "Message": "Found: \"http://\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/flurry/sdk/de.java",
+      "_Id": "37"
+    },
+    {
+      "Message": "Found: \"http://localhost/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "retrofit2/Response.java",
+      "_Id": "38"
+    },
+    {
+      "Message": "Found: \"http://\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/utils/tcpmon$Connection.java",
+      "_Id": "39"
+    },
+    {
+      "Message": "Found: \"http://localhost:8080/axis/services/AdminService\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "org/apache/axis/client/AdminClient.java",
+      "_Id": "40"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-07-29_14:57:24",
+  "_UUID": "30027327-ae5b-40ba-ae6c-ee00acd4312c",
+  "total_issues": 41
+}

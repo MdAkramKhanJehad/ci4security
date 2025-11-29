@@ -1,0 +1,1772 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/>5M/it.vincenzoamoruso.theinterpreter_20299.apk -m D -o cryptoguard_output/>5M/it.vincenzoamoruso.theinterpreter_20299.json",
+    "FullPath": "it.vincenzoamoruso.theinterpreter_20299.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/>5M/it.vincenzoamoruso.theinterpreter_20299.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+    "_ProjectName": "it"
+  },
+  "Issues": [
+    {
+      "Message": "Found: \"AES\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/CipherAlgorithm.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/okhttp/OkHttpServerTransport.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/apache/xmlbeans/impl/xsd2inst/SampleXmlUtil.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/apache/xmlbeans/impl/schema/SchemaTypeSystemImpl.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzwb.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/util/OutlierDetectionLoadBalancer$FailurePercentageOutlierEjectionAlgorithm.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/ads/internal/client/zzbc.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "functions/NumericFunction.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/okhttp/OkHttpClientTransport.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/interpreter/driver/YProxy.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzfhk.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzbuh.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "e9/b$a.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/sessions/SessionFirelogPublisherImpl.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/netty/shaded/io/netty/util/internal/ThreadLocalRandom.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/facebook/internal/Utility.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/internal/PickFirstLoadBalancer.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzwb.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/measurement/zzdf.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzwb.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/measurement/internal/zzng.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/internal/RetriableStream.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzauu.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/transition/Explode.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/xds/RingHashLoadBalancer.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "okhttp3/z.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzfjg.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/internal/DnsNameResolver.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/installations/Utils.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/util/OutlierDetectionLoadBalancer$SuccessRateOutlierEjectionAlgorithm.java",
+      "_Id": "29"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/internal/ExponentialBackoffPolicy.java",
+      "_Id": "30"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/util/RoundRobinLoadBalancer.java",
+      "_Id": "31"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "io/grpc/googleapis/GoogleCloudToProdNameResolver.java",
+      "_Id": "32"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "netty/NettyServer.java",
+      "_Id": "33"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzoa.java",
+      "_Id": "34"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/ss/formula/atp/RandBetween.java",
+      "_Id": "35"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzwb.java",
+      "_Id": "36"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
+      "_Id": "37"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "m7/q0.java",
+      "_Id": "38"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/common/cache/s.java",
+      "_Id": "39"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/facebook/FacebookException.java",
+      "_Id": "40"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/api/client/util/ExponentialBackOff.java",
+      "_Id": "41"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/profileinstaller/ProfileInstallerInitializer.java",
+      "_Id": "42"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of ssl.OpenSslX509TrustManagerWrapper",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "ssl/OpenSslX509TrustManagerWrapper.java",
+      "_Id": "43"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "44"
+    },
+    {
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "45"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of util.FingerprintTrustManagerFactory",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "util/FingerprintTrustManagerFactory.java",
+      "_Id": "46"
+    },
+    {
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of util.FingerprintTrustManagerFactory",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "util/FingerprintTrustManagerFactory.java",
+      "_Id": "47"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of util.InsecureTrustManagerFactory",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "util/InsecureTrustManagerFactory.java",
+      "_Id": "48"
+    },
+    {
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of util.InsecureTrustManagerFactory",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "util/InsecureTrustManagerFactory.java",
+      "_Id": "49"
+    },
+    {
+      "Message": "Cause: Fixed \"[1]\"",
+      "Description": "Used untrusted HostNameVerifier",
+      "RuleNumber": 6,
+      "RuleDesc": "Used untrusted HostNameVerifier",
+      "CWEId": 601,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "50"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/internal/security/CertificateUtil.java",
+      "_Id": "51"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/crashlytics/internal/common/CommonUtils.java",
+      "_Id": "52"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/appevents/internal/HashUtils.java",
+      "_Id": "53"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/ads/internal/util/client/zzf.java",
+      "_Id": "54"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/measurement/internal/zzng.java",
+      "_Id": "55"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/internal/Utility.java",
+      "_Id": "56"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "io/grpc/netty/shaded/io/netty/handler/ssl/util/FingerprintTrustManagerFactory.java",
+      "_Id": "57"
+    },
+    {
+      "Message": "Found: \"md4\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "58"
+    },
+    {
+      "Message": "Found: \"MD4\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "59"
+    },
+    {
+      "Message": "Found: \"Hmac-MD4\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "60"
+    },
+    {
+      "Message": "Found: \"SHA\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/xmlbeans/impl/schema/SchemaTypeLoaderBase.java",
+      "_Id": "61"
+    },
+    {
+      "Message": "Found: \"SHA\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/xmlbeans/impl/tool/BaseSchemaResourceManager.java",
+      "_Id": "62"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "websocketx/WebSocketUtil.java",
+      "_Id": "63"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "websocketx/WebSocketUtil.java",
+      "_Id": "64"
+    },
+    {
+      "Message": "Found: \"sha1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "65"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "66"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "67"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/consent_sdk/zzcl.java",
+      "_Id": "68"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/xmlbeans/impl/values/JavaBase64Holder.java",
+      "_Id": "69"
+    },
+    {
+      "Message": "Found: \"SHA\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/xmlbeans/impl/common/QNameHelper.java",
+      "_Id": "70"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "io/grpc/netty/shaded/io/netty/handler/ssl/util/FingerprintTrustManagerFactory.java",
+      "_Id": "71"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/appevents/AppEvent$Companion.java",
+      "_Id": "72"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/messaging/GmsRpc.java",
+      "_Id": "73"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "ba/a.java",
+      "_Id": "74"
+    },
+    {
+      "Message": "Found: \"md5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "75"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "76"
+    },
+    {
+      "Message": "Found: \"HmacMD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "77"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/ads/internal/util/client/zzf.java",
+      "_Id": "78"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/installations/local/IidStore.java",
+      "_Id": "79"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "z9/h.java",
+      "_Id": "80"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/xmlbeans/impl/values/JavaHexBinaryHolder.java",
+      "_Id": "81"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/ads/internal/util/client/zzf.java",
+      "_Id": "82"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
+      "_Id": "83"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzatw.java",
+      "_Id": "84"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzazl.java",
+      "_Id": "85"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/internal/Utility.java",
+      "_Id": "86"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "io/grpc/netty/shaded/io/netty/handler/ssl/util/FingerprintTrustManagerFactory.java",
+      "_Id": "87"
+    },
+    {
+      "Message": "Found: \"md2\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "88"
+    },
+    {
+      "Message": "Found: \"MD2\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/HashAlgorithm.java",
+      "_Id": "89"
+    },
+    {
+      "Message": "Found: Constant \"-2\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "90"
+    },
+    {
+      "Message": "Found: Constant \"12\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "91"
+    },
+    {
+      "Message": "Found: Constant \"-10\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "92"
+    },
+    {
+      "Message": "Found: Constant \"2\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "93"
+    },
+    {
+      "Message": "Found: Constant \"127\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "94"
+    },
+    {
+      "Message": "Found: Constant \"1727730429792\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzawd.java",
+      "_Id": "95"
+    },
+    {
+      "Message": "Found: Constant \"-48\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "96"
+    },
+    {
+      "Message": "Found: Constant \"11\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "97"
+    },
+    {
+      "Message": "Found: Constant \"103\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "98"
+    },
+    {
+      "Message": "Found: Constant \"-96\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "99"
+    },
+    {
+      "Message": "Found: Constant \"-42\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "100"
+    },
+    {
+      "Message": "Found: Constant \"-31\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "101"
+    },
+    {
+      "Message": "Found: Constant \"-85\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "102"
+    },
+    {
+      "Message": "Found: Constant \"-25\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "103"
+    },
+    {
+      "Message": "Found: Constant \"1\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "104"
+    },
+    {
+      "Message": "Found: Constant \"95\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "105"
+    },
+    {
+      "Message": "Found: Constant \"97\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "106"
+    },
+    {
+      "Message": "Found: Constant \"-41\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "107"
+    },
+    {
+      "Message": "Found: Constant \"121\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "108"
+    },
+    {
+      "Message": "Found: Constant \"-98\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "109"
+    },
+    {
+      "Message": "Found: Constant \"75\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "110"
+    },
+    {
+      "Message": "Found: Constant \"-71\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "111"
+    },
+    {
+      "Message": "Found: Constant \"-46\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "112"
+    },
+    {
+      "Message": "Found: Constant \"1727730429792\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzawd.java",
+      "_Id": "113"
+    },
+    {
+      "Message": "Found: Constant \"20\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "114"
+    },
+    {
+      "Message": "Found: Constant \"-84\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "115"
+    },
+    {
+      "Message": "Found: Constant \"110\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "116"
+    },
+    {
+      "Message": "Found: Constant \"109\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "117"
+    },
+    {
+      "Message": "Found: Constant \"52\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "118"
+    },
+    {
+      "Message": "Found: Constant \"15\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "119"
+    },
+    {
+      "Message": "Found: Constant \"51\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "120"
+    },
+    {
+      "Message": "Found: Constant \"59\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "121"
+    },
+    {
+      "Message": "Found: Constant \"-89\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "122"
+    },
+    {
+      "Message": "Found: Constant \"-124\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "123"
+    },
+    {
+      "Message": "Found: Constant \"44\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "124"
+    },
+    {
+      "Message": "Found: Constant \"118\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "125"
+    },
+    {
+      "Message": "Found: Constant \"-78\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "126"
+    },
+    {
+      "Message": "Found: Constant \"1727730429792\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/ads/zzawd.java",
+      "_Id": "127"
+    },
+    {
+      "Message": "Found: Constant \"-83\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "128"
+    },
+    {
+      "Message": "Found: Constant \"78\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "129"
+    },
+    {
+      "Message": "Found: Constant \"48\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "130"
+    },
+    {
+      "Message": "Found: Constant \"-86\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "131"
+    },
+    {
+      "Message": "Found: Constant \"-78\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "132"
+    },
+    {
+      "Message": "Found: \"-2\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "133"
+    },
+    {
+      "Message": "Found: \"12\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "134"
+    },
+    {
+      "Message": "Found: \"-10\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "135"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "136"
+    },
+    {
+      "Message": "Found: \"127\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "137"
+    },
+    {
+      "Message": "Found: \"-48\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "138"
+    },
+    {
+      "Message": "Found: \"11\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "139"
+    },
+    {
+      "Message": "Found: \"103\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "140"
+    },
+    {
+      "Message": "Found: \"-96\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "141"
+    },
+    {
+      "Message": "Found: \"-42\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "142"
+    },
+    {
+      "Message": "Found: \"-31\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "143"
+    },
+    {
+      "Message": "Found: \"-85\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "144"
+    },
+    {
+      "Message": "Found: \"-25\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "145"
+    },
+    {
+      "Message": "Found: \"1\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "146"
+    },
+    {
+      "Message": "Found: \"95\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "147"
+    },
+    {
+      "Message": "Found: \"97\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "148"
+    },
+    {
+      "Message": "Found: \"-41\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "149"
+    },
+    {
+      "Message": "Found: \"121\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "150"
+    },
+    {
+      "Message": "Found: \"-98\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "151"
+    },
+    {
+      "Message": "Found: \"75\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "152"
+    },
+    {
+      "Message": "Found: \"-71\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "153"
+    },
+    {
+      "Message": "Found: \"-46\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "154"
+    },
+    {
+      "Message": "Found: \"20\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "155"
+    },
+    {
+      "Message": "Found: \"-84\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "156"
+    },
+    {
+      "Message": "Found: \"110\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "157"
+    },
+    {
+      "Message": "Found: \"109\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "158"
+    },
+    {
+      "Message": "Found: \"52\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "159"
+    },
+    {
+      "Message": "Found: \"15\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "160"
+    },
+    {
+      "Message": "Found: \"51\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "161"
+    },
+    {
+      "Message": "Found: \"59\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "162"
+    },
+    {
+      "Message": "Found: \"-89\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "163"
+    },
+    {
+      "Message": "Found: \"-124\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "164"
+    },
+    {
+      "Message": "Found: \"44\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "165"
+    },
+    {
+      "Message": "Found: \"118\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "166"
+    },
+    {
+      "Message": "Found: \"-78\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "167"
+    },
+    {
+      "Message": "Found: \"-83\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "168"
+    },
+    {
+      "Message": "Found: \"78\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "169"
+    },
+    {
+      "Message": "Found: \"48\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "170"
+    },
+    {
+      "Message": "Found: \"-86\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "171"
+    },
+    {
+      "Message": "Found: \"-78\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "org/apache/poi/poifs/crypt/agile/AgileDecryptor.java",
+      "_Id": "172"
+    },
+    {
+      "Message": "Found: \"http://google.com/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/google/api/client/testing/http/HttpTesting.java",
+      "_Id": "173"
+    },
+    {
+      "Message": "Found: \"http://metadata.google.internal\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/google/auth/oauth2/ComputeEngineCredentials.java",
+      "_Id": "174"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-07-31_12:11:13",
+  "_UUID": "b2cf86c5-d40e-4d1f-bb44-98808c008a35",
+  "total_issues": 175
+}

@@ -1,0 +1,592 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/>5M/com.sgk.eganna.in_59.apk -m D -o cryptoguard_output/>5M/com.sgk.eganna.in_59.json",
+    "FullPath": "com.sgk.eganna.in_59.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/>5M/com.sgk.eganna.in_59.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+    "_ProjectName": "com"
+  },
+  "Issues": [
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/transition/Explode.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/measurement/internal/zzlp.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/material/color/utilities/QuantizerWsmeans.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/measurement/zzef.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/KotlinRandom.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/utils/GlobalValues.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/installations/Utils.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/utils/FirebaseMessageReceiver.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/measurement/internal/zzlp.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/messaging/GmsRpc.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/installations/local/IidStore.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/BindPayments_Account_Validate1/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/ConfirmFarmer$PasswordVerifyTask.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_GROWER_BASIC_QUOTA/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/utils/BasicQuota.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/GetFactoryExpiryDate1/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/SplashScreen$FacExpDateTask.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/OTP_Request/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/OTPActivity$OTPRequest.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/ContactFeedback_Log/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/ContactUs$ContackLogTask.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/BindPayments_Account_Validate1/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/LoginScreenByCode$PasswordVerifyTask.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Hayal_reval/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/RevalActivity$SubmitReval.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/GetFactoryPaymentStatus1/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/SelectAddFarmerOption$MyFactoryStatusTask.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_Grower_Hindi/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/LoginScreenByName$GrowerAsyncTask.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Factory_log/0/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/ConfirmFarmer$FactoryLogTask.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_Grower/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/LoginScreenByName$GrowerAsyncTask.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_Village_Hindi/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/LoginScreenByName$VillageAsyncTask.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Version_details1/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/SplashScreen$CheckAppUpdate.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_RadioSeason\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/LoginScreenByCode$GetSeasonTask.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/OTP_Request/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/Dashboard$OTPRequest.java",
+      "_Id": "29"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_Center/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/LoginScreenByName$CenterAsyncTask.java",
+      "_Id": "30"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_Factory_Hindi1/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/SelectFactory$GetFactoryListTask.java",
+      "_Id": "31"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Version_details1/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/AboutUs$CheckAppUpdate.java",
+      "_Id": "32"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/FetchGrowerData5/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/SelectAddFarmerOption.java",
+      "_Id": "33"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_Complaint/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/EnquiryActivity$GetComplaint.java",
+      "_Id": "34"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Account_Validate_With_UGC_Code/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/SelectAddFarmerOption$UGCValidate.java",
+      "_Id": "35"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Account_Validate_With_UGC_Code/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/SelectAddFarmerOption$UGCTask.java",
+      "_Id": "36"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/PreCalenadrData/qscwdvefbrgnthmyjukilolaxz/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/KachaCalenderActivity$GetKachaCalendarData.java",
+      "_Id": "37"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/FetchGrowerData4/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/myservice/SystemUpdateTask.java",
+      "_Id": "38"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/FetchGrowerData4/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/myservice/SystemUpdateTask.java",
+      "_Id": "39"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/GetFactoryPaymentStatus1/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/SelectFactory$MyFactoryStatusTask.java",
+      "_Id": "40"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_Center_Hindi/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/LoginScreenByName$CenterAsyncTask.java",
+      "_Id": "41"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_Factory1/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/SelectFactory$GetFactoryListTask.java",
+      "_Id": "42"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/FetchGrowerData5/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/ConfirmFarmer.java",
+      "_Id": "43"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/FetchGrowerData5/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/LoginScreenByCode.java",
+      "_Id": "44"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/File_COMPLAINT/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/EnquiryActivity$SubmitComplaint.java",
+      "_Id": "45"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_RadioSeason\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/SelectAddFarmerOption$GetSeasonTask.java",
+      "_Id": "46"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Kisaan_Ads_Master/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/myservice/AdsTask.java",
+      "_Id": "47"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/FetchGrowerData5/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/Dashboard.java",
+      "_Id": "48"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/FetchLastYrSupply/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/PreviousYearData$GetPreviousYearData.java",
+      "_Id": "49"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/FetchGrowerData4/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/MainActivity.java",
+      "_Id": "50"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/FetchGrowerData4/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/MainActivity.java",
+      "_Id": "51"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/ContactFeedback_Log/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/Feedback$ContackLogTask.java",
+      "_Id": "52"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/getPlotDetail/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/PlotInformationActivity$GetPlotTask.java",
+      "_Id": "53"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Fill_Village/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/add/LoginScreenByName$VillageAsyncTask.java",
+      "_Id": "54"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/Factory_log/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/SelectAddFarmerOption$FactoryLogTask.java",
+      "_Id": "55"
+    },
+    {
+      "Message": "Found: \"http://mobileapp.caneup.in/ServiceCy.svc/OTP_Validate/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/sgk/eganna/in/view/OTPActivity$OTPVarify.java",
+      "_Id": "56"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-07-31_10:10:24",
+  "_UUID": "22fdc818-44b3-43b9-bff1-62ea92ab4d45",
+  "total_issues": 57
+}

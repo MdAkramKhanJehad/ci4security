@@ -1,0 +1,492 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/1M-5M/it.creaweb.ucicinemas_61.apk -m D -o cryptoguard_output/1M-5M/it.creaweb.ucicinemas_61.json",
+    "FullPath": "it.creaweb.ucicinemas_61.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/1M-5M/it.creaweb.ucicinemas_61.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09",
+    "_ProjectName": "it"
+  },
+  "Issues": [
+    {
+      "Message": "Found: \"PBEWithMD5AndDES\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/ObscuredSharedPreferences.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: \"PBEWithMD5AndDES\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/ObscuredSharedPreferences.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/transition/Explode.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/measurement/zzbs.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/paypal/android/sdk/onetouch/core/fpti/FptiManager.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/measurement/internal/zzkp.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/paypal/android/sdk/onetouch/core/fpti/FptiToken.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/installations/Utils.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Didn't manually verify hostname in create",
+      "Description": "Should check HostnameVerification manually",
+      "RuleNumber": 12,
+      "RuleDesc": "Should check HostnameVerification manually",
+      "CWEId": 297,
+      "Severity": "1",
+      "_FullPath": "org/apache/http/impl/pool/BasicConnFactory.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of Utils.ClientSSLSocketFactory",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "Utils/ClientSSLSocketFactory.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of Utils.ClientSSLSocketFactory",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "Utils/ClientSSLSocketFactory.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/zzw.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/iid/InstanceID.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/nostra13/universalimageloader/cache/disc/naming/Md5FileNameGenerator.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/measurement/internal/zzkp.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/installations/local/IidStore.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/crashlytics/internal/common/CommonUtils.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: Constant \"mbwdaYuVOXp6A4zt6uRijTD0Npmd3XYQ\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/api/APISkinBlocco.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: Constant \"mbwdaYuVOXp6A4zt6uRijTD0Npmd3XYQ\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/api/APISkinBloccoJWT.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: Constant \"mbwdaYuVOXp6A4zt6uRijTD0Npmd3XYQ\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/api/APISkinGetTariffe.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: Constant \"mbwdaYuVOXp6A4zt6uRijTD0Npmd3XYQ\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/api/APISkinSblocco.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: Constant \"UTF-8\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "lib/android/paypal/com/magnessdk/f.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: Constant \"W3bt1cS3cr3t1ss1m4!\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/ObscuredSharedPreferences.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: Constant \"mbwdaYuVOXp6A4zt6uRijTD0Npmd3XYQ\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/api/APISkinGetTariffeJWT.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: Constant \"mbwdaYuVOXp6A4zt6uRijTD0Npmd3XYQ\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/api/APISkinUsa.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: \"cinecard\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "it/creaweb/ucicinemas/ImpostazioniFragment.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: \"cinecard\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "ucicinemas/CinecardFragment.java",
+      "_Id": "29"
+    },
+    {
+      "Message": "Found: \"-9223372036854775808\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "java/lang/Long.java",
+      "_Id": "30"
+    },
+    {
+      "Message": "Found: \"Coupon\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "it/creaweb/ucicinemas/CouponFragment.java",
+      "_Id": "31"
+    },
+    {
+      "Message": "Found: \"-2147483648\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "java/lang/Integer.java",
+      "_Id": "32"
+    },
+    {
+      "Message": "Found: \"cinecard\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "it/creaweb/ucicinemas/CinecardAggiungiFragment.java",
+      "_Id": "33"
+    },
+    {
+      "Message": "Found: \"cinecard\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "ucicinemas/CinecardFragment.java",
+      "_Id": "34"
+    },
+    {
+      "Message": "Found: \"cinecard\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/adapter/ScegliAcquistoAdapter.java",
+      "_Id": "35"
+    },
+    {
+      "Message": "Found: \"AcquistiPrenotazioni\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "it/creaweb/ucicinemas/AcquistiFragment.java",
+      "_Id": "36"
+    },
+    {
+      "Message": "Found: \"cinecard\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "it/creaweb/ucicinemas/ImpostazioniFragment.java",
+      "_Id": "37"
+    },
+    {
+      "Message": "Found: \"false\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "java/lang/Boolean.java",
+      "_Id": "38"
+    },
+    {
+      "Message": "Found: \"CinemaPrefs\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/MyStateManager.java",
+      "_Id": "39"
+    },
+    {
+      "Message": "Found: \"inizio\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "ucicinemas/MainFragment.java",
+      "_Id": "40"
+    },
+    {
+      "Message": "Found: \"CinemaPrefs\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/MyStateManager.java",
+      "_Id": "41"
+    },
+    {
+      "Message": "Found: \"cinecard\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/adapter/ScegliAcquistoAdapter.java",
+      "_Id": "42"
+    },
+    {
+      "Message": "Found: \"true\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "java/lang/Boolean.java",
+      "_Id": "43"
+    },
+    {
+      "Message": "Found: \"cinecard\"",
+      "Description": "Found constant salts in code",
+      "RuleNumber": 9,
+      "RuleDesc": "Found constant salts in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "it/creaweb/ucicinemas/CinecardAggiungiFragment.java",
+      "_Id": "44"
+    },
+    {
+      "Message": "Found: \"20\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/ObscuredSharedPreferences.java",
+      "_Id": "45"
+    },
+    {
+      "Message": "Found: \"20\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "com/creaweb/helper/ObscuredSharedPreferences.java",
+      "_Id": "46"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-07-28_19:22:48",
+  "_UUID": "34b907d5-f6e1-446b-bd44-7ade5424f5a2",
+  "total_issues": 47
+}

@@ -1,0 +1,102 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/500-1k/uk.co.catalinasoftware.freedomgo.crawfords_3300.apk -m D -o cryptoguard_output/500-1k/uk.co.catalinasoftware.freedomgo.crawfords_3300.json",
+    "FullPath": "uk.co.catalinasoftware.freedomgo.crawfords_3300.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/500-1k/uk.co.catalinasoftware.freedomgo.crawfords_3300.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+    "_ProjectName": "uk"
+  },
+  "Issues": [
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/transition/Explode.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/KotlinRandom.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of utils.FTPSClientUtils",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "utils/FTPSClientUtils.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of utils.FTPSClientUtils",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "utils/FTPSClientUtils.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Found: \"http://services.postcodeanywhere.co.uk/CapturePlus/Interactive/Find/v2.10/xmla.ws?\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "uk/co/catalinasoftware/freedomgo/utils/PCASearchUtils.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Found: \"http://services.postcodeanywhere.co.uk/CapturePlus/Interactive/RetrieveFormatted/v2.10/xmla.ws?\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "uk/co/catalinasoftware/freedomgo/utils/PCASearchUtils.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: \"http://services.postcodeanywhere.co.uk/Geocoding/International/Geocode/v1.10/xmla.ws?\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "uk/co/catalinasoftware/freedomgo/utils/PCASearchUtils.java",
+      "_Id": "7"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-07-31_19:01:18",
+  "_UUID": "76a01b74-e7b6-4146-b5ce-d954f65d9a28",
+  "total_issues": 8
+}

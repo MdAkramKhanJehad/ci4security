@@ -1,0 +1,1052 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/500k-1M/com.chereads.reader_395.apk -m D -o cryptoguard_output/500k-1M/com.chereads.reader_395.json",
+    "FullPath": "com.chereads.reader_395.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/500k-1M/com.chereads.reader_395.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+    "_ProjectName": "com"
+  },
+  "Issues": [
+    {
+      "Message": "Cause: Used default key size",
+      "Description": "Used export grade public Key",
+      "RuleNumber": 5,
+      "RuleDesc": "Used export grade public Key",
+      "CWEId": 321,
+      "Severity": "1",
+      "_FullPath": "io/jsonwebtoken/impl/crypto/RsaProvider.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: \"desede/CBC/PKCS5Padding\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/DES3Utils.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: \"DESede/CBC/PKCS5Padding\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/DES.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: \"DESede/CBC/PKCS5Padding\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/DES.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/restructure/activity/view/ComicDanmuView.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/perf/session/PerfSession.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/asn1/ua/DSTU4145PointEncoder.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/greenrobot/greendao/test/DbTest.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/scwang/smartrefresh/header/TaurusHeader.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/transition/Explode.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/math/ec/ECCurve$AbstractF2m.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/appsflyer/internal/AFa1zSDK.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "okhttp3/OkHttpClient.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/math/raw/Mod.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/scwang/smartrefresh/header/TaurusHeader.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/KotlinRandom.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/bumptech/glide/load/resource/gif/GifFrameLoader.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/DeviceUtils.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/appsflyer/internal/AFc1fSDK.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/facebook/internal/Utility.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/pqc/math/linearalgebra/GF2nPolynomialElement.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/remoteconfig/RemoteConfigComponent.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/yuewen/fock/FockWatermarkView.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/internal/measurement/zzef.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/hjq/permissions/PermissionFragment.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/scwang/smartrefresh/header/storehouse/StoreHouseBarItem.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/appsflyer/internal/AFa1pSDK.java",
+      "_Id": "29"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/appsflyer/internal/AFb1hSDK.java",
+      "_Id": "30"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/measurement/internal/zzlb.java",
+      "_Id": "31"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/scwang/smartrefresh/header/FunGameBattleCityHeader.java",
+      "_Id": "32"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/pqc/math/linearalgebra/GF2nONBField.java",
+      "_Id": "33"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "retrofit2/mock/NetworkBehavior.java",
+      "_Id": "34"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/perf/transport/d.java",
+      "_Id": "35"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/facebook/FacebookException.java",
+      "_Id": "36"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/pqc/math/linearalgebra/GF2Polynomial.java",
+      "_Id": "37"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/widget/badge/BadgeAnimator$c.java",
+      "_Id": "38"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/installations/Utils.java",
+      "_Id": "39"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/perf/config/RemoteConfigManager.java",
+      "_Id": "40"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/math/ec/ECFieldElement$Fp.java",
+      "_Id": "41"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/soloader/SoLoader$a.java",
+      "_Id": "42"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/installations/local/IidStore.java",
+      "_Id": "43"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/MD5.java",
+      "_Id": "44"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/internal/Utility.java",
+      "_Id": "45"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/webview/engine/webview/offline/common/util/Util.java",
+      "_Id": "46"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/MD5.java",
+      "_Id": "47"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSink.java",
+      "_Id": "48"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/appevents/AppEvent$Companion.java",
+      "_Id": "49"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSink.java",
+      "_Id": "50"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/messaging/z.java",
+      "_Id": "51"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/internal/Utility.java",
+      "_Id": "52"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/Buffer.java",
+      "_Id": "53"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/appevents/internal/HashUtils.java",
+      "_Id": "54"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/ByteString.java",
+      "_Id": "55"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
+      "_Id": "56"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/liulishuo/filedownloader/util/FileDownloadUtils.java",
+      "_Id": "57"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/internal/security/CertificateUtil.java",
+      "_Id": "58"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/ByteString.java",
+      "_Id": "59"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/Buffer.java",
+      "_Id": "60"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/webview/engine/webview/offline/common/util/OfflineSecurity.java",
+      "_Id": "61"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/firebase/crashlytics/internal/common/CommonUtils.java",
+      "_Id": "62"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSource.java",
+      "_Id": "63"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/measurement/internal/zzlb.java",
+      "_Id": "64"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/FacebookSdk.java",
+      "_Id": "65"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/MD5.java",
+      "_Id": "66"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSource.java",
+      "_Id": "67"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/internal/Utility.java",
+      "_Id": "68"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/MD5.java",
+      "_Id": "69"
+    },
+    {
+      "Message": "Found: Constant \"anhtc2xzaW9kamZwd2UwMQ==\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/AESUtils.java",
+      "_Id": "70"
+    },
+    {
+      "Message": "Found: \"W9F1bXrz\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/DES3Utils.java",
+      "_Id": "71"
+    },
+    {
+      "Message": "Found: \"anhtc2xzaW9kamZwd2UwMQ==\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/AESUtils.java",
+      "_Id": "72"
+    },
+    {
+      "Message": "Found: \"bMyzJ1D7Kl7zt9mwjegtJGMoF53msSfP\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/DES3Utils.java",
+      "_Id": "73"
+    },
+    {
+      "Message": "Found: \"webnovel-mobiles\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/core/utils/AESUtils.java",
+      "_Id": "74"
+    },
+    {
+      "Message": "Found: \"3\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$a.java",
+      "_Id": "75"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/RC2$PBEWithSHA1AndRC2.java",
+      "_Id": "76"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES2Key.java",
+      "_Id": "77"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC256.java",
+      "_Id": "78"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC128.java",
+      "_Id": "79"
+    },
+    {
+      "Message": "Found: \"1\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.java",
+      "_Id": "80"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC192.java",
+      "_Id": "81"
+    },
+    {
+      "Message": "Found: \"20\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/keystore/pkcs12/PKCS12KeyStoreSpi.java",
+      "_Id": "82"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/RC2$PBEWithMD5AndRC2.java",
+      "_Id": "83"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/Twofish$PBEWithSHA.java",
+      "_Id": "84"
+    },
+    {
+      "Message": "Found: \"1\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$a.java",
+      "_Id": "85"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/DES$PBEWithMD2.java",
+      "_Id": "86"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.java",
+      "_Id": "87"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd40BitRC2.java",
+      "_Id": "88"
+    },
+    {
+      "Message": "Found: \"4\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$a.java",
+      "_Id": "89"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC128.java",
+      "_Id": "90"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/DES$PBEWithMD5.java",
+      "_Id": "91"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/DES$PBEWithSHA1.java",
+      "_Id": "92"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd128BitRC2.java",
+      "_Id": "93"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC192.java",
+      "_Id": "94"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC256.java",
+      "_Id": "95"
+    },
+    {
+      "Message": "Found: \"2\"",
+      "Description": "Used < 1000 iteration for PBE",
+      "RuleNumber": 8,
+      "RuleDesc": "Used < 1000 iteration for PBE",
+      "CWEId": 326,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES3Key.java",
+      "_Id": "96"
+    },
+    {
+      "Message": "Found: \"www.bouncycastle.org\"",
+      "Description": "Found predictable seeds in code",
+      "RuleNumber": 11,
+      "RuleDesc": "Found predictable seeds in code",
+      "CWEId": 760,
+      "Severity": "1",
+      "_FullPath": "org/spongycastle/crypto/examples/DESExample.java",
+      "_Id": "97"
+    },
+    {
+      "Message": "Found: \"http://localhost\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "retrofit2/mock/Calls$b.java",
+      "_Id": "98"
+    },
+    {
+      "Message": "Found: \"http://localhost/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "retrofit2/Response.java",
+      "_Id": "99"
+    },
+    {
+      "Message": "Found: \"http://localhost/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "retrofit2/Response.java",
+      "_Id": "100"
+    },
+    {
+      "Message": "Found: \"http://localhost/\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "retrofit2/Response.java",
+      "_Id": "101"
+    },
+    {
+      "Message": "Found: \"http://offline.qq.com/offline/check\"",
+      "Description": "Used HTTP Protocol",
+      "RuleNumber": 7,
+      "RuleDesc": "Used HTTP Protocol",
+      "CWEId": 650,
+      "Severity": "1",
+      "_FullPath": "com/qidian/QDReader/webview/engine/webview/offline/common/offline/OfflineCheckUpdate$DefaultUpdateInfoGetter.java",
+      "_Id": "102"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-08-02_19:04:03",
+  "_UUID": "bf2b95cd-bfd2-4dfc-b327-0036219a34ca",
+  "total_issues": 103
+}

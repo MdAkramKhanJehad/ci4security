@@ -1,0 +1,322 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/10k-50k/jp.co.okinawatimes.viewer.and_25.apk -m D -o cryptoguard_output/10k-50k/jp.co.okinawatimes.viewer.and_25.json",
+    "FullPath": "jp.co.okinawatimes.viewer.and_25.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/10k-50k/jp.co.okinawatimes.viewer.and_25.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_452-8u452-ga~us1-0ubuntu1~22.04-b09",
+    "_ProjectName": "jp"
+  },
+  "Issues": [
+    {
+      "Message": "Found: \"DES/CBC/PKCS5Padding\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "w0/a.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: \"DES/CBC/PKCS5Padding\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "w0/a.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: \"DES/CBC/PKCS5Padding\"",
+      "Description": "Found broken crypto schemes",
+      "RuleNumber": 1,
+      "RuleDesc": "Found broken crypto schemes",
+      "CWEId": 256,
+      "Severity": "1",
+      "_FullPath": "w0/a.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "okhttp3/OkHttpClient.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "q2/e.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Cause: Fixed \"[1]\"",
+      "Description": "Used untrusted HostNameVerifier",
+      "RuleNumber": 6,
+      "RuleDesc": "Used untrusted HostNameVerifier",
+      "CWEId": 601,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "w0/a.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "f4/g.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "p2/b.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "s2/s.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "q2/c.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "k3/c.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okhttp3/Cache$Companion.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Found: Constant \"https://viewerpro.okinawatimes.co.jp/epaper/Setting.jd\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/top/TopAct$d.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Found: Constant \"A0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/home/HomeAct.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Found: Constant \"A0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/home/b.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: Constant \"top_data/\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/top/TopAct$d.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: Constant \"00000000\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "l3/d.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: \"https://viewerpro.okinawatimes.co.jp/epaper/Setting.jd\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/top/TopAct$d.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: \"A0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/home/HomeAct.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: \"A0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/home/b.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: \"00000000\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "m3/a.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: \"00000000\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/l.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: \"00000000\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "m3/a.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: \"00000000\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "f3/d.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: \"00000000\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/n.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: \"top_data/\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "jp/co/okinawatimes/viewer/and/top/TopAct$d.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: \"00000000\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "f3/d.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: \"00000000\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "l3/d.java",
+      "_Id": "29"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-07-30_00:03:02",
+  "_UUID": "4ebe93da-1851-421c-be07-34fceeb5066d",
+  "total_issues": 30
+}

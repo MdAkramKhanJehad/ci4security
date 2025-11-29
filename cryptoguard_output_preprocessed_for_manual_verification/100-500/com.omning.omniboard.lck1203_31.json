@@ -1,0 +1,392 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/100-500/com.omning.omniboard.lck1203_31.apk -m D -o cryptoguard_output/100-500/com.omning.omniboard.lck1203_31.json",
+    "FullPath": "com.omning.omniboard.lck1203_31.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/100-500/com.omning.omniboard.lck1203_31.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+    "_ProjectName": "com"
+  },
+  "Issues": [
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/pengenerations/lib/util/StringHelper.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kr/neolab/sdk/pen/bluetooth/ConvertToPacket.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Found: Constant \"error\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/fb_action/FbActionCtrl.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Found: Constant \"OMNINGENCRYPT123\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: Constant \"OMNINGENCRYPT123\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: Constant \"0\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "29"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "30"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "31"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "32"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "33"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "34"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "35"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/omning/omniboard/lck1203/util/Lib.java",
+      "_Id": "36"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-08-04_08:04:44",
+  "_UUID": "d3f2d3da-f734-47d3-af1d-131b1279118b",
+  "total_issues": 37
+}

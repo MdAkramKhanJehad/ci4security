@@ -1,0 +1,462 @@
+{
+  "projectName": "CryptoGuard",
+  "ProjectVersion": "04.05.03_2020-11-25-02-42",
+  "Target": {
+    "RawCommand": "-in apk -s downloaded_apks/100k-500k/dk.mochsoft.vnc_26.apk -m D -o cryptoguard_output/100k-500k/dk.mochsoft.vnc_26.json",
+    "FullPath": "dk.mochsoft.vnc_26.apk/",
+    "Type": "APK",
+    "TargetSources": [
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/100k-500k/dk.mochsoft.vnc_26.apk"
+    ],
+    "_PropertiesFilePath": "gradle.properties",
+    "_ComputerOS": "Linux_5.15.0-142-generic",
+    "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
+    "_ProjectName": "dk"
+  },
+  "Issues": [
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
+      "_Id": "0"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/KotlinRandom.java",
+      "_Id": "1"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
+      "_Id": "2"
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "3"
+    },
+    {
+      "Message": "Didn't manually verify hostname in go_to_tls2",
+      "Description": "Should check HostnameVerification manually",
+      "RuleNumber": 12,
+      "RuleDesc": "Should check HostnameVerification manually",
+      "CWEId": 297,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/MySessionActivity$MySocketClass.java",
+      "_Id": "4"
+    },
+    {
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "5"
+    },
+    {
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+      "Description": "Uses untrusted TrustManager",
+      "RuleNumber": 4,
+      "RuleDesc": "Uses untrusted TrustManager",
+      "CWEId": 349,
+      "Severity": "1",
+      "_FullPath": "UNKNOWN.java",
+      "_Id": "6"
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/zzl.java",
+      "_Id": "7"
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
+      "_Id": "8"
+    },
+    {
+      "Message": "Found: Constant \"8L\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/md5.java",
+      "_Id": "9"
+    },
+    {
+      "Message": "Found: Constant \"-1L\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/md5.java",
+      "_Id": "10"
+    },
+    {
+      "Message": "Found: Constant \"-1L\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/md5.java",
+      "_Id": "11"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "12"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "13"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "14"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "15"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "16"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "17"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "18"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "19"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "20"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "21"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "22"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "23"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "24"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "25"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "26"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "27"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "28"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "29"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "30"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "31"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "32"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "33"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "34"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "35"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "36"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "37"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "38"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "39"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "40"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "41"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "42"
+    },
+    {
+      "Message": "Found: \"0\"",
+      "Description": "Found constant IV in code",
+      "RuleNumber": 10,
+      "RuleDesc": "Found constant IV in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "dk/mochsoft/vnc/vncxvt.java",
+      "_Id": "43"
+    }
+  ],
+  "_SchemaVersion": 3,
+  "_DateTime": "2025-08-01_21:57:49",
+  "_UUID": "e982ce43-2c2a-4813-baff-11550c2e6aa8",
+  "total_issues": 44
+}
