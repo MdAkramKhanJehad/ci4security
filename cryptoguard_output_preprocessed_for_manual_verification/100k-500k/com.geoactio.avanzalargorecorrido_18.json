@@ -22,7 +22,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
-      "_Id": "0"
+      "_Id": "0",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -32,7 +33,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzea.java",
-      "_Id": "1"
+      "_Id": "1",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -42,7 +44,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzlh.java",
-      "_Id": "2"
+      "_Id": "2",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -52,7 +55,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzal.java",
-      "_Id": "3"
+      "_Id": "3",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -62,7 +66,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
-      "_Id": "4"
+      "_Id": "4",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -72,7 +77,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/material/color/utilities/QuantizerWsmeans.java",
-      "_Id": "5"
+      "_Id": "5",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -82,7 +88,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/analytics/Tracker.java",
-      "_Id": "6"
+      "_Id": "6",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -92,7 +99,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
-      "_Id": "7"
+      "_Id": "7",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -102,7 +110,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
-      "_Id": "8"
+      "_Id": "8",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -112,7 +121,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzee.java",
-      "_Id": "9"
+      "_Id": "9",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +132,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
-      "_Id": "10"
+      "_Id": "10",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -132,7 +143,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
-      "_Id": "11"
+      "_Id": "11",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -142,7 +154,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "org/kobjects/crypt/Crypt.java",
-      "_Id": "12"
+      "_Id": "12",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -152,7 +165,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzet.java",
-      "_Id": "13"
+      "_Id": "13",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -162,7 +176,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/Utils.java",
-      "_Id": "14"
+      "_Id": "14",
+      "verificationStatus": ""
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
@@ -172,7 +187,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "15"
+      "_Id": "15",
+      "verificationStatus": ""
     },
     {
       "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
@@ -182,7 +198,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "16"
+      "_Id": "16",
+      "verificationStatus": ""
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
@@ -192,7 +209,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "17"
+      "_Id": "17",
+      "verificationStatus": ""
     },
     {
       "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
@@ -202,7 +220,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "18"
+      "_Id": "18",
+      "verificationStatus": ""
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -212,7 +231,8 @@
       "CWEId": 601,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "19"
+      "_Id": "19",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -222,7 +242,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzby.java",
-      "_Id": "20"
+      "_Id": "20",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -232,7 +253,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
-      "_Id": "21"
+      "_Id": "21",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -242,7 +264,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
-      "_Id": "22"
+      "_Id": "22",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -252,7 +275,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
-      "_Id": "23"
+      "_Id": "23",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -262,7 +286,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
-      "_Id": "24"
+      "_Id": "24",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -272,7 +297,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/local/IidStore.java",
-      "_Id": "25"
+      "_Id": "25",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -282,7 +308,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
-      "_Id": "26"
+      "_Id": "26",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -292,7 +319,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
-      "_Id": "27"
+      "_Id": "27",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -302,7 +330,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/am.java",
-      "_Id": "28"
+      "_Id": "28",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -312,7 +341,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzlh.java",
-      "_Id": "29"
+      "_Id": "29",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -322,7 +352,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
-      "_Id": "30"
+      "_Id": "30",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -332,7 +363,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzfu.java",
-      "_Id": "31"
+      "_Id": "31",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -342,7 +374,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
-      "_Id": "32"
+      "_Id": "32",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -352,7 +385,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/firebase/iid/zzan.java",
-      "_Id": "33"
+      "_Id": "33",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -362,7 +396,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
-      "_Id": "34"
+      "_Id": "34",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-32\"",
@@ -372,7 +407,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "35"
+      "_Id": "35",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -382,7 +418,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "36"
+      "_Id": "36",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -392,7 +429,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "37"
+      "_Id": "37",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-71\"",
@@ -402,7 +440,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "38"
+      "_Id": "38",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -412,7 +451,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "39"
+      "_Id": "39",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"17\"",
@@ -422,7 +462,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "40"
+      "_Id": "40",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -432,7 +473,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "41"
+      "_Id": "41",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -442,7 +484,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "42"
+      "_Id": "42",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -452,7 +495,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "43"
+      "_Id": "43",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"17\"",
@@ -462,7 +506,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "44"
+      "_Id": "44",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -472,7 +517,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "45"
+      "_Id": "45",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -482,7 +528,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "46"
+      "_Id": "46",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -492,7 +539,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "47"
+      "_Id": "47",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -502,7 +550,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "48"
+      "_Id": "48",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -512,7 +561,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "49"
+      "_Id": "49",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -522,7 +572,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "50"
+      "_Id": "50",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -532,7 +583,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "51"
+      "_Id": "51",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -542,7 +594,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "52"
+      "_Id": "52",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-77\"",
@@ -552,7 +605,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "53"
+      "_Id": "53",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-97\"",
@@ -562,7 +616,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "54"
+      "_Id": "54",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"34\"",
@@ -572,7 +627,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "55"
+      "_Id": "55",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -582,7 +638,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "56"
+      "_Id": "56",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-66\"",
@@ -592,7 +649,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "57"
+      "_Id": "57",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-113\"",
@@ -602,7 +660,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "58"
+      "_Id": "58",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"34\"",
@@ -612,7 +671,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "59"
+      "_Id": "59",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"62\"",
@@ -622,7 +682,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "60"
+      "_Id": "60",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -632,7 +693,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "61"
+      "_Id": "61",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -642,7 +704,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "62"
+      "_Id": "62",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -652,7 +715,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "63"
+      "_Id": "63",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -662,7 +726,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "64"
+      "_Id": "64",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-52\"",
@@ -672,7 +737,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "65"
+      "_Id": "65",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -682,7 +748,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "66"
+      "_Id": "66",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -692,7 +759,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "67"
+      "_Id": "67",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -702,7 +770,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "68"
+      "_Id": "68",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -712,7 +781,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "69"
+      "_Id": "69",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -722,7 +792,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "70"
+      "_Id": "70",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-1\"",
@@ -732,7 +803,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "71"
+      "_Id": "71",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-106\"",
@@ -742,7 +814,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "72"
+      "_Id": "72",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -752,7 +825,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "73"
+      "_Id": "73",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-48\"",
@@ -762,7 +836,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "74"
+      "_Id": "74",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-26\"",
@@ -772,7 +847,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "75"
+      "_Id": "75",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -782,7 +858,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "76"
+      "_Id": "76",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -792,7 +869,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "77"
+      "_Id": "77",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -802,7 +880,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "78"
+      "_Id": "78",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -812,7 +891,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "79"
+      "_Id": "79",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -822,7 +902,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "80"
+      "_Id": "80",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"17\"",
@@ -832,7 +913,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "81"
+      "_Id": "81",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"34\"",
@@ -842,7 +924,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "82"
+      "_Id": "82",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -852,7 +935,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "83"
+      "_Id": "83",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -862,7 +946,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "84"
+      "_Id": "84",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -872,7 +957,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "85"
+      "_Id": "85",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -882,7 +968,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "86"
+      "_Id": "86",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -892,7 +979,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "87"
+      "_Id": "87",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"49\"",
@@ -902,7 +990,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "88"
+      "_Id": "88",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -912,7 +1001,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "89"
+      "_Id": "89",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-15\"",
@@ -922,7 +1012,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "90"
+      "_Id": "90",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -932,7 +1023,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "91"
+      "_Id": "91",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -942,7 +1034,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "92"
+      "_Id": "92",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-93\"",
@@ -952,7 +1045,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "93"
+      "_Id": "93",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -962,7 +1056,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "94"
+      "_Id": "94",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-120\"",
@@ -972,7 +1067,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "95"
+      "_Id": "95",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -982,7 +1078,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "96"
+      "_Id": "96",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -992,7 +1089,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "97"
+      "_Id": "97",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"-85\"",
@@ -1002,7 +1100,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "98"
+      "_Id": "98",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1012,7 +1111,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "99"
+      "_Id": "99",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1022,7 +1122,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "100"
+      "_Id": "100",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-32\"",
@@ -1032,7 +1133,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "101"
+      "_Id": "101",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1042,7 +1144,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "102"
+      "_Id": "102",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1052,7 +1155,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "103"
+      "_Id": "103",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1062,7 +1166,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "104"
+      "_Id": "104",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"11\"",
@@ -1072,7 +1177,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "105"
+      "_Id": "105",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1082,7 +1188,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "106"
+      "_Id": "106",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1092,7 +1199,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "107"
+      "_Id": "107",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1102,7 +1210,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "108"
+      "_Id": "108",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"17\"",
@@ -1112,7 +1221,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "109"
+      "_Id": "109",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1122,7 +1232,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "110"
+      "_Id": "110",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"17\"",
@@ -1132,7 +1243,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "111"
+      "_Id": "111",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1142,7 +1254,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "112"
+      "_Id": "112",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1152,7 +1265,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "113"
+      "_Id": "113",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1162,7 +1276,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "114"
+      "_Id": "114",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1172,7 +1287,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "115"
+      "_Id": "115",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1182,7 +1298,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "116"
+      "_Id": "116",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-66\"",
@@ -1192,7 +1309,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "117"
+      "_Id": "117",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1202,7 +1320,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "118"
+      "_Id": "118",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1212,7 +1331,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "119"
+      "_Id": "119",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"62\"",
@@ -1222,7 +1342,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "120"
+      "_Id": "120",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1232,7 +1353,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "121"
+      "_Id": "121",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1242,7 +1364,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "122"
+      "_Id": "122",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1252,7 +1375,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "123"
+      "_Id": "123",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1262,7 +1386,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "124"
+      "_Id": "124",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"49\"",
@@ -1272,7 +1397,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "125"
+      "_Id": "125",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1282,7 +1408,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "126"
+      "_Id": "126",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1292,7 +1419,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "127"
+      "_Id": "127",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1302,7 +1430,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "128"
+      "_Id": "128",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-106\"",
@@ -1312,7 +1441,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "129"
+      "_Id": "129",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1322,7 +1452,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "130"
+      "_Id": "130",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-26\"",
@@ -1332,7 +1463,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "131"
+      "_Id": "131",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1342,7 +1474,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "132"
+      "_Id": "132",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1352,7 +1485,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "133"
+      "_Id": "133",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"49\"",
@@ -1362,7 +1496,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "134"
+      "_Id": "134",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1372,7 +1507,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "135"
+      "_Id": "135",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1382,7 +1518,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "136"
+      "_Id": "136",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1392,7 +1529,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "137"
+      "_Id": "137",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1402,7 +1540,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "138"
+      "_Id": "138",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1412,7 +1551,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "139"
+      "_Id": "139",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"17\"",
@@ -1422,7 +1562,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "140"
+      "_Id": "140",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"34\"",
@@ -1432,7 +1573,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "141"
+      "_Id": "141",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1442,7 +1584,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "142"
+      "_Id": "142",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1452,7 +1595,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "143"
+      "_Id": "143",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1462,7 +1606,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "144"
+      "_Id": "144",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1472,7 +1617,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "145"
+      "_Id": "145",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1482,7 +1628,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "146"
+      "_Id": "146",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1492,7 +1639,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "147"
+      "_Id": "147",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1502,7 +1650,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "148"
+      "_Id": "148",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-15\"",
@@ -1512,7 +1661,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "149"
+      "_Id": "149",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1522,7 +1672,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "150"
+      "_Id": "150",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1532,7 +1683,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "151"
+      "_Id": "151",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-93\"",
@@ -1542,7 +1694,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "152"
+      "_Id": "152",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1552,7 +1705,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "153"
+      "_Id": "153",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-120\"",
@@ -1562,7 +1716,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "154"
+      "_Id": "154",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1572,7 +1727,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "155"
+      "_Id": "155",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1582,7 +1738,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "156"
+      "_Id": "156",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1592,7 +1749,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "157"
+      "_Id": "157",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1602,7 +1760,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "158"
+      "_Id": "158",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1612,7 +1771,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "159"
+      "_Id": "159",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"1\"",
@@ -1622,7 +1782,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "160"
+      "_Id": "160",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1632,7 +1793,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "161"
+      "_Id": "161",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1642,7 +1804,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "162"
+      "_Id": "162",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1652,7 +1815,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "163"
+      "_Id": "163",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-71\"",
@@ -1662,7 +1826,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "164"
+      "_Id": "164",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1672,7 +1837,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "165"
+      "_Id": "165",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1682,7 +1848,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "166"
+      "_Id": "166",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1692,7 +1859,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "167"
+      "_Id": "167",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1702,7 +1870,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "168"
+      "_Id": "168",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1712,7 +1881,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "169"
+      "_Id": "169",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1722,7 +1892,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "170"
+      "_Id": "170",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1732,7 +1903,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "171"
+      "_Id": "171",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1742,7 +1914,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "172"
+      "_Id": "172",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1752,7 +1925,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "173"
+      "_Id": "173",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1762,7 +1936,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "174"
+      "_Id": "174",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1772,7 +1947,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "175"
+      "_Id": "175",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1782,7 +1958,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "176"
+      "_Id": "176",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1792,7 +1969,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "177"
+      "_Id": "177",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1802,7 +1980,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "178"
+      "_Id": "178",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1812,7 +1991,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "179"
+      "_Id": "179",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1822,7 +2002,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "180"
+      "_Id": "180",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1832,7 +2013,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "181"
+      "_Id": "181",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-77\"",
@@ -1842,7 +2024,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "182"
+      "_Id": "182",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1852,7 +2035,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "183"
+      "_Id": "183",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-97\"",
@@ -1862,7 +2046,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "184"
+      "_Id": "184",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1872,7 +2057,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "185"
+      "_Id": "185",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1882,7 +2068,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "186"
+      "_Id": "186",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1892,7 +2079,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "187"
+      "_Id": "187",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1902,7 +2090,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "188"
+      "_Id": "188",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-113\"",
@@ -1912,7 +2101,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "189"
+      "_Id": "189",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1922,7 +2112,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "190"
+      "_Id": "190",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1932,7 +2123,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "191"
+      "_Id": "191",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-52\"",
@@ -1942,7 +2134,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "192"
+      "_Id": "192",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1952,7 +2145,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "193"
+      "_Id": "193",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1962,7 +2156,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "194"
+      "_Id": "194",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1972,7 +2167,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "195"
+      "_Id": "195",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1982,7 +2178,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "196"
+      "_Id": "196",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -1992,7 +2189,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "197"
+      "_Id": "197",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2002,7 +2200,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "198"
+      "_Id": "198",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-1\"",
@@ -2012,7 +2211,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "199"
+      "_Id": "199",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2022,7 +2222,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "200"
+      "_Id": "200",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-48\"",
@@ -2032,7 +2233,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "201"
+      "_Id": "201",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2042,7 +2244,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "202"
+      "_Id": "202",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2052,7 +2255,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "203"
+      "_Id": "203",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2062,7 +2266,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "204"
+      "_Id": "204",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2072,7 +2277,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "205"
+      "_Id": "205",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2082,7 +2288,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "206"
+      "_Id": "206",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"1\"",
@@ -2092,7 +2299,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "207"
+      "_Id": "207",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"3\"",
@@ -2102,7 +2310,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "208"
+      "_Id": "208",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2112,7 +2321,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "209"
+      "_Id": "209",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2122,7 +2332,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "210"
+      "_Id": "210",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2132,7 +2343,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "211"
+      "_Id": "211",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2142,7 +2354,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/n.java",
-      "_Id": "212"
+      "_Id": "212",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2152,7 +2365,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "213"
+      "_Id": "213",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2162,7 +2376,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "214"
+      "_Id": "214",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"49\"",
@@ -2172,7 +2387,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "215"
+      "_Id": "215",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2182,7 +2398,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "216"
+      "_Id": "216",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2192,7 +2409,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "217"
+      "_Id": "217",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2202,7 +2420,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "218"
+      "_Id": "218",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2212,7 +2431,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "219"
+      "_Id": "219",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2222,7 +2442,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "220"
+      "_Id": "220",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2232,7 +2453,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "221"
+      "_Id": "221",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2242,7 +2464,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "222"
+      "_Id": "222",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2252,7 +2475,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "223"
+      "_Id": "223",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2262,7 +2486,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "224"
+      "_Id": "224",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -2272,7 +2497,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/ai.java",
-      "_Id": "225"
+      "_Id": "225",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"-85\"",
@@ -2282,7 +2508,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "226"
+      "_Id": "226",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/logoEMT.png\"",
@@ -2292,7 +2519,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/MainActivity.java",
-      "_Id": "227"
+      "_Id": "227",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ComprobarST\"",
@@ -2302,7 +2530,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "228"
+      "_Id": "228",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerTitulos\"",
@@ -2312,7 +2541,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "229"
+      "_Id": "229",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/CheckLNSB\"",
@@ -2322,7 +2552,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "230"
+      "_Id": "230",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http:\"",
@@ -2332,7 +2563,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "okhttp3/Request$Builder.java",
-      "_Id": "231"
+      "_Id": "231",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://appmovil.urbanosdezaragoza.es/server_pruebas.php\"",
@@ -2342,7 +2574,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/geoactio/avanzalargorecorrido/ws/SoapWS.java",
-      "_Id": "232"
+      "_Id": "232",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/CheckLGSB_v4\"",
@@ -2352,7 +2585,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "233"
+      "_Id": "233",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/publi\"",
@@ -2362,7 +2596,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "234"
+      "_Id": "234",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/CheckLGSBTranser_v2\"",
@@ -2372,7 +2607,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "235"
+      "_Id": "235",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/SubirMapaC\"",
@@ -2382,7 +2618,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "236"
+      "_Id": "236",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/EnviarResultadoGrabacion\"",
@@ -2392,7 +2629,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "237"
+      "_Id": "237",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/PubliURL\"",
@@ -2402,7 +2640,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "238"
+      "_Id": "238",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerOfertaTitulos\"",
@@ -2412,7 +2651,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "239"
+      "_Id": "239",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerRecargas\"",
@@ -2422,7 +2662,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "240"
+      "_Id": "240",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/AnularPagoE\"",
@@ -2432,7 +2673,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "241"
+      "_Id": "241",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerDatosTPVE\"",
@@ -2442,7 +2684,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "242"
+      "_Id": "242",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/avanza/comprobarRegistroCU.php\"",
@@ -2452,7 +2695,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "243"
+      "_Id": "243",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/SolicitarEmail\"",
@@ -2462,7 +2706,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "244"
+      "_Id": "244",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/push/register.php\"",
@@ -2472,7 +2717,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "245"
+      "_Id": "245",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/SubirInfo.php\"",
@@ -2482,7 +2728,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "246"
+      "_Id": "246",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/OC_v3\"",
@@ -2492,7 +2739,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/MainActivity.java",
-      "_Id": "247"
+      "_Id": "247",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/EnviarSMSRetriever\"",
@@ -2502,7 +2750,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "248"
+      "_Id": "248",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerPerfiles\"",
@@ -2512,7 +2761,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "249"
+      "_Id": "249",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.google-analytics.com\"",
@@ -2522,7 +2772,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzew.java",
-      "_Id": "250"
+      "_Id": "250",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerDatosGen\"",
@@ -2532,7 +2783,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "251"
+      "_Id": "251",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/SubirMapaR\"",
@@ -2542,7 +2794,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "252"
+      "_Id": "252",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/PagoSimulacion\"",
@@ -2552,7 +2805,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "253"
+      "_Id": "253",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/EnviarResultadoSMS\"",
@@ -2562,7 +2816,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "254"
+      "_Id": "254",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/EnviarInfoLista\"",
@@ -2572,7 +2827,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "255"
+      "_Id": "255",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ComprobarPagoES_v4\"",
@@ -2582,7 +2838,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/MainActivity.java",
-      "_Id": "256"
+      "_Id": "256",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://appmovil.urbanosdezaragoza.es/server_pruebas.php\"",
@@ -2592,7 +2849,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/geoactio/avanzalargorecorrido/ws/SoapWS.java",
-      "_Id": "257"
+      "_Id": "257",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/CheckMifare\"",
@@ -2602,7 +2860,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
-      "_Id": "258"
+      "_Id": "258",
+      "verificationStatus": ""
     }
   ],
   "_SchemaVersion": 3,

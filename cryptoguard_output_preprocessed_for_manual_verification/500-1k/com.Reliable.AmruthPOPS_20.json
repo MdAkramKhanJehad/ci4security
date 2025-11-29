@@ -22,7 +22,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "org/kobjects/crypt/Crypt.java",
-      "_Id": "0"
+      "_Id": "0",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -32,7 +33,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
-      "_Id": "1"
+      "_Id": "1",
+      "verificationStatus": ""
     }
   ],
   "_SchemaVersion": 3,

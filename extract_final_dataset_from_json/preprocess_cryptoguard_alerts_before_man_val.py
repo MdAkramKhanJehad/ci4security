@@ -32,6 +32,14 @@ def process_issues_field(data):
         data["total_issues"] = 0
 
 
+def add_verification_status(data):
+    issues = data.get("Issues")
+    if isinstance(issues, list):
+        for issue in issues:
+            if isinstance(issue, dict):
+                issue["verificationStatus"] = ""
+
+
 def process_single_json_file(input_path, output_path):
     try:
         with open(input_path, "r", encoding="utf-8") as f:
@@ -41,6 +49,7 @@ def process_single_json_file(input_path, output_path):
         return
 
     process_issues_field(data)
+    add_verification_status(data)
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     try:

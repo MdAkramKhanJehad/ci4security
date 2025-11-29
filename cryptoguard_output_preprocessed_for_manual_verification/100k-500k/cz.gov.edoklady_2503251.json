@@ -22,7 +22,8 @@
       "CWEId": 256,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/e.java",
-      "_Id": "0"
+      "_Id": "0",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -32,7 +33,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "ht/f$d.java",
-      "_Id": "1"
+      "_Id": "1",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -42,7 +44,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/profileinstaller/ProfileInstallerInitializer.java",
-      "_Id": "2"
+      "_Id": "2",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -52,7 +55,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "qt/c.java",
-      "_Id": "3"
+      "_Id": "3",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -62,7 +66,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "v3/g.java",
-      "_Id": "4"
+      "_Id": "4",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -72,7 +77,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "rb/c.java",
-      "_Id": "5"
+      "_Id": "5",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -82,7 +88,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "rb/b.java",
-      "_Id": "6"
+      "_Id": "6",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -92,7 +99,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "pp/z.java",
-      "_Id": "7"
+      "_Id": "7",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -102,7 +110,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "ht/e$b.java",
-      "_Id": "8"
+      "_Id": "8",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -112,7 +121,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "mn/b$a.java",
-      "_Id": "9"
+      "_Id": "9",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +132,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/activity/result/d.java",
-      "_Id": "10"
+      "_Id": "10",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -132,7 +143,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "br/e.java",
-      "_Id": "11"
+      "_Id": "11",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -142,7 +154,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/facebook/soloader/SoLoader$a.java",
-      "_Id": "12"
+      "_Id": "12",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -152,7 +165,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/a.java",
-      "_Id": "13"
+      "_Id": "13",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"sha1\"",
@@ -162,7 +176,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/rnfs/RNFSManager.java",
-      "_Id": "14"
+      "_Id": "14",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -172,7 +187,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/rnfs/RNFSManager.java",
-      "_Id": "15"
+      "_Id": "15",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -182,7 +198,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "x4/b.java",
-      "_Id": "16"
+      "_Id": "16",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -192,7 +209,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/a.java",
-      "_Id": "17"
+      "_Id": "17",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -202,7 +220,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "eq/h.java",
-      "_Id": "18"
+      "_Id": "18",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"md5\"",
@@ -212,7 +231,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/rnfs/RNFSManager.java",
-      "_Id": "19"
+      "_Id": "19",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -222,7 +242,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/rnfs/RNFSManager.java",
-      "_Id": "20"
+      "_Id": "20",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -232,7 +253,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/sha256lib/Sha256Module.java",
-      "_Id": "21"
+      "_Id": "21",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -242,7 +264,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/sha256lib/Sha256Module.java",
-      "_Id": "22"
+      "_Id": "22",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -252,7 +275,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "eq/h.java",
-      "_Id": "23"
+      "_Id": "23",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -262,7 +286,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "v2/g.java",
-      "_Id": "24"
+      "_Id": "24",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"255L\"",
@@ -272,7 +297,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/d.java",
-      "_Id": "25"
+      "_Id": "25",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"password:\"",
@@ -282,7 +308,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/util/ParameterUtil.java",
-      "_Id": "26"
+      "_Id": "26",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"255L\"",
@@ -292,7 +319,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/d.java",
-      "_Id": "27"
+      "_Id": "27",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"SHA-512\"",
@@ -302,7 +330,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/e.java",
-      "_Id": "28"
+      "_Id": "28",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"255L\"",
@@ -312,7 +341,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/d.java",
-      "_Id": "29"
+      "_Id": "29",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"SHA-384\"",
@@ -322,7 +352,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/e.java",
-      "_Id": "30"
+      "_Id": "30",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"255L\"",
@@ -332,7 +363,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/d.java",
-      "_Id": "31"
+      "_Id": "31",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"SHA-256\"",
@@ -342,7 +374,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/tom_roush/pdfbox/pdmodel/encryption/e.java",
-      "_Id": "32"
+      "_Id": "32",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -352,7 +385,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/Twofish$PBEWithSHA.java",
-      "_Id": "33"
+      "_Id": "33",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"3\"",
@@ -362,7 +396,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.java",
-      "_Id": "34"
+      "_Id": "34",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -372,7 +407,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithMD5AndRC2.java",
-      "_Id": "35"
+      "_Id": "35",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"1\"",
@@ -382,7 +418,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.java",
-      "_Id": "36"
+      "_Id": "36",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -392,7 +429,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC128.java",
-      "_Id": "37"
+      "_Id": "37",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -402,7 +440,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC256.java",
-      "_Id": "38"
+      "_Id": "38",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -412,7 +451,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD2.java",
-      "_Id": "39"
+      "_Id": "39",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -422,7 +462,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC128.java",
-      "_Id": "40"
+      "_Id": "40",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -432,7 +473,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.java",
-      "_Id": "41"
+      "_Id": "41",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -442,7 +484,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.java",
-      "_Id": "42"
+      "_Id": "42",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -452,7 +495,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC192.java",
-      "_Id": "43"
+      "_Id": "43",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -462,7 +506,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD5.java",
-      "_Id": "44"
+      "_Id": "44",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -472,7 +517,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHA1AndRC2.java",
-      "_Id": "45"
+      "_Id": "45",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"20\"",
@@ -482,7 +528,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/pkcs12/PKCS12KeyStoreSpi.java",
-      "_Id": "46"
+      "_Id": "46",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"4\"",
@@ -492,7 +539,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.java",
-      "_Id": "47"
+      "_Id": "47",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -502,7 +550,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd128BitRC2.java",
-      "_Id": "48"
+      "_Id": "48",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -512,7 +561,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC192.java",
-      "_Id": "49"
+      "_Id": "49",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -522,7 +572,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd40BitRC2.java",
-      "_Id": "50"
+      "_Id": "50",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -532,7 +583,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES2Key.java",
-      "_Id": "51"
+      "_Id": "51",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -542,7 +594,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC256.java",
-      "_Id": "52"
+      "_Id": "52",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"1\"",
@@ -552,7 +605,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.java",
-      "_Id": "53"
+      "_Id": "53",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"2\"",
@@ -562,7 +616,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES3Key.java",
-      "_Id": "54"
+      "_Id": "54",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -572,7 +627,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithSHA1.java",
-      "_Id": "55"
+      "_Id": "55",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http:\"",
@@ -582,7 +638,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "pp/b0$a.java",
-      "_Id": "56"
+      "_Id": "56",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://%s/launch-js-devtools\"",
@@ -592,7 +649,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/e.java",
-      "_Id": "57"
+      "_Id": "57",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://%s/status\"",
@@ -602,7 +660,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "t6/j.java",
-      "_Id": "58"
+      "_Id": "58",
+      "verificationStatus": ""
     }
   ],
   "_SchemaVersion": 3,

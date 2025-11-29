@@ -22,7 +22,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
-      "_Id": "0"
+      "_Id": "0",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -32,7 +33,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/annimon/stream/RandomCompat.java",
-      "_Id": "1"
+      "_Id": "1",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -42,7 +44,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/annimon/stream/RandomCompat.java",
-      "_Id": "2"
+      "_Id": "2",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -52,7 +55,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzbs.java",
-      "_Id": "3"
+      "_Id": "3",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -62,7 +66,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/bumptech/glide/load/resource/gif/GifFrameLoader.java",
-      "_Id": "4"
+      "_Id": "4",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -72,7 +77,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
-      "_Id": "5"
+      "_Id": "5",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -82,7 +88,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/auth-api/zzba.java",
-      "_Id": "6"
+      "_Id": "6",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -92,7 +99,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzkp.java",
-      "_Id": "7"
+      "_Id": "7",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -102,7 +110,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/facebook/internal/Utility.java",
-      "_Id": "8"
+      "_Id": "8",
+      "verificationStatus": ""
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of http.HttpRequest",
@@ -112,7 +121,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "http/HttpRequest.java",
-      "_Id": "9"
+      "_Id": "9",
+      "verificationStatus": ""
     },
     {
       "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of http.HttpRequest",
@@ -122,7 +132,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "http/HttpRequest.java",
-      "_Id": "10"
+      "_Id": "10",
+      "verificationStatus": ""
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -132,7 +143,8 @@
       "CWEId": 601,
       "Severity": "1",
       "_FullPath": "http/HttpRequest.java",
-      "_Id": "11"
+      "_Id": "11",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -142,7 +154,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/iid/InstanceID.java",
-      "_Id": "12"
+      "_Id": "12",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -152,7 +165,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/facebook/internal/Utility.java",
-      "_Id": "13"
+      "_Id": "13",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -162,7 +176,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/facebook/FacebookSdk.java",
-      "_Id": "14"
+      "_Id": "14",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -172,7 +187,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/util/StringUtils.java",
-      "_Id": "15"
+      "_Id": "15",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -182,7 +198,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzkp.java",
-      "_Id": "16"
+      "_Id": "16",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -192,7 +209,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/facebook/appevents/AppEvent.java",
-      "_Id": "17"
+      "_Id": "17",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -202,7 +220,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
-      "_Id": "18"
+      "_Id": "18",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -212,7 +231,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/zzs.java",
-      "_Id": "19"
+      "_Id": "19",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -222,7 +242,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/facebook/internal/Utility.java",
-      "_Id": "20"
+      "_Id": "20",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -232,7 +253,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/local/IidStore.java",
-      "_Id": "21"
+      "_Id": "21",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -242,7 +264,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/facebook/internal/Utility.java",
-      "_Id": "22"
+      "_Id": "22",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://\"",
@@ -252,7 +275,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/activity/SplashScreenActivity.java",
-      "_Id": "23"
+      "_Id": "23",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://compartilhamento.no-ip.org:8699/consultar\"",
@@ -262,7 +286,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/remote/service/TaxifoneServiceClient.java",
-      "_Id": "24"
+      "_Id": "24",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.geoportal.com.br/WS/service.asmx/rota\"",
@@ -272,7 +297,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/DirectionsService.java",
-      "_Id": "25"
+      "_Id": "25",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dev.virtualearth.net/REST/V1/Routes/Driving?o=json&avoid=minimizeTolls&wp.0=%f,%f&wp.1=%f,%f&key=%s\"",
@@ -282,7 +308,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/DirectionsService.java",
-      "_Id": "26"
+      "_Id": "26",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dev.virtualearth.net/REST/v1/Locations?c=pt-BR&addressLine=%s&userLocation=%s,%s&key=%s\"",
@@ -292,7 +319,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/BingTaxifoneGeocoder.java",
-      "_Id": "27"
+      "_Id": "27",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dev.virtualearth.net/REST/v1/Locations/%s,%s?o=json&c=pt-BR&inclnb=0&key=%s\"",
@@ -302,7 +330,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/BingTaxifoneGeocoder.java",
-      "_Id": "28"
+      "_Id": "28",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://\"",
@@ -312,7 +341,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/remote/service/TaxifoneServiceClient.java",
-      "_Id": "29"
+      "_Id": "29",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.originalsoftware.com.br/config/\"",
@@ -322,7 +352,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/PropertiesUpdater.java",
-      "_Id": "30"
+      "_Id": "30",
+      "verificationStatus": ""
     }
   ],
   "_SchemaVersion": 3,

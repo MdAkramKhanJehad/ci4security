@@ -22,7 +22,8 @@
       "CWEId": 256,
       "Severity": "1",
       "_FullPath": "com/magazinecloner/magclonerreader/encryption/FileEncryption.java",
-      "_Id": "0"
+      "_Id": "0",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -32,7 +33,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
-      "_Id": "1"
+      "_Id": "1",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -42,7 +44,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/analytics/DefaultPlaybackSessionManager.java",
-      "_Id": "2"
+      "_Id": "2",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -52,7 +55,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Striped64.java",
-      "_Id": "3"
+      "_Id": "3",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -62,7 +66,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzal.java",
-      "_Id": "4"
+      "_Id": "4",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -72,7 +77,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
-      "_Id": "5"
+      "_Id": "5",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -82,7 +88,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/session/PerfSession.java",
-      "_Id": "6"
+      "_Id": "6",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -92,7 +99,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzlp.java",
-      "_Id": "7"
+      "_Id": "7",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -102,7 +110,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/material/color/utilities/QuantizerWsmeans.java",
-      "_Id": "8"
+      "_Id": "8",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -112,7 +121,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/analytics/Tracker.java",
-      "_Id": "9"
+      "_Id": "9",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +132,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/internal/ConfigRealtimeHttpClient.java",
-      "_Id": "10"
+      "_Id": "10",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -132,7 +143,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "11"
+      "_Id": "11",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -142,7 +154,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
-      "_Id": "12"
+      "_Id": "12",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -152,7 +165,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "13"
+      "_Id": "13",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -162,7 +176,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
-      "_Id": "14"
+      "_Id": "14",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -172,7 +187,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "15"
+      "_Id": "15",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -182,7 +198,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
-      "_Id": "16"
+      "_Id": "16",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -192,7 +209,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/trackselection/RandomTrackSelection$Factory.java",
-      "_Id": "17"
+      "_Id": "17",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -202,7 +220,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/RemoteConfigComponent.java",
-      "_Id": "18"
+      "_Id": "18",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -212,7 +231,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzea.java",
-      "_Id": "19"
+      "_Id": "19",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -222,7 +242,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "20"
+      "_Id": "20",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +253,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzef.java",
-      "_Id": "21"
+      "_Id": "21",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -242,7 +264,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/common/cache/Striped64.java",
-      "_Id": "22"
+      "_Id": "22",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -252,7 +275,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/util/SntpClient.java",
-      "_Id": "23"
+      "_Id": "23",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -262,7 +286,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/bumptech/glide/load/resource/gif/GifFrameLoader.java",
-      "_Id": "24"
+      "_Id": "24",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -272,7 +297,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/trackselection/RandomTrackSelection$Factory.java",
-      "_Id": "25"
+      "_Id": "25",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -282,7 +308,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
-      "_Id": "26"
+      "_Id": "26",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -292,7 +319,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "27"
+      "_Id": "27",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -302,7 +330,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/exoplayer/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "28"
+      "_Id": "28",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -312,7 +341,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/transport/RateLimiter.java",
-      "_Id": "29"
+      "_Id": "29",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -322,7 +352,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/internal/ConfigAutoFetch.java",
-      "_Id": "30"
+      "_Id": "30",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -332,7 +363,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/sessions/FirebaseSessions.java",
-      "_Id": "31"
+      "_Id": "31",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -342,7 +374,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzet.java",
-      "_Id": "32"
+      "_Id": "32",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -352,7 +385,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/Utils.java",
-      "_Id": "33"
+      "_Id": "33",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -362,7 +396,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/config/RemoteConfigManager.java",
-      "_Id": "34"
+      "_Id": "34",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -372,7 +407,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/media3/datasource/cache/SimpleCache.java",
-      "_Id": "35"
+      "_Id": "35",
+      "verificationStatus": ""
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -382,7 +418,8 @@
       "CWEId": 601,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "36"
+      "_Id": "36",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -392,7 +429,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
-      "_Id": "37"
+      "_Id": "37",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -402,7 +440,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzby.java",
-      "_Id": "38"
+      "_Id": "38",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -412,7 +451,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/internal/common/CommonUtils.java",
-      "_Id": "39"
+      "_Id": "39",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -422,7 +462,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
-      "_Id": "40"
+      "_Id": "40",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -432,7 +473,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
-      "_Id": "41"
+      "_Id": "41",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -442,7 +484,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
-      "_Id": "42"
+      "_Id": "42",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -452,7 +495,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
-      "_Id": "43"
+      "_Id": "43",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -462,7 +506,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzlp.java",
-      "_Id": "44"
+      "_Id": "44",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -472,7 +517,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Hashing$Md5Holder.java",
-      "_Id": "45"
+      "_Id": "45",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -482,7 +528,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Hashing$Sha1Holder.java",
-      "_Id": "46"
+      "_Id": "46",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -492,7 +539,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
-      "_Id": "47"
+      "_Id": "47",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -502,7 +550,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
-      "_Id": "48"
+      "_Id": "48",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -512,7 +561,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
-      "_Id": "49"
+      "_Id": "49",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -522,7 +572,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/local/IidStore.java",
-      "_Id": "50"
+      "_Id": "50",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -532,7 +583,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/iid/InstanceID.java",
-      "_Id": "51"
+      "_Id": "51",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -542,7 +594,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
-      "_Id": "52"
+      "_Id": "52",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -552,7 +605,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzfu.java",
-      "_Id": "53"
+      "_Id": "53",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -562,7 +616,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/firebase/messaging/GmsRpc.java",
-      "_Id": "54"
+      "_Id": "54",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"PasswordGoesHere\"",
@@ -572,7 +627,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/magazinecloner/magclonerreader/encryption/FileEncryption.java",
-      "_Id": "55"
+      "_Id": "55",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.pocketmags.com\"",
@@ -582,7 +638,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/magazinecloner/reflow/di/ReflowNetworkingModule.java",
-      "_Id": "56"
+      "_Id": "56",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -592,7 +649,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
-      "_Id": "57"
+      "_Id": "57",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.pocketmags.com\"",
@@ -602,7 +660,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/magazinecloner/rssreader/di/RssNetworkingModule.java",
-      "_Id": "58"
+      "_Id": "58",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -612,7 +671,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
-      "_Id": "59"
+      "_Id": "59",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http:/cdn\"",
@@ -622,7 +682,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/magazinecloner/magclonerreader/downloaders/utils/DownloadTools.java",
-      "_Id": "60"
+      "_Id": "60",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://cdn\"",
@@ -632,7 +693,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/magazinecloner/magclonerreader/downloaders/utils/DownloadTools.java",
-      "_Id": "61"
+      "_Id": "61",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -642,7 +704,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
-      "_Id": "62"
+      "_Id": "62",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -652,7 +715,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
-      "_Id": "63"
+      "_Id": "63",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.google-analytics.com\"",
@@ -662,7 +726,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzew.java",
-      "_Id": "64"
+      "_Id": "64",
+      "verificationStatus": ""
     }
   ],
   "_SchemaVersion": 3,

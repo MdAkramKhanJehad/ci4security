@@ -22,7 +22,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/homecu/homecu_core/DepositMainActivity$l.java",
-      "_Id": "0"
+      "_Id": "0",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -32,7 +33,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "androidx/activity/result/e.java",
-      "_Id": "1"
+      "_Id": "1",
+      "verificationStatus": ""
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -42,7 +44,8 @@
       "CWEId": 601,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "2"
+      "_Id": "2",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -52,7 +55,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "Z0/d.java",
-      "_Id": "3"
+      "_Id": "3",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -62,7 +66,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/homecu/homecu_core/SharedData.java",
-      "_Id": "4"
+      "_Id": "4",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"Gai7Vain2pab5zae\"",
@@ -72,7 +77,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/homecu/homecu_core/c.java",
-      "_Id": "5"
+      "_Id": "5",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"Gai7Vain2pab5zae\"",
@@ -82,7 +88,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/homecu/homecu_core/k.java",
-      "_Id": "6"
+      "_Id": "6",
+      "verificationStatus": ""
     }
   ],
   "_SchemaVersion": 3,

@@ -22,7 +22,8 @@
       "CWEId": 256,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdxg.java",
-      "_Id": "0"
+      "_Id": "0",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"AES/ECB/NOPADDING\"",
@@ -32,7 +33,8 @@
       "CWEId": 256,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdxg.java",
-      "_Id": "1"
+      "_Id": "1",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -42,7 +44,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzabb.java",
-      "_Id": "2"
+      "_Id": "2",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -52,7 +55,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzbq.java",
-      "_Id": "3"
+      "_Id": "3",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -62,7 +66,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/fragments/NewTrip.java",
-      "_Id": "4"
+      "_Id": "4",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -72,7 +77,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdhh.java",
-      "_Id": "5"
+      "_Id": "5",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -82,7 +88,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzkc.java",
-      "_Id": "6"
+      "_Id": "6",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -92,7 +99,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/fragments/AddtripExpense.java",
-      "_Id": "7"
+      "_Id": "7",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -102,7 +110,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzabb.java",
-      "_Id": "8"
+      "_Id": "8",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -112,7 +121,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/maps/internal/OkHttpPendingResult.java",
-      "_Id": "9"
+      "_Id": "9",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +132,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/analytics/Tracker.java",
-      "_Id": "10"
+      "_Id": "10",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -132,7 +143,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzai.java",
-      "_Id": "11"
+      "_Id": "11",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -142,7 +154,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzepc.java",
-      "_Id": "12"
+      "_Id": "12",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -152,7 +165,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
-      "_Id": "13"
+      "_Id": "13",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -162,7 +176,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang/math/JVMRandom.java",
-      "_Id": "14"
+      "_Id": "14",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -172,7 +187,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzfbc.java",
-      "_Id": "15"
+      "_Id": "15",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -182,7 +198,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzczp.java",
-      "_Id": "16"
+      "_Id": "16",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -192,7 +209,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
-      "_Id": "17"
+      "_Id": "17",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -202,7 +220,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzcp.java",
-      "_Id": "18"
+      "_Id": "18",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -212,7 +231,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/fragments/RecurringExpense.java",
-      "_Id": "19"
+      "_Id": "19",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -222,7 +242,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzej.java",
-      "_Id": "20"
+      "_Id": "20",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +253,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/firebase/appindexing/internal/zzn.java",
-      "_Id": "21"
+      "_Id": "21",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -242,7 +264,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang/RandomStringUtils.java",
-      "_Id": "22"
+      "_Id": "22",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -252,7 +275,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzeoo.java",
-      "_Id": "23"
+      "_Id": "23",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -262,7 +286,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "org/jsoup/helper/DataUtil.java",
-      "_Id": "24"
+      "_Id": "24",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -272,7 +297,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzeol.java",
-      "_Id": "25"
+      "_Id": "25",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -282,7 +308,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang/math/JVMRandom.java",
-      "_Id": "26"
+      "_Id": "26",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -292,7 +319,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzefz.java",
-      "_Id": "27"
+      "_Id": "27",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -302,7 +330,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzum.java",
-      "_Id": "28"
+      "_Id": "28",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -312,7 +341,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzld.java",
-      "_Id": "29"
+      "_Id": "29",
+      "verificationStatus": ""
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
@@ -322,7 +352,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "30"
+      "_Id": "30",
+      "verificationStatus": ""
     },
     {
       "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
@@ -332,7 +363,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "31"
+      "_Id": "31",
+      "verificationStatus": ""
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
@@ -342,7 +374,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "32"
+      "_Id": "32",
+      "verificationStatus": ""
     },
     {
       "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
@@ -352,7 +385,8 @@
       "CWEId": 349,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "33"
+      "_Id": "33",
+      "verificationStatus": ""
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -362,7 +396,8 @@
       "CWEId": 601,
       "Severity": "1",
       "_FullPath": "UNKNOWN.java",
-      "_Id": "34"
+      "_Id": "34",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -372,7 +407,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSink.java",
-      "_Id": "35"
+      "_Id": "35",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -382,7 +418,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzhs.java",
-      "_Id": "36"
+      "_Id": "36",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -392,7 +429,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzbw.java",
-      "_Id": "37"
+      "_Id": "37",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -402,7 +440,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
-      "_Id": "38"
+      "_Id": "38",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -412,7 +451,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzako.java",
-      "_Id": "39"
+      "_Id": "39",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -422,7 +462,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzfs.java",
-      "_Id": "40"
+      "_Id": "40",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -432,7 +473,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzepd.java",
-      "_Id": "41"
+      "_Id": "41",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -442,7 +484,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzbz.java",
-      "_Id": "42"
+      "_Id": "42",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -452,7 +495,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSource.java",
-      "_Id": "43"
+      "_Id": "43",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -462,7 +506,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/android/volley/InternalUtils.java",
-      "_Id": "44"
+      "_Id": "44",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -472,7 +517,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
-      "_Id": "45"
+      "_Id": "45",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -482,7 +528,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdgy.java",
-      "_Id": "46"
+      "_Id": "46",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -492,7 +539,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSink.java",
-      "_Id": "47"
+      "_Id": "47",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -502,7 +550,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzaqy.java",
-      "_Id": "48"
+      "_Id": "48",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -512,7 +561,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
-      "_Id": "49"
+      "_Id": "49",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -522,7 +572,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/zzi.java",
-      "_Id": "50"
+      "_Id": "50",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -532,7 +583,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/iid/InstanceID.java",
-      "_Id": "51"
+      "_Id": "51",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -542,7 +594,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzej.java",
-      "_Id": "52"
+      "_Id": "52",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -552,7 +605,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
-      "_Id": "53"
+      "_Id": "53",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -562,7 +616,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
-      "_Id": "54"
+      "_Id": "54",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -572,7 +627,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/firebase/iid/zzah.java",
-      "_Id": "55"
+      "_Id": "55",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -582,7 +638,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/HashingSource.java",
-      "_Id": "56"
+      "_Id": "56",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -592,7 +649,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzkc.java",
-      "_Id": "57"
+      "_Id": "57",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"MD5\"",
@@ -602,7 +660,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzako.java",
-      "_Id": "58"
+      "_Id": "58",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"1510898742191\"",
@@ -612,7 +671,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdm.java",
-      "_Id": "59"
+      "_Id": "59",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"false\"",
@@ -622,7 +682,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "60"
+      "_Id": "60",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"4\"",
@@ -632,7 +693,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdxq.java",
-      "_Id": "61"
+      "_Id": "61",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"true\"",
@@ -642,7 +704,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "62"
+      "_Id": "62",
+      "verificationStatus": ""
     },
     {
       "Message": "object Object Found value \"[object Object]\"",
@@ -652,7 +715,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "63"
+      "_Id": "63",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"undefined\"",
@@ -662,7 +726,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "64"
+      "_Id": "64",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -672,7 +737,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "65"
+      "_Id": "65",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"2\"",
@@ -682,7 +748,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdxq.java",
-      "_Id": "66"
+      "_Id": "66",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: Constant \"3\"",
@@ -692,7 +759,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdxq.java",
-      "_Id": "67"
+      "_Id": "67",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"false\"",
@@ -702,7 +770,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "68"
+      "_Id": "68",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"true\"",
@@ -712,7 +781,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "69"
+      "_Id": "69",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"object Object\"",
@@ -722,7 +792,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "70"
+      "_Id": "70",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"undefined\"",
@@ -732,7 +803,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "71"
+      "_Id": "71",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"0\"",
@@ -742,7 +814,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzdcq.java",
-      "_Id": "72"
+      "_Id": "72",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/insertdgmobiactivitylog.json\"",
@@ -752,7 +825,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncLogSender.java",
-      "_Id": "73"
+      "_Id": "73",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/coupon/couponcodeverification.json\"",
@@ -762,7 +836,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncCheckCoupons.java",
-      "_Id": "74"
+      "_Id": "74",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/mobilelostdeviceidinformations.json\"",
@@ -772,7 +847,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncGetLostDevices.java",
-      "_Id": "75"
+      "_Id": "75",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/termsandconditioninformation.json\"",
@@ -782,7 +858,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncGetTerms.java",
-      "_Id": "76"
+      "_Id": "76",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/checkdevicepaymentstatus.json\"",
@@ -792,7 +869,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncTaskCheckDevice.java",
-      "_Id": "77"
+      "_Id": "77",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://testdgviewsws.dgsms.ca/api/insert_or_update_trip_trackers_info\"",
@@ -802,7 +880,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/fragments/ExpenseTracker$AsyncPostTripsDetails.java",
-      "_Id": "78"
+      "_Id": "78",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/updatemobilelostdeviceidtonewdeviceid.json\"",
@@ -812,7 +891,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncGetDeviceLostStatus.java",
-      "_Id": "79"
+      "_Id": "79",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/web/transactionOnDeviceId.json\"",
@@ -822,7 +902,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncTaskGetPickUpOrders.java",
-      "_Id": "80"
+      "_Id": "80",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/transactiondatafrommobile.json\"",
@@ -832,7 +913,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncTaskPushTransactions.java",
-      "_Id": "81"
+      "_Id": "81",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/mobilerregistration.json\"",
@@ -842,7 +924,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncPostUserdetails.java",
-      "_Id": "82"
+      "_Id": "82",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/checkemailexist/\"",
@@ -852,7 +935,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncCheckSecureMail.java",
-      "_Id": "83"
+      "_Id": "83",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/license/updatelicenseinformation.json\"",
@@ -862,7 +946,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncUpgradeLicense.java",
-      "_Id": "84"
+      "_Id": "84",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.apilayer.net/api/live?access_key=abf94d0b14774d207ef35cf21354959a&format=1\"",
@@ -872,7 +957,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncExchangeRate.java",
-      "_Id": "85"
+      "_Id": "85",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://www.google-analytics.com\"",
@@ -882,7 +968,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzast.java",
-      "_Id": "86"
+      "_Id": "86",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/insertpayment.json\"",
@@ -892,7 +979,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncTaskSendPayStatus.java",
-      "_Id": "87"
+      "_Id": "87",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/verifylicense.json\"",
@@ -902,7 +990,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncToVerifyLicense.java",
-      "_Id": "88"
+      "_Id": "88",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://testdgviewsws.dgsms.ca/api/generate_invoice\"",
@@ -912,7 +1001,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/fragments/TripInvoice$AsyncInvoice.java",
-      "_Id": "89"
+      "_Id": "89",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/getcountryandprovincedetails.json\"",
@@ -922,7 +1012,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncGetProvinces.java",
-      "_Id": "90"
+      "_Id": "90",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/web/transactionOnDeviceId.json\"",
@@ -932,7 +1023,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/services/ServiceToPickupOrdersFromWeb.java",
-      "_Id": "91"
+      "_Id": "91",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/mobileverification.json\"",
@@ -942,7 +1034,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncSignIn.java",
-      "_Id": "92"
+      "_Id": "92",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/fcm/update_fcm_token_based_on_deviceid_and_appname.json\"",
@@ -952,7 +1045,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncTaskSendFcmToken.java",
-      "_Id": "93"
+      "_Id": "93",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/getcountryandprovincedetails.json\"",
@@ -962,7 +1056,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncGetCountries.java",
-      "_Id": "94"
+      "_Id": "94",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/sendmailToRegisterUser.json\"",
@@ -972,7 +1067,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncPostRegesterMailUserName.java",
-      "_Id": "95"
+      "_Id": "95",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/usernames.json\"",
@@ -982,7 +1078,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncCheckUsername.java",
-      "_Id": "96"
+      "_Id": "96",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/forgotpassword.json\"",
@@ -992,7 +1089,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncForgot.java",
-      "_Id": "97"
+      "_Id": "97",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/rules/rulesdatasyncup.json\"",
@@ -1002,7 +1100,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncGetDbUpdates.java",
-      "_Id": "98"
+      "_Id": "98",
+      "verificationStatus": ""
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/ergdetails.json\"",
@@ -1012,7 +1111,8 @@
       "CWEId": 650,
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncErgDynamic.java",
-      "_Id": "99"
+      "_Id": "99",
+      "verificationStatus": ""
     }
   ],
   "_SchemaVersion": 3,
