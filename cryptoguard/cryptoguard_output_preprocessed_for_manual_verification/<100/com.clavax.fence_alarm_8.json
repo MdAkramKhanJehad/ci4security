@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"RC4\"",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$Handle.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"RC4\"",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/entity/mime/MultipartEntityBuilder.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Didn't manually verify hostname in create",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/pool/BasicConnFactory.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/DigestScheme.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/DigestScheme.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": false
     }
   ],
   "_SchemaVersion": 3,
