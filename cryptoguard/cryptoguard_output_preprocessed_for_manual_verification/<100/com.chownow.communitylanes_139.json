@@ -2,70 +2,70 @@
   "projectName": "CryptoGuard",
   "ProjectVersion": "04.05.03_2020-11-25-02-42",
   "Target": {
-    "RawCommand": "-in apk -s downloaded_apks/<100/co.massmobileapps.porkmafia_3.apk -m D -o cryptoguard_output/<100/co.massmobileapps.porkmafia_3.json",
-    "FullPath": "co.massmobileapps.porkmafia_3.apk/",
+    "RawCommand": "-in apk -s downloaded_apks/<100/com.chownow.communitylanes_139.apk -m D -o cryptoguard_output/<100/com.chownow.communitylanes_139.json",
+    "FullPath": "com.chownow.communitylanes_139.apk/",
     "Type": "APK",
     "TargetSources": [
-      "/home/mkhan04/Desktop/ci4security/downloaded_apks/<100/co.massmobileapps.porkmafia_3.apk"
+      "/home/mkhan04/Desktop/ci4security/downloaded_apks/<100/com.chownow.communitylanes_139.apk"
     ],
     "_PropertiesFilePath": "gradle.properties",
     "_ComputerOS": "Linux_5.15.0-142-generic",
     "_JVMVersion": "1.8.0_462-8u462-ga~us1-0ubuntu2~22.04.2-b08",
-    "_ProjectName": "co"
+    "_ProjectName": "com"
   },
   "Issues": [
     {
-      "Message": "Found: \"DES/ECB/NoPadding\"",
+      "Message": "Found: \"AES/ECB/PKCS7Padding\"",
       "Description": "Found broken crypto schemes",
       "RuleNumber": 1,
       "RuleDesc": "Found broken crypto schemes",
       "CWEId": 256,
       "Severity": "1",
-      "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl$CipherGen.java",
+      "_FullPath": "com/chownow/communitylanes/util/Decoder.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
-      "Message": "Found: \"DES/ECB/NoPadding\"",
+      "Message": "Found: \"AES/ECB/PKCS7Padding\"",
       "Description": "Found broken crypto schemes",
       "RuleNumber": 1,
       "RuleDesc": "Found broken crypto schemes",
       "CWEId": 256,
       "Severity": "1",
-      "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl$CipherGen.java",
+      "_FullPath": "com/chownow/communitylanes/util/Decoder.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
-      "Message": "Found: \"DES/ECB/NoPadding\"",
-      "Description": "Found broken crypto schemes",
-      "RuleNumber": 1,
-      "RuleDesc": "Found broken crypto schemes",
-      "CWEId": 256,
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
+      "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nPolynomialElement.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
-      "Message": "Found: \"DES/ECB/NoPadding\"",
-      "Description": "Found broken crypto schemes",
-      "RuleNumber": 1,
-      "RuleDesc": "Found broken crypto schemes",
-      "CWEId": 256,
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
+      "_FullPath": "com/google/common/hash/Striped64.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
-      "Message": "Found: \"RC4\"",
-      "Description": "Found broken crypto schemes",
-      "RuleNumber": 1,
-      "RuleDesc": "Found broken crypto schemes",
-      "CWEId": 256,
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
+      "_FullPath": "org/bouncycastle/math/ec/ECFieldElement$Fp.java",
       "_Id": "4",
       "verificationStatus": ""
     },
@@ -76,9 +76,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "androidx/transition/Explode.java",
+      "_FullPath": "org/apache/commons/lang3/RandomUtils.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -87,9 +87,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "co/massmobileapps/porkmafia/multi_tab_option/DynamicFormAdapter.java",
+      "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -98,9 +98,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nPolynomialElement.java",
+      "_FullPath": "org/apache/commons/lang3/RandomStringUtils.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -109,7 +109,7 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "com/google/android/gms/tagmanager/zzei.java",
+      "_FullPath": "org/bouncycastle/asn1/ua/DSTU4145PointEncoder.java",
       "_Id": "8",
       "verificationStatus": ""
     },
@@ -120,53 +120,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "org/bouncycastle/math/ec/ECFieldElement$Fp.java",
+      "_FullPath": "com/newrelic/agent/android/util/Util.java",
       "_Id": "9",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
-      "_Id": "10",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/measurement/zzx.java",
-      "_Id": "11",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "org/greenrobot/greendao/test/DbTest.java",
-      "_Id": "12",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.java",
-      "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -176,6 +132,50 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzai.java",
+      "_Id": "10",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/bouncycastle/math/raw/Mod.java",
+      "_Id": "11",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/common/cache/Striped64.java",
+      "_Id": "12",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/tagmanager/zzfb.java",
+      "_Id": "13",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "org/bouncycastle/math/ec/ECCurve$AbstractF2m.java",
       "_Id": "14",
       "verificationStatus": ""
     },
@@ -186,20 +186,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
+      "_FullPath": "com/bumptech/glide/load/resource/gif/GifFrameLoader.java",
       "_Id": "15",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "org/bouncycastle/math/raw/Mod.java",
-      "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -209,8 +198,19 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/analytics/Tracker.java",
+      "_Id": "16",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Untrused PRNG (java.util.Random)",
+      "Description": "Used untrusted PRNG",
+      "RuleNumber": 13,
+      "RuleDesc": "Used untrusted PRNG",
+      "CWEId": 338,
+      "Severity": "1",
+      "_FullPath": "com/newrelic/agent/android/analytics/EventManagerImpl.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -219,273 +219,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "okhttp3/OkHttpClient.java",
+      "_FullPath": "com/google/android/gms/tagmanager/zzei.java",
       "_Id": "18",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "twitter4j/auth/OAuthAuthorization.java",
-      "_Id": "19",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "org/apache/http/entity/mime/MultipartEntityBuilder.java",
-      "_Id": "20",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzwq.java",
-      "_Id": "21",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/tagmanager/zzfb.java",
-      "_Id": "22",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "kotlin/random/KotlinRandom.java",
-      "_Id": "23",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "co/massmobileapps/porkmafia/multi_tab_option/NestedInformationActivity.java",
-      "_Id": "24",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzasn.java",
-      "_Id": "25",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2Polynomial.java",
-      "_Id": "26",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "27",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/upstream/cache/SimpleCache.java",
-      "_Id": "28",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "co/massmobileapps/porkmafia/ServerUtilities.java",
-      "_Id": "29",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.java",
-      "_Id": "30",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gcm/GCMBaseIntentService.java",
-      "_Id": "31",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "32",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "co/massmobileapps/porkmafia/multi_tab_option/SingleDynamicFormAdapter.java",
-      "_Id": "33",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection.java",
-      "_Id": "34",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/massmobile/supplyapply/stuff/RootUtil.java",
-      "_Id": "35",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "36",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "org/bouncycastle/asn1/ua/DSTU4145PointEncoder.java",
-      "_Id": "37",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/flurry/sdk/eo.java",
-      "_Id": "38",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "org/bouncycastle/math/ec/ECCurve$AbstractF2m.java",
-      "_Id": "39",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/bumptech/glide/load/resource/gif/GifFrameLoader.java",
-      "_Id": "40",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "41",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzdt.java",
-      "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -495,8 +231,8 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
-      "_Id": "43",
-      "verificationStatus": ""
+      "_Id": "19",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -505,9 +241,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection.java",
-      "_Id": "44",
-      "verificationStatus": ""
+      "_FullPath": "kotlin/random/KotlinRandom.java",
+      "_Id": "20",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -516,9 +252,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
-      "_Id": "45",
-      "verificationStatus": ""
+      "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2Polynomial.java",
+      "_Id": "21",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -527,20 +263,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "oauth/signpost/AbstractOAuthConsumer.java",
-      "_Id": "46",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "com/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage.java",
-      "_Id": "47",
-      "verificationStatus": ""
+      "_FullPath": "com/facebook/internal/Utility.java",
+      "_Id": "22",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -550,51 +275,29 @@
       "CWEId": 338,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nONBField.java",
-      "_Id": "48",
-      "verificationStatus": ""
+      "_Id": "23",
+      "verificationStatus": false
     },
     {
-      "Message": "Found: Untrused PRNG (java.util.Random)",
-      "Description": "Used untrusted PRNG",
-      "RuleNumber": 13,
-      "RuleDesc": "Used untrusted PRNG",
-      "CWEId": 338,
-      "Severity": "1",
-      "_FullPath": "org/apache/http/entity/mime/MultipartEntity.java",
-      "_Id": "49",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Didn't manually verify hostname in create",
-      "Description": "Should check HostnameVerification manually",
-      "RuleNumber": 12,
-      "RuleDesc": "Should check HostnameVerification manually",
-      "CWEId": 297,
-      "Severity": "1",
-      "_FullPath": "org/apache/http/impl/pool/BasicConnFactory.java",
-      "_Id": "50",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
+      "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of util.SSLUtil",
       "Description": "Uses untrusted TrustManager",
       "RuleNumber": 4,
       "RuleDesc": "Uses untrusted TrustManager",
       "CWEId": 349,
       "Severity": "1",
-      "_FullPath": "UNKNOWN.java",
-      "_Id": "51",
+      "_FullPath": "util/SSLUtil.java",
+      "_Id": "24",
       "verificationStatus": ""
     },
     {
-      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
+      "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of util.SSLUtil",
       "Description": "Uses untrusted TrustManager",
       "RuleNumber": 4,
       "RuleDesc": "Uses untrusted TrustManager",
       "CWEId": 349,
       "Severity": "1",
-      "_FullPath": "UNKNOWN.java",
-      "_Id": "52",
+      "_FullPath": "util/SSLUtil.java",
+      "_Id": "25",
       "verificationStatus": ""
     },
     {
@@ -604,9 +307,42 @@
       "RuleDesc": "Used untrusted HostNameVerifier",
       "CWEId": 601,
       "Severity": "1",
-      "_FullPath": "UNKNOWN.java",
-      "_Id": "53",
+      "_FullPath": "util/SSLUtil.java",
+      "_Id": "26",
       "verificationStatus": ""
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/common/zzm.java",
+      "_Id": "27",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/libraries/places/internal/dh.java",
+      "_Id": "28",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/newrelic/agent/android/harvest/HttpError.java",
+      "_Id": "29",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -615,9 +351,31 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzayr.java",
-      "_Id": "54",
-      "verificationStatus": ""
+      "_FullPath": "com/facebook/internal/Utility.java",
+      "_Id": "30",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/common/hash/Hashing$Md5Holder.java",
+      "_Id": "31",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"MD5\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/facebook/appevents/AppEvent.java",
+      "_Id": "32",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -627,41 +385,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/facebook/internal/Utility.java",
-      "_Id": "55",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"MD5\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "okio/HashingSink$Companion.java",
-      "_Id": "56",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"MD5\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "okio/HashingSource$Companion.java",
-      "_Id": "57",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"MD5\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzcz.java",
-      "_Id": "58",
-      "verificationStatus": ""
+      "_Id": "33",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -670,9 +395,9 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "okio/HashingSink$Companion.java",
-      "_Id": "59",
-      "verificationStatus": ""
+      "_FullPath": "okhttp3/internal/Util.java",
+      "_Id": "34",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -681,9 +406,9 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "com/google/android/gms/tagmanager/zzbv.java",
-      "_Id": "60",
-      "verificationStatus": ""
+      "_FullPath": "okio/Buffer.java",
+      "_Id": "35",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -692,20 +417,9 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzrq.java",
-      "_Id": "61",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"MD5\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "okio/ByteString.java",
-      "_Id": "62",
-      "verificationStatus": ""
+      "_FullPath": "okhttp3/internal/Util.java",
+      "_Id": "36",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -715,8 +429,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
-      "_Id": "63",
-      "verificationStatus": ""
+      "_Id": "37",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -725,9 +439,9 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "org/apache/http/impl/auth/DigestSchemeHC4.java",
-      "_Id": "64",
-      "verificationStatus": ""
+      "_FullPath": "okio/HashingSource.java",
+      "_Id": "38",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -736,9 +450,42 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "com/nostra13/universalimageloader/cache/disc/naming/Md5FileNameGenerator.java",
-      "_Id": "65",
-      "verificationStatus": ""
+      "_FullPath": "com/google/android/gms/internal/measurement/zzah.java",
+      "_Id": "39",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/stripe/android/StripeTextUtils.java",
+      "_Id": "40",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/ByteString.java",
+      "_Id": "41",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okhttp3/internal/Util.java",
+      "_Id": "42",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -747,9 +494,42 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl$HMACMD5.java",
-      "_Id": "66",
-      "verificationStatus": ""
+      "_FullPath": "okio/ByteString.java",
+      "_Id": "43",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSink.java",
+      "_Id": "44",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"SHA1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "com/google/android/gms/iid/InstanceID.java",
+      "_Id": "45",
+      "verificationStatus": true
+    },
+    {
+      "Message": "Found: \"SHA-1\"",
+      "Description": "Found broken hash functions",
+      "RuleNumber": 2,
+      "RuleDesc": "Found broken hash functions",
+      "CWEId": 759,
+      "Severity": "1",
+      "_FullPath": "okio/HashingSource.java",
+      "_Id": "46",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -758,20 +538,9 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
-      "_Id": "67",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"MD5\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzayr.java",
-      "_Id": "68",
-      "verificationStatus": ""
+      "_FullPath": "okio/HashingSink.java",
+      "_Id": "47",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -781,8 +550,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/facebook/internal/Utility.java",
-      "_Id": "69",
-      "verificationStatus": ""
+      "_Id": "48",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -791,9 +560,9 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "okio/HashingSource$Companion.java",
-      "_Id": "70",
-      "verificationStatus": ""
+      "_FullPath": "com/facebook/FacebookSdk.java",
+      "_Id": "49",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -802,20 +571,9 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "com/google/android/gms/common/zzl.java",
-      "_Id": "71",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"MD5\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "org/apache/http/impl/auth/DigestSchemeHC4.java",
-      "_Id": "72",
-      "verificationStatus": ""
+      "_FullPath": "com/google/common/hash/Hashing$Sha1Holder.java",
+      "_Id": "50",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -825,19 +583,8 @@
       "CWEId": 759,
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
-      "_Id": "73",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"SHA-1\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "okio/ByteString.java",
-      "_Id": "74",
-      "verificationStatus": ""
+      "_Id": "51",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -846,218 +593,9 @@
       "RuleDesc": "Found broken hash functions",
       "CWEId": 759,
       "Severity": "1",
-      "_FullPath": "okio/Buffer.java",
-      "_Id": "75",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"MD5\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "com/facebook/internal/Utility.java",
-      "_Id": "76",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"SHA-1\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "com/facebook/stetho/websocket/WebSocketHandler.java",
-      "_Id": "77",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"SHA-1\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "com/flurry/sdk/fh.java",
-      "_Id": "78",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"MD5\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/gtm/zzad.java",
-      "_Id": "79",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"SHA1\"",
-      "Description": "Found broken hash functions",
-      "RuleNumber": 2,
-      "RuleDesc": "Found broken hash functions",
-      "CWEId": 759,
-      "Severity": "1",
-      "_FullPath": "com/google/firebase/iid/zzai.java",
-      "_Id": "80",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"16\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
-      "_Id": "81",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"4\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzehc.java",
-      "_Id": "82",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"AES\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
-      "_Id": "83",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"3\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzehc.java",
-      "_Id": "84",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"24\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
-      "_Id": "85",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"AES\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
-      "_Id": "86",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"AES\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/AESGCMKW.java",
-      "_Id": "87",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"-1\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "java/math/BigInteger.java",
-      "_Id": "88",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"HMACSHA256\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
-      "_Id": "89",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"32\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
-      "_Id": "90",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"1\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "java/math/BigInteger.java",
-      "_Id": "91",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"AES\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
-      "_Id": "92",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"HmacSHA256\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
-      "_Id": "93",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: Constant \"HMACSHA512\"",
-      "Description": "Used constant keys in code",
-      "RuleNumber": 3,
-      "RuleDesc": "Used constant keys in code",
-      "CWEId": 547,
-      "Severity": "1",
-      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
-      "_Id": "94",
-      "verificationStatus": ""
+      "_FullPath": "com/google/android/gms/tagmanager/zzbv.java",
+      "_Id": "52",
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1067,8 +605,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PBKDF2.java",
-      "_Id": "95",
-      "verificationStatus": ""
+      "_Id": "53",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1078,19 +616,19 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA1_5.java",
-      "_Id": "96",
-      "verificationStatus": ""
+      "_Id": "54",
+      "verificationStatus": false
     },
     {
-      "Message": "Found: Constant \"1596060835607\"",
+      "Message": "Found: Constant \"16\"",
       "Description": "Used constant keys in code",
       "RuleNumber": 3,
       "RuleDesc": "Used constant keys in code",
       "CWEId": 547,
       "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzfa.java",
-      "_Id": "97",
-      "verificationStatus": ""
+      "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
+      "_Id": "55",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HMACSHA384\"",
@@ -1100,8 +638,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
-      "_Id": "98",
-      "verificationStatus": ""
+      "_Id": "56",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSHA512\"",
@@ -1111,8 +649,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
-      "_Id": "99",
-      "verificationStatus": ""
+      "_Id": "57",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1122,8 +660,30 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA_OAEP.java",
-      "_Id": "100",
-      "verificationStatus": ""
+      "_Id": "58",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Constant \"AES\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
+      "_Id": "59",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Constant \"24\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
+      "_Id": "60",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1133,30 +693,52 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/LegacyConcatKDF.java",
-      "_Id": "101",
-      "verificationStatus": ""
+      "_Id": "61",
+      "verificationStatus": false
     },
     {
-      "Message": "Found: Constant \"2\"",
+      "Message": "Found: Constant \"AES\"",
       "Description": "Used constant keys in code",
       "RuleNumber": 3,
       "RuleDesc": "Used constant keys in code",
       "CWEId": 547,
       "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzehc.java",
-      "_Id": "102",
-      "verificationStatus": ""
+      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
+      "_Id": "62",
+      "verificationStatus": false
     },
     {
-      "Message": "Found: Constant \"1596060835607\"",
+      "Message": "Found: Constant \"AES\"",
       "Description": "Used constant keys in code",
       "RuleNumber": 3,
       "RuleDesc": "Used constant keys in code",
       "CWEId": 547,
       "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/ads/zzfa.java",
-      "_Id": "103",
-      "verificationStatus": ""
+      "_FullPath": "com/nimbusds/jose/crypto/impl/AESGCMKW.java",
+      "_Id": "63",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Constant \"HMACSHA256\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
+      "_Id": "64",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Constant \"32\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
+      "_Id": "65",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1166,8 +748,30 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA_OAEP_256.java",
-      "_Id": "104",
-      "verificationStatus": ""
+      "_Id": "66",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Constant \"AES\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
+      "_Id": "67",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Constant \"HmacSHA256\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
+      "_Id": "68",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1177,8 +781,19 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/ContentCryptoProvider.java",
-      "_Id": "105",
-      "verificationStatus": ""
+      "_Id": "69",
+      "verificationStatus": false
+    },
+    {
+      "Message": "Found: Constant \"HMACSHA512\"",
+      "Description": "Used constant keys in code",
+      "RuleNumber": 3,
+      "RuleDesc": "Used constant keys in code",
+      "CWEId": 547,
+      "Severity": "1",
+      "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
+      "_Id": "70",
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSHA384\"",
@@ -1188,8 +803,8 @@
       "CWEId": 547,
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
-      "_Id": "106",
-      "verificationStatus": ""
+      "_Id": "71",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1199,8 +814,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/Twofish$PBEWithSHA.java",
-      "_Id": "107",
-      "verificationStatus": ""
+      "_Id": "72",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"3\"",
@@ -1210,8 +825,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.java",
-      "_Id": "108",
-      "verificationStatus": ""
+      "_Id": "73",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"0\"",
@@ -1221,8 +836,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithMD5AndRC2.java",
-      "_Id": "109",
-      "verificationStatus": ""
+      "_Id": "74",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"1\"",
@@ -1232,7 +847,7 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.java",
-      "_Id": "110",
+      "_Id": "75",
       "verificationStatus": ""
     },
     {
@@ -1243,8 +858,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/pkcs12/PKCS12KeyStoreSpi.java",
-      "_Id": "111",
-      "verificationStatus": ""
+      "_Id": "76",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1254,8 +869,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC128.java",
-      "_Id": "112",
-      "verificationStatus": ""
+      "_Id": "77",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1265,8 +880,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC256.java",
-      "_Id": "113",
-      "verificationStatus": ""
+      "_Id": "78",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"0\"",
@@ -1276,8 +891,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD2.java",
-      "_Id": "114",
-      "verificationStatus": ""
+      "_Id": "79",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1287,8 +902,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC128.java",
-      "_Id": "115",
-      "verificationStatus": ""
+      "_Id": "80",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1298,7 +913,7 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi.java",
-      "_Id": "116",
+      "_Id": "81",
       "verificationStatus": ""
     },
     {
@@ -1309,8 +924,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA1AESCBC192.java",
-      "_Id": "117",
-      "verificationStatus": ""
+      "_Id": "82",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"0\"",
@@ -1320,8 +935,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithMD5.java",
-      "_Id": "118",
-      "verificationStatus": ""
+      "_Id": "83",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"0\"",
@@ -1331,8 +946,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHA1AndRC2.java",
-      "_Id": "119",
-      "verificationStatus": ""
+      "_Id": "84",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"4\"",
@@ -1342,8 +957,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.java",
-      "_Id": "120",
-      "verificationStatus": ""
+      "_Id": "85",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1353,8 +968,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd128BitRC2.java",
-      "_Id": "121",
-      "verificationStatus": ""
+      "_Id": "86",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1364,8 +979,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC192.java",
-      "_Id": "122",
-      "verificationStatus": ""
+      "_Id": "87",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1375,8 +990,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/RC2$PBEWithSHAAnd40BitRC2.java",
-      "_Id": "123",
-      "verificationStatus": ""
+      "_Id": "88",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1386,8 +1001,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES2Key.java",
-      "_Id": "124",
-      "verificationStatus": ""
+      "_Id": "89",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1397,8 +1012,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/AES$PBEWithSHA256AESCBC256.java",
-      "_Id": "125",
-      "verificationStatus": ""
+      "_Id": "90",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"1\"",
@@ -1408,8 +1023,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/keystore/bc/BcKeyStoreSpi$StoreEntry.java",
-      "_Id": "126",
-      "verificationStatus": ""
+      "_Id": "91",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1419,8 +1034,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DESede$PBEWithSHAAndDES3Key.java",
-      "_Id": "127",
-      "verificationStatus": ""
+      "_Id": "92",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"0\"",
@@ -1430,8 +1045,8 @@
       "CWEId": 326,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/jcajce/provider/symmetric/DES$PBEWithSHA1.java",
-      "_Id": "128",
-      "verificationStatus": ""
+      "_Id": "93",
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"www.bouncycastle.org\"",
@@ -1441,52 +1056,8 @@
       "CWEId": 760,
       "Severity": "1",
       "_FullPath": "org/bouncycastle/crypto/examples/DESExample.java",
-      "_Id": "129",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"http://localhost/\"",
-      "Description": "Used HTTP Protocol",
-      "RuleNumber": 7,
-      "RuleDesc": "Used HTTP Protocol",
-      "CWEId": 650,
-      "Severity": "1",
-      "_FullPath": "retrofit2/Response.java",
-      "_Id": "130",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"http://localhost/\"",
-      "Description": "Used HTTP Protocol",
-      "RuleNumber": 7,
-      "RuleDesc": "Used HTTP Protocol",
-      "CWEId": 650,
-      "Severity": "1",
-      "_FullPath": "retrofit2/Response.java",
-      "_Id": "131",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"http:\"",
-      "Description": "Used HTTP Protocol",
-      "RuleNumber": 7,
-      "RuleDesc": "Used HTTP Protocol",
-      "CWEId": 650,
-      "Severity": "1",
-      "_FullPath": "okhttp3/Request$Builder.java",
-      "_Id": "132",
-      "verificationStatus": ""
-    },
-    {
-      "Message": "Found: \"http://localhost/\"",
-      "Description": "Used HTTP Protocol",
-      "RuleNumber": 7,
-      "RuleDesc": "Used HTTP Protocol",
-      "CWEId": 650,
-      "Severity": "1",
-      "_FullPath": "retrofit2/Response.java",
-      "_Id": "133",
-      "verificationStatus": ""
+      "_Id": "94",
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.google-analytics.com\"",
@@ -1495,24 +1066,24 @@
       "RuleDesc": "Used HTTP Protocol",
       "CWEId": 650,
       "Severity": "1",
-      "_FullPath": "com/google/android/gms/internal/gtm/zzby.java",
-      "_Id": "134",
-      "verificationStatus": ""
+      "_FullPath": "com/google/android/gms/internal/measurement/zzcc.java",
+      "_Id": "95",
+      "verificationStatus": true
     },
     {
-      "Message": "Found: \"http://localhost/\"",
+      "Message": "Found: \"http://\"",
       "Description": "Used HTTP Protocol",
       "RuleNumber": 7,
       "RuleDesc": "Used HTTP Protocol",
       "CWEId": 650,
       "Severity": "1",
-      "_FullPath": "retrofit2/Response.java",
-      "_Id": "135",
-      "verificationStatus": ""
+      "_FullPath": "com/newrelic/agent/android/payload/PayloadSender.java",
+      "_Id": "96",
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,
-  "_DateTime": "2025-08-04_13:00:08",
-  "_UUID": "a72fb6f3-8add-4270-ab37-d1c076277fa8",
-  "total_issues": 136
+  "_DateTime": "2025-08-04_11:18:35",
+  "_UUID": "44d70f73-9f61-43a6-914d-82b49b67a1a2",
+  "total_issues": 97
 }
