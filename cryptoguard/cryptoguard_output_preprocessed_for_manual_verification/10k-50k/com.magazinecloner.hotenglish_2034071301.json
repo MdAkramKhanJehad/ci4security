@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -650,7 +650,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "57",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://www.pocketmags.com\"",
@@ -672,7 +672,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "59",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http:/cdn\"",
@@ -705,7 +705,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "62",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -716,7 +716,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "63",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://www.google-analytics.com\"",

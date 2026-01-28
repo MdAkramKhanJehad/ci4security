@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http:\"",

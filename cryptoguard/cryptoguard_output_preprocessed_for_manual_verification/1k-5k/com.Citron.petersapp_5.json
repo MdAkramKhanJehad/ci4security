@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://app.online-sms.in/api/Message/\"",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://app.spsakbarpur.org/api/AppMsg/\"",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://app.spsakbarpur.org/api/User/\"",

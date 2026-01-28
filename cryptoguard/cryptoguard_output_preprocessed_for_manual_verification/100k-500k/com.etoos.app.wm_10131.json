@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1189,7 +1189,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "106",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://www.objectpeople.com/tlwl/dtd/toplink-cmp_2_5_1.dtd\"",
@@ -1211,7 +1211,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "108",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1222,7 +1222,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "109",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1233,7 +1233,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "110",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http:\"",
