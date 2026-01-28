@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -463,7 +463,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/Utils.java",
       "_Id": "40",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

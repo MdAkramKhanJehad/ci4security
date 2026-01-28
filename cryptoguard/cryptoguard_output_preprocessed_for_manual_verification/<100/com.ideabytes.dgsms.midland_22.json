@@ -969,7 +969,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/zzast.java",
       "_Id": "86",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/insertpayment.json\"",
@@ -980,7 +980,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncTaskSendPayStatus.java",
       "_Id": "87",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/verifylicense.json\"",
@@ -991,7 +991,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncToVerifyLicense.java",
       "_Id": "88",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://testdgviewsws.dgsms.ca/api/generate_invoice\"",
@@ -1002,7 +1002,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/fragments/TripInvoice$AsyncInvoice.java",
       "_Id": "89",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/getcountryandprovincedetails.json\"",
@@ -1013,7 +1013,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncGetProvinces.java",
       "_Id": "90",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/web/transactionOnDeviceId.json\"",
@@ -1024,7 +1024,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/services/ServiceToPickupOrdersFromWeb.java",
       "_Id": "91",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/mobileverification.json\"",
@@ -1035,7 +1035,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncSignIn.java",
       "_Id": "92",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/fcm/update_fcm_token_based_on_deviceid_and_appname.json\"",
@@ -1046,7 +1046,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncTaskSendFcmToken.java",
       "_Id": "93",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/getcountryandprovincedetails.json\"",
@@ -1057,7 +1057,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncGetCountries.java",
       "_Id": "94",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/sendmailToRegisterUser.json\"",
@@ -1068,7 +1068,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncPostRegesterMailUserName.java",
       "_Id": "95",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/usernames.json\"",
@@ -1079,7 +1079,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncCheckUsername.java",
       "_Id": "96",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/forgotpassword.json\"",
@@ -1090,7 +1090,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncForgot.java",
       "_Id": "97",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/rules/rulesdatasyncup.json\"",
@@ -1101,7 +1101,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncGetDbUpdates.java",
       "_Id": "98",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dgapp.dgsms.ca/api/mobile/new/ergdetails.json\"",
@@ -1112,7 +1112,7 @@
       "Severity": "1",
       "_FullPath": "com/ideabytes/dgsms/ca/asynctask/AsyncErgDynamic.java",
       "_Id": "99",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

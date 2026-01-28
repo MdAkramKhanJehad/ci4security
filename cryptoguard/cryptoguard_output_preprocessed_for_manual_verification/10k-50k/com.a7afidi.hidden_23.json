@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "com/bumptech/glide/load/resource/gif/GifFrameLoader.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/Utils.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

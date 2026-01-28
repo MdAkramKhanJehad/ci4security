@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/FacebookException.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/internal/Utility.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/Utils.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
