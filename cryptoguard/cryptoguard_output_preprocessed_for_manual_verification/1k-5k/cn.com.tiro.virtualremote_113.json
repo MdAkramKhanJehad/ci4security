@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES\"",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"RC4\"",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/loopj/android/http/SimpleMultipartEntity.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"RC4\"",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/entity/mime/MultipartEntityBuilder.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/pool/BasicConnFactory.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Cause: Fixed \"[1]\"",

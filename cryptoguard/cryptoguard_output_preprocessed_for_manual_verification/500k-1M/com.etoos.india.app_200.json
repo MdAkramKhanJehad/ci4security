@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"RC4\"",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"AES\"",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"AES\"",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/entity/mime/MultipartEntityBuilder.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -595,7 +595,7 @@
       "Severity": "1",
       "_FullPath": "com/loopj/android/http/SimpleMultipartEntity.java",
       "_Id": "52",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -859,7 +859,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/pool/BasicConnFactory.java",
       "_Id": "76",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of async.AsyncSSLSocketWrapper",
