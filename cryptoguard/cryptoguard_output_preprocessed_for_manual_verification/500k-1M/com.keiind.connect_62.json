@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/material/color/utilities/QuantizerWsmeans.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "androidx/profileinstaller/ProfileInstallerInitializer.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -518,7 +518,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/Request$Builder.java",
       "_Id": "45",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

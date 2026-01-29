@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzkz.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/Request$Builder.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",

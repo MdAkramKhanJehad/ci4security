@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "cz/msebera/android/httpclient/impl/auth/NTLMEngineImpl.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"RC4\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl$Handle.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -705,7 +705,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/firebase-auth-api/zzdv.java",
       "_Id": "62",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -738,7 +738,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/auth-api/zbbb.java",
       "_Id": "65",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -815,7 +815,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzkz.java",
       "_Id": "72",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

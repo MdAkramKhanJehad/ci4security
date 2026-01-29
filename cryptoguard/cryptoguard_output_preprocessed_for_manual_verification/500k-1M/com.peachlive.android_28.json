@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/CBC/PKCS5Padding\"",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/impl/auth/NTLMEngineImpl$Handle.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/CBC/PKCS5Padding\"",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/DnsNameResolver.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1761,7 +1761,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/Request$Builder.java",
       "_Id": "158",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",
