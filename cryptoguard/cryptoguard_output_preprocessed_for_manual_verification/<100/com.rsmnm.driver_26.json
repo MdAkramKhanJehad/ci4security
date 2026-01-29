@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/rsmnm/Utils/EncryptionHelper.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"AES\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "com/rsmnm/Utils/EncryptionHelper.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/ExponentialBackoffPolicy.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/firestore/util/ExponentialBackoff.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/RoundRobinLoadBalancer.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Striped64.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/okhttp/OkHttpClientTransport.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/RetriableStream.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/okhttp/OkHttpClientTransport.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/cache/Striped64.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

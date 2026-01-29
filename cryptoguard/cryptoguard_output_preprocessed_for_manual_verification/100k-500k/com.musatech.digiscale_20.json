@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Striped64.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/cache/Striped64.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

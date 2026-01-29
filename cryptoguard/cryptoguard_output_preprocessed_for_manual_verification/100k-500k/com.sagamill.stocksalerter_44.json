@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/ExponentialBackoffPolicy.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/firestore/util/ExponentialBackoff.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/RoundRobinLoadBalancer.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Striped64.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/okhttp/OkHttpClientTransport.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/RetriableStream.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/okhttp/OkHttpClientTransport.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/cache/Striped64.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

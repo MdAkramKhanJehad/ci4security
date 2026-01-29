@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/ExponentialBackoffPolicy.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/RoundRobinLoadBalancer.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/okhttp/OkHttpClientTransport.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/RetriableStream.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"MD5\"",
