@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/http/impl/auth/NTLMEngineImpl.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/http/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/http/impl/auth/NTLMEngineImpl$CipherGen.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"RC4\"",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/http/impl/auth/NTLMEngineImpl$Handle.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/ECB/NoPadding\"",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/http/impl/auth/NTLMEngineImpl.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"RC4\"",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/http/impl/auth/NTLMEngineImpl.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/RandomUtils.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/RandomStringUtils.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/commons/codec/digest/B64.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/commons/codec/digest/UnixCrypt.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/com/google/common/cache/Striped64.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/com/google/common/hash/Striped64.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Didn't manually verify hostname in create",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/http/impl/pool/BasicConnFactory.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -408,7 +408,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/buildtools/reloc/org/apache/commons/codec/digest/DigestUtils.java",
       "_Id": "35",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "smartstores/ProfileActivity.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"12345678\"",
@@ -496,7 +496,7 @@
       "Severity": "1",
       "_FullPath": "com/pegasustech/smartstores/Home_Activities/Home_Activity$2.java",
       "_Id": "43",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"12345678\"",
@@ -507,7 +507,7 @@
       "Severity": "1",
       "_FullPath": "smartstores/ProfileActivity.java",
       "_Id": "44",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"12345678\"",
@@ -518,7 +518,7 @@
       "Severity": "1",
       "_FullPath": "smartstores/RegistrationActivity.java",
       "_Id": "45",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"12345678\"",
@@ -529,7 +529,7 @@
       "Severity": "1",
       "_FullPath": "com/pegasustech/smartstores/ProfileActivity.java",
       "_Id": "46",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"12345678\"",
@@ -540,7 +540,7 @@
       "Severity": "1",
       "_FullPath": "com/pegasustech/smartstores/Login/Login_Activity$1.java",
       "_Id": "47",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"12345678\"",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "com/pegasustech/smartstores/ProfileActivity.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"12345678\"",
@@ -562,7 +562,7 @@
       "Severity": "1",
       "_FullPath": "smartstores/ProfileActivity.java",
       "_Id": "49",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"12345678\"",
@@ -573,7 +573,7 @@
       "Severity": "1",
       "_FullPath": "com/pegasustech/smartstores/Home_Activities/Home_Activity$2.java",
       "_Id": "50",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"12345678\"",
@@ -584,7 +584,7 @@
       "Severity": "1",
       "_FullPath": "smartstores/ProfileActivity.java",
       "_Id": "51",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"12345678\"",
@@ -595,7 +595,7 @@
       "Severity": "1",
       "_FullPath": "smartstores/RegistrationActivity.java",
       "_Id": "52",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"12345678\"",
@@ -606,7 +606,7 @@
       "Severity": "1",
       "_FullPath": "com/pegasustech/smartstores/ProfileActivity.java",
       "_Id": "53",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"12345678\"",
@@ -617,7 +617,7 @@
       "Severity": "1",
       "_FullPath": "com/pegasustech/smartstores/Login/Login_Activity$1.java",
       "_Id": "54",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"12345678\"",
@@ -628,7 +628,7 @@
       "Severity": "1",
       "_FullPath": "com/pegasustech/smartstores/ProfileActivity.java",
       "_Id": "55",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -683,7 +683,7 @@
       "Severity": "1",
       "_FullPath": "com/pegasustech/smartstores/Retrofit/ApiClient.java",
       "_Id": "60",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,
