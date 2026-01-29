@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nPolynomialElement.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/ec/ECFieldElement$Fp.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/raw/Mod.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2Polynomial.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/ec/ECCurve$AbstractF2m.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nONBField.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -661,7 +661,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/AESGCMKW.java",
       "_Id": "58",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"key_wxcasxx_v4\"",
@@ -749,7 +749,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PBKDF2.java",
       "_Id": "66",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HMACSHA384\"",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSHA512\"",
@@ -771,7 +771,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "68",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"key_deviceid_v4\"",
@@ -903,7 +903,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/ContentCryptoProvider.java",
       "_Id": "80",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"000000000000000\"",
@@ -947,7 +947,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "84",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"53\"",
@@ -980,7 +980,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "87",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-93\"",
@@ -1024,7 +1024,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "91",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"device_feature_file_name\"",
@@ -1222,7 +1222,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "109",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-78\"",
@@ -1244,7 +1244,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "111",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"101\"",
@@ -1288,7 +1288,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA1_5.java",
       "_Id": "115",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-84\"",
@@ -1409,7 +1409,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "126",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-103\"",
@@ -1486,7 +1486,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "133",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-17\"",
@@ -1508,7 +1508,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "135",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HMACSHA512\"",
@@ -1519,7 +1519,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "136",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"unknow\"",
@@ -1596,7 +1596,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA_OAEP.java",
       "_Id": "143",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1607,7 +1607,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/LegacyConcatKDF.java",
       "_Id": "144",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"116\"",
@@ -1651,7 +1651,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA_OAEP_256.java",
       "_Id": "148",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"11\"",
@@ -1728,7 +1728,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "155",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"80\"",

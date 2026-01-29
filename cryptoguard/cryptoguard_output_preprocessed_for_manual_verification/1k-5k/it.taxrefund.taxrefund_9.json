@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nPolynomialElement.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/ec/ECFieldElement$Fp.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/raw/Mod.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/ec/ECCurve$AbstractF2m.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2Polynomial.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nONBField.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
