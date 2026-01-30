@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/codec/digest/UnixCrypt.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/codec/digest/B64.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

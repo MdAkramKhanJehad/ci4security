@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/james/mime4j/util/MimeUtil.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/entity/mime/MultipartEntity.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of http.SSLSocketFactory",

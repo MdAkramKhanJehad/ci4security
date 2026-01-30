@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "androidx/appcompat/widget/j.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DESede/CBC/PKCS5Padding\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "androidx/appcompat/widget/j.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "co/lujun/androidtagview/TagContainerLayout.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/caftrade/app/rabbitmq/PKGenerator.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1178,7 +1178,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/e/a.java",
       "_Id": "105",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"alipay_cashier_statistic_v\"",
