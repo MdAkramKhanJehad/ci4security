@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/session/PerfSession.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/transport/RateLimiter.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/config/RemoteConfigManager.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

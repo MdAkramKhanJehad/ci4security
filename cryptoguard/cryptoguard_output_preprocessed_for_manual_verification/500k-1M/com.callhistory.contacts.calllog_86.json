@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/internal/client/zzay.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/session/PerfSession.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/transport/RateLimiter.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/config/RemoteConfigManager.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"MD5\"",
