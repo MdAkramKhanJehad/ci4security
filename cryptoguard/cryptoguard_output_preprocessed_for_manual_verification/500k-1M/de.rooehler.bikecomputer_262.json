@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/entity/mime/MultipartEntityBuilder.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -496,7 +496,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/codec/digest/DigestUtils.java",
       "_Id": "43",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",

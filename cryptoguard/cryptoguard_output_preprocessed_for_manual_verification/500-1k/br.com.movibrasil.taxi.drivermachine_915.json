@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/http/entity/mime/MultipartEntityBuilder.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -452,7 +452,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/codec/digest/DigestUtils.java",
       "_Id": "39",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
