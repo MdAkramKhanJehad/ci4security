@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/asn1/ua/DSTU4145PointEncoder.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/crypto/examples/DESExample.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SunX509\"",

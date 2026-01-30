@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/crashlytics/android/answers/RandomBackoff.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "com/crashlytics/android/core/CrashTest.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
