@@ -837,7 +837,7 @@
       "Severity": "1",
       "_FullPath": "com/google/api/client/util/ExponentialBackOff.java",
       "_Id": "74",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1915,7 +1915,7 @@
       "Severity": "1",
       "_FullPath": "com/google/api/client/googleapis/GoogleUtils.java",
       "_Id": "172",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"notasecret\"",

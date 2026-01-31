@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/okhttp/OkHttpServerTransport.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/OutlierDetectionLoadBalancer$FailurePercentageOutlierEjectionAlgorithm.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/OutlierDetectionLoadBalancer$SuccessRateOutlierEjectionAlgorithm.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/internal/ConfigRealtimeHttpClient.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/internal/ConfigAutoFetch.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -562,7 +562,7 @@
       "Severity": "1",
       "_FullPath": "com/google/api/client/util/ExponentialBackOff.java",
       "_Id": "49",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1816,7 +1816,7 @@
       "Severity": "1",
       "_FullPath": "com/google/api/client/googleapis/GoogleUtils.java",
       "_Id": "163",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.andykhan.com/jexcelapi/index.html\"",

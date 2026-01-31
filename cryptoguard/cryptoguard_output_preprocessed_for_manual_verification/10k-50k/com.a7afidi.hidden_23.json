@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/okhttp/OkHttpServerTransport.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/OutlierDetectionLoadBalancer$FailurePercentageOutlierEjectionAlgorithm.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/OutlierDetectionLoadBalancer$SuccessRateOutlierEjectionAlgorithm.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
