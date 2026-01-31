@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/ui/echo/background/BubbleBackground.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/ui/screen/home/sections/EpisodesSurpriseSection.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/storage/database/ItemEnqueuePositionCalculator.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/ui/echo/screen/HoarderScreen.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/ui/screen/home/sections/EpisodesSurpriseSection.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/ui/echo/background/BubbleBackground.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/ui/echo/background/RotatingSquaresBackground.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/net/download/serviceinterface/FileNameGenerator.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/ui/echo/background/WaveformBackground.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "de/danoeh/antennapod/ui/glide/GenerativePlaceholderImageModelLoader$EmbeddedImageFetcher.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"MD5\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "org/jsoup/helper/HttpConnection$Base.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,
