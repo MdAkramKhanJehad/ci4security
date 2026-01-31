@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "com/adlocus/push/PushReceive.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "com/parse/GcmRegistrar$Request.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "com/adlocus/push/PushService.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "net/lingala/zip4j/crypto/StandardEncrypter.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "net/lingala/zip4j/crypto/AESEncrpyter.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "it/sephiroth/android/library/util/MathUtils.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/parse/ParsePushBroadcastReceiver.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/parse/LocalIdManager.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "com/adlocus/AdLocusLayout.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "com/parse/ParseRequest.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -661,7 +661,7 @@
       "Severity": "1",
       "_FullPath": "net/lingala/zip4j/crypto/AESEncrpyter.java",
       "_Id": "58",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"NH/mLeyCBfokzYKUPNGEEg==\"",
