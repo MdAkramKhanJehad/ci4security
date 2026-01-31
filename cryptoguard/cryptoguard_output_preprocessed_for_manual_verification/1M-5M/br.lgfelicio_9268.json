@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/badoualy/stepperindicator/StepperIndicator.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/y1.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "com/facetec/sdk/a.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "com/facetec/sdk/aq.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -507,7 +507,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/c0.java",
       "_Id": "44",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -529,7 +529,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/e0.java",
       "_Id": "46",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
@@ -1233,7 +1233,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/DevServerHelper.java",
       "_Id": "110",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1255,7 +1255,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/DevServerHelper.java",
       "_Id": "112",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://%s/status\"",
@@ -1266,7 +1266,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/PackagerStatusCheck.java",
       "_Id": "113",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1288,7 +1288,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/DevServerHelper.java",
       "_Id": "115",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://%s/symbolicate\"",
@@ -1299,7 +1299,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/DevServerHelper.java",
       "_Id": "116",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1332,7 +1332,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzew.java",
       "_Id": "119",
-      "verificationStatus": false
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,
