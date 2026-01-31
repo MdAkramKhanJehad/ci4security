@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "a/b.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"AES/ECB/PKCS5Padding\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "a/b.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
