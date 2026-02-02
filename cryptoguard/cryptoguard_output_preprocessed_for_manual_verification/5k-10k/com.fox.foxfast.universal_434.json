@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "com/braze/support/IntentUtils$b.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/newrelic/agent/android/util/Util.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/microsoft/appcenter/http/HttpClientRetryer.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/newrelic/agent/android/analytics/EventManagerImpl.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -584,7 +584,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/hls/HlsSampleStreamWrapper.java",
       "_Id": "51",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-9223372036854775807L\"",
@@ -595,7 +595,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/hls/HlsChunkSource.java",
       "_Id": "52",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-9223372036854775807L\"",
@@ -606,7 +606,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/hls/HlsSampleStreamWrapper.java",
       "_Id": "53",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"1L\"",
@@ -617,7 +617,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/hls/HlsChunkSource.java",
       "_Id": "54",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"1000L\"",
@@ -694,7 +694,7 @@
       "Severity": "1",
       "_FullPath": "org/jsoup/helper/HttpConnection$Base.java",
       "_Id": "61",
-      "verificationStatus": ""
+      "verificationStatus": false
     }
   ],
   "_SchemaVersion": 3,
