@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/esotericsoftware/kryo/serializers/BlowfishSerializer.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "com/esotericsoftware/kryo/util/ObjectMap.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
