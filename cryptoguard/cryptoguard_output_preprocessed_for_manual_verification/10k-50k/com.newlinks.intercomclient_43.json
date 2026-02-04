@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/quickblox/chat/utils/MongoDBObjectId.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "com/splunk/mint/UidManager.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "org/jivesoftware/smack/ReconnectionManager.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "com/quickblox/auth/query/QueryCreateSessionUsingSocialProvider.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "be/tarsos/dsp/synthesis/NoiseGenerator.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "org/jivesoftware/smack/util/StringUtils.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "org/jivesoftware/smack/util/DNSUtil.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "com/quickblox/auth/session/QueryCreateSession.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/quickblox/chat/QBReconnectionManager$a.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Didn't manually verify hostname in startTLS",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "com/newlinks/intercomclient/NetworkService.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://api.rozcomapp.com//capp.php?Request=\"",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "Utils/ImageLoader.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://api.rozcomapp.com//capp.php?Request=\"",
@@ -452,7 +452,7 @@
       "Severity": "1",
       "_FullPath": "com/newlinks/intercomclient/NetworkService.java",
       "_Id": "39",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://api.rozcomapp.com/uploads/entrances/ent_\"",
@@ -463,7 +463,7 @@
       "Severity": "1",
       "_FullPath": "Utils/ImageLoader.java",
       "_Id": "40",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

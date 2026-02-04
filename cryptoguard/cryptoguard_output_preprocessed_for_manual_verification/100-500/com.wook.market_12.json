@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/common/a.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/a/a.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of RNFetchBlob.RNFetchBlobUtils",

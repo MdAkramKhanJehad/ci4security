@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/common/a.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/a/a.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Didn't manually verify hostname in run",
