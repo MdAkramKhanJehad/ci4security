@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "es/bandomovil/lemur/informa/ServerUtilities.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "es/bandomovil/lemur/principal/buzon_paso_resumen.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "es/bandomovil/lemur/principal/buzon_paso_resumen_otros.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.bandomovil.com/webservice/\"",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "es/bandomovil/lemur/di/Injector.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.bandomovil.com/archivos/\"",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "es/bandomovil/lemur/principal/bando.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.bandomovil.com/archivos/\"",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "es/bandomovil/lemur/principal/bando.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

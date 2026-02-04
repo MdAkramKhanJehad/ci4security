@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/sagamill/stockscanner/network/base/KeyEncryptor.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"AES/ECB/PKCS7Padding\"",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "com/sagamill/stockscanner/network/base/KeyEncryptor.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

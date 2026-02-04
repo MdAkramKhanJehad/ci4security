@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "b/l/b/c/b.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"RC4\"",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "b/l/b/c/b.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DESede/ECB/PKCS5Padding\"",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/lidroid/xutils/http/client/multipart/MultipartEntity.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
