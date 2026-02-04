@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "net/lingala/zip4j/tasks/AbstractModifyFileTask.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/f/c.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/bugly/proguard/s.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/utils/IHDeviceUtils.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/network/dns/Header.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/utils/IHDeviceUtils.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/beacon/c/b.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/utils/IHDeviceUtils.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/beacon/a/b/c.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/beacon/a/e/b.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/network/dns/TSIG.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -672,7 +672,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/network/dns/DNSSEC.java",
       "_Id": "59",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -870,7 +870,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/network/dns/NSEC3Record.java",
       "_Id": "77",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -958,7 +958,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "85",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"21\"",
@@ -969,7 +969,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "86",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"25\"",
@@ -980,7 +980,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "87",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"87\"",
@@ -991,7 +991,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "88",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-128\"",
@@ -1002,7 +1002,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "89",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"116\"",
@@ -1013,7 +1013,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "90",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"65\"",
@@ -1024,7 +1024,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "91",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-119\"",
@@ -1035,7 +1035,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "92",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"84\"",
@@ -1046,7 +1046,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "93",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"117\"",
@@ -1057,7 +1057,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "94",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"11\"",
@@ -1068,7 +1068,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "95",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-78\"",
@@ -1079,7 +1079,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "96",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-3\"",
@@ -1090,7 +1090,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "97",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-112\"",
@@ -1101,7 +1101,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "98",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-29\"",
@@ -1112,7 +1112,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "99",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-14\"",
@@ -1123,7 +1123,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "100",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"40\"",
@@ -1134,7 +1134,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "101",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"15\"",
@@ -1145,7 +1145,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "102",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"49\"",
@@ -1156,7 +1156,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "103",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-21\"",
@@ -1167,7 +1167,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "104",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"121\"",
@@ -1178,7 +1178,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "105",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"81\"",
@@ -1189,7 +1189,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "106",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"123\"",
@@ -1200,7 +1200,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "107",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-51\"",
@@ -1211,7 +1211,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "108",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-19\"",
@@ -1222,7 +1222,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "109",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"13\"",
@@ -1233,7 +1233,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "110",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"99\"",
@@ -1244,7 +1244,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "111",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"91\"",
@@ -1255,7 +1255,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "112",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-58\"",
@@ -1266,7 +1266,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "113",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-67\"",
@@ -1277,7 +1277,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "114",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"12\"",
@@ -1288,7 +1288,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "115",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"4\"",
@@ -1299,7 +1299,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "116",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"39\"",
@@ -1310,7 +1310,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "117",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"118\"",
@@ -1321,7 +1321,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "118",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"40\"",
@@ -1332,7 +1332,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "119",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-84\"",
@@ -1343,7 +1343,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "120",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"85\"",
@@ -1354,7 +1354,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "121",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-3\"",
@@ -1365,7 +1365,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "122",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-26\"",
@@ -1376,7 +1376,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "123",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-40\"",
@@ -1387,7 +1387,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "124",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"UTF-8\"",
@@ -1409,7 +1409,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "126",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"115\"",
@@ -1420,7 +1420,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "127",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"63\"",
@@ -1431,7 +1431,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "128",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"30\"",
@@ -1442,7 +1442,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "129",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"zntmba3kdopQhuajhqIserb6eahazrhc\"",
@@ -1464,7 +1464,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "131",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-7\"",
@@ -1475,7 +1475,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "132",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"21\"",
@@ -1486,7 +1486,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "133",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"25\"",
@@ -1497,7 +1497,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "134",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"87\"",
@@ -1508,7 +1508,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "135",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-128\"",
@@ -1519,7 +1519,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "136",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"116\"",
@@ -1530,7 +1530,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "137",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"65\"",
@@ -1541,7 +1541,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "138",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-119\"",
@@ -1552,7 +1552,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "139",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"84\"",
@@ -1563,7 +1563,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "140",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"117\"",
@@ -1574,7 +1574,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "141",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"11\"",
@@ -1585,7 +1585,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "142",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-78\"",
@@ -1596,7 +1596,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "143",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-3\"",
@@ -1607,7 +1607,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "144",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"c)5Gh@DCBXN6+8op\"",
@@ -1618,7 +1618,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/utils/AES256Cipher.java",
       "_Id": "145",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-112\"",
@@ -1629,7 +1629,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "146",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-29\"",
@@ -1640,7 +1640,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "147",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-14\"",
@@ -1651,7 +1651,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "148",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"40\"",
@@ -1662,7 +1662,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "149",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"15\"",
@@ -1673,7 +1673,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "150",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"49\"",
@@ -1684,7 +1684,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "151",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-21\"",
@@ -1695,7 +1695,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "152",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"121\"",
@@ -1706,7 +1706,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "153",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"81\"",
@@ -1717,7 +1717,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "154",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"123\"",
@@ -1728,7 +1728,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "155",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-51\"",
@@ -1739,7 +1739,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "156",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-19\"",
@@ -1750,7 +1750,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "157",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"13\"",
@@ -1761,7 +1761,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "158",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"99\"",
@@ -1772,7 +1772,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "159",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"91\"",
@@ -1783,7 +1783,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "160",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-58\"",
@@ -1794,7 +1794,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "161",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-67\"",
@@ -1805,7 +1805,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "162",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"12\"",
@@ -1816,7 +1816,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "163",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"4\"",
@@ -1827,7 +1827,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "164",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"39\"",
@@ -1838,7 +1838,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "165",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"118\"",
@@ -1849,7 +1849,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "166",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"40\"",
@@ -1860,7 +1860,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "167",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-84\"",
@@ -1871,7 +1871,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "168",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"85\"",
@@ -1882,7 +1882,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "169",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-3\"",
@@ -1893,7 +1893,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "170",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-26\"",
@@ -1904,7 +1904,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "171",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-40\"",
@@ -1915,7 +1915,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "172",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"33\"",
@@ -1926,7 +1926,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "173",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"115\"",
@@ -1937,7 +1937,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "174",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"63\"",
@@ -1948,7 +1948,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "175",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"30\"",
@@ -1959,7 +1959,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "176",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"71\"",
@@ -1970,7 +1970,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/qmsp/sdk/b/a.java",
       "_Id": "177",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"c)5Gh@DCBXN6+8op\"",
@@ -1981,7 +1981,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/utils/AES256Cipher.java",
       "_Id": "178",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://ifconfig.me/ip\"",
@@ -1992,7 +1992,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/statistics/manager/FaunaLogger.java",
       "_Id": "179",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"HTTP: [\"",
@@ -2058,7 +2058,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/network/utils/IHNetworkUtils$Companion.java",
       "_Id": "185",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://ipecho.net/plain\"",
@@ -2069,7 +2069,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/statistics/manager/FaunaLogger.java",
       "_Id": "186",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://icanhazip.com/\"",
@@ -2080,7 +2080,7 @@
       "Severity": "1",
       "_FullPath": "com/ihuman/sdk/lib/statistics/manager/FaunaLogger.java",
       "_Id": "187",
-      "verificationStatus": ""
+      "verificationStatus": false
     }
   ],
   "_SchemaVersion": 3,
