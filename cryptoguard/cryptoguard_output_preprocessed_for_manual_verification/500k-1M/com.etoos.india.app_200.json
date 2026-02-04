@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "com/spv/isp/studentRegistration/utilitiesRegistration/RandomKeys.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "com/koushikdutta/async/util/FileCache.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -628,7 +628,7 @@
       "Severity": "1",
       "_FullPath": "com/spv/isp/player/exoplayer/ExoPlayerActivity.java",
       "_Id": "55",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -694,7 +694,7 @@
       "Severity": "1",
       "_FullPath": "com/koushikdutta/async/dns/Dns.java",
       "_Id": "61",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -727,7 +727,7 @@
       "Severity": "1",
       "_FullPath": "com/koushikdutta/async/http/HybiParser.java",
       "_Id": "64",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "exoplayer/ExoPlayerActivity.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1772,7 +1772,7 @@
       "Severity": "1",
       "_FullPath": "com/etoos/india/app/Util/JWTUtils.java",
       "_Id": "159",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1860,7 +1860,7 @@
       "Severity": "1",
       "_FullPath": "com/amazonaws/services/s3/internal/crypto/ContentCryptoMaterial.java",
       "_Id": "167",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"1L\"",
@@ -2003,7 +2003,7 @@
       "Severity": "1",
       "_FullPath": "com/spv/isp/player/exoplayer/exoplayerFactories/DefaultHttpDataSourceGithub.java",
       "_Id": "180",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://google.com/\"",

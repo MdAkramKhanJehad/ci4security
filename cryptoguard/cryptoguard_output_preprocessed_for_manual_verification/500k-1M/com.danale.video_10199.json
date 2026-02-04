@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "com/cardinalcommerce/a/getSDKAppID$Cardinal.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/sina/weibo/sdk/share/ShareTransActivity.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/video/player/half_talk/VisualizerView.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "com/xiaomi/push/service/am$b.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/cardinalcommerce/a/getAcsTransactionID$Cardinal.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/xiaomi/mipush/sdk/MiPushClient.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/video/message/util/RandomUtil.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/libanalytics/http/NetHelper.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/video/message/util/RandomUtil.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/libanalytics/http/net/upload/utils/AESUtils.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/player/window/Attacher.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -452,7 +452,7 @@
       "Severity": "1",
       "_FullPath": "com/tencent/wxop/stat/a.java",
       "_Id": "39",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -463,7 +463,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/sdk/netport/NetPortPolicy.java",
       "_Id": "40",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/video/message/util/RandomUtil.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -518,7 +518,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/video/message/util/RandomUtil.java",
       "_Id": "45",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1123,7 +1123,7 @@
       "Severity": "1",
       "_FullPath": "com/eapil/lib/EapilAesUtils.java",
       "_Id": "100",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"1L\"",
@@ -1178,7 +1178,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/sdk/config/AesGcmHelper.java",
       "_Id": "105",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"access_2017-7-17\"",
@@ -1189,7 +1189,7 @@
       "Severity": "1",
       "_FullPath": "com/eapil/lib/EapilAesUtils.java",
       "_Id": "106",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"84\"",
@@ -1233,7 +1233,7 @@
       "Severity": "1",
       "_FullPath": "com/eapil/lib/EapilAesUtils.java",
       "_Id": "110",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"access_2017-7-17\"",
@@ -1244,7 +1244,7 @@
       "Severity": "1",
       "_FullPath": "com/eapil/lib/EapilAesUtils.java",
       "_Id": "111",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"none\"",
@@ -1299,7 +1299,7 @@
       "Severity": "1",
       "_FullPath": "com/danale/sdk/config/AesGcmHelper.java",
       "_Id": "116",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"1L\"",
@@ -1376,7 +1376,7 @@
       "Severity": "1",
       "_FullPath": "com/eapil/lib/EapilAesUtils.java",
       "_Id": "123",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"84\"",
@@ -1420,7 +1420,7 @@
       "Severity": "1",
       "_FullPath": "com/eapil/lib/EapilAesUtils.java",
       "_Id": "127",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2\"",
@@ -1508,7 +1508,7 @@
       "Severity": "1",
       "_FullPath": "com/eapil/lib/EapilAesUtils.java",
       "_Id": "135",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"84\"",
@@ -1651,7 +1651,7 @@
       "Severity": "1",
       "_FullPath": "com/eapil/lib/EapilAesUtils.java",
       "_Id": "148",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"access_2017-7-17\"",
@@ -1739,7 +1739,7 @@
       "Severity": "1",
       "_FullPath": "cn/sharesdk/sina/weibo/utils/WebSharePage.java",
       "_Id": "156",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "com/qidian/QDReader/core/utils/DES3Utils.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DESede/CBC/PKCS5Padding\"",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "com/restructure/activity/view/ComicDanmuView.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "org/spongycastle/asn1/ua/DSTU4145PointEncoder.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "org/greenrobot/greendao/test/DbTest.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/scwang/smartrefresh/header/TaurusHeader.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "org/spongycastle/math/ec/ECCurve$AbstractF2m.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "org/spongycastle/math/raw/Mod.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/scwang/smartrefresh/header/TaurusHeader.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "com/qidian/QDReader/core/utils/DeviceUtils.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "org/spongycastle/pqc/math/linearalgebra/GF2nPolynomialElement.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "com/yuewen/fock/FockWatermarkView.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "com/hjq/permissions/PermissionFragment.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "com/scwang/smartrefresh/header/storehouse/StoreHouseBarItem.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "com/scwang/smartrefresh/header/FunGameBattleCityHeader.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "org/spongycastle/pqc/math/linearalgebra/GF2nONBField.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "org/spongycastle/pqc/math/linearalgebra/GF2Polynomial.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "com/qidian/QDReader/widget/badge/BadgeAnimator$c.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -474,7 +474,7 @@
       "Severity": "1",
       "_FullPath": "org/spongycastle/math/ec/ECFieldElement$Fp.java",
       "_Id": "41",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"MD5\"",
@@ -793,7 +793,7 @@
       "Severity": "1",
       "_FullPath": "com/qidian/QDReader/core/utils/AESUtils.java",
       "_Id": "70",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"W9F1bXrz\"",
@@ -804,7 +804,7 @@
       "Severity": "1",
       "_FullPath": "com/qidian/QDReader/core/utils/DES3Utils.java",
       "_Id": "71",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"anhtc2xzaW9kamZwd2UwMQ==\"",
@@ -815,7 +815,7 @@
       "Severity": "1",
       "_FullPath": "com/qidian/QDReader/core/utils/AESUtils.java",
       "_Id": "72",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"bMyzJ1D7Kl7zt9mwjegtJGMoF53msSfP\"",
@@ -826,7 +826,7 @@
       "Severity": "1",
       "_FullPath": "com/qidian/QDReader/core/utils/DES3Utils.java",
       "_Id": "73",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"webnovel-mobiles\"",
@@ -837,7 +837,7 @@
       "Severity": "1",
       "_FullPath": "com/qidian/QDReader/core/utils/AESUtils.java",
       "_Id": "74",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"3\"",
@@ -1090,7 +1090,7 @@
       "Severity": "1",
       "_FullPath": "org/spongycastle/crypto/examples/DESExample.java",
       "_Id": "97",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost\"",
