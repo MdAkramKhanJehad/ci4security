@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/expansion/downloader/Helpers.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -142,9 +142,9 @@
       "RuleDesc": "Used untrusted PRNG",
       "CWEId": 338,
       "Severity": "1",
-      "_FullPath": "com/creativeintersection/android/CICommon.java",
+      "_FullPath": "au/com/idfish/library/expansion/downloader/Helpers.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"16\"",
@@ -408,7 +408,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "35",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"74\"",
@@ -419,7 +419,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "36",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-14\"",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"70\"",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-29\"",
@@ -452,7 +452,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "39",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"117\"",
@@ -463,7 +463,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "40",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"32\"",
@@ -474,7 +474,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "41",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"72\"",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-47\"",
@@ -496,7 +496,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "43",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"101\"",
@@ -507,7 +507,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "44",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"74\"",
@@ -518,7 +518,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "45",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"65\"",
@@ -529,7 +529,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "46",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-80\"",
@@ -540,7 +540,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "47",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-12\"",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -562,7 +562,7 @@
       "Severity": "1",
       "_FullPath": "au/com/idfish/library/licensing/AESObfuscator.java",
       "_Id": "49",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,
