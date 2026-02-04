@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "oauth/signpost/AbstractOAuthConsumer.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "de/rooehler/bikecomputer/activities/ChoiceScreen.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "twitter4j/auth/OAuthAuthorization.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "org/mapsforge/map/layer/download/tilesource/AbstractTileSource.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -793,7 +793,7 @@
       "Severity": "1",
       "_FullPath": "de/rooehler/bikecomputer/data/ElevationBrain.java",
       "_Id": "70",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

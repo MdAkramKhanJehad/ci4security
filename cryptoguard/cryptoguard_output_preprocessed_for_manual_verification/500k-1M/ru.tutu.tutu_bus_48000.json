@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "ru/tutu/core/metrica/utils/generator/PageGenerator.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "ru/tutu/newcalendar/presentation/ui/composables/CalendarPreviewData.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/vk/api/sdk/utils/ExponentialBackoff.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -573,7 +573,7 @@
       "Severity": "1",
       "_FullPath": "com/yandex/metrica/impl/ob/Ah.java",
       "_Id": "50",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"hBnBQbZrmjPXEWVJ\"",
@@ -584,7 +584,7 @@
       "Severity": "1",
       "_FullPath": "com/yandex/metrica/impl/ob/J2.java",
       "_Id": "51",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"af9202nao18gswqp\"",
@@ -595,7 +595,7 @@
       "Severity": "1",
       "_FullPath": "com/yandex/metrica/impl/ob/Ah.java",
       "_Id": "52",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"hBnBQbZrmjPXEWVJ\"",
@@ -606,7 +606,7 @@
       "Severity": "1",
       "_FullPath": "com/yandex/metrica/impl/ob/J2.java",
       "_Id": "53",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"`0l}%01ny{jl~;|&\"",

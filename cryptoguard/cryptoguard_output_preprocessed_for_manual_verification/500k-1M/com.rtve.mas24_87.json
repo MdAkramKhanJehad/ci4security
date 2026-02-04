@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/rtve/mas24/Utils/AudioNotificationUtils.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1255,7 +1255,7 @@
       "Severity": "1",
       "_FullPath": "com/google/ads/interactivemedia/v3/internal/hc.java",
       "_Id": "112",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-9223372036854775807L\"",
@@ -1387,7 +1387,7 @@
       "Severity": "1",
       "_FullPath": "com/rtve/mas24/Network/Calls.java",
       "_Id": "124",
-      "verificationStatus": ""
+      "verificationStatus": "true"
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1409,7 +1409,7 @@
       "Severity": "1",
       "_FullPath": "com/rtve/mas24/Network/Calls.java",
       "_Id": "126",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1431,7 +1431,7 @@
       "Severity": "1",
       "_FullPath": "com/rtve/stats/doraemon/DoraemonStatsService.java",
       "_Id": "128",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://gestion-alertas.rtve.es/backend_rtve/\"",
@@ -1442,7 +1442,7 @@
       "Severity": "1",
       "_FullPath": "com/rtve/mas24/Network/Calls.java",
       "_Id": "129",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,
