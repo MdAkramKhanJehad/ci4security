@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "com/annimon/stream/RandomCompat.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/annimon/stream/RandomCompat.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/auth-api/zzba.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/activity/SplashScreenActivity.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://compartilhamento.no-ip.org:8699/consultar\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/remote/service/TaxifoneServiceClient.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.geoportal.com.br/WS/service.asmx/rota\"",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/DirectionsService.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dev.virtualearth.net/REST/V1/Routes/Driving?o=json&avoid=minimizeTolls&wp.0=%f,%f&wp.1=%f,%f&key=%s\"",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/DirectionsService.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dev.virtualearth.net/REST/v1/Locations?c=pt-BR&addressLine=%s&userLocation=%s,%s&key=%s\"",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/BingTaxifoneGeocoder.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dev.virtualearth.net/REST/v1/Locations/%s,%s?o=json&c=pt-BR&inclnb=0&key=%s\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/BingTaxifoneGeocoder.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://\"",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/remote/service/TaxifoneServiceClient.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.originalsoftware.com.br/config/\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "br/com/originalsoftware/taxifonecliente/service/PropertiesUpdater.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,
