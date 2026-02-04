@@ -419,7 +419,7 @@
       "Severity": "1",
       "_FullPath": "com/applovin/impl/sdk/utils/t.java",
       "_Id": "36",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -584,7 +584,7 @@
       "Severity": "1",
       "_FullPath": "com/applovin/impl/b/m.java",
       "_Id": "51",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1783,7 +1783,7 @@
       "Severity": "1",
       "_FullPath": "com/applovin/impl/sdk/t.java",
       "_Id": "160",
-      "verificationStatus": ""
+      "verificationStatus": false
     }
   ],
   "_SchemaVersion": 3,

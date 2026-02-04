@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/jehutyno/yomikata/screens/quizzes/QuizzesActivity.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/flaviofaria/kenburnsview/RandomTransitionGenerator.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/jehutyno/yomikata/screens/quiz/QuizActivity$subDI$2$1.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "com/jehutyno/yomikata/util/CopyUtils.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

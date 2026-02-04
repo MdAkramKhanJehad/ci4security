@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/etoos/app/wm/global/utils/WmUtil.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "com/etoos/app/wm/ui/util/UiUtilsKt.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/etoos/sdk/module/network/utils/Packet.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -540,7 +540,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "47",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"55\"",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-48\"",
@@ -562,7 +562,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "49",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"92\"",
@@ -573,7 +573,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "50",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-126\"",
@@ -584,7 +584,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "51",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-126\"",
@@ -595,7 +595,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "52",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-30\"",
@@ -606,7 +606,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "53",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"112\"",
@@ -617,7 +617,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "54",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"com.etoos.sdk.auth\"",
@@ -650,7 +650,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "57",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-116\"",
@@ -661,7 +661,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "58",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-55\"",
@@ -672,7 +672,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "59",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-10\"",
@@ -683,7 +683,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "60",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"78\"",
@@ -694,7 +694,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "61",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"44\"",
@@ -705,7 +705,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "62",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-54\"",
@@ -716,7 +716,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "63",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"com.etoos.sdk\"",
@@ -738,7 +738,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "65",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"75\"",
@@ -749,7 +749,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "66",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"55\"",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-48\"",
@@ -771,7 +771,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "68",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"92\"",
@@ -782,7 +782,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "69",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-126\"",
@@ -793,7 +793,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "70",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-126\"",
@@ -804,7 +804,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "71",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-30\"",
@@ -815,7 +815,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "72",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"112\"",
@@ -826,7 +826,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "73",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"102\"",
@@ -837,7 +837,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "74",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-116\"",
@@ -848,7 +848,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "75",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-55\"",
@@ -859,7 +859,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "76",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-10\"",
@@ -870,7 +870,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "77",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"78\"",
@@ -881,7 +881,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "78",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"44\"",
@@ -892,7 +892,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "79",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-54\"",
@@ -903,7 +903,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "80",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-123\"",
@@ -914,7 +914,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "81",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"com.etoos.sdk.common\"",
@@ -936,7 +936,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "83",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"55\"",
@@ -947,7 +947,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "84",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"PBKDF2withHmacSHA1\"",
@@ -969,7 +969,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "86",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"PBKDF2withHmacSHA512\"",
@@ -1002,7 +1002,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "89",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-126\"",
@@ -1013,7 +1013,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "90",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-126\"",
@@ -1024,7 +1024,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "91",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-30\"",
@@ -1035,7 +1035,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "92",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"112\"",
@@ -1046,7 +1046,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "93",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"com.etoos.sdk.auth\"",
@@ -1079,7 +1079,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "96",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-116\"",
@@ -1090,7 +1090,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "97",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-55\"",
@@ -1101,7 +1101,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "98",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-10\"",
@@ -1112,7 +1112,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "99",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"78\"",
@@ -1123,7 +1123,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "100",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"44\"",
@@ -1134,7 +1134,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "101",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"com.etoos.sdk\"",
@@ -1156,7 +1156,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "103",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"-123\"",
@@ -1167,7 +1167,7 @@
       "Severity": "1",
       "_FullPath": "com/kakao/sdk/common/util/AESCipher.java",
       "_Id": "104",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"128\"",
@@ -1200,7 +1200,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/tools/ant/taskdefs/optional/ejb/WeblogicTOPLinkDeploymentTool.java",
       "_Id": "107",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",

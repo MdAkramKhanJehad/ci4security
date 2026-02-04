@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "com/alibaba/fastjson/util/AntiCollisionHashMap.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/alibaba/fastjson/util/AntiCollisionHashMap.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/amplitude/core/utilities/EventsFileManager.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "com/moxun/tagcloudlib/view/TagCloud.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "com/moxun/tagcloudlib/view/TagCloud.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "com/appsflyer/internal/AFa1ySDK.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
