@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzbr.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -628,7 +628,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzfc.java",
       "_Id": "55",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-1\"",
@@ -650,7 +650,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzfc.java",
       "_Id": "57",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=\"",
@@ -661,7 +661,7 @@
       "Severity": "1",
       "_FullPath": "com/hellothupten/core/nextbus/webservice/NBRestClient1.java",
       "_Id": "58",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://webservices.nextbus.com/service/publicXMLFeed?command=messages&a=\"",
@@ -672,7 +672,7 @@
       "Severity": "1",
       "_FullPath": "com/hellothupten/core/nextbus/webservice/NBRestClient1.java",
       "_Id": "59",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=\"",
@@ -683,7 +683,7 @@
       "Severity": "1",
       "_FullPath": "com/hellothupten/core/nextbus/webservice/NBRestClient1.java",
       "_Id": "60",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http:\"",
@@ -705,7 +705,7 @@
       "Severity": "1",
       "_FullPath": "com/hellothupten/core/nextbus/webservice/NBRestClient1.java",
       "_Id": "62",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://webservices.nextbus.com/service/publicXMLFeed?command=vehicleLocations&a=\"",
@@ -716,7 +716,7 @@
       "Severity": "1",
       "_FullPath": "com/hellothupten/core/nextbus/webservice/NBRestClient1.java",
       "_Id": "63",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://webservices.nextbus.com/service/publicXMLFeed?command=predictions&a=\"",
@@ -727,7 +727,7 @@
       "Severity": "1",
       "_FullPath": "com/hellothupten/core/nextbus/webservice/NBRestClient1.java",
       "_Id": "64",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://webservices.nextbus.com/service/publicXMLFeed?command=schedule&a=\"",
@@ -738,7 +738,7 @@
       "Severity": "1",
       "_FullPath": "com/hellothupten/core/nextbus/webservice/NBRestClient1.java",
       "_Id": "65",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://webservices.nextbus.com/service/publicXMLFeed?command=routeList&a=\"",
@@ -749,7 +749,7 @@
       "Severity": "1",
       "_FullPath": "com/hellothupten/core/nextbus/webservice/NBRestClient1.java",
       "_Id": "66",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://webservices.nextbus.com/service/publicXMLFeed?command=predictionsForMultiStops&a=\"",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "com/hellothupten/core/nextbus/webservice/NBRestClient1.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,
