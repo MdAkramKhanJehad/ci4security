@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "org/springframework/util/AlternativeJdkIdGenerator.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "net/bytebuddy/agent/builder/AgentBuilder$InitializationStrategy$SelfInjection.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "org/springframework/util/SocketUtils.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "net/bytebuddy/utility/RandomString.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",

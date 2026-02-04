@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/eduven/cg/activity/FlyerActivity.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/firebase/ui/auth/t/e/i.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/eduven/cg/activity/FlyerActivity.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/eduven/cg/activity/FlyerActivity.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"MD5\"",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzex.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"1588462714860\"",
@@ -496,7 +496,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzex.java",
       "_Id": "43",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"1\"",
@@ -738,7 +738,7 @@
       "Severity": "1",
       "_FullPath": "com/eduven/cg/notificationWod/b.java",
       "_Id": "65",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://api.ifitnesspedia.com/foodapi/rest/data/getccdata?appid=270\"",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "com/eduven/cg/notificationFcm/FcmRegistrationIntentService.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://feeds.bbci.co.uk/news/world/europe/rss.xml\"",
@@ -771,7 +771,7 @@
       "Severity": "1",
       "_FullPath": "com/eduven/cg/activity/NewsActivityNew$b.java",
       "_Id": "68",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://storage.googleapis.com/edutainment_ventures/\"",
@@ -782,7 +782,7 @@
       "Severity": "1",
       "_FullPath": "com/eduven/cg/notificationWod/WodGenerateNotificationService.java",
       "_Id": "69",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://feeds.bbci.co.uk/news/world/europe/rss.xml\"",
@@ -793,7 +793,7 @@
       "Severity": "1",
       "_FullPath": "com/eduven/cg/utils/d$a.java",
       "_Id": "70",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

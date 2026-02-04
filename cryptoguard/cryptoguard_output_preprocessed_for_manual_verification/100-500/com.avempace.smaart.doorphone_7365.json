@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/avempace/smaart/doorphone/notifications/GcmMessagingService.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "fr/bmartel/speedtest/utils/RandomGen.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/avempace/smaart/doorphone/util/Utils.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/avempace/smaart/doorphone/managers/CallManager.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/net/ftp/FTPClient.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "org/mozilla/javascript/NativeMath.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Didn't manually verify hostname in connectAndExecuteTask",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "com/avempace/smaart/doorphone/serverManager/ACr.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://ipv4.ikoula.testdebit.info/\"",
@@ -562,7 +562,7 @@
       "Severity": "1",
       "_FullPath": "com/avempace/smaart/doorphone/util/SpeedTestTask.java",
       "_Id": "49",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://\"",
@@ -573,7 +573,7 @@
       "Severity": "1",
       "_FullPath": "org/mozilla/javascript/tools/debugger/Dim.java",
       "_Id": "50",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://\"",
@@ -606,7 +606,7 @@
       "Severity": "1",
       "_FullPath": "com/avempace/smaart/doorphone/managers/ApplicationRequestManager.java",
       "_Id": "53",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http:\"",
@@ -617,7 +617,7 @@
       "Severity": "1",
       "_FullPath": "org/mozilla/javascript/tools/debugger/Dim.java",
       "_Id": "54",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://127.0.0.1\"",
@@ -628,7 +628,7 @@
       "Severity": "1",
       "_FullPath": "org/mozilla/javascript/tools/debugger/Dim.java",
       "_Id": "55",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",

@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "org/osmdroid/tileprovider/tilesource/BitmapTileSourceBase.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "com/github/anastr/speedviewlib/Gauge.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/despachos/socios\"",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/despachos/enlinea\"",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas/getrutas?\"",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/despachos/ack\"",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas?tipo_usuario=\"",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/login?\"",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas/getcoordenadas?\"",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/unidades?usuario_id=\"",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/despachos/panic\"",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://dev.virtualearth.net/REST/V1/Imagery/Metadata/%s?mapVersion=v1&output=json&key=%s\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "org/osmdroid/tileprovider/tilesource/bing/BingMapTileSource.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas/getall\"",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://auth.cloudmade.com/token/\"",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "org/osmdroid/tileprovider/util/CloudmadeUtil.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/unidad/velocidadEspecifica\"",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/cooperativas/getPC?cooperativa_id=\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://geocoding.kimerasoftec.com/reverse?format=json&lat=\"",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/unidad/velocidadGeneral\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://trackingsystem-m2m.com/api/login?\"",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "com/ec/kimersoft/secureapp/WS/HelperWS.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

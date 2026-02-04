@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "org/mozilla/javascript/NativeMath.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/ECDH.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"16\"",
@@ -1079,7 +1079,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA_OAEP_SHA2.java",
       "_Id": "96",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSHA384\"",
@@ -1101,7 +1101,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/ECDH.java",
       "_Id": "98",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"2023100660013202\"",
