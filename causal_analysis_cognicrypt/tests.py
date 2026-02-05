@@ -66,6 +66,6 @@ def mann_whitney_test(df, numeric_col, binary_col):
 
 def correlation_test_treatment_to_outcome(df):
     rho, p = spearmanr( df["combined"], df["verdict"])
-    print(f"\n\ncombined -> verdict (Spearman)")
-    print(f"rho = {rho:.4f}, p = {p:.4f}")
+    print(f"combined -> verdict (Spearman)")
+    print(f"rho = {rho:.4f}, p = {p:.4f}\n\n")
 
