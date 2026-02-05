@@ -1,7 +1,7 @@
 import pandas as pd
 
-INPUT_CSV = "alerts_with_category-and-apk-size.csv"
-OUTPUT_CSV = "alerts_with_category_with_apk_size_updated.csv"
+INPUT_CSV = "alerts_with_category_and_apk_size_cryptoguard_3.csv"
+OUTPUT_CSV = "alerts_with_category_and_apk_size_updated_cryptoguard_4.csv"
 
 df = pd.read_csv(INPUT_CSV, dtype=str).fillna("")
 

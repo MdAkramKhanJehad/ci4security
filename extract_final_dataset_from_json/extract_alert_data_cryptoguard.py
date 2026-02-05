@@ -10,14 +10,29 @@ def safe_load_json(path):
         with open(path, "r", encoding="utf-8-sig") as f:
             return json.load(f)
 
-def extract_app_package_name(target_fullpath):
+
+def extract_app_package_name_and_version(target_fullpath):
     if not target_fullpath:
-        return "N/A"
+        return "N/A", "N/A"
+
     s = target_fullpath.strip().rstrip("/")
     s = os.path.basename(s)
+
     if s.lower().endswith(".apk"):
         s = s[:-4]
-    return s or "N/A"
+
+    base_name = s
+    if "_" in base_name:
+        parts = base_name.rsplit("_", 1)
+        app_package_name = parts[0]
+        version_code = parts[1]
+    else:
+        app_package_name = base_name
+        version_code = "N/A"
+
+    return app_package_name, version_code
+
+
 
 def process_cryptoguard_reports(root_directory, output_csv_file):
     print(f"Starting to process files in '{root_directory}'...")
@@ -45,7 +60,6 @@ def process_cryptoguard_reports(root_directory, output_csv_file):
         for dirpath, _, filenames in os.walk(root_directory):
             apk_category = os.path.basename(dirpath)
             sast_tool_name = "CryptoGuard"
-            version_code = 0
 
             for filename in filenames:
                 if not filename.endswith(".json"):
@@ -53,11 +67,12 @@ def process_cryptoguard_reports(root_directory, output_csv_file):
                 print(f"Processing file: {filename}")
                 file_path = os.path.join(dirpath, filename)
 
+
                 try:
                     data = safe_load_json(file_path)
 
                     target = data.get("Target", {}) or {}
-                    app_package_name = extract_app_package_name(target.get("FullPath", ""))
+                    app_package_name, version_code = extract_app_package_name_and_version(target.get("FullPath", ""))
 
                     issues = data.get("Issues", []) or []
                     for issue in issues:
@@ -100,5 +115,5 @@ def process_cryptoguard_reports(root_directory, output_csv_file):
 
 if __name__ == "__main__":
     ROOT_FOLDER = "../cryptoguard/cryptoguard_output_preprocessed_for_manual_verification" 
-    OUTPUT_FILE = "verified_cryptoguard_alerts.csv"
+    OUTPUT_FILE = "verified_cryptoguard_alerts_1.csv"
     process_cryptoguard_reports(ROOT_FOLDER, OUTPUT_FILE)
