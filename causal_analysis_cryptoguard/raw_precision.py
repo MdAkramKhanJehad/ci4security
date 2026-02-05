@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-alerts_df = pd.read_csv("alerts_with_category_with_apk_size_updated.csv")
+alerts_df = pd.read_csv("alerts_with_category_and_apk_size_updated_cryptoguard.csv")
 alerts_df = alerts_df[~alerts_df["code_location"].str.contains("obfuscated", case=False, na=False)].copy()
 
 alerts_df["verdict"] = alerts_df["verdict"].astype(int)
