@@ -6,10 +6,10 @@ import re
 import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CSV_PATH = os.path.join(BASE_DIR, "../extract_final_dataset_from_json/verified_cognicrypt_alerts.csv")
+CSV_PATH = os.path.join(BASE_DIR, "../extract_final_dataset_from_json/verified_cryptoguard_alerts_1.csv")
 LIBSCOUT_JSON_DIR = os.path.join(BASE_DIR, "library_detection")
 LIBSCOUT_PROFILES_DIR = os.path.join(BASE_DIR, "LibScout-Profiles/profiles")
-OUTPUT_PATH = os.path.join(BASE_DIR, "../extract_final_dataset_from_json/alerts_with_category.csv")
+OUTPUT_PATH = os.path.join(BASE_DIR, "../extract_final_dataset_from_json/alerts_with_category_cryptoguard_2.csv")
 
 
 def normalize_pkg(s: str) -> str:
@@ -72,7 +72,7 @@ def build_lib_category_map():
         if not os.path.isdir(cat_path):
             continue
        
-       for f in os.listdir(cat_path):
+        for f in os.listdir(cat_path):
             if not f.endswith(".libv"):
                 continue
             base = f.split("_")[0].lower()
