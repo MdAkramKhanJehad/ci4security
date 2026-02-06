@@ -42,6 +42,12 @@ We have the following files containing our manually labelled alert data:
 These datasets can then be used as an input in our causal analysis in `causal_analysis_cryptoguard` and `causal_analysis_cognicrypt` folders respectively.
 
 Then we can run the following files for causal analysis of CryptoGuard:
-- Run 
+- Run `causal_analysis_cryptoguard/causal_analysis_binary_treatment.ipynb` for EQ1 of CryptoGuard
+- Then run the `causal_analysis_cryptoguard/causal_analysis_libraries.ipynb` for EQ2 of CryptoGuard.
+
+In the same way, we can run the following files for causal analysis of CogniCrypt:
+- Run `causal_analysis_cognicrypt/causal_analysis_binary_treatment.ipynb` for EQ1 of CogniCrypt
+-  Then run the `causal_analysis_cognicrypt/causal_analysis_libraries.ipynb` for EQ2 of CogniCrypt
+
 
 
