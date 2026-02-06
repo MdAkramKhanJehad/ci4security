@@ -52,5 +52,5 @@ In the same way, we can run the following files for causal analysis of CogniCryp
 - Run `causal_analysis_cognicrypt/causal_analysis_binary_treatment.ipynb` for EQ1 of CogniCrypt<br>
 -  Then run the `causal_analysis_cognicrypt/causal_analysis_libraries.ipynb` for EQ2 of CogniCrypt<br>
 
-
+The folder `Assumptions` containing the list of our assumptions along with the other data.
 
