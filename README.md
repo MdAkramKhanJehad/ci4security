@@ -29,7 +29,7 @@ Then to decompile the APK files, first you need to install the Jadx in the machi
 
 ### Dataset Creation
 For example, to create alert dataset from the validated alerts:
-- After validating 
+- After validating te alerts manually
 - First run the `extract_final_dataset_from_json/extract_alert_data_cognicrypt.py` file to get the alert related data
 - then get the apk_size etc. metadata about the apk from the `input_files/dataset_apk_metadata.json`
 - then run the **** file to match and classify the alerts based on their code location
