@@ -35,6 +35,9 @@ Step 1 -  First run the `extract_final_dataset_from_json/extract_alert_data_cogn
 Step 2 - To identify the alert provenance, we used LibScout 3rd-party library dataset, as it is popular and widely used. Run the `library_classification/alert_classification.py` to get the alert provenance from the Libscout library dataset. use the outfile file of Step 1 as an input here.
 Step 3 -  Then,  get the apk_size and metadata about the APK from the `input_files/dataset_apk_metadata.json`, run the script `extract_final_dataset_from_json/get_apk_size_for_alerts.py`. Use the output file of Step 2 as an input here. The output of this step is the final dataset for the CogniCrypt.
 
+That means, keep all the metadata from AndroZoo in the `input_files/` folder.
+<br>
+
 We have the following files containing our manually labelled alert data:
 - CryptoGuard Dataset: `causal_analysis_cryptoguard/alerts_with_category_and_apk_size_updated_cryptoguard.csv`
 - CogniCrypt Dataset: `causal_analysis_cognicrypt/alerts_with_category_with_apk_size_updated.csv`
