@@ -30,9 +30,18 @@ Then to decompile the APK files, first you need to install the Jadx in the machi
 **Next step:** If we want to downlod more APKs, then we have make sure that we are downloading those APK, which are not already available.
 
 ### Dataset Creation
-For example, to create alert dataset from the validated alerts:
-- After validating te alerts manually
-- First run the `extract_final_dataset_from_json/extract_alert_data_cognicrypt.py` file to get the alert related data
-- then get the apk_size etc. metadata about the apk from the `input_files/dataset_apk_metadata.json`
-- then run the **** file to match and classify the alerts based on their code location
+For example, to create alert dataset from the validated alerts of `CogniCrypt`:
+Step 1 -  First run the `extract_final_dataset_from_json/extract_alert_data_cognicrypt.py` file to get the alert dataset
+Step 2 - To identify the alert provenance, we used LibScout 3rd-party library dataset, as it is popular and widely used. Run the `library_classification/alert_classification.py` to get the alert provenance from the Libscout library dataset. use the outfile file of Step 1 as an input here.
+Step 3 -  Then,  get the apk_size and metadata about the APK from the `input_files/dataset_apk_metadata.json`, run the script `extract_final_dataset_from_json/get_apk_size_for_alerts.py`. Use the output file of Step 2 as an input here. The output of this step is the final dataset for the CogniCrypt.
+
+We have the following files containing our manually labelled alert data:
+- CryptoGuard Dataset: `causal_analysis_cryptoguard/alerts_with_category_and_apk_size_updated_cryptoguard.csv`
+- CogniCrypt Dataset: `causal_analysis_cognicrypt/alerts_with_category_with_apk_size_updated.csv`
+
+These datasets can then be used as an input in our causal analysis in `causal_analysis_cryptoguard` and `causal_analysis_cognicrypt` folders respectively.
+
+Then we can run the following files for causal analysis of CryptoGuard:
+- Run 
+
 
