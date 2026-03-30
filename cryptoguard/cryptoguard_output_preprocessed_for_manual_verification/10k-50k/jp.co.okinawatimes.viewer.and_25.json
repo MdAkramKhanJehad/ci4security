@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "w0/a.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/CBC/PKCS5Padding\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "w0/a.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES/CBC/PKCS5Padding\"",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "w0/a.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "w0/a.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "f4/g.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "p2/b.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "s2/s.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "q2/c.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "k3/c.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/Cache$Companion.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"https://viewerpro.okinawatimes.co.jp/epaper/Setting.jd\"",

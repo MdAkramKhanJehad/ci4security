@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/i.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzfx.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/MainActivity$x0.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/b0.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/iid/r.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/iid/InstanceID.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzfx.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/j.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "d/d/a/a/a/c/c.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/DeliveryActivity$d.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/MainActivity$d1.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/PushHistoryActivity$g.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/MainActivity$v0.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/MainActivity$q0.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/MainActivity$d1.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/PushHistoryActivity.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/PushHistoryActivity$j.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/MainActivity$s0.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/GCMIntentService.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/powerfolder/BookMarkActivity.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/b0.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/v.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -463,7 +463,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/t.java",
       "_Id": "40",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -474,7 +474,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/w.java",
       "_Id": "41",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/MainActivity$q0.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -496,7 +496,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/q.java",
       "_Id": "43",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"power!make141212@!*powerapp^make\"",
@@ -507,7 +507,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/p.java",
       "_Id": "44",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -540,7 +540,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/b0.java",
       "_Id": "47",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -584,7 +584,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/MainActivity.java",
       "_Id": "51",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -595,7 +595,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "52",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -606,7 +606,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "53",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -617,7 +617,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "54",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -628,7 +628,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "55",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -639,7 +639,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "56",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -650,7 +650,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "57",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -661,7 +661,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "58",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -672,7 +672,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "59",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -683,7 +683,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "60",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -694,7 +694,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "61",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -705,7 +705,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "62",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -716,7 +716,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "63",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -727,7 +727,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "64",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -738,7 +738,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "65",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -749,7 +749,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "66",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/a.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.shehj.com/\"",
@@ -771,7 +771,7 @@
       "Severity": "1",
       "_FullPath": "com/byappsc/shehj/util/f.java",
       "_Id": "68",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

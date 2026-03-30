@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/internal/m.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "j$/util/concurrent/ThreadLocalRandom.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/v.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/internal/t.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/cometchat/pro/core/CometChatUtils.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "com/bumptech/glide/load/resource/gif/f.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/h/e.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/p.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/perf/internal/k.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/za.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "j$/util/concurrent/ThreadLocalRandom.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "n/f.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/h/j/n.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/internal/c1/b.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "com/moengage/core/j/l0/g.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "com/cometchat/pro/core/CometChatUtils.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "h/f/a/e/f/e.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/internal/w0.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "n/f.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -408,7 +408,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/e1/n0/l.java",
       "_Id": "35",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -419,7 +419,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/internal/w0.java",
       "_Id": "36",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/messaging/k0.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/inappmessaging/j0/q3/b/v.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -452,7 +452,7 @@
       "Severity": "1",
       "_FullPath": "com/moengage/core/j/l0/l.java",
       "_Id": "39",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -463,7 +463,7 @@
       "Severity": "1",
       "_FullPath": "h/f/a/f/d.java",
       "_Id": "40",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -474,7 +474,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/e1/s$a.java",
       "_Id": "41",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/iid/k.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -496,7 +496,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/za.java",
       "_Id": "43",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -507,7 +507,7 @@
       "Severity": "1",
       "_FullPath": "h/f/a/e/f/b.java",
       "_Id": "44",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -518,7 +518,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/a.java",
       "_Id": "45",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -529,7 +529,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/r/b.java",
       "_Id": "46",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"rL7IU0qUbvF2qS4xY6pESusWHrOoYUem8ev40E1bH8DH6HeDfocN8YhEJpsDhm0n\"",
@@ -540,7 +540,7 @@
       "Severity": "1",
       "_FullPath": "controllers/marham/marhammed/utils/u.java",
       "_Id": "47",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

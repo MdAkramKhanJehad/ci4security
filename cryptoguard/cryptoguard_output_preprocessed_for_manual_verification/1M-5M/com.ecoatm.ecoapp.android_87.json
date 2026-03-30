@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/internal/d.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/f.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzoo.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/remoteconfig/internal/a.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzgu.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "b9/a.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/libraries/places/internal/zzfu.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "ec/g.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "oh/d.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "m3/e.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "m3/e.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "z9/b9.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "ad/b.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzfu.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzof.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"true\"",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzjx.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "object Object Found value \"[object Object]\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzjx.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzjx.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"object Object\"",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzjx.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"0\"",
@@ -408,7 +408,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzew.java",
       "_Id": "35",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

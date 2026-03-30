@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzea.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzlh.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzal.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/material/color/utilities/QuantizerWsmeans.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/analytics/Tracker.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzee.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "org/kobjects/crypt/Crypt.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzet.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/Utils.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of UNKNOWN",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/tagmanager/zzby.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/local/IidStore.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/am.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzlh.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzfu.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/iid/zzan.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-32\"",
@@ -2520,7 +2520,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/MainActivity.java",
       "_Id": "227",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ComprobarST\"",
@@ -2531,7 +2531,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "228",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerTitulos\"",
@@ -2542,7 +2542,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "229",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/CheckLNSB\"",
@@ -2553,7 +2553,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "230",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http:\"",
@@ -2564,7 +2564,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/Request$Builder.java",
       "_Id": "231",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://appmovil.urbanosdezaragoza.es/server_pruebas.php\"",
@@ -2586,7 +2586,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "233",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/publi\"",
@@ -2597,7 +2597,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "234",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/CheckLGSBTranser_v2\"",
@@ -2608,7 +2608,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "235",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/SubirMapaC\"",
@@ -2619,7 +2619,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "236",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/EnviarResultadoGrabacion\"",
@@ -2630,7 +2630,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "237",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/PubliURL\"",
@@ -2641,7 +2641,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "238",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerOfertaTitulos\"",
@@ -2652,7 +2652,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "239",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerRecargas\"",
@@ -2663,7 +2663,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "240",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/AnularPagoE\"",
@@ -2674,7 +2674,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "241",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerDatosTPVE\"",
@@ -2685,7 +2685,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "242",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/avanza/comprobarRegistroCU.php\"",
@@ -2696,7 +2696,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "243",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/SolicitarEmail\"",
@@ -2707,7 +2707,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "244",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/push/register.php\"",
@@ -2718,7 +2718,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "245",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/SubirInfo.php\"",
@@ -2729,7 +2729,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "246",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/OC_v3\"",
@@ -2740,7 +2740,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/MainActivity.java",
       "_Id": "247",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/EnviarSMSRetriever\"",
@@ -2751,7 +2751,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "248",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerPerfiles\"",
@@ -2762,7 +2762,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "249",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.google-analytics.com\"",
@@ -2773,7 +2773,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/gtm/zzew.java",
       "_Id": "250",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ObtenerDatosGen\"",
@@ -2784,7 +2784,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "251",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/SubirMapaR\"",
@@ -2795,7 +2795,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "252",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/PagoSimulacion\"",
@@ -2806,7 +2806,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "253",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/EnviarResultadoSMS\"",
@@ -2817,7 +2817,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "254",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/EnviarInfoLista\"",
@@ -2828,7 +2828,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "255",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://www.transermobile.com/AvanzaRE/servlet/ComprobarPagoES_v4\"",
@@ -2839,7 +2839,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/MainActivity.java",
       "_Id": "256",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://appmovil.urbanosdezaragoza.es/server_pruebas.php\"",
@@ -2861,7 +2861,7 @@
       "Severity": "1",
       "_FullPath": "com/transermobile/avanza_lib/b.java",
       "_Id": "258",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

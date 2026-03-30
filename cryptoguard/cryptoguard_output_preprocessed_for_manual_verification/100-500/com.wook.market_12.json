@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/sdk/encrypt/b.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nPolynomialElement.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/ec/ECFieldElement$Fp.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/sdk/tid/b.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/raw/Mod.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzjs.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/sdk/util/n.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2Polynomial.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/sdk/data/c.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzz.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/asn1/ua/DSTU4145PointEncoder.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/ec/ECCurve$AbstractF2m.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "androidx/profileinstaller/ProfileInstallerInitializer.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/common/a.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nONBField.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/a/a.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should at least get One accepted Issuer from Other Sources in getAcceptedIssuers method of RNFetchBlob.RNFetchBlobUtils",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/iid/InstanceID.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/zzs.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/common/util/SecureHashUtil.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzjs.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -408,7 +408,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink.java",
       "_Id": "35",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -419,7 +419,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "36",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "soloader/SoLoader.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "com/RNFetchBlob/RNFetchBlobUtils.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -452,7 +452,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/sdk/util/n.java",
       "_Id": "39",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"md5\"",
@@ -463,7 +463,7 @@
       "Severity": "1",
       "_FullPath": "com/RNFetchBlob/RNFetchBlobFS.java",
       "_Id": "40",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -474,7 +474,7 @@
       "Severity": "1",
       "_FullPath": "com/RNFetchBlob/RNFetchBlobFS.java",
       "_Id": "41",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/common/util/SecureHashUtil.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -496,7 +496,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
       "_Id": "43",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -507,7 +507,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "44",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -518,7 +518,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/common/util/SecureHashUtil.java",
       "_Id": "45",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -529,7 +529,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource.java",
       "_Id": "46",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"sha1\"",
@@ -540,7 +540,7 @@
       "Severity": "1",
       "_FullPath": "com/RNFetchBlob/RNFetchBlobFS.java",
       "_Id": "47",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "com/RNFetchBlob/RNFetchBlobFS.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -562,7 +562,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/common/util/SecureHashUtil.java",
       "_Id": "49",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -573,7 +573,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/iid/zzan.java",
       "_Id": "50",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-104\"",
@@ -661,7 +661,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/AESGCMKW.java",
       "_Id": "58",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"key_wxcasxx_v4\"",
@@ -749,7 +749,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PBKDF2.java",
       "_Id": "66",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HMACSHA384\"",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSHA512\"",
@@ -771,7 +771,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "68",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"key_deviceid_v4\"",
@@ -903,7 +903,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/ContentCryptoProvider.java",
       "_Id": "80",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"000000000000000\"",
@@ -947,7 +947,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "84",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"53\"",
@@ -980,7 +980,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "87",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-93\"",
@@ -1024,7 +1024,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "91",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"device_feature_file_name\"",
@@ -1222,7 +1222,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "109",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-78\"",
@@ -1244,7 +1244,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "111",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"101\"",
@@ -1288,7 +1288,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA1_5.java",
       "_Id": "115",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-84\"",
@@ -1409,7 +1409,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "126",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-103\"",
@@ -1486,7 +1486,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "133",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"-17\"",
@@ -1508,7 +1508,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "135",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HMACSHA512\"",
@@ -1519,7 +1519,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "136",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"unknow\"",
@@ -1596,7 +1596,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA_OAEP.java",
       "_Id": "143",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1607,7 +1607,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/LegacyConcatKDF.java",
       "_Id": "144",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"116\"",
@@ -1651,7 +1651,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA_OAEP_256.java",
       "_Id": "148",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"11\"",
@@ -1728,7 +1728,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "155",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"80\"",
@@ -2278,7 +2278,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/crypto/examples/DESExample.java",
       "_Id": "205",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://%s/%s\"",
@@ -2289,7 +2289,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/DevServerHelper.java",
       "_Id": "206",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://%s/status\"",
@@ -2300,7 +2300,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/DevServerHelper.java",
       "_Id": "207",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://%s/open-stack-frame\"",
@@ -2311,7 +2311,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/DevServerHelper.java",
       "_Id": "208",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://%s/launch-js-devtools\"",
@@ -2322,7 +2322,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/DevServerHelper.java",
       "_Id": "209",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://%s/symbolicate\"",
@@ -2333,7 +2333,7 @@
       "Severity": "1",
       "_FullPath": "com/facebook/react/devsupport/DevServerHelper.java",
       "_Id": "210",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

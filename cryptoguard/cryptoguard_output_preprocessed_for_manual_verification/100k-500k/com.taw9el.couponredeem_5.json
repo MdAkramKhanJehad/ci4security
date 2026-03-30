@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/material/color/utilities/QuantizerWsmeans.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "com/scottyab/aescrypt/AESCrypt.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http:\"",
@@ -408,7 +408,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/Request$Builder.java",
       "_Id": "35",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

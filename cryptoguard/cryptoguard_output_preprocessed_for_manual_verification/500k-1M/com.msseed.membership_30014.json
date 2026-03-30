@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/f.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "j$/util/concurrent/ThreadLocalRandom.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "p5/b.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "s5/r.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "q5/c.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "androidx/appcompat/widget/j.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DESede/CBC/PKCS5Padding\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "androidx/appcompat/widget/j.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "co/lujun/androidtagview/TagContainerLayout.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/caftrade/app/rabbitmq/PKGenerator.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/common/a.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/a/a.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Didn't manually verify hostname in run",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "wc/c.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "wl/c.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "com/android/billingclient/api/q.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "yc/o.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "vc/b.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "m2/g.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "i3/a.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "df/r.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "jm/d.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "an/b.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"85\"",
@@ -1178,7 +1178,7 @@
       "Severity": "1",
       "_FullPath": "com/alipay/apmobilesecuritysdk/e/a.java",
       "_Id": "105",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"alipay_cashier_statistic_v\"",

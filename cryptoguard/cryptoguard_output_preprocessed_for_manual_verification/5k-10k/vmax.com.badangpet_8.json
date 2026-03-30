@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/bumptech/glide/load/q/h/g.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "org/kobjects/crypt/Crypt.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "k/h.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

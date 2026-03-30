@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/b.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"DES\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/b.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"PBEWithMD5AndDES\"",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"Blowfish\"",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$c.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"Blowfish\"",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$c.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"Blowfish\"",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$c.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"PBEWithMD5AndDES\"",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"PBEWithMD5AndDES\"",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"Blowfish\"",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$c.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"AES\"",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/b.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"PBEWithMD5AndDES\"",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/file/e.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/core/utils/r.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/net/http/d.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/core/utils/u.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/core/context/WDContexte.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"public static voidprotected final voidprivate static Stringtype instanceof classpublic static void main12481632641282565121024204840968192163843276865536131072\"",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"86\"",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"50\"",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-87\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"53\"",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-56\"",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-29\"",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-101\"",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"19\"",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"19\"",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"19\"",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"19\"",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"19\"",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"19\"",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"19\"",
@@ -408,7 +408,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "35",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"19\"",
@@ -419,7 +419,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/crypto/c$d.java",
       "_Id": "36",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://gdata.youtube.com/feeds/api/videos/\"",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "fr/pcsoft/wdjava/ui/champs/multimedia/WDChampMultimedia.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://\"",

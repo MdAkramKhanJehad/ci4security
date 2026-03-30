@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/cache/Striped64.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Hashing$Sha1Holder.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Hashing$Md5Holder.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "rp0.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/a.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "s32.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/remote/c.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/CertificatePinner.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/crashlytics/internal/common/CommonUtils.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "rp0.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "sh2.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "gb0.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "k31.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0\"",
@@ -903,7 +903,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/tls/internal/TlsUtil.java",
       "_Id": "80",
-      "verificationStatus": ""
+      "verificationStatus": false
     }
   ],
   "_SchemaVersion": 3,

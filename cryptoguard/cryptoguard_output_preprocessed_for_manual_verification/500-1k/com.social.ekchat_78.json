@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "com/social/ekchat/util/AppGlobal.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/RandomUtils.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/appcheck/internal/RetryManager.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/firebase-auth-api/zzfi.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2Polynomial.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/upstream/cache/SimpleCache.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/google/crypto/tink/integration/android/AndroidKeystoreAesGcm.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/asn1/ua/DSTU4145PointEncoder.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/ec/ECCurve$AbstractF2m.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/upstream/cache/CachedContentIndex$LegacyStorage.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/Utils.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nONBField.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -342,7 +342,7 @@
       "Severity": "1",
       "_FullPath": "com/social/ekchat/view/fragment/ExplorerFragment.java",
       "_Id": "29",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/pqc/math/linearalgebra/GF2nPolynomialElement.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/ec/ECFieldElement$Fp.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "org/greenrobot/greendao/test/DbTest.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -408,7 +408,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/math/raw/Mod.java",
       "_Id": "35",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -419,7 +419,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/shadow/okhttp3/OkHttpClient.java",
       "_Id": "36",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection$Factory.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "com/social/ekchat/view/fragment/ExplorerSearchFragment.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -452,7 +452,7 @@
       "Severity": "1",
       "_FullPath": "org/jsoup/helper/DataUtil.java",
       "_Id": "39",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -463,7 +463,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/trackselection/RandomTrackSelection.java",
       "_Id": "40",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -474,7 +474,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/RandomStringUtils.java",
       "_Id": "41",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "com/bumptech/glide/load/resource/gif/GifFrameLoader.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -496,7 +496,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
       "_Id": "43",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -507,7 +507,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/ArrayUtils.java",
       "_Id": "44",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -518,7 +518,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/exoplayer2/source/ShuffleOrder$DefaultShuffleOrder.java",
       "_Id": "45",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -529,7 +529,7 @@
       "Severity": "1",
       "_FullPath": "androidx/profileinstaller/ProfileInstallerInitializer.java",
       "_Id": "46",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"MD5\"",
@@ -540,7 +540,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink.java",
       "_Id": "47",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/libraries/places/internal/zzhd.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -562,7 +562,7 @@
       "Severity": "1",
       "_FullPath": "org/conscrypt/NativeCrypto.java",
       "_Id": "49",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -573,7 +573,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "50",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -584,7 +584,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
       "_Id": "51",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -595,7 +595,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource.java",
       "_Id": "52",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -606,7 +606,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/local/IidStore.java",
       "_Id": "53",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -617,7 +617,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink.java",
       "_Id": "54",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -628,7 +628,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/shadow/okio/HashingSource.java",
       "_Id": "55",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -639,7 +639,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "56",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -650,7 +650,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/shadow/okio/ByteString.java",
       "_Id": "57",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -661,7 +661,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/messaging/GmsRpc.java",
       "_Id": "58",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -672,7 +672,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/shadow/okio/Buffer.java",
       "_Id": "59",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -683,7 +683,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "60",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -694,7 +694,7 @@
       "Severity": "1",
       "_FullPath": "org/conscrypt/NativeCrypto.java",
       "_Id": "61",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -705,7 +705,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/shadow/okio/HashingSink.java",
       "_Id": "62",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -716,7 +716,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource.java",
       "_Id": "63",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -727,7 +727,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "64",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -738,7 +738,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/shadow/okio/ByteString.java",
       "_Id": "65",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -749,7 +749,7 @@
       "Severity": "1",
       "_FullPath": "com/social/ekchat/sendbird/utils/TextUtils.java",
       "_Id": "66",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/shadow/okio/Buffer.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -771,7 +771,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/shadow/okio/HashingSource.java",
       "_Id": "68",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -782,7 +782,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/shadow/okio/HashingSink.java",
       "_Id": "69",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -793,7 +793,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PBKDF2.java",
       "_Id": "70",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -804,7 +804,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/ECDH.java",
       "_Id": "71",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -815,7 +815,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA1_5.java",
       "_Id": "72",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"16\"",
@@ -826,7 +826,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "73",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HMACSHA384\"",
@@ -837,7 +837,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "74",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSHA512\"",
@@ -848,7 +848,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "75",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -859,7 +859,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA_OAEP.java",
       "_Id": "76",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -870,7 +870,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "77",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"24\"",
@@ -881,7 +881,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "78",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -892,7 +892,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/LegacyConcatKDF.java",
       "_Id": "79",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -903,7 +903,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "80",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -914,7 +914,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/AESGCMKW.java",
       "_Id": "81",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HMACSHA256\"",
@@ -925,7 +925,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "82",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"32\"",
@@ -936,7 +936,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "83",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -947,7 +947,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "84",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSHA256\"",
@@ -958,7 +958,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "85",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -969,7 +969,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/ContentCryptoProvider.java",
       "_Id": "86",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HMACSHA512\"",
@@ -980,7 +980,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/CompositeKey.java",
       "_Id": "87",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -991,7 +991,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/RSA_OAEP_SHA2.java",
       "_Id": "88",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSha256\"",
@@ -1002,7 +1002,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/firebase-auth-api/zzew.java",
       "_Id": "89",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSha256\"",
@@ -1013,7 +1013,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/firebase-auth-api/zzew.java",
       "_Id": "90",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"HmacSHA384\"",
@@ -1024,7 +1024,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/PRFParams.java",
       "_Id": "91",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"AES\"",
@@ -1035,7 +1035,7 @@
       "Severity": "1",
       "_FullPath": "com/nimbusds/jose/crypto/impl/ECDH.java",
       "_Id": "92",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"0\"",
@@ -1046,7 +1046,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "93",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1057,7 +1057,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "94",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1068,7 +1068,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "95",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1079,7 +1079,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "96",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1090,7 +1090,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "97",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1101,7 +1101,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "98",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1112,7 +1112,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "99",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1123,7 +1123,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "100",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1134,7 +1134,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "101",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1145,7 +1145,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "102",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1156,7 +1156,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "103",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1167,7 +1167,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "104",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1178,7 +1178,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "105",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1189,7 +1189,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "106",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1200,7 +1200,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "107",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"0\"",
@@ -1211,7 +1211,7 @@
       "Severity": "1",
       "_FullPath": "com/sendbird/android/AES256Chiper.java",
       "_Id": "108",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"2\"",
@@ -1464,7 +1464,7 @@
       "Severity": "1",
       "_FullPath": "org/bouncycastle/crypto/examples/DESExample.java",
       "_Id": "131",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"jks\"",
@@ -1486,7 +1486,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "133",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1497,7 +1497,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "134",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1508,7 +1508,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "135",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"http://worldclockapi.com/api/json/\"",
@@ -1519,7 +1519,7 @@
       "Severity": "1",
       "_FullPath": "com/social/ekchat/retrofit/RetrofitRequest.java",
       "_Id": "136",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://localhost/\"",
@@ -1530,7 +1530,7 @@
       "Severity": "1",
       "_FullPath": "retrofit2/Response.java",
       "_Id": "137",
-      "verificationStatus": ""
+      "verificationStatus": false
     }
   ],
   "_SchemaVersion": 3,

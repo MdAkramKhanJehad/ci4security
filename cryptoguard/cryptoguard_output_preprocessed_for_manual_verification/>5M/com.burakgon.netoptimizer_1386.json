@@ -419,7 +419,7 @@
       "Severity": "1",
       "_FullPath": "com/applovin/impl/sdk/utils/t.java",
       "_Id": "36",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -584,7 +584,7 @@
       "Severity": "1",
       "_FullPath": "com/applovin/impl/b/m.java",
       "_Id": "51",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -771,7 +771,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/auth-api/zbbb.java",
       "_Id": "68",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -1145,7 +1145,7 @@
       "Severity": "1",
       "_FullPath": "com/unity3d/ads/core/data/datasource/AndroidStaticDeviceInfoDataSource.java",
       "_Id": "102",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -1783,7 +1783,7 @@
       "Severity": "1",
       "_FullPath": "com/applovin/impl/sdk/t.java",
       "_Id": "160",
-      "verificationStatus": ""
+      "verificationStatus": false
     }
   ],
   "_SchemaVersion": 3,

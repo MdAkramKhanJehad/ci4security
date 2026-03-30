@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "androidx/profileinstaller/ProfileInstallerInitializer.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/RandomUtils.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "org/apache/commons/lang3/RandomStringUtils.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "j$/util/concurrent/ThreadLocalRandom.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/microsoft/appcenter/http/HttpClientRetryer.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/remote/RequestLimiter.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Should throw java.security.cert.CertificateException in check(Client|Server)Trusted method of UNKNOWN",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/internal/ws/RealWebSocket.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/local/IidStore.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/remote/FirebaseInstallationServiceClient.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/Utils.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/Cache$Companion.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "com/airbnb/lottie/network/NetworkCache.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/CertificatePinner$Companion.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "b/a/a/k.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/messaging/GmsRpc.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "io/sentry/SentryOptions.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/internal/ws/WebSocketProtocol.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"-82\"",
@@ -1035,7 +1035,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "92",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"115\"",
@@ -1046,7 +1046,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "93",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"115\"",
@@ -1057,7 +1057,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "94",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"114\"",
@@ -1068,7 +1068,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "95",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"107\"",
@@ -1079,7 +1079,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "96",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"28\"",
@@ -1090,7 +1090,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "97",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"33\"",
@@ -1101,7 +1101,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "98",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"62\"",
@@ -1112,7 +1112,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "99",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-116\"",
@@ -1123,7 +1123,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "100",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-75\"",
@@ -1134,7 +1134,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "101",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-75\"",
@@ -1145,7 +1145,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "102",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"35\"",
@@ -1156,7 +1156,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "103",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"107\"",
@@ -1167,7 +1167,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "104",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-116\"",
@@ -1178,7 +1178,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "105",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"30\"",
@@ -1189,7 +1189,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "106",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"114\"",
@@ -1200,7 +1200,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "107",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-41\"",
@@ -1211,7 +1211,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "108",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"62\"",
@@ -1222,7 +1222,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "109",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"30\"",
@@ -1233,7 +1233,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "110",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-41\"",
@@ -1244,7 +1244,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "111",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"123\"",
@@ -1255,7 +1255,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "112",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"33\"",
@@ -1266,7 +1266,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "113",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"123\"",
@@ -1277,7 +1277,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "114",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"119\"",
@@ -1288,7 +1288,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "115",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"40\"",
@@ -1299,7 +1299,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "116",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"119\"",
@@ -1310,7 +1310,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "117",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"35\"",
@@ -1321,7 +1321,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "118",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"29\"",
@@ -1332,7 +1332,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "119",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"40\"",
@@ -1343,7 +1343,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "120",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-26\"",
@@ -1354,7 +1354,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "121",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"-26\"",
@@ -1365,7 +1365,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherJellyBeanMR2.java",
       "_Id": "122",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"28\"",
@@ -1376,7 +1376,7 @@
       "Severity": "1",
       "_FullPath": "io/snabble/sdk/utils/security/KeyStoreCipherMarshmallow.java",
       "_Id": "123",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"password\"",

@@ -23,7 +23,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/okhttp/OkHttpServerTransport.java",
       "_Id": "0",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -34,7 +34,7 @@
       "Severity": "1",
       "_FullPath": "androidx/transition/Explode.java",
       "_Id": "1",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/ExponentialBackoffPolicy.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -56,7 +56,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/firestore/util/ExponentialBackoff.java",
       "_Id": "3",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -67,7 +67,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/RoundRobinLoadBalancer.java",
       "_Id": "4",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -78,7 +78,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Striped64.java",
       "_Id": "5",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/internal/client/zzay.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -100,7 +100,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/FallbackThreadLocalRandom$implStorage$1.java",
       "_Id": "7",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -111,7 +111,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzlp.java",
       "_Id": "8",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzbsw.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/OkHttpClient.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzvi.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "kotlin/random/KotlinRandom.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzfgb.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/firebase-auth-api/zzmk.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/ads/identifier/AdvertisingIdClient.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/OutlierDetectionLoadBalancer$FailurePercentageOutlierEjectionAlgorithm.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -221,7 +221,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/RetriableStream.java",
       "_Id": "18",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -232,7 +232,7 @@
       "Severity": "1",
       "_FullPath": "com/microsoft/appcenter/http/HttpClientRetryer.java",
       "_Id": "19",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -243,7 +243,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzvi.java",
       "_Id": "20",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -254,7 +254,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/firebase-auth-api/zzml.java",
       "_Id": "21",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -265,7 +265,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzaqn.java",
       "_Id": "22",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -276,7 +276,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzvi.java",
       "_Id": "23",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -287,7 +287,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzef.java",
       "_Id": "24",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -298,7 +298,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/cache/Striped64.java",
       "_Id": "25",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -309,7 +309,7 @@
       "Severity": "1",
       "_FullPath": "com/bumptech/glide/load/resource/gif/GifFrameLoader.java",
       "_Id": "26",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -320,7 +320,7 @@
       "Severity": "1",
       "_FullPath": "androidx/activity/result/ActivityResultRegistry.java",
       "_Id": "27",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -331,7 +331,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/okhttp/OkHttpClientTransport.java",
       "_Id": "28",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -353,7 +353,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzvi.java",
       "_Id": "30",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -364,7 +364,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/Utils.java",
       "_Id": "31",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -375,7 +375,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/util/OutlierDetectionLoadBalancer$SuccessRateOutlierEjectionAlgorithm.java",
       "_Id": "32",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -386,7 +386,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zznw.java",
       "_Id": "33",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -397,7 +397,7 @@
       "Severity": "1",
       "_FullPath": "io/grpc/internal/DnsNameResolver.java",
       "_Id": "34",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -408,7 +408,7 @@
       "Severity": "1",
       "_FullPath": "com/blankj/utilcode/util/ColorUtils.java",
       "_Id": "35",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Cause: Fixed \"[1]\"",
@@ -430,7 +430,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/datatype/up/UpYunUtils.java",
       "_Id": "37",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -441,7 +441,7 @@
       "Severity": "1",
       "_FullPath": "com/blankj/utilcode/util/AppUtils.java",
       "_Id": "38",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -452,7 +452,7 @@
       "Severity": "1",
       "_FullPath": "com/blankj/utilcode/util/FileUtils.java",
       "_Id": "39",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -463,7 +463,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzapg.java",
       "_Id": "40",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -474,7 +474,7 @@
       "Severity": "1",
       "_FullPath": "com/airbnb/lottie/network/NetworkCache.java",
       "_Id": "41",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -485,7 +485,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/installations/local/IidStore.java",
       "_Id": "42",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -496,7 +496,7 @@
       "Severity": "1",
       "_FullPath": "com/blankj/utilcode/util/EncryptUtils.java",
       "_Id": "43",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -507,7 +507,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
       "_Id": "44",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -518,7 +518,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
       "_Id": "45",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -529,7 +529,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/util/AppUtils.java",
       "_Id": "46",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -540,7 +540,7 @@
       "Severity": "1",
       "_FullPath": "com/just/agentweb/AgentWebUtils.java",
       "_Id": "47",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -551,7 +551,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSink$Companion.java",
       "_Id": "48",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA\"",
@@ -562,7 +562,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/encry/digest/DigestUtils.java",
       "_Id": "49",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -573,7 +573,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/realtime/Client.java",
       "_Id": "50",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -584,7 +584,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/util/EncryptUtils.java",
       "_Id": "51",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -595,7 +595,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/measurement/internal/zzlp.java",
       "_Id": "52",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -606,7 +606,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/util/AppUtils.java",
       "_Id": "53",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -617,7 +617,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/datatype/up/UpYunUtils.java",
       "_Id": "54",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -628,7 +628,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/http/RequestUtils.java",
       "_Id": "55",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -639,7 +639,7 @@
       "Severity": "1",
       "_FullPath": "com/blankj/utilcode/util/EncryptUtils.java",
       "_Id": "56",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -650,7 +650,7 @@
       "Severity": "1",
       "_FullPath": "com/blankj/utilcode/util/AppUtils.java",
       "_Id": "57",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -661,7 +661,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Hashing$Sha1Holder.java",
       "_Id": "58",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -672,7 +672,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "59",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -683,7 +683,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "60",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -694,7 +694,7 @@
       "Severity": "1",
       "_FullPath": "com/download/library/Runtime.java",
       "_Id": "61",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -705,7 +705,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzbzk.java",
       "_Id": "62",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -716,7 +716,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/consent_sdk/zzcn.java",
       "_Id": "63",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -727,7 +727,7 @@
       "Severity": "1",
       "_FullPath": "com/google/common/hash/Hashing$Md5Holder.java",
       "_Id": "64",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -738,7 +738,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/common/util/AndroidUtilsLight.java",
       "_Id": "65",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -749,7 +749,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/firestore/remote/BloomFilter.java",
       "_Id": "66",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -760,7 +760,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/util/EncryptMD5.java",
       "_Id": "67",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -771,7 +771,7 @@
       "Severity": "1",
       "_FullPath": "com/download/library/Runtime.java",
       "_Id": "68",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -782,7 +782,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/encry/digest/DigestUtils.java",
       "_Id": "69",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -793,7 +793,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/http/RequestUtils.java",
       "_Id": "70",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -804,7 +804,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/util/EncryptMD5.java",
       "_Id": "71",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -815,7 +815,7 @@
       "Severity": "1",
       "_FullPath": "okio/HashingSource$Companion.java",
       "_Id": "72",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -826,7 +826,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzbzk.java",
       "_Id": "73",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -837,7 +837,7 @@
       "Severity": "1",
       "_FullPath": "com/blankj/utilcode/util/EncryptUtils.java",
       "_Id": "74",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD2\"",
@@ -848,7 +848,7 @@
       "Severity": "1",
       "_FullPath": "com/blankj/utilcode/util/EncryptUtils.java",
       "_Id": "75",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA-1\"",
@@ -859,7 +859,7 @@
       "Severity": "1",
       "_FullPath": "okio/ByteString.java",
       "_Id": "76",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -870,7 +870,7 @@
       "Severity": "1",
       "_FullPath": "okio/Buffer.java",
       "_Id": "77",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -881,7 +881,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/util/EncryptMD5.java",
       "_Id": "78",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -892,7 +892,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/datatype/up/UpYunUtils.java",
       "_Id": "79",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -903,7 +903,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzavb.java",
       "_Id": "80",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -914,7 +914,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzbzk.java",
       "_Id": "81",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"c377221481e717db\"",
@@ -947,7 +947,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzart.java",
       "_Id": "84",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Constant \"1684864811298\"",
@@ -958,7 +958,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzart.java",
       "_Id": "85",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: \"c377221481e717db\"",
@@ -969,7 +969,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/util/EncryptUtils.java",
       "_Id": "86",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://io.codenow.cn:3010/socket.io/1/websocket/\"",
@@ -980,7 +980,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/realtime/Client.java",
       "_Id": "87",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://p0.api.upyun.com/pretreatment/\"",
@@ -1002,7 +1002,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/datatype/up/BlockUploader.java",
       "_Id": "89",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://\"",
@@ -1013,7 +1013,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/util/Utils.java",
       "_Id": "90",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http:\"",
@@ -1024,7 +1024,7 @@
       "Severity": "1",
       "_FullPath": "okhttp3/Request$Builder.java",
       "_Id": "91",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://v0.api.upyun.com/\"",
@@ -1035,7 +1035,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/datatype/up/FormUploader.java",
       "_Id": "92",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"http://io.codenow.cn:3010/socket.io/1/\"",
@@ -1046,7 +1046,7 @@
       "Severity": "1",
       "_FullPath": "cn/bmob/v3/realtime/Client.java",
       "_Id": "93",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,

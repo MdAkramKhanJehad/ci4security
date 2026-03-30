@@ -45,7 +45,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/measurement/zzee.java",
       "_Id": "2",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -89,7 +89,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzbxw.java",
       "_Id": "6",
-      "verificationStatus": ""
+      "verificationStatus": false
     },
     {
       "Message": "Found: Untrused PRNG (java.util.Random)",
@@ -122,7 +122,7 @@
       "Severity": "1",
       "_FullPath": "k2/c.java",
       "_Id": "9",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -133,7 +133,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzcdv.java",
       "_Id": "10",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -144,7 +144,7 @@
       "Severity": "1",
       "_FullPath": "E3/b.java",
       "_Id": "11",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -155,7 +155,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/consent_sdk/zzcm.java",
       "_Id": "12",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"SHA1\"",
@@ -166,7 +166,7 @@
       "Severity": "1",
       "_FullPath": "com/google/firebase/iid/FirebaseInstanceId.java",
       "_Id": "13",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -177,7 +177,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzcdv.java",
       "_Id": "14",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: \"MD5\"",
@@ -188,7 +188,7 @@
       "Severity": "1",
       "_FullPath": "com/google/android/gms/internal/ads/zzcdv.java",
       "_Id": "15",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"AWS4\"",
@@ -199,7 +199,7 @@
       "Severity": "1",
       "_FullPath": "com/rmtheis/price/comparison/AWSV4Auth.java",
       "_Id": "16",
-      "verificationStatus": ""
+      "verificationStatus": true
     },
     {
       "Message": "Found: Constant \"0123456789ABCDEF\"",
@@ -210,7 +210,7 @@
       "Severity": "1",
       "_FullPath": "com/rmtheis/price/comparison/AWSV4Auth.java",
       "_Id": "17",
-      "verificationStatus": ""
+      "verificationStatus": true
     }
   ],
   "_SchemaVersion": 3,
