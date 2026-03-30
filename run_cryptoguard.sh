@@ -41,15 +41,16 @@ while IFS= read -r apk; do
 
     if [ $? -ne 0 ] || echo "$output" | grep -qi "Exception" || echo "$output" | grep -qi "Error"; then
         echo "    -> FAILED"
-	echo "---- OUTPUT BEGIN ----"
-	echo "$output"
-	echo "---- OUTPUT END ----"
+        echo "---- OUTPUT BEGIN ----"
+        echo "$output"
+        echo "---- OUTPUT END ----"
 
         echo "$apk" >> "$FAILED_CSV"
         [ -f "$out_json" ] && rm "$out_json"
         failed=$((failed+1))
     else
         echo "    -> SUCCESS"
+        echo "$output"
         success=$((success+1))
     fi
 
