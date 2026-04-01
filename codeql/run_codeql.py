@@ -52,7 +52,7 @@ def process_apks():
         analyze_cmd = [
             "codeql", "database", "analyze", str(db_path),
             "codeql/java-queries:codeql-suites/java-security-extended.qls",
-            "githubsecuritylab/codeql-java-queries",
+            "codeql/java-queries:codeql-suites/java-security-experimental.qls",
             "--format=sarif-latest",
             f"--output={sarif_out}",
             "--sarif-add-snippets",
