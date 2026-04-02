@@ -54,6 +54,6 @@ if __name__ == "__main__":
     output = get_all_unique_queries_from_sarif()
     print(output)
     
-    with open("unique_queries.json", "w") as f:
+    with open("unique_queries_2.json", "w") as f:
         f.write(output)
-    print("Queries saved to unique_queries.json")
+    print("Queries saved to unique_queries_2.json")
