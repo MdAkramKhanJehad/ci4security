@@ -2,8 +2,8 @@ import os
 import subprocess
 from pathlib import Path
 
-DECOMPILED_ROOT = Path("../decompiled_files/500k-1M") 
-REPORT_DIR = Path("output/500k-1M")
+DECOMPILED_ROOT = Path("../decompiled_files/<100") 
+REPORT_DIR = Path("output/<100")
 DB_DIR_PART_1 = Path("db-codeql")
 DB_DIR_PART_2 = Path("../../../../spl/akram/ci4security/codeql/db-codeql")
 
@@ -55,18 +55,22 @@ def process_apks():
             if not run_command(create_cmd, f"Creating DB for {apk_name}"):
                 continue
 
-        analyze_cmd = [
-            "codeql", "database", "analyze", str(path_for_db),
-            "codeql/java-queries:codeql-suites/java-security-extended.qls",
-            "codeql/java-queries:codeql-suites/java-security-experimental.qls",
-            "--format=sarif-latest",
-            f"--output={sarif_out}",
-            "--sarif-add-snippets",
-            "--threads=0"
-        ]
+        # Check if SARIF output already exists
+        if sarif_out.exists():
+            print(f"SARIF output already exists at {sarif_out}. Skipping analysis.")
+        else:
+            analyze_cmd = [
+                "codeql", "database", "analyze", str(path_for_db),
+                "codeql/java-queries:codeql-suites/java-security-extended.qls",
+                "codeql/java-queries:codeql-suites/java-security-experimental.qls",
+                "--format=sarif-latest",
+                f"--output={sarif_out}",
+                "--sarif-add-snippets",
+                "--threads=0"
+            ]
 
-        if run_command(analyze_cmd, f"Analyzing {apk_name}"):
-            print(f"Successfully generated: {sarif_out}")
+            if run_command(analyze_cmd, f"Analyzing {apk_name}"):
+                print(f"Successfully generated: {sarif_out}")
 
         # print(f"[*] Cleaning up DB for {apk_name}...")
         # subprocess.run(f"rm -rf {db_path}", shell=True)
