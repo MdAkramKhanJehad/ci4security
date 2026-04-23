@@ -2,22 +2,28 @@ import os
 import subprocess
 from pathlib import Path
 
-DECOMPILED_ROOT = Path("../decompiled_files/<100") 
-REPORT_DIR = Path("output/<100")
+DECOMPILED_ROOT = Path("../decompiled_files/100k-500k") 
+REPORT_DIR = Path("output/100k-500k")
 DB_DIR_PART_1 = Path("db-codeql")
 DB_DIR_PART_2 = Path("../../../../spl/akram/ci4security/codeql/db-codeql")
+ANALYSIS_TIMEOUT_SECONDS = 3 * 60 * 60
 
 REPORT_DIR.mkdir(parents=True, exist_ok=True)
 DB_DIR_PART_2.mkdir(parents=True, exist_ok=True)
 
 
-def run_command(command, description):
+def run_command(command, description, timeout=None):
     print(f"{description}...")
-    result = subprocess.run(command, text=True, capture_output=True)
+    try:
+        result = subprocess.run(command, text=True, capture_output=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        print(f"Timed out during {description} after {timeout} seconds.")
+        return False, True, ""
+
     if result.returncode != 0:
         print(f"Error during {description}:\n{result.stderr}")
-        return False
-    return True
+        return False, False, result.stderr or ""
+    return True, False, result.stderr or ""
 
 
 def process_apks():
@@ -52,10 +58,13 @@ def process_apks():
                 "--overwrite"
             ]
             
-            if not run_command(create_cmd, f"Creating DB for {apk_name}"):
+            create_ok, _, _ = run_command(create_cmd, f"Creating DB for {apk_name}")
+            if not create_ok:
                 continue
 
-        # Check if SARIF output already exists
+            path_for_db = db_path_part_2
+
+
         if sarif_out.exists():
             print(f"SARIF output already exists at {sarif_out}. Skipping analysis.")
         else:
@@ -69,8 +78,38 @@ def process_apks():
                 "--threads=0"
             ]
 
-            if run_command(analyze_cmd, f"Analyzing {apk_name}"):
+            analyze_ok, timed_out, analyze_stderr = run_command(
+                analyze_cmd,
+                f"Analyzing {apk_name}",
+                timeout=ANALYSIS_TIMEOUT_SECONDS,
+            )
+
+            if analyze_ok:
                 print(f"Successfully generated: {sarif_out}")
+            elif "needs to be finalized" in analyze_stderr:
+                finalize_cmd = ["codeql", "database", "finalize", str(path_for_db)]
+                finalize_ok, _, _ = run_command(finalize_cmd, f"Finalizing DB for {apk_name}")
+
+                if not finalize_ok:
+                    print(f"Skipping to next APK after finalize failed: {apk_name}")
+                    continue
+
+                retry_ok, retry_timed_out, _ = run_command(
+                    analyze_cmd,
+                    f"Re-analyzing {apk_name} after finalize",
+                    timeout=ANALYSIS_TIMEOUT_SECONDS,
+                )
+
+                if retry_ok:
+                    print(f"Successfully generated: {sarif_out}")
+                elif retry_timed_out:
+                    print(f"Skipping to next APK after timed-out analysis: {apk_name}")
+                else:
+                    print(f"Skipping to next APK after failed analysis: {apk_name}")
+            elif timed_out:
+                print(f"Skipping to next APK after timed-out analysis: {apk_name}")
+            else:
+                print(f"Skipping to next APK after failed analysis: {apk_name}")
 
         # print(f"[*] Cleaning up DB for {apk_name}...")
         # subprocess.run(f"rm -rf {db_path}", shell=True)
