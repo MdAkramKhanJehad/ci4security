@@ -50,6 +50,7 @@ def load_rules(rules_file_path="codeql/codeql_crypto_api_misuse_related_rules.js
     with p.open('r', encoding='utf-8') as f:
         data = json.load(f)
     patterns = list(dict.fromkeys(re.findall(r'"([^\"]*/[^\"]*)"', json.dumps(data))))
+    print(f"Loaded {len(patterns)} unique rules from {rules_file_path}")
     return patterns
 
 
@@ -98,7 +99,7 @@ def print_summary(processed_count, error_count):
     print("="*60)
 
 
-def preprocess_sarif_files(input_dir="codeql/output", output_dir="codeql/preprocessed-output"):
+def preprocess_sarif_files(input_dir="codeql/output/500k-1M", output_dir="codeql/preprocessed-output/500k-1M"):
     input_path = Path(input_dir).resolve()
     output_path = Path(output_dir).resolve()
     output_path.mkdir(parents=True, exist_ok=True)
@@ -118,4 +119,6 @@ def preprocess_sarif_files(input_dir="codeql/output", output_dir="codeql/preproc
 
 
 if __name__ == "__main__":
+    print(f"Input: {Path('codeql/output/500k-1M').resolve()}")
+    print(f"Output: {Path('codeql/preprocessed-output/500k-1M').resolve()}")
     preprocess_sarif_files()

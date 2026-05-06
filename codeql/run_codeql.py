@@ -2,8 +2,8 @@ import os
 import subprocess
 from pathlib import Path
 
-DECOMPILED_ROOT = Path("../decompiled_files/100k-500k") 
-REPORT_DIR = Path("output/100k-500k")
+DECOMPILED_ROOT = Path("../decompiled_files/500k-1M") 
+REPORT_DIR = Path("output/500k-1M")
 DB_DIR_PART_1 = Path("db-codeql")
 DB_DIR_PART_2 = Path("../../../../spl/akram/ci4security/codeql/db-codeql")
 ANALYSIS_TIMEOUT_SECONDS = 3 * 60 * 60
