@@ -5,16 +5,14 @@ import glob
 import os
 
 
-rule_id = "java/weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [DES](1)"
-matching_substr = '"DES"'
+rule_id = "java/unsafe-tls-version"
+msg_substr = "[TLS](1) is un"
+matching_substr = '"TLS"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
 
 def check_in_context_regions(alert, matching_substr):
-    
-    # Check in locations
     if "locations" in alert:
         for location in alert["locations"]:
             if "physicalLocation" in location:
@@ -25,7 +23,6 @@ def check_in_context_regions(alert, matching_substr):
                         if matching_substr in context["snippet"]["text"]:
                             return True
     
-    # Check in relatedLocations
     if "relatedLocations" in alert:
         for rel_loc in alert["relatedLocations"]:
             if "physicalLocation" in rel_loc:
@@ -36,7 +33,6 @@ def check_in_context_regions(alert, matching_substr):
                         if matching_substr in context["snippet"]["text"]:
                             return True
     
-    # Check in codeFlows
     if "codeFlows" in alert:
         for code_flow in alert["codeFlows"]:
             if "threadFlows" in code_flow:
@@ -56,10 +52,6 @@ def check_in_context_regions(alert, matching_substr):
 
 
 def process_json_file(file_path, rule_id, msg_substr, matching_substr, validation_status):
-    """
-    Process a single JSON file and update matching alerts.
-    Returns: (was_modified, num_alerts_updated)
-    """
     
     with open(file_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -67,15 +59,12 @@ def process_json_file(file_path, rule_id, msg_substr, matching_substr, validatio
     modified = False
     alerts_updated = 0
     
-    # Ensure data is a list
     if isinstance(data, list):
         for alert in data:
             if isinstance(alert, dict):
-                # Check rule_id match
                 if alert.get("ruleId") == rule_id:
                     if "message" in alert and "text" in alert["message"]:
                         if msg_substr in alert["message"]["text"]:
-                            # Check matching substring in context regions
                             if check_in_context_regions(alert, matching_substr):
                                 alert["validation_status"] = validation_status
                                 modified = True
@@ -89,7 +78,6 @@ def process_json_file(file_path, rule_id, msg_substr, matching_substr, validatio
 
 
 def main():
-    # Find all JSON files
     json_files = glob.glob(os.path.join(search_dir, "**/*.json"), recursive=True)
     json_files = sorted(json_files)
     
