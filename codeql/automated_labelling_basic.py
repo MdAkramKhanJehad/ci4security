@@ -5,9 +5,9 @@ import glob
 import os
 
 
-rule_id = "java/unsafe-tls-version"
-msg_substr = "[TLS](1) is un"
-matching_substr = '"TLS"'
+rule_id = "java/potentially-weak-cryptographic-algorithm"
+msg_substr = "Cryptographic algorithm [SHA-1](1) may"
+matching_substr = '"SHA-1"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
