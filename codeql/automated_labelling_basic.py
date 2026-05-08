@@ -6,8 +6,8 @@ import os
 
 
 rule_id = "java/potentially-weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [SHA-1](1) may"
-matching_substr = '"SHA-1"'
+msg_substr = "Cryptographic algorithm [MD5](1) may not"
+matching_substr = '"MD5"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
@@ -66,9 +66,10 @@ def process_json_file(file_path, rule_id, msg_substr, matching_substr, validatio
                     if "message" in alert and "text" in alert["message"]:
                         if msg_substr in alert["message"]["text"]:
                             if check_in_context_regions(alert, matching_substr):
-                                alert["validation_status"] = validation_status
-                                modified = True
-                                alerts_updated += 1
+                                if alert["validation_status"] == "":
+                                    alert["validation_status"] = validation_status
+                                    modified = True
+                                    alerts_updated += 1
     
     if modified:
         with open(file_path, 'w', encoding='utf-8') as f:
