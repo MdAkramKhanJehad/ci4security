@@ -73,7 +73,6 @@ def process_json_file(file_path, rule_id, msg_substr, matching_substr, validatio
             if isinstance(alert, dict):
                 # Check rule_id match
                 if alert.get("ruleId") == rule_id:
-                    # Check message substring match
                     if "message" in alert and "text" in alert["message"]:
                         if msg_substr in alert["message"]["text"]:
                             # Check matching substring in context regions
@@ -98,7 +97,7 @@ def main():
     modified_files = 0
     total_alerts_updated = 0
     
-
+ 
     print(f"Search Directory: {search_dir}")
     print(f"Rule ID: {rule_id}")
     print(f"Message Substring: {msg_substr}")
