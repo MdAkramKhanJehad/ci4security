@@ -5,9 +5,9 @@ import glob
 import os
 
 
-rule_id = "java/potentially-weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [SHA1](1) may not"
-matching_substr = '"SHA1"'
+rule_id = "java/weak-cryptographic-algorithm"
+msg_substr = "Cryptographic algorithm [AES/ECB/NOPADDING](1) is insecure"
+matching_substr = '"AES/ECB/NOPADDING"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
@@ -21,6 +21,7 @@ def check_in_context_regions(alert, matching_substr):
                     context = phys_loc["contextRegion"]
                     if "snippet" in context and "text" in context["snippet"]:
                         if matching_substr in context["snippet"]["text"]:
+                            # print("----- "*10, context["snippet"]["text"])
                             return True
     
     if "relatedLocations" in alert:
