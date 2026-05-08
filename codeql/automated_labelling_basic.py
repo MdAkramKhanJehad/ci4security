@@ -6,8 +6,8 @@ import os
 
 
 rule_id = "java/potentially-weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [MD5](1) may not"
-matching_substr = '"MD5"'
+msg_substr = "Cryptographic algorithm [SHA1](1) may not"
+matching_substr = '"SHA1"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
