@@ -5,9 +5,9 @@ import glob
 import os
 
 
-rule_id = "java/weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [AES/ECB/NOPADDING](1) is insecure"
-matching_substr = '"AES/ECB/NOPADDING"'
+rule_id = "java/potentially-weak-cryptographic-algorithm"
+msg_substr = "Cryptographic algorithm [HmacSHA1](1) may not be secure."
+matching_substr = '"HmacSHA1"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
