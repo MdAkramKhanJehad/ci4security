@@ -5,9 +5,9 @@ import glob
 import os
 
 
-rule_id = "java/potentially-weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [HmacSHA1](1) may not be secure."
-matching_substr = '"HmacSHA1"'
+rule_id = "java/rsa-without-oaep"
+msg_substr = "This specification is used to [initialize an RSA cipher](1) without OAEP padding"
+matching_substr = '"RSA/ECB/NoPadding"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
