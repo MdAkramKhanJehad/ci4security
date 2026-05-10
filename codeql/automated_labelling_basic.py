@@ -5,9 +5,9 @@ import glob
 import os
 
 
-rule_id = "java/potentially-weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [GOST3411](1) may not be secure"
-matching_substr = '"GOST3411"'
+rule_id = "java/weak-cryptographic-algorithm"
+msg_substr = "Cryptographic algorithm [AES/ECB/PKCS7Padding](1) is insecure"
+matching_substr = '"AES/ECB/PKCS7Padding"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
