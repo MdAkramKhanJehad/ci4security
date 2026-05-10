@@ -6,8 +6,8 @@ import os
 
 
 rule_id = "java/potentially-weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [HmacMD5](1) may not be secure"
-matching_substr = '"HmacMD5"'
+msg_substr = "Cryptographic algorithm [PBKDF2WithHmacSHA1](1) may not be secure. Consider"
+matching_substr = '"PBKDF2WithHmacSHA1"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
