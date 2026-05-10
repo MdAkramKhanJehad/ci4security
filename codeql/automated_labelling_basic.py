@@ -6,8 +6,8 @@ import os
 
 
 rule_id = "java/weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [AES/ECB/PKCS7Padding](1) is insecure"
-matching_substr = '"AES/ECB/PKCS7Padding"'
+msg_substr = "Cryptographic algorithm [AES/ECB/NoPadding](1) is insecure"
+matching_substr = '"AES/ECB/NoPadding"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
