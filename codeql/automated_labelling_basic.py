@@ -5,9 +5,9 @@ import glob
 import os
 
 
-rule_id = "java/potentially-weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [AESWrap](1) may not be secure"
-matching_substr = '"AESWrap"'
+rule_id = "java/weak-cryptographic-algorithm"
+msg_substr = "Cryptographic algorithm [PBEWithMD5AndDES](1) is insecure"
+matching_substr = '"PBEWithMD5AndDES"'
 validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
