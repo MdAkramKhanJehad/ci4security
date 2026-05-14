@@ -5,10 +5,10 @@ import glob
 import os
 
 
-rule_id = "java/weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [PBEWithMD5AndDES](1) is insecure"
-matching_substr = '"PBEWithMD5AndDES"'
-validation_status = True  
+rule_id = "java/unsafe-cert-trust"
+msg_substr = "Unsafe configuration of trusted certificates."
+matching_substr = 'OutputStream outputStream = socket.getOutputStream();'
+validation_status = False  
 search_dir = "codeql/preprocessed-output"
 
 
