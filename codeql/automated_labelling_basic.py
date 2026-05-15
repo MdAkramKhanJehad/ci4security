@@ -5,10 +5,10 @@ import glob
 import os
 
 
-rule_id = "java/unsafe-cert-trust"
-msg_substr = "Unsafe configuration of trusted certificates."
-matching_substr = 'OutputStream outputStream = socket.getOutputStream();'
-validation_status = False  
+rule_id = "java/unsafe-tls-version"
+msg_substr = "[SSL](1) is unsafe."
+matching_substr = 'SSLContext sSLContext = SSLContext.getInstance(\"SSL\");'
+validation_status = True  
 search_dir = "codeql/preprocessed-output"
 
 
