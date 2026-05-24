@@ -5,10 +5,10 @@ import glob
 import os
 
 
-rule_id = "java/unsafe-tls-version"
-msg_substr = "[SSL](1) is unsafe."
-matching_substr = 'SSLContext sSLContext = SSLContext.getInstance(\"SSL\");'
-validation_status = True  
+rule_id = "java/static-initialization-vector"
+msg_substr = "A [static initialization vector](1) should not be used for encryption."
+matching_substr = 'OutputStream outputStream = socketCreateSocket.getOutputStream();'
+validation_status = False  
 search_dir = "codeql/preprocessed-output"
 
 
