@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 import json
 import os
 from pathlib import Path
@@ -37,10 +38,31 @@ def write_json_file(output_file_path, results):
         json.dump(results, f, indent=2)
 
 
-def process_sarif_file(sarif_file_path, input_path, output_path):
+def load_rules(rules_file_path="semgrep/semgrep_crypto_api_misuse_related_rules.json"):
+    p = Path(rules_file_path)
+    if not p.exists():
+        print(f"Warning: Rules file not found at {rules_file_path}. No filtering will be applied.")
+        return []
+
+    with p.open('r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    rules = data.get("crypto_api_misuse_detection_rules", [])
+    rules = list(dict.fromkeys(rules)) 
+
+    print(f"Loaded {len(rules)} unique rules from {rules_file_path}")
+    return rules
+
+
+def process_sarif_file(sarif_file_path, input_path, output_path, rules):
     try:
         sarif_data = read_sarif_file(sarif_file_path)
         results = extract_results_from_sarif(sarif_data)
+
+        if rules:
+            rule_set = set(rules)  
+            results = [r for r in results if r.get("ruleId") in rule_set]
+
         results = add_validation_status(results)
 
         output_subdir = create_output_directory(input_path, output_path, sarif_file_path)
@@ -75,16 +97,19 @@ def print_summary(processed_count, error_count):
     print("="*60)
 
 
-def preprocess_sarif_files(input_dir, output_dir):
+def preprocess_sarif_files():
+    input_dir="semgrep/semgrep_results"
+    output_dir="semgrep/preprocessed_results"
     input_path = Path(input_dir).resolve()
     output_path = Path(output_dir).resolve()
     output_path.mkdir(parents=True, exist_ok=True)
 
     processed_count = 0
     error_count = 0
+    rules = load_rules()
 
     for sarif_file_path in find_sarif_files(input_path):
-        success, message = process_sarif_file(sarif_file_path, input_path, output_path)
+        success, message = process_sarif_file(sarif_file_path, input_path, output_path, rules)
         print(processed_count, " : ", message)
         if success:
             processed_count += 1
@@ -95,4 +120,5 @@ def preprocess_sarif_files(input_dir, output_dir):
 
 
 if __name__ == "__main__":
-    preprocess_sarif_files("semgrep/semgrep_results", "semgrep/preprocessed-output")
+    preprocess_sarif_files()
+
