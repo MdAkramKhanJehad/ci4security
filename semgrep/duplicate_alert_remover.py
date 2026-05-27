@@ -6,7 +6,7 @@ from pathlib import Path
 
 TARGET = Path("semgrep/preprocessed-output")
 DRY_RUN = True
-RULE_ID_TO_REMOVE = "gitlab.find_sec_bugs.TDES_USAGE-1"
+RULE_ID_TO_REMOVE = "java.lang.security.audit.crypto.rsa-no-padding.rsa-no-padding"
 
 def make_key(alert: dict):
 

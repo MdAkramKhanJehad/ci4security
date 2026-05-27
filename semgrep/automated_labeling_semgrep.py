@@ -4,10 +4,10 @@ import glob
 import os
 
 
-rule_id = "java.lang.security.audit.crypto.ssl.insecure-hostname-verifier.insecure-hostname-verifier"
-msg_substr = "Insecure HostnameVerifier implementation detected. This"
-matching_substr = ' public class C14188b implements HostnameVerifier {\n        @Override // javax.net.ssl.HostnameVerifier\n        public boolean verify(String str, SSLSession sSLSession) {\n            return true;\n        }'
-validation_status = True
+rule_id = "java.lang.security.audit.crypto.gcm-detection.gcm-detection"
+msg_substr = "GCM detected, please check that IV/nonce is not reused,"
+matching_substr = 'cipher.init(2' 
+validation_status = False
 search_dir = "semgrep/preprocessed-output"
 
 
