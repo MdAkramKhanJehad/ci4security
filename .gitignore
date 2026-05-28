@@ -6,7 +6,7 @@ backup_downloaded_apk/
 decompiled_files/
 backup_decompiled_files/
 backup_decompiled_files_part_3/
-__pycache__
+__pycache__/
 input_files/
 helper.py
 updated_apk.csv
@@ -25,3 +25,5 @@ semgrep/old_preprocessed-output
 causal_analysis_cryptoguard/Power_analysis.ipynb
 causal_analysis_cognicrypt/Power_analysis.ipynb
 codeql/db-codeql/
+codeql/output/
+semgrep/semgrep_results/
