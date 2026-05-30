@@ -5,8 +5,8 @@ from pathlib import Path
 
 
 TARGET = Path("semgrep/preprocessed-output")
-DRY_RUN = True
-RULE_ID_TO_REMOVE = "java.lang.security.audit.crypto.rsa-no-padding.rsa-no-padding"
+DRY_RUN = False
+RULE_ID_TO_REMOVE = "java.lang.security.audit.crypto.gcm-detection.gcm-detection"
 
 def make_key(alert: dict):
 
