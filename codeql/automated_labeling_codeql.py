@@ -6,10 +6,11 @@ import glob
 import os
 
 
-rule_id = "java/weak-cryptographic-algorithm"
-msg_substr = "Cryptographic algorithm [DES/CBC/PKCS5Padding](1) is"
-matching_substr = '.getInstance(\"DES/CBC/PKCS5Padding\");'
-validation_status = True  
+rule_id = "java/potentially-weak-cryptographic-algorithm"
+msg_substr = "Cryptographic algorithm [CFB](1)"
+matching_substr = 'CFB'
+validation_status = False  
+uri_substr = ""
 search_dir = "codeql/preprocessed-output"
 
 
@@ -53,10 +54,33 @@ def check_in_context_regions(alert, matching_substr):
     return False
 
 
+def check_in_uris(alert, uri_substr):
+    if not uri_substr:
+        return True
+
+    if isinstance(alert, dict):
+        for key, value in alert.items():
+            if key == "uri" and isinstance(value, str):
+                if uri_substr in value:
+                    return True
+            elif isinstance(value, (dict, list)) and check_in_uris(value, uri_substr):
+                return True
+    elif isinstance(alert, list):
+        for item in alert:
+            if check_in_uris(item, uri_substr):
+                return True
+
+    return False
+
+
 def process_json_file(file_path, rule_id, msg_substr, matching_substr, validation_status):
     
-    with open(file_path, 'r', encoding='utf-8') as f:
-        data = json.load(f)
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except json.JSONDecodeError:
+        print(f"Skipping invalid JSON: {os.path.relpath(file_path, search_dir)}")
+        return False, 0
     
     modified = False
     alerts_updated = 0
@@ -68,10 +92,11 @@ def process_json_file(file_path, rule_id, msg_substr, matching_substr, validatio
                     if "message" in alert and "text" in alert["message"]:
                         if msg_substr in alert["message"]["text"]:
                             if check_in_context_regions(alert, matching_substr):
-                                if alert["validation_status"] == "":
-                                    alert["validation_status"] = validation_status
-                                    modified = True
-                                    alerts_updated += 1
+                                if check_in_uris(alert, uri_substr):
+                                    if alert["validation_status"] == "":
+                                        alert["validation_status"] = validation_status
+                                        modified = True
+                                        alerts_updated += 1
     
     if modified:
         with open(file_path, 'w', encoding='utf-8') as f:
