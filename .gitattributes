@@ -1,7 +1,0 @@
-codeql/output/1M-5M/*.sarif filter=lfs diff=lfs merge=lfs -text
-codeql/output/**/*.sarif filter=lfs diff=lfs merge=lfs -text
-codeql/test_output/**/*.sarif filter=lfs diff=lfs merge=lfs -text
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.json filter=lfs diff=lfs merge=lfs -text
-*.db filter=lfs diff=lfs merge=lfs -text
-*.sarif filter=lfs diff=lfs merge=lfs -text
