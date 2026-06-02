@@ -10,8 +10,8 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
-DEFAULT_INPUT_CSV = SCRIPT_DIR / "alerts_with_apk_size_codeql.csv"
-DEFAULT_OUTPUT_CSV = SCRIPT_DIR / "alerts_with_lib_category_and_apk_size_codeql.csv"
+DEFAULT_INPUT_CSV = SCRIPT_DIR / "alerts_with_apk_size_semgrep.csv"
+DEFAULT_OUTPUT_CSV = SCRIPT_DIR / "alerts_with_lib_category_and_apk_size_semgrep.csv"
 LIBSCOUT_JSON_DIR = REPO_ROOT / "library_classification" / "library_detection"
 LIBSCOUT_PROFILES_DIR = REPO_ROOT / "library_classification" / "LibScout-Profiles" / "profiles"
 
