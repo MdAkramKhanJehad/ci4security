@@ -32,6 +32,7 @@ KNOWN_THIRD_PARTY_OWNER_PREFIXES = {
 }
 
 KNOWN_PACKAGE_CLASSIFICATIONS = [
+    ("androidx.test.espresso", "Android", "androidx.test.espresso::espresso-core"),
     ("androidx.activity", "Android", "androidx.activity::activity"),
     ("androidx.biometric", "Android", "androidx.biometric::biometric"),
     ("androidx.profileinstaller", "Android", "androidx.profileinstaller::profileinstaller"),
@@ -40,6 +41,14 @@ KNOWN_PACKAGE_CLASSIFICATIONS = [
     ("com.google.android.gms", "Android", "com.google.android.gms"),
     ("com.google.firebase", "Android", "com.google.firebase"),
     ("org.bouncycastle", "others", "unknown"),
+]
+
+MANUAL_PACKAGE_OVERRIDES = [
+    ("com.sendbird.android.shadow", "others", "unknown"),
+    ("io.intercom.okhttp3", "others", "unknown"),
+    ("io.intercom.com.bumptech.glide", "others", "unknown"),
+    ("com.estimote.coresdk.repackaged", "others", "unknown"),
+    ("androidx.test.espresso", "Android", "androidx.test.espresso::espresso-core"),
 ]
 
 PACKAGE_PREFIX_FALLBACKS = [
@@ -183,6 +192,19 @@ def has_known_third_party_prefix(package_name):
     return any(packages_match(package_name, prefix) for prefix in KNOWN_THIRD_PARTY_OWNER_PREFIXES)
 
 
+def deobfuscate_leading_package_token(package_name):
+    package_name = normalize_pkg(package_name)
+    if not package_name:
+        return package_name
+
+    tokens = package_name.split(".")
+    match = re.match(r"^p\d+([a-z][a-z0-9_]*)$", tokens[0])
+    if match:
+        tokens[0] = match.group(1)
+
+    return ".".join(tokens)
+
+
 def is_developer_written(artifact_pkg, app_package_name):
     artifact_pkg = normalize_pkg(artifact_pkg)
     app_package_name = normalize_pkg(app_package_name)
@@ -190,10 +212,18 @@ def is_developer_written(artifact_pkg, app_package_name):
     if not artifact_pkg or not app_package_name:
         return False
 
-    if artifact_pkg == app_package_name or artifact_pkg.startswith(app_package_name + "."):
+    artifact_pkg_candidates = [
+        artifact_pkg,
+        deobfuscate_leading_package_token(artifact_pkg),
+    ]
+
+    if any(
+        candidate == app_package_name or candidate.startswith(app_package_name + ".")
+        for candidate in artifact_pkg_candidates
+    ):
         return True
 
-    artifact_tokens = artifact_pkg.split(".")
+    artifact_tokens = artifact_pkg_candidates[-1].split(".")
     app_tokens = app_package_name.split(".")
     common_tokens = []
 
@@ -370,6 +400,18 @@ def is_incompatible_libscout_match(artifact_pkg, category, lib_name):
     if lib_name.startswith("facebook") and not packages_match(artifact_pkg, "com.facebook"):
         return True
 
+    if lib_name.startswith("androidx.") and not packages_match(artifact_pkg, "androidx"):
+        return True
+
+    if lib_name.startswith("com.android.") and not (
+        packages_match(artifact_pkg, "com.android")
+        or packages_match(artifact_pkg, "android")
+    ):
+        return True
+
+    if "glide" in lib_name and not packages_match(artifact_pkg, "com.bumptech.glide"):
+        return True
+
     if packages_match(artifact_pkg, "com.bumptech.glide") and "glide" not in lib_name:
         return True
 
@@ -393,6 +435,14 @@ def is_incompatible_libscout_match(artifact_pkg, category, lib_name):
 
 def classify_with_known_package_prefixes(artifact_pkg):
     for root_package, category, lib_name in KNOWN_PACKAGE_CLASSIFICATIONS:
+        if packages_match(artifact_pkg, root_package):
+            return category, lib_name
+
+    return None, None
+
+
+def classify_with_manual_package_overrides(artifact_pkg):
+    for root_package, category, lib_name in MANUAL_PACKAGE_OVERRIDES:
         if packages_match(artifact_pkg, root_package):
             return category, lib_name
 
@@ -436,6 +486,13 @@ def classify_alert(row, lib_category_map):
     app_package_name = row.get("app_package_name", "")
     version_code = row.get("version_code", "")
 
+    if is_developer_written(artifact_pkg, app_package_name):
+        return "developer_written", "not_applicable"
+
+    code_location, lib_name = classify_with_manual_package_overrides(artifact_pkg)
+    if code_location:
+        return code_location, lib_name
+
     code_location, lib_name = classify_with_libscout(
         artifact_pkg,
         app_package_name,
@@ -444,9 +501,6 @@ def classify_alert(row, lib_category_map):
     )
     if code_location and code_location != "others":
         return code_location, lib_name
-
-    if is_developer_written(artifact_pkg, app_package_name):
-        return "developer_written", "not_applicable"
 
     code_location, lib_name = classify_with_known_package_prefixes(artifact_pkg)
     if code_location:
