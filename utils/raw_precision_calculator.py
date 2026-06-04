@@ -9,8 +9,8 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RANDOM_STATE = 42
 
-COGNICRYPT_INPUT_FILE = REPO_ROOT / "causal_analysis_cognicrypt" / "alerts_with_category_with_apk_size_updated.csv"
-CRYPTOGUARD_INPUT_FILE = REPO_ROOT / "causal_analysis_cryptoguard" / "alerts_with_category_and_apk_size_updated_cryptoguard.csv"
+COGNICRYPT_INPUT_FILE = REPO_ROOT / "causal_analysis_cognicrypt" / "alerts_with_lib_category_and_apk_size_cognicrypt.csv"
+CRYPTOGUARD_INPUT_FILE = REPO_ROOT / "causal_analysis_cryptoguard" / "alerts_with_lib_category_and_apk_size_cryptoguard.csv"
 SEMGREP_INPUT_FILE = REPO_ROOT / "causal_analysis_semgrep" / "alerts_with_lib_category_and_apk_size_semgrep.csv"
 CODEQL_INPUT_FILE = REPO_ROOT / "causal_analysis_codeql" / "alerts_with_lib_category_and_apk_size_codeql.csv"
 
@@ -126,7 +126,7 @@ def print_tool_precision(tool_name, input_file):
     rows = load_alert_rows(input_file)
     developer_written_rows, third_party_rows = split_by_provenance(rows)
 
-    print(f"\n\n================ {tool_name} ================")
+    print(f"\n\n -> {tool_name} ================")
     print(f"Input file: {input_file}")
     print_split_summary("Overall (all alerts)", rows)
     print_split_summary("Developer-written only (is_third_party=0)", developer_written_rows)
