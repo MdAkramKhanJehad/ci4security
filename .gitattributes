@@ -1,0 +1,2 @@
+codeql/preprocessed-output/**/*.json filter=lfs diff=lfs merge=lfs -text
+semgrep/preprocessed-output/**/*.json filter=lfs diff=lfs merge=lfs -text

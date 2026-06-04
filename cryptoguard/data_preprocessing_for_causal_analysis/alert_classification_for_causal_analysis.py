@@ -13,13 +13,13 @@ sys.path.insert(0, str(REPO_ROOT))
 from utils.shared_classifier_alert_util import classify_alerts
 
 
-DEFAULT_INPUT_CSV = SCRIPT_DIR / "alerts_with_apk_size_semgrep.csv"
-DEFAULT_OUTPUT_CSV = REPO_ROOT / "causal_analysis_semgrep" / "alerts_with_lib_category_and_apk_size_semgrep.csv"
+DEFAULT_INPUT_CSV = SCRIPT_DIR / "alerts_with_apk_size_cryptoguard.csv"
+DEFAULT_OUTPUT_CSV = REPO_ROOT / "causal_analysis_cryptoguard" / "alerts_with_lib_category_and_apk_size_cryptoguard.csv"
 
 
 def parse_args():
     parser = argparse.ArgumentParser(
-        description="Classify Semgrep alerts as developer-written code or third-party libraries."
+        description="Classify CryptoGuard alerts as developer-written code or third-party libraries."
     )
     parser.add_argument("--input-csv", default=DEFAULT_INPUT_CSV)
     parser.add_argument("--output-csv", default=DEFAULT_OUTPUT_CSV)

@@ -1,0 +1,16 @@
+{
+  "1": "Found broken crypto schemes",
+  "2": "Found broken hash functions",
+  "3": "Used constant keys in code",
+  "4": "Uses untrusted TrustManager",
+  "5": "Used export grade public Key",
+  "6": "Used untrusted HostNameVerifier",
+  "7": "Used HTTP Protocol",
+  "8": "Used < 1000 iteration for PBE",
+  "9": "Found constant salts in code",
+  "10": "Found constant IV in code",
+  "11": "Found predictable seeds in code",
+  "12": "Should check HostnameVerification manually",
+  "13": "Used untrusted PRNG",
+  "14": "Used Predictable KeyStore Password"
+}
