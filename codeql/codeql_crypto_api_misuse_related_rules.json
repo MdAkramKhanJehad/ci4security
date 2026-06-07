@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:be7a1c110156003b843678e5002c828aa9f859f28df60a1cc51dfa131da68f42
-size 1314
+{
+  "CodeQL_Rules": {
+    "Compromising_Public_key_Crypto": [
+      "java/insufficient-key-size",
+      "java/rsa-without-oaep",
+      "java/unsafe-tls-version"
+    ],
+    "Compromising_Authentication": [
+      "java/insecure-trustmanager",
+      "java/android/missing-certificate-pinning",
+      "java/unsafe-hostname-verification",
+      "java/jxbrowser/disabled-certificate-validation"
+    ],
+    "Compromising_Communication_Secrecy_with_Intended_Receiver": [
+      "java/insecure-basic-auth",
+      "java/non-ssl-connection",
+      "java/non-ssl-socket-factory",
+      "java/maven/non-https-url",
+      "java/disabled-certificate-revocation-checking",
+      "java/unsafe-cert-trust"
+    ],
+    "API_Program_Specific_Misuses": [
+      "java/improper-webview-certificate-validation",
+      "java/insecure-smtp-ssl",
+      "java/azure-storage/unsafe-client-side-encryption-in-use"
+    ],
+    "Compromising_Secret_Keys": [
+      "java/hash-without-salt"
+    ],
+    "Compromising_Symmetric_Cipher": [
+      "java/weak-cryptographic-algorithm",
+      "java/potentially-weak-cryptographic-algorithm",
+      "java/static-initialization-vector"
+    ],
+    "Compromising_Randomness": [
+      "java/insecure-randomness",
+      "java/predictable-seed",
+      "java/random-used-once",
+      "java/jhipster-prng"
+    ]
+  }
+}

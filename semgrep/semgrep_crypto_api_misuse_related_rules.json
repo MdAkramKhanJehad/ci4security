@@ -1,3 +1,35 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6a727f5406615d12e72125b750ef1903876003301a463ab63755f90fbd2aecd0
-size 2329
+{
+  "crypto_api_misuse_detection_rules": [
+    "java.lang.security.audit.crypto.ssl.insecure-hostname-verifier.insecure-hostname-verifier",
+    "java.lang.security.audit.crypto.ssl.insecure-trust-manager.insecure-trust-manager",
+    "java.lang.security.audit.blowfish-insufficient-key-size.blowfish-insufficient-key-size",
+    "java.lang.security.audit.cbc-padding-oracle.cbc-padding-oracle",
+    "java.lang.security.audit.crypto.des-is-deprecated.des-is-deprecated",
+    "java.lang.security.audit.crypto.desede-is-deprecated.desede-is-deprecated",
+    "java.lang.security.audit.crypto.ecb-cipher.ecb-cipher",
+    "java.lang.security.audit.crypto.gcm-detection.gcm-detection",
+    "java.lang.security.audit.crypto.gcm-nonce-reuse.gcm-nonce-reuse",
+    "java.lang.security.audit.crypto.no-null-cipher.no-null-cipher",
+    "java.lang.security.audit.crypto.no-static-initialization-vector.no-static-initialization-vector",
+    "java.lang.security.audit.crypto.rsa-no-padding.rsa-no-padding",
+    "java.lang.security.audit.crypto.ssl.avoid-implementing-custom-digests.avoid-implementing-custom-digests",
+    "java.lang.security.audit.crypto.ssl.defaulthttpclient-is-deprecated.defaulthttpclient-is-deprecated",
+    "java.lang.security.audit.crypto.unencrypted-socket.unencrypted-socket",
+    "java.lang.security.audit.crypto.use-of-aes-ecb.use-of-aes-ecb",
+    "java.lang.security.audit.crypto.use-of-blowfish.use-of-blowfish",
+    "java.lang.security.audit.crypto.use-of-default-aes.use-of-default-aes",
+    "java.lang.security.audit.crypto.use-of-md5-digest-utils.use-of-md5-digest-utils",
+    "java.lang.security.audit.crypto.use-of-md5.use-of-md5",
+    "java.lang.security.audit.crypto.use-of-rc2.use-of-rc2",
+    "java.lang.security.audit.crypto.use-of-rc4.use-of-rc4",
+    "java.lang.security.audit.crypto.use-of-sha1.use-of-sha1",
+    "java.lang.security.audit.crypto.use-of-sha224.use-of-sha224",
+    "java.lang.security.audit.crypto.weak-random.weak-random",
+    "java.lang.security.audit.crypto.weak-rsa.use-of-weak-rsa-key",
+    "java.lang.security.audit.md5-used-as-password.md5-used-as-password",
+    "java.lang.security.audit.weak-ssl-context.weak-ssl-context",
+    "gitlab.find_sec_bugs.CIPHER_INTEGRITY-1",
+    "gitlab.find_sec_bugs.HAZELCAST_SYMMETRIC_ENCRYPTION-1",
+    "gitlab.find_sec_bugs.RSA_NO_PADDING-1"
+  ]
+}
