@@ -1,56 +1,171 @@
-## Paper Title: CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance
+# CauSec: Causal Analysis of SAST Assumptions
 
-### Ranges for the Stratified Sampling
-We extracted APK based on the popularity (download count) and got a stratified sampling.<br>
-below are the APK groups based on the download count.<br>
-\<100<br>
-100 - 500<br>
-500 - 1k<br>
-1k - 5k<br>
-5k - 10k<br>
-10k - 50k<br>
-50k - 100k<br>
-100k - 500k<br>
-500k - 1M<br>
-1M - 5M<br>
-\> 5M<br><br>
+This repository contains the data-processing scripts, manually validated alert
+datasets, and causal-analysis notebooks used for the paper:
 
-### How to Extract APKs from the AndroZoo
-To download the APK from the AndroZoo, you must have both the API key and the SHA256 of the APK
-- Get the API key from the authors.<br>
-- Write the plain API key in the file named `api_key.txt`<br>
-- To get the SHA256 of APKs, you have to download the [input file](https://androzoo.uni.lu/api_doc#:~:text=Obtaining%20SHA256%20Hashes). Consider downloading the input file with the `added` field. This input file also contains some other important fields like version code, markets from where the APK was detected.<br>
-<br>
+**CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance**
 
-These input files are containing multiple version of the same app. That is why, first we have selected and extracted the latest version of each app. We kept only unique APKs in the `input_file/filtered_unique_latest_with-added-date.csv`.
-Then we shuffled this file for randomness and used that file (`input_file/shuffled_filtered_unique_latest_with-added-date.csv`) as an input in the `Extract_apk.py`. We only collected the APKs, which are also available in the Google Play Store on June 26th, 2025. After completing the download (output folder name: `downloaded_apk/` ).
-<br>
-Then to decompile the APK files, first you need to install the Jadx in the machine. Then run the `decompile_apk.py` file.
-<br>
-**Next step:** If we want to downlod more APKs, then we have make sure that we are downloading those APK, which are not already available.
+The project studies whether assumptions made by static application security testing (SAST) tools hold under causal analysis.
 
-### Dataset Creation
-For example, to create alert dataset from the validated alerts of `CogniCrypt`:
-Step 1 -  First run the `extract_final_dataset_from_json/extract_alert_data_cognicrypt.py` file to get the alert dataset<br>
-Step 2 - To identify the alert provenance, we used LibScout 3rd-party library dataset, as it is popular and widely used. Run the `library_classification/alert_classification.py` to get the alert provenance from the Libscout library dataset. use the outfile file of Step 1 as an input here.<br>
-Step 3 -  Then,  get the apk_size and metadata about the APK from the `input_files/dataset_apk_metadata.json`, run the script `extract_final_dataset_from_json/get_apk_size_for_alerts.py`. Use the output file of Step 2 as an input here. The output of this step is the final dataset for the CogniCrypt.<br><br>
+## Repository Layout
 
-That means, keep all the metadata from AndroZoo in the `input_files/` folder.
-<br>
+```text
+Assumptions/                         Extracted security assumptions from SAST papers
+causal_analysis_codeql/              CodeQL causal-analysis datasets and notebooks
+causal_analysis_semgrep/             Semgrep causal-analysis datasets and notebooks
+causal_analysis_cognicrypt/          CogniCrypt causal-analysis datasets and notebooks
+causal_analysis_cryptoguard/         CryptoGuard causal-analysis datasets and notebooks
+codeql/                              CodeQL execution, preprocessing, and labeled outputs
+semgrep/                             Semgrep execution, preprocessing, and labeled outputs
+cognicrypt-CryptoAnalysis/           CogniCrypt reports and preprocessing scripts
+cryptoguard/                         CryptoGuard reports and preprocessing scripts
+library_classification/              LibScout profiles and library-classification support
+utils/                               Shared utilities for classification, precision, and tests
+```
 
-We have the following files containing our manually labelled alert data:
-- CryptoGuard Dataset: `causal_analysis_cryptoguard/alerts_with_category_and_apk_size_updated_cryptoguard.csv`<br>
-- CogniCrypt Dataset: `causal_analysis_cognicrypt/alerts_with_category_with_apk_size_updated.csv`<br><br>
 
-These datasets can then be used as an input in our causal analysis in `causal_analysis_cryptoguard` and `causal_analysis_cognicrypt` folders respectively.
+## Dataset Sampling
 
-Then we can run the following files for causal analysis of CryptoGuard:
-- Run `causal_analysis_cryptoguard/causal_analysis_binary_treatment.ipynb` for EQ1 of CryptoGuard.<br>
-- Then run the `causal_analysis_cryptoguard/causal_analysis_libraries.ipynb` for EQ2 of CryptoGuard.<br><br>
+The Android apps are stratified by Google Play install-count buckets:
 
-In the same way, we can run the following files for causal analysis of CogniCrypt:
-- Run `causal_analysis_cognicrypt/causal_analysis_binary_treatment.ipynb` for EQ1 of CogniCrypt<br>
--  Then run the `causal_analysis_cognicrypt/causal_analysis_libraries.ipynb` for EQ2 of CogniCrypt<br>
+```text
+<100
+100-500
+500-1k
+1k-5k
+5k-10k
+10k-50k
+50k-100k
+100k-500k
+500k-1M
+1M-5M
+>5M
+```
 
-The folder `Assumptions` containing the list of our assumptions along with the other data.
+The input metadata from AndroZoo is kept under `input_files/`. The original
+workflow selected the latest version of each app, shuffled the resulting APK
+list for randomness, and downloaded APKs that were still available in Google
+Play at collection time.
 
+To download APKs from AndroZoo, you need:
+
+- an AndroZoo API key in `api_key.txt`;
+- an input CSV containing APK SHA-256 hashes and metadata;
+- local storage for downloaded APKs and decompiled source files.
+
+The decompilation workflow expects `jadx` to be installed locally.
+
+## Manually Validated Alert Datasets
+
+The final causal-analysis CSVs are:
+
+```text
+causal_analysis_codeql/alerts_with_lib_category_and_apk_size_codeql.csv
+causal_analysis_semgrep/alerts_with_lib_category_and_apk_size_semgrep.csv
+causal_analysis_cognicrypt/alerts_with_lib_category_and_apk_size_cognicrypt.csv
+causal_analysis_cryptoguard/alerts_with_lib_category_and_apk_size_cryptoguard.csv
+```
+
+Each CSV contains manually validated alerts with fields used by the causal
+analysis, including:
+
+- `verdict`: alert label, where `1` is true positive and `0` is false positive;
+- `code_location`: developer-written code or library category;
+- `apk_size`;
+- `app_popularity` / encoded popularity bucket;
+- `ruleId` or rule identifier, where available.
+
+## Preprocessing Pipeline
+
+Each tool has a preprocessing folder with two main scripts:
+
+```text
+<tool>/data_preprocessing_for_causal_analysis/
+  extract_alerts_from_json_and_apk_size_from_input_file.py
+  alert_classification_for_causal_analysis.py
+```
+
+The first script extracts manually validated alerts from the tool-specific JSON
+reports and attaches APK metadata. The second script classifies alert provenance
+and library category using the shared classifier in:
+
+```text
+utils/shared_classifier_alert_util.py
+```
+
+Example for CodeQL:
+
+```bash
+python3 codeql/data_preprocessing_for_causal_analysis/extract_alerts_from_json_and_apk_size_from_input_file.py
+python3 codeql/data_preprocessing_for_causal_analysis/alert_classification_for_causal_analysis.py
+```
+
+The same pattern applies to `semgrep`, `cryptoguard`, and
+`cognicrypt-CryptoAnalysis`.
+
+## Causal Analysis
+
+Each tool has two main causal-analysis notebooks:
+
+```text
+causal_analysis_<tool>/causal_analysis_binary_treatment.ipynb
+causal_analysis_<tool>/causal_analysis_library_types.ipynb
+```
+
+The binary-treatment notebooks answer:
+
+> Does reporting alerts from third-party libraries along with developer-written
+> alerts have a causal effect on precision?
+
+The library-type notebooks answer:
+
+> Do different types of third-party libraries have different causal impacts on
+> precision?
+
+The main causal graph adjusts for:
+
+- APK size;
+- app popularity.
+
+The notebooks estimate effects with propensity score matching (PSM) and run
+refutation tests, including random common cause, placebo treatment, data subset,
+and dummy outcome refuters.
+
+## Alternative Estimator Checks
+
+To check whether the main PSM results are estimator-sensitive, the repository
+also includes logistic-regression adjustment notebooks:
+
+```text
+causal_analysis_<tool>/causal_analysis_binary_treatment_logistic_regression_adjustment.ipynb
+causal_analysis_<tool>/causal_analysis_library_types_logistic_regression_adjustment.ipynb
+```
+
+These notebooks use the same treatment, outcome, and adjustment variables as the
+main PSM analyses, but estimate the effect with a model-based adjustment
+strategy.
+
+## Utility Scripts
+
+Useful utility scripts include:
+
+```text
+utils/raw_precision_calculator.py          Raw and balanced precision summaries
+utils/power_analysis_binary_treatment.py   Power analysis for causal variables
+utils/statistical_tests.py                 Statistical tests used in analysis
+utils/shared_classifier_alert_util.py      Shared alert provenance/library classifier
+```
+
+For example, raw precision baselines can be regenerated with:
+
+```bash
+python3 utils/raw_precision_calculator.py
+```
+
+
+## Notes For Reproduction
+
+- The notebooks assume that the final causal-analysis CSVs already exist.
+- Some raw reports files may be large and are not always 
+  available in a fresh clone. (will be available upon needed)
+- If regenerating CSVs, run extraction before alert classification.
