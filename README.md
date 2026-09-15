@@ -11,10 +11,11 @@ The project studies whether assumptions made by static application security test
 
 ```text
 Assumptions/                         Extracted security assumptions from SAST papers
-causal_analysis_codeql/              CodeQL causal-analysis datasets and notebooks
-causal_analysis_semgrep/             Semgrep causal-analysis datasets and notebooks
-causal_analysis_cognicrypt/          CogniCrypt causal-analysis datasets and notebooks
-causal_analysis_cryptoguard/         CryptoGuard causal-analysis datasets and notebooks
+causal_analysis/data/                Canonical causal-analysis datasets by tool
+causal_analysis/legacy/              Original notebooks and saved outputs by tool
+causal_analysis/rq1_graph_assessment/ Reproducible RQ1 graph workflow and results
+causal_analysis/rq3_effect_estimation/ Tool-specific RQ3 notebooks and results
+causal_analysis/shared/              Shared causal-analysis implementation
 codeql/                              CodeQL execution, preprocessing, and labeled outputs
 semgrep/                             Semgrep execution, preprocessing, and labeled outputs
 cognicrypt-CryptoAnalysis/           CogniCrypt reports and preprocessing scripts
@@ -60,10 +61,10 @@ The decompilation workflow expects `jadx` to be installed locally.
 The final causal-analysis CSVs are:
 
 ```text
-causal_analysis_codeql/alerts_with_lib_category_and_apk_size_codeql.csv
-causal_analysis_semgrep/alerts_with_lib_category_and_apk_size_semgrep.csv
-causal_analysis_cognicrypt/alerts_with_lib_category_and_apk_size_cognicrypt.csv
-causal_analysis_cryptoguard/alerts_with_lib_category_and_apk_size_cryptoguard.csv
+causal_analysis/data/codeql/alerts_with_lib_category_and_apk_size_codeql.csv
+causal_analysis/data/semgrep/alerts_with_lib_category_and_apk_size_semgrep.csv
+causal_analysis/data/cognicrypt/alerts_with_lib_category_and_apk_size_cognicrypt.csv
+causal_analysis/data/cryptoguard/alerts_with_lib_category_and_apk_size_cryptoguard.csv
 ```
 
 Each CSV contains manually validated alerts with fields used by the causal
@@ -108,8 +109,8 @@ The same pattern applies to `semgrep`, `cryptoguard`, and
 Each tool has two main causal-analysis notebooks:
 
 ```text
-causal_analysis_<tool>/causal_analysis_binary_treatment.ipynb
-causal_analysis_<tool>/causal_analysis_library_types.ipynb
+causal_analysis/legacy/<tool>/causal_analysis_binary_treatment.ipynb
+causal_analysis/legacy/<tool>/causal_analysis_library_types.ipynb
 ```
 
 The binary-treatment notebooks answer:
@@ -137,8 +138,8 @@ To check whether the main PSM results are estimator-sensitive, the repository
 also includes logistic-regression adjustment notebooks:
 
 ```text
-causal_analysis_<tool>/causal_analysis_binary_treatment_logistic_regression_adjustment.ipynb
-causal_analysis_<tool>/causal_analysis_library_types_logistic_regression_adjustment.ipynb
+causal_analysis/legacy/<tool>/causal_analysis_binary_treatment_logistic_regression_adjustment.ipynb
+causal_analysis/legacy/<tool>/causal_analysis_library_types_logistic_regression_adjustment.ipynb
 ```
 
 These notebooks use the same treatment, outcome, and adjustment variables as the
@@ -160,6 +161,49 @@ For example, raw precision baselines can be regenerated with:
 
 ```bash
 python3 utils/raw_precision_calculator.py
+```
+
+## RQ1 Graph Assessment
+
+RQ1 uses one parameterized, restart-executable workflow for all four tools. It
+runs tool-specific association checks and generates four causal graphs using a
+common domain-specified structure:
+
+```bash
+source venv/bin/activate
+jupyter notebook causal_analysis/rq1_graph_assessment/rq1_analysis.ipynb
+```
+
+See `causal_analysis/rq1_graph_assessment/README.md` for interpretation and
+limitations.
+
+## RQ3 Estimation and Assessment
+
+RQ3 retains the legacy developer-only versus developer-plus-third-party
+reporting-policy comparison and runs three estimators on the same alert-row ATE
+risk-difference scale: propensity-score matching, standardized binomial
+logistic regression, and doubly robust AIPW. It also reports propensity overlap,
+post-adjustment balance, alert-row versus APK-cluster bootstrap intervals, and
+the four legacy refuters plus an unobserved-common-cause sensitivity scenario.
+
+There is one restart-executable notebook per tool:
+
+```text
+causal_analysis/rq3_effect_estimation/codeql_rq3.ipynb
+causal_analysis/rq3_effect_estimation/cognicrypt_rq3.ipynb
+causal_analysis/rq3_effect_estimation/cryptoguard_rq3.ipynb
+causal_analysis/rq3_effect_estimation/semgrep_rq3.ipynb
+```
+
+See `causal_analysis/rq3_effect_estimation/README.md` for methods and
+`NAVIGATION.md` in the same directory for the output map.
+
+If the local environment is missing or stale, rebuild it from the pinned
+dependencies before running analyses:
+
+```bash
+uv venv venv --python 3.12 --clear
+uv pip install --python venv/bin/python -r requirements.txt
 ```
 
 

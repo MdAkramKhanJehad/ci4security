@@ -1,0 +1,12 @@
+tool,variable_1,variable_2,test,statistic,effect_size,p_value,n_rows,degrees_of_freedom,q_value_bh,associated_at_alpha,interpretation
+cognicrypt,app_popularity_encoded,apk_size_scaled,spearman_two_sided,0.27701824765767985,0.27701824765767985,3.732079852788699e-109,6173,,1.3684292793558564e-108,True,marginal association detected; direction remains domain-determined
+cognicrypt,app_popularity_encoded,reporting_policy,spearman_two_sided,0.05068720252709105,0.05068720252709105,6.771667249682373e-05,6173,,7.448833974650611e-05,True,marginal association detected; direction remains domain-determined
+cognicrypt,app_popularity_encoded,verdict,spearman_two_sided,0.07575417507161697,0.07575417507161697,2.5340411733643095e-09,6173,,3.982064701001058e-09,True,marginal association detected; direction remains domain-determined
+cognicrypt,apk_size_scaled,reporting_policy,spearman_two_sided,0.051406501438012564,0.051406501438012564,5.327316472485318e-05,6173,,6.511164577482056e-05,True,marginal association detected; direction remains domain-determined
+cognicrypt,apk_size_scaled,verdict,spearman_two_sided,-0.011945871867042384,-0.011945871867042384,0.3480327508661464,6173,,0.3480327508661464,False,no marginal association detected; this does not prove independence
+cognicrypt,reporting_policy,verdict,spearman_two_sided,-0.11776986912343289,-0.11776986912343289,1.6408926725282346e-20,6173,,3.609963879562116e-20,True,marginal association detected; direction remains domain-determined
+cognicrypt,reporting_policy,reported_alert_is_third_party,spearman_two_sided,0.6753690457946834,0.6753690457946834,0.0,6173,,0.0,True,marginal association detected; direction remains domain-determined
+cognicrypt,app_popularity_encoded,reported_alert_is_third_party,spearman_two_sided,0.07505111885524628,0.07505111885524628,3.552602146628391e-09,6173,,4.884827951614037e-09,True,marginal association detected; direction remains domain-determined
+cognicrypt,apk_size_scaled,reported_alert_is_third_party,spearman_two_sided,0.07611616457417635,0.07611616457417635,2.1269186132022045e-09,6173,,3.899350790870708e-09,True,marginal association detected; direction remains domain-determined
+cognicrypt,reported_alert_is_third_party,verdict,spearman_two_sided,-0.17437854141635578,-0.17437854141635578,2.4190254055269007e-43,6173,,6.652319865198977e-43,True,marginal association detected; direction remains domain-determined
+cognicrypt,rule_id,verdict,chi_square,2073.2796862830546,0.5795365189104646,0.0,6173,27.0,0.0,True,marginal association detected; direction remains domain-determined

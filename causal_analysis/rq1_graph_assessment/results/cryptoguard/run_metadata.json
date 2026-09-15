@@ -1,0 +1,50 @@
+{
+  "tool": "cryptoguard",
+  "run_utc": "2026-09-15T13:08:22.044212+00:00",
+  "source_csv": "causal_analysis/data/cryptoguard/alerts_with_lib_category_and_apk_size_cryptoguard.csv",
+  "source_sha256": "d70b4ae2bd37bfbf7d662756de3b2d5304d188352145b7af84d3256fc8afd992",
+  "alpha": 0.06,
+  "graph_file": "causal_analysis/rq1_graph_assessment/graphs/cryptoguard_causal_graph.svg",
+  "graph_edges": [
+    [
+      "app_popularity_encoded",
+      "apk_size_scaled"
+    ],
+    [
+      "app_popularity_encoded",
+      "reported_alert_is_third_party"
+    ],
+    [
+      "app_popularity_encoded",
+      "verdict"
+    ],
+    [
+      "apk_size_scaled",
+      "reported_alert_is_third_party"
+    ],
+    [
+      "apk_size_scaled",
+      "verdict"
+    ],
+    [
+      "reporting_policy",
+      "reported_alert_is_third_party"
+    ],
+    [
+      "reporting_policy",
+      "verdict"
+    ],
+    [
+      "reported_alert_is_third_party",
+      "verdict"
+    ]
+  ],
+  "graph_method": "common domain-specified structure; associations reported separately",
+  "association_role": "empirical edge evidence only; directions remain domain-determined",
+  "python": "3.12.0",
+  "packages": {
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "networkx": "3.5"
+  }
+}

@@ -9,10 +9,10 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 RANDOM_STATE = 42
 
-COGNICRYPT_INPUT_FILE = REPO_ROOT / "causal_analysis_cognicrypt" / "alerts_with_lib_category_and_apk_size_cognicrypt.csv"
-CRYPTOGUARD_INPUT_FILE = REPO_ROOT / "causal_analysis_cryptoguard" / "alerts_with_lib_category_and_apk_size_cryptoguard.csv"
-SEMGREP_INPUT_FILE = REPO_ROOT / "causal_analysis_semgrep" / "alerts_with_lib_category_and_apk_size_semgrep.csv"
-CODEQL_INPUT_FILE = REPO_ROOT / "causal_analysis_codeql" / "alerts_with_lib_category_and_apk_size_codeql.csv"
+COGNICRYPT_INPUT_FILE = REPO_ROOT / "causal_analysis" / "data" / "cognicrypt" / "alerts_with_lib_category_and_apk_size_cognicrypt.csv"
+CRYPTOGUARD_INPUT_FILE = REPO_ROOT / "causal_analysis" / "data" / "cryptoguard" / "alerts_with_lib_category_and_apk_size_cryptoguard.csv"
+SEMGREP_INPUT_FILE = REPO_ROOT / "causal_analysis" / "data" / "semgrep" / "alerts_with_lib_category_and_apk_size_semgrep.csv"
+CODEQL_INPUT_FILE = REPO_ROOT / "causal_analysis" / "data" / "codeql" / "alerts_with_lib_category_and_apk_size_codeql.csv"
 
 TOOL_INPUT_FILES = [
     ("CogniCrypt", COGNICRYPT_INPUT_FILE),

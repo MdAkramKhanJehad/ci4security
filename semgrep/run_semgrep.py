@@ -144,7 +144,7 @@ if __name__ == "__main__":
 # DEFAULT_RULES_FILE = SCRIPT_DIR / "semgrep_crypto_api_misuse_related_rules.json"
 
 
-# def build_parser() -> argparse.ArgumentParser:
+# def build_parser():
 # 	parser = argparse.ArgumentParser(
 # 		description="Run Semgrep on every decompiled app inside one size bucket."
 # 	)
@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
 
 
-# def load_semgrep_configs(rules_file: Path) -> list[str]:
+# def load_semgrep_configs(rules_file: Path):
 # 	if not rules_file.exists():
 # 		print(f"Error: rules file does not exist: {rules_file}", file=sys.stderr)
 # 		raise SystemExit(1)
@@ -205,7 +205,7 @@ if __name__ == "__main__":
 # 	return configs
 
 
-# def resolve_bucket_path(bucket: str, decompiled_root: Path) -> Path:
+# def resolve_bucket_path(bucket: str, decompiled_root: Path):
 # 	bucket_path = Path(bucket)
 # 	if bucket_path.is_absolute():
 # 		return bucket_path
@@ -214,7 +214,7 @@ if __name__ == "__main__":
 # 	return decompiled_root / bucket_path
 
 
-# def run_semgrep(sources_root: Path, output_file: Path, configs: list[str]) -> bool:
+# def run_semgrep(sources_root: Path, output_file: Path, configs: list[str]):
 # 	command = ["semgrep", "scan"]
 # 	for config in configs:
 # 		command.extend(["--config", config])
@@ -245,7 +245,7 @@ if __name__ == "__main__":
 # 	return True
 
 
-# def process_bucket(bucket_path: Path, output_root: Path, configs: list[str], overwrite: bool) -> None:
+# def process_bucket(bucket_path: Path, output_root: Path, configs: list[str], overwrite: bool):
 # 	if not bucket_path.exists():
 # 		print(f"Error: bucket directory does not exist: {bucket_path}", file=sys.stderr)
 # 		raise SystemExit(1)
@@ -279,7 +279,7 @@ if __name__ == "__main__":
 # 			continue
 
 
-# def main() -> None:
+# def main():
 # 	parser = build_parser()
 # 	args = parser.parse_args()
 

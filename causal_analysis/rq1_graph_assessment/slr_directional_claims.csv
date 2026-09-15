@@ -1,0 +1,8 @@
+assumption_id,approach,slr_claim_paraphrase,proposed_causal_reading,rq1_use,limitation
+A6,CryptoGuard,"Analyzing third-party libraries can produce additional valid alerts.","analysis_scope -> valid_alert_count",context_only,"This is about method-level analysis coverage, not merely reporting already-produced alerts and not precision."
+A25,CryptoLint,"Whitelisting common third-party libraries prevents over-counting.","library_filtering_policy -> reported_alert_burden",supports_query,"It motivates a reporting/filtering design assumption but does not identify an effect on precision."
+A27,BinSight,"Package-name attribution against a library list maps call sites to third-party libraries.","attribution_method -> provenance_classification",measurement_context,"It supports the provenance measurement procedure, not an outcome edge."
+A37,Seader,"Incomplete ground truth lowers observed precision.","ground_truth_completeness -> observed_verdict",outcome_validity,"Ground-truth completeness is not measured in the four final datasets."
+A2,CryptoGo,"Detection rules derived from implementation flaws can improve accuracy.","rule_design -> detection_accuracy",supports_effect_modification,"The claim concerns rule design; observed rule IDs are not randomized."
+A7,CryptoGuard,"Alert-refinement algorithms can remove false positives.","refinement_design -> verdict",supports_effect_modification,"The refinement is built into a tool and is not separately measured here."
+A60,SSLINT,"Integrating external/library code can reduce scalability.","analysis_scope -> scalability",query_boundary,"This concerns analyzing library code, not reporting third-party-library alerts, and has a different outcome."

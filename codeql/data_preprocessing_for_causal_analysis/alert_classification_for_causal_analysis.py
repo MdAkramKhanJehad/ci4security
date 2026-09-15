@@ -14,7 +14,7 @@ from utils.shared_classifier_alert_util import classify_alerts
 
 
 DEFAULT_INPUT_CSV = SCRIPT_DIR / "alerts_with_apk_size_codeql.csv"
-DEFAULT_OUTPUT_CSV = REPO_ROOT / "causal_analysis_codeql" / "alerts_with_lib_category_and_apk_size_codeql.csv"
+DEFAULT_OUTPUT_CSV = REPO_ROOT / "causal_analysis" / "data" / "codeql" / "alerts_with_lib_category_and_apk_size_codeql.csv"
 
 
 def parse_args():
