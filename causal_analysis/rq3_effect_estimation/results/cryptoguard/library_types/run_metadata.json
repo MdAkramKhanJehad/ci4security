@@ -1,0 +1,47 @@
+{
+  "tool": "CryptoGuard",
+  "run_utc": "2026-09-29T04:33:57.426955+00:00",
+  "source_csv": "/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/data/cryptoguard/alerts_with_lib_category_and_apk_size_cryptoguard.csv",
+  "source_sha256": "d70b4ae2bd37bfbf7d662756de3b2d5304d188352145b7af84d3256fc8afd992",
+  "library_groups": [
+    "Android",
+    "Small_Libraries",
+    "Utilities",
+    "miscellaneous"
+  ],
+  "small_library_locations": [
+    "SocialMedia",
+    "Analytics",
+    "Cloud",
+    "Advertising"
+  ],
+  "baseline_group": "App_Source_Code",
+  "row_inclusion": "retain every eligible developer alert and every alert in the selected library group; perform no category downsampling",
+  "bootstrap_simulations_per_contrast": 1000,
+  "refuter_simulations_where_applicable": 200,
+  "contrast_seed_base": 20260917,
+  "treatment": "reporting_policy",
+  "outcome": "verdict",
+  "adjustment_variables": [
+    "app_popularity_encoded",
+    "apk_size_scaled"
+  ],
+  "target_units": "ate",
+  "effect_scale": "risk_difference",
+  "source_dataset_summary": {
+    "raw_alerts": 15272,
+    "analyzed_alert_rows": 16590,
+    "developer_alerts": 1318,
+    "third_party_alerts": 13954,
+    "apks": 354
+  },
+  "python": "3.12.11",
+  "packages": {
+    "dowhy": "0.14",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.2",
+    "statsmodels": "0.14.5"
+  }
+}

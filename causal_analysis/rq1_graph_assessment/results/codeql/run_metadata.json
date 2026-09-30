@@ -4,7 +4,7 @@
   "source_csv": "causal_analysis/data/codeql/alerts_with_lib_category_and_apk_size_codeql.csv",
   "source_sha256": "b407c9f7671fa85fac6e64859e83bfbb8155db471b42c1bde223e99842f9c67c",
   "alpha": 0.06,
-  "graph_file": "causal_analysis/rq1_graph_assessment/graphs/codeql_causal_graph.svg",
+  "graph_file": "causal_analysis/rq1_graph_assessment/graphs/causal_graph.svg",
   "graph_edges": [
     [
       "app_popularity_encoded",

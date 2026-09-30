@@ -10,7 +10,7 @@
 - Unique APKs: 535
 - Bootstrap simulations per uncertainty method: 1000
 - Refuter simulations where applicable: 200
-- Causal graph: `/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/rq1_graph_assessment/graphs/semgrep_causal_graph.svg`
+- Causal graph: `/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/rq1_graph_assessment/graphs/causal_graph.svg`
 
 Developer-written alerts are shared across both policy conditions, and
 third-party alerts occur only in the inclusive condition, matching the legacy

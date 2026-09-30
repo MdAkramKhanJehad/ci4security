@@ -4,7 +4,7 @@
   "source_csv": "causal_analysis/data/cognicrypt/alerts_with_lib_category_and_apk_size_cognicrypt.csv",
   "source_sha256": "c8f90f7c321f7bc9fe6a9393d6b2e55aaa74003e10268b7da0ff5ef1cd6bd521",
   "alpha": 0.06,
-  "graph_file": "causal_analysis/rq1_graph_assessment/graphs/cognicrypt_causal_graph.svg",
+  "graph_file": "causal_analysis/rq1_graph_assessment/graphs/causal_graph.svg",
   "graph_edges": [
     [
       "app_popularity_encoded",

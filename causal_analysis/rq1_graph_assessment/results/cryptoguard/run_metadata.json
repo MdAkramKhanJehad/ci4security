@@ -4,7 +4,7 @@
   "source_csv": "causal_analysis/data/cryptoguard/alerts_with_lib_category_and_apk_size_cryptoguard.csv",
   "source_sha256": "d70b4ae2bd37bfbf7d662756de3b2d5304d188352145b7af84d3256fc8afd992",
   "alpha": 0.06,
-  "graph_file": "causal_analysis/rq1_graph_assessment/graphs/cryptoguard_causal_graph.svg",
+  "graph_file": "causal_analysis/rq1_graph_assessment/graphs/causal_graph.svg",
   "graph_edges": [
     [
       "app_popularity_encoded",

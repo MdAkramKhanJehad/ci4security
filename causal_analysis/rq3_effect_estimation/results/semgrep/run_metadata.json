@@ -3,7 +3,7 @@
   "run_utc": "2026-09-15T13:32:01.977389+00:00",
   "source_csv": "/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/data/semgrep/alerts_with_lib_category_and_apk_size_semgrep.csv",
   "source_sha256": "1a44e4dc189cb4dc6254f07372c0d76deab806e6f330668981b08b98092505ae",
-  "graph": "/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/rq1_graph_assessment/graphs/semgrep_causal_graph.svg",
+  "graph": "/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/rq1_graph_assessment/graphs/causal_graph.svg",
   "treatment": "reporting_policy",
   "outcome": "verdict",
   "adjustment_variables": [

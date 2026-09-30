@@ -158,15 +158,12 @@ CryptoGuard and higher raw precision for Semgrep. These values are descriptive
 differences between the constructed reporting conditions, not adjusted causal
 effect estimates.
 
-## Generated causal graphs
+## Generated causal graph
 
-- [CodeQL causal graph](graphs/codeql_causal_graph.svg)
-- [CogniCrypt causal graph](graphs/cognicrypt_causal_graph.svg)
-- [CryptoGuard causal graph](graphs/cryptoguard_causal_graph.svg)
-- [Semgrep causal graph](graphs/semgrep_causal_graph.svg)
+- [Causal graph](graphs/causal_graph.svg)
 
-The graphs use identical nodes and directions and differ only in their tool
-names. Tool-specific coefficients and classifications remain in the association
+The shared graph contains the common nodes and directions. Tool-specific
+coefficients and classifications remain in the association
 tables so that the diagrams show only the causal assumptions.
 
 ## Interpretation boundaries

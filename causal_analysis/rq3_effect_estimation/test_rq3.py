@@ -11,6 +11,12 @@ from causal_analysis.shared.rq3_analysis import (
     estimate_suite,
     propensity_diagnostics,
 )
+from causal_analysis.shared.rq3_library_types import (
+    BASELINE_GROUP,
+    LIBRARY_GROUPS,
+    load_library_type_source,
+    make_library_contrast,
+)
 
 
 REPOSITORY_ROOT = Path(__file__).resolve().parents[2]
@@ -57,6 +63,50 @@ class RQ3AnalysisTests(unittest.TestCase):
         for alert_id, policies in memberships.items():
             expected = {1} if original[alert_id] else {0, 1}
             self.assertEqual(policies, expected)
+
+    def test_library_type_grouping_and_all_row_pairwise_contrasts(self):
+        source, _ = load_library_type_source(CODEQL_DATA)
+        self.assertEqual(
+            set(source["lib_grouped"]),
+            {BASELINE_GROUP, *LIBRARY_GROUPS},
+        )
+
+        developer_count = int((source["lib_grouped"] == BASELINE_GROUP).sum())
+        for library_type in LIBRARY_GROUPS:
+            contrast, summary = make_library_contrast(source, library_type)
+            library_count = int((source["lib_grouped"] == library_type).sum())
+            self.assertEqual(summary["available_developer_alerts"], developer_count)
+            self.assertEqual(summary["available_library_alerts"], library_count)
+            self.assertEqual(summary["included_developer_alerts"], developer_count)
+            self.assertEqual(summary["included_library_alerts"], library_count)
+            self.assertEqual(summary["control_rows"], developer_count)
+            self.assertEqual(
+                summary["inclusive_rows"], developer_count + library_count
+            )
+            self.assertEqual(
+                summary["analyzed_rows"], 2 * developer_count + library_count
+            )
+
+            control = contrast[contrast["reporting_policy"] == 0]
+            inclusive = contrast[contrast["reporting_policy"] == 1]
+            self.assertEqual(set(control["lib_grouped"]), {BASELINE_GROUP})
+            self.assertEqual(
+                set(inclusive["lib_grouped"]),
+                {BASELINE_GROUP, library_type},
+            )
+            self.assertEqual(
+                inclusive[inclusive["lib_grouped"] == library_type][
+                    "source_alert_id"
+                ].nunique(),
+                library_count,
+            )
+
+            developer_policy_counts = (
+                contrast[contrast["lib_grouped"] == BASELINE_GROUP]
+                .groupby("source_alert_id")["reporting_policy"]
+                .nunique()
+            )
+            self.assertTrue((developer_policy_counts == 2).all())
 
 
 if __name__ == "__main__":

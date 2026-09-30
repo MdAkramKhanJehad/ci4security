@@ -6,8 +6,7 @@ RQ1 asks:
 > formulate and assess causal graphs for SAST design assumptions?
 
 The restart-executable notebook processes CodeQL, CogniCrypt, CryptoGuard, and
-Semgrep separately. It uses the same systematic graph structure for every tool
-and produces four tool-specific graph images.
+Semgrep separately. It uses one shared domain-specified graph for every tool.
 
 ## Workflow
 
@@ -18,8 +17,8 @@ and produces four tool-specific graph images.
    variables and a chi-square/Cramer's V test for rule ID and verdict.
 4. Apply Benjamini-Hochberg correction within each tool.
 5. Apply the common domain-specified DAG structure.
-6. Save one domain-specified SVG graph for that tool and report the association
-   results separately in CSV and Markdown tables.
+6. Save the shared domain-specified SVG graph and report tool-specific
+   association results separately in CSV and Markdown tables.
 
 Correlation supplies empirical association evidence. Direction is supplied by
 domain knowledge and is not inferred from the sign or significance of a
@@ -43,14 +42,11 @@ jupyter notebook causal_analysis/rq1_graph_assessment/rq1_analysis.ipynb
 ```
 
 Choose **Restart Kernel and Run All Cells**. The notebook regenerates all
-association tables, summaries, metadata, and the four graphs.
+association tables, summaries, metadata, and the shared graph.
 
 ## Outputs
 
-- `graphs/codeql_causal_graph.svg`
-- `graphs/cognicrypt_causal_graph.svg`
-- `graphs/cryptoguard_causal_graph.svg`
-- `graphs/semgrep_causal_graph.svg`
+- `graphs/causal_graph.svg`
 - `results/<tool>/association_checks.csv`
 - `results/<tool>/reporting_policy_summary.csv`
 - `results/<tool>/dataset_summary.json`

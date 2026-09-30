@@ -4,11 +4,18 @@ RQ3 asks:
 
 > How can we estimate and assess the causal queries in this context?
 
-The four restart-executable notebooks retain the legacy reporting-policy
+The four primary restart-executable notebooks retain the legacy reporting-policy
 operationalization: `0` reports developer-written alerts only and `1` reports
 developer-written plus third-party alerts. Each notebook uses its tool's
 canonical CSV, displays the corresponding RQ1 graph, adjusts for app popularity
 and APK size, and writes an individual results report.
+
+Four companion library-type notebooks reproduce the legacy pairwise reporting
+policy for Android, Small Libraries, Utilities, and Miscellaneous: developer
+alerts versus the same developer alerts plus every alert in the selected
+third-party category. They perform no category downsampling and apply the same
+current diagnostics, three estimators, clustered uncertainty, and refuters
+separately to each category contrast.
 
 ## Notebooks
 
@@ -17,12 +24,18 @@ codeql_rq3.ipynb
 cognicrypt_rq3.ipynb
 cryptoguard_rq3.ipynb
 semgrep_rq3.ipynb
+
+codeql_rq3_library_types.ipynb
+cognicrypt_rq3_library_types.ipynb
+cryptoguard_rq3_library_types.ipynb
+semgrep_rq3_library_types.ipynb
 ```
 
-Each notebook runs the same parameterized implementation in
-`causal_analysis/shared/rq3_analysis.py`. Keeping the notebooks separate makes
-their saved outputs and tool-specific results independently inspectable without
-copying the statistical implementation four times.
+The primary notebooks run `causal_analysis/shared/rq3_analysis.py`. The
+library-type notebooks run `causal_analysis/shared/rq3_library_types.py`, which
+delegates estimation and diagnostics to that same primary implementation.
+Keeping the notebooks separate makes saved tool and category results
+independently inspectable without copying the statistical implementation.
 
 ## Analysis components
 
@@ -54,7 +67,9 @@ jupyter notebook causal_analysis/rq3_effect_estimation/codeql_rq3.ipynb
 ```
 
 Choose **Restart Kernel and Run All Cells**. Repeat for the other three
-notebooks. See `NAVIGATION.md` for the complete output map.
+primary notebooks. Run the matching `_rq3_library_types.ipynb` notebook for the
+four category-specific contrasts. See `NAVIGATION.md` for the complete output
+map.
 
 ## Interpretation boundary
 

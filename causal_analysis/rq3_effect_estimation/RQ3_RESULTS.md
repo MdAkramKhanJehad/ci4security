@@ -2,7 +2,7 @@
 
 ## Scope
 
-The analysis retains the legacy reporting-policy operationalization. The
+The analysis retains the reporting-policy operationalization. The
 treatment contrast is developer-only reporting (`0`) versus reporting
 developer-written and third-party alerts (`1`). The outcome is the binary alert
 verdict, so an ATE risk difference below zero means that the inclusive policy
@@ -70,21 +70,3 @@ reverses sign. CogniCrypt and Semgrep retain their directions, while their
 magnitudes change. This scenario therefore exposes sensitivity; it is not
 evidence that unobserved confounding is absent.
 
-## Assessment of the proposed additions
-
-The proposed additions are methodologically appropriate with four
-qualifications:
-
-- overlap and balance must be reported for the adjustment actually used; this
-  implementation reports both the PSM matched sample and AIPW weighting;
-- doubly robust means consistency can survive misspecification of one nuisance
-  model under its assumptions, not that the estimate is automatically unbiased;
-- whole-APK stratified resampling improves uncertainty accounting but does not
-  repair identification or treatment construction;
-- refuters assess specified perturbations and sensitivity scenarios, so the RQ
-  and paper should say **assess** or **probe robustness**, not claim that they
-  validate the causal effect.
-
-Finally, these estimates concern a constructed reported-alert set. They cannot
-establish the effect of changing a SAST engine so that it analyzes code it did
-not previously analyze.

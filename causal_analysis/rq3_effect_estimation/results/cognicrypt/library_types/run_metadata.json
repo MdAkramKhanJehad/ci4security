@@ -1,0 +1,47 @@
+{
+  "tool": "CogniCrypt",
+  "run_utc": "2026-09-29T04:29:43.142153+00:00",
+  "source_csv": "/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/data/cognicrypt/alerts_with_lib_category_and_apk_size_cognicrypt.csv",
+  "source_sha256": "c8f90f7c321f7bc9fe6a9393d6b2e55aaa74003e10268b7da0ff5ef1cd6bd521",
+  "library_groups": [
+    "Android",
+    "Small_Libraries",
+    "Utilities",
+    "miscellaneous"
+  ],
+  "small_library_locations": [
+    "SocialMedia",
+    "Analytics",
+    "Cloud",
+    "Advertising"
+  ],
+  "baseline_group": "App_Source_Code",
+  "row_inclusion": "retain every eligible developer alert and every alert in the selected library group; perform no category downsampling",
+  "bootstrap_simulations_per_contrast": 1000,
+  "refuter_simulations_where_applicable": 200,
+  "contrast_seed_base": 20260916,
+  "treatment": "reporting_policy",
+  "outcome": "verdict",
+  "adjustment_variables": [
+    "app_popularity_encoded",
+    "apk_size_scaled"
+  ],
+  "target_units": "ate",
+  "effect_scale": "risk_difference",
+  "source_dataset_summary": {
+    "raw_alerts": 5675,
+    "analyzed_alert_rows": 6173,
+    "developer_alerts": 498,
+    "third_party_alerts": 5177,
+    "apks": 324
+  },
+  "python": "3.12.11",
+  "packages": {
+    "dowhy": "0.14",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.2",
+    "statsmodels": "0.14.5"
+  }
+}

@@ -40,13 +40,10 @@ source files.
 ## Graphs
 
 ```text
-graphs/codeql_causal_graph.svg
-graphs/cognicrypt_causal_graph.svg
-graphs/cryptoguard_causal_graph.svg
-graphs/semgrep_causal_graph.svg
+graphs/causal_graph.svg
 ```
 
-Each graph has the same domain-specified directions. Tool-specific Spearman
+The shared graph has the domain-specified directions. Tool-specific Spearman
 correlations and Benjamini-Hochberg-adjusted classifications are reported in
 the results tables rather than printed on the graph.
 
