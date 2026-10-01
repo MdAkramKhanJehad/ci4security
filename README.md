@@ -11,6 +11,7 @@ The project studies whether assumptions made by static application security test
 
 ```text
 Assumptions/                         Extracted security assumptions from SAST papers
+Results_tables/                      Contains the results tables from our analysis
 causal_analysis/data/                Canonical causal-analysis datasets by tool
 causal_analysis/legacy/              Original notebooks and saved outputs by tool
 causal_analysis/rq1_graph_assessment/ Reproducible RQ1 graph workflow and results
