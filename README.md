@@ -1,28 +1,38 @@
-# CauSec: Causal Analysis of SAST Assumptions
+# CauSec: Unboxing the Causal Drivers of SAST Performance
 
 This repository contains the data-processing scripts, manually validated alert
 datasets, and causal-analysis notebooks used for the paper:
 
-**CauSec: Unboxing the Causal Drivers of Static Vulnerability Analysis Performance**
+**CauSec: Unboxing the Causal Drivers of SAST Performance**
 
-The project studies whether assumptions made by static application security testing (SAST) tools hold under causal analysis.
 
 ## Repository Layout
 
 ```text
-Assumptions/                         Extracted security assumptions from SAST papers
-Results_tables/                      Contains the results tables from our analysis
-causal_analysis/data/                Canonical causal-analysis datasets by tool
-causal_analysis/legacy/              Original notebooks and saved outputs by tool
-causal_analysis/rq1_graph_assessment/ Reproducible RQ1 graph workflow and results
-causal_analysis/rq3_effect_estimation/ Tool-specific RQ3 notebooks and results
-causal_analysis/shared/              Shared causal-analysis implementation
-codeql/                              CodeQL execution, preprocessing, and labeled outputs
-semgrep/                             Semgrep execution, preprocessing, and labeled outputs
-cognicrypt-CryptoAnalysis/           CogniCrypt reports and preprocessing scripts
-cryptoguard/                         CryptoGuard reports and preprocessing scripts
-library_classification/              LibScout profiles and library-classification support
-utils/                               Shared utilities for classification, precision, and tests
+Assumptions/                              Extracted security assumptions from SAST papers
+Results_table/                            Paper result-table images
+causal_analysis/
+  README.md                               Causal-analysis overview and entry points
+  data/<tool>/                            Canonical labeled datasets for the four tools
+  legacy/<tool>/                          Original causal-analysis notebooks and artifacts
+  rq1_graph_assessment/
+    configs/                              Tool-specific graph-workflow configurations
+    graphs/                               Domain-specified causal graph
+    results/                              Saved association checks and graph summaries
+    rq1_analysis.ipynb                    Restart-executable cross-tool RQ1 workflow
+  rq3_effect_estimation/
+    <tool>_rq3.ipynb                     Overall reporting-policy analyses
+    <tool>_rq3_library_types.ipynb       Library-type subgroup analyses
+    results/<tool>/                       Saved estimates, diagnostics, and refuters
+  shared/                                 Shared loading, graph, and estimation modules
+codeql/                                   CodeQL execution, preprocessing, and outputs
+cognicrypt-CryptoAnalysis/                CogniCrypt reports and preprocessing scripts
+cryptoguard/                              CryptoGuard reports and preprocessing scripts
+semgrep/                                  Semgrep execution, preprocessing, and outputs
+input_files/                              APK sampling and metadata inputs
+library_classification/                   LibScout profiles and classification support
+rule_based_analysis_codeql/               Supporting CodeQL rule-based analysis artifacts
+utils/                                    Shared preprocessing and analysis utilities
 ```
 
 
@@ -105,33 +115,6 @@ python3 codeql/data_preprocessing_for_causal_analysis/alert_classification_for_c
 The same pattern applies to `semgrep`, `cryptoguard`, and
 `cognicrypt-CryptoAnalysis`.
 
-## Causal Analysis
-
-Each tool has two main causal-analysis notebooks:
-
-```text
-causal_analysis/legacy/<tool>/causal_analysis_binary_treatment.ipynb
-causal_analysis/legacy/<tool>/causal_analysis_library_types.ipynb
-```
-
-The binary-treatment notebooks answer:
-
-> Does reporting alerts from third-party libraries along with developer-written
-> alerts have a causal effect on precision?
-
-The library-type notebooks answer:
-
-> Do different types of third-party libraries have different causal impacts on
-> precision?
-
-The main causal graph adjusts for:
-
-- APK size;
-- app popularity.
-
-The notebooks estimate effects with propensity score matching (PSM) and run
-refutation tests, including random common cause, placebo treatment, data subset,
-and dummy outcome refuters.
 
 ## Alternative Estimator Checks
 
