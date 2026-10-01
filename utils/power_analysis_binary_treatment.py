@@ -11,10 +11,10 @@ from statsmodels.stats.proportion import proportion_effectsize
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-CODEQL_INPUT = REPO_ROOT / "causal_analysis_codeql" / "alerts_with_lib_category_and_apk_size_codeql.csv"
-SEMGREP_INPUT = REPO_ROOT / "causal_analysis_semgrep" / "alerts_with_lib_category_and_apk_size_semgrep.csv"
-CRYPTOGUARD_INPUT = REPO_ROOT / "causal_analysis_cryptoguard" / "alerts_with_lib_category_and_apk_size_cryptoguard.csv"
-COGNICRYPT_INPUT = REPO_ROOT / "causal_analysis_cognicrypt" / "alerts_with_lib_category_and_apk_size_cognicrypt.csv"
+CODEQL_INPUT = REPO_ROOT / "causal_analysis" / "data" / "codeql" / "alerts_with_lib_category_and_apk_size_codeql.csv"
+SEMGREP_INPUT = REPO_ROOT / "causal_analysis" / "data" / "semgrep" / "alerts_with_lib_category_and_apk_size_semgrep.csv"
+CRYPTOGUARD_INPUT = REPO_ROOT / "causal_analysis" / "data" / "cryptoguard" / "alerts_with_lib_category_and_apk_size_cryptoguard.csv"
+COGNICRYPT_INPUT = REPO_ROOT / "causal_analysis" / "data" / "cognicrypt" / "alerts_with_lib_category_and_apk_size_cognicrypt.csv"
 
 ACTIVE_INPUTS = {
     "CodeQL": CODEQL_INPUT,

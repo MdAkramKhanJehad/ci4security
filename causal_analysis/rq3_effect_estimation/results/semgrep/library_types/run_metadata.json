@@ -1,0 +1,47 @@
+{
+  "tool": "Semgrep",
+  "run_utc": "2026-09-29T04:38:45.590117+00:00",
+  "source_csv": "/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/data/semgrep/alerts_with_lib_category_and_apk_size_semgrep.csv",
+  "source_sha256": "1a44e4dc189cb4dc6254f07372c0d76deab806e6f330668981b08b98092505ae",
+  "library_groups": [
+    "Android",
+    "Small_Libraries",
+    "Utilities",
+    "miscellaneous"
+  ],
+  "small_library_locations": [
+    "SocialMedia",
+    "Analytics",
+    "Cloud",
+    "Advertising"
+  ],
+  "baseline_group": "App_Source_Code",
+  "row_inclusion": "retain every eligible developer alert and every alert in the selected library group; perform no category downsampling",
+  "bootstrap_simulations_per_contrast": 1000,
+  "refuter_simulations_where_applicable": 200,
+  "contrast_seed_base": 20260918,
+  "treatment": "reporting_policy",
+  "outcome": "verdict",
+  "adjustment_variables": [
+    "app_popularity_encoded",
+    "apk_size_scaled"
+  ],
+  "target_units": "ate",
+  "effect_scale": "risk_difference",
+  "source_dataset_summary": {
+    "raw_alerts": 14590,
+    "analyzed_alert_rows": 16350,
+    "developer_alerts": 1760,
+    "third_party_alerts": 12830,
+    "apks": 535
+  },
+  "python": "3.12.11",
+  "packages": {
+    "dowhy": "0.14",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.2",
+    "statsmodels": "0.14.5"
+  }
+}

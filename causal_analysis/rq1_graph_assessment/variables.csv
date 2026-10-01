@@ -1,0 +1,8 @@
+variable,role,source_or_construction,scale,graph_interpretation,included_in_graph
+reporting_policy,treatment,"Constructed as 0=developer-only and 1=developer plus third-party; developer alerts are shared across arms",binary,Policy choice precedes the reported alert set,yes
+verdict,outcome,"Manual True/False alert label",binary,"Observed after an alert is reported; mean verdict is precision",yes
+app_popularity_encoded,confounder,"Ordinal encoding of apk_category using the documented eleven install-count strata",ordinal,"Domain-specified cause of alert provenance and verdict; correlation does not determine direction",yes
+apk_size_scaled,confounder,"Robust-scaled apk_size",continuous,"Domain-specified cause of alert provenance and verdict",yes
+reported_alert_is_third_party,alert_provenance,"Binary code_location != developer_written in the policy-expanded alert table",binary,"Distinguishes developer-written and third-party alerts reported under each policy",yes
+rule_id,effect_modifier,"Canonicalized from rule_id or ruleId",categorical,"Alert rule is evaluated for association with verdict but excluded from the RQ1 DAG and adjustment set",no
+apk_id,dependence_cluster,"app_package_name concatenated with version_code",identifier,"Identifies shared APK-level dependence for RQ3 uncertainty analysis",no

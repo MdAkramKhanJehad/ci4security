@@ -1,0 +1,12 @@
+tool,variable_1,variable_2,test,statistic,effect_size,p_value,n_rows,degrees_of_freedom,q_value_bh,associated_at_alpha,interpretation
+semgrep,app_popularity_encoded,apk_size_scaled,spearman_two_sided,0.3881063707628699,0.3881063707628699,0.0,16350,,0.0,True,marginal association detected; direction remains domain-determined
+semgrep,app_popularity_encoded,reporting_policy,spearman_two_sided,0.11354459637046962,0.11354459637046962,4.7152024044252066e-48,16350,,8.644537741446211e-48,True,marginal association detected; direction remains domain-determined
+semgrep,app_popularity_encoded,verdict,spearman_two_sided,0.015498714022806984,0.015498714022806984,0.04750796675381729,16350,,0.052258763429199016,True,marginal association detected; direction remains domain-determined
+semgrep,apk_size_scaled,reporting_policy,spearman_two_sided,0.013186962169248174,0.013186962169248174,0.091772063834664,16350,,0.091772063834664,False,no marginal association detected; this does not prove independence
+semgrep,apk_size_scaled,verdict,spearman_two_sided,-0.020987367767278938,-0.020987367767278938,0.0072815757964122116,16350,,0.01001216672006679,True,marginal association detected; direction remains domain-determined
+semgrep,reporting_policy,verdict,spearman_two_sided,0.08174548724384789,0.08174548724384789,1.1954269482031161e-25,16350,,1.8785280614620396e-25,True,marginal association detected; direction remains domain-determined
+semgrep,reporting_policy,reported_alert_is_third_party,spearman_two_sided,0.6630872608930153,0.6630872608930153,0.0,16350,,0.0,True,marginal association detected; direction remains domain-determined
+semgrep,app_popularity_encoded,reported_alert_is_third_party,spearman_two_sided,0.17123628075368694,0.17123628075368694,8.199812304063758e-108,16350,,2.2549483836175333e-107,True,marginal association detected; direction remains domain-determined
+semgrep,apk_size_scaled,reported_alert_is_third_party,spearman_two_sided,0.019887219898461907,0.019887219898461907,0.010991197552412362,16350,,0.013433685897392886,True,marginal association detected; direction remains domain-determined
+semgrep,reported_alert_is_third_party,verdict,spearman_two_sided,0.12328013530791838,0.12328013530791838,2.1713057896386595e-56,16350,,4.776872737205051e-56,True,marginal association detected; direction remains domain-determined
+semgrep,rule_id,verdict,chi_square,15502.263689641812,0.9737302934497634,0.0,16350,23.0,0.0,True,marginal association detected; direction remains domain-determined

@@ -1,0 +1,12 @@
+tool,variable_1,variable_2,test,statistic,effect_size,p_value,n_rows,degrees_of_freedom,q_value_bh,associated_at_alpha,interpretation
+codeql,app_popularity_encoded,apk_size_scaled,spearman_two_sided,0.43262209679204977,0.43262209679204977,0.0,22055,,0.0,True,marginal association detected; direction remains domain-determined
+codeql,app_popularity_encoded,reporting_policy,spearman_two_sided,0.021099041390466648,0.021099041390466648,0.0017269125257705425,22055,,0.002110670864830663,True,marginal association detected; direction remains domain-determined
+codeql,app_popularity_encoded,verdict,spearman_two_sided,0.0502905760999408,0.0502905760999408,7.843369431898916e-14,22055,,2.156926593772202e-13,True,marginal association detected; direction remains domain-determined
+codeql,apk_size_scaled,reporting_policy,spearman_two_sided,0.0066169081245166395,0.0066169081245166395,0.32579096110520156,22055,,0.32579096110520156,False,no marginal association detected; this does not prove independence
+codeql,apk_size_scaled,verdict,spearman_two_sided,-0.030509998390293884,-0.030509998390293884,5.847895530548737e-06,22055,,9.189550119433728e-06,True,marginal association detected; direction remains domain-determined
+codeql,reporting_policy,verdict,spearman_two_sided,-0.03134055476047067,-0.03134055476047067,3.2360003937239693e-06,22055,,5.932667388493944e-06,True,marginal association detected; direction remains domain-determined
+codeql,reporting_policy,reported_alert_is_third_party,spearman_two_sided,0.6979375891043058,0.6979375891043058,0.0,22055,,0.0,True,marginal association detected; direction remains domain-determined
+codeql,app_popularity_encoded,reported_alert_is_third_party,spearman_two_sided,0.03023055602656962,0.03023055602656962,7.1126536552329025e-06,22055,,9.779898775945242e-06,True,marginal association detected; direction remains domain-determined
+codeql,apk_size_scaled,reported_alert_is_third_party,spearman_two_sided,0.00948065876922951,0.00948065876922951,0.15915551661572735,22055,,0.1750710682773001,False,no marginal association detected; this does not prove independence
+codeql,reported_alert_is_third_party,verdict,spearman_two_sided,-0.04490452334096433,-0.04490452334096433,2.5281440471591522e-11,22055,,5.561916903750135e-11,True,marginal association detected; direction remains domain-determined
+codeql,rule_id,verdict,chi_square,11049.900642876082,0.7078246052943988,0.0,22055,16.0,0.0,True,marginal association detected; direction remains domain-determined

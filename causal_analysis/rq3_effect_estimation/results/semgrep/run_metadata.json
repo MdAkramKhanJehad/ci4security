@@ -1,0 +1,33 @@
+{
+  "tool": "Semgrep",
+  "run_utc": "2026-09-15T13:32:01.977389+00:00",
+  "source_csv": "/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/data/semgrep/alerts_with_lib_category_and_apk_size_semgrep.csv",
+  "source_sha256": "1a44e4dc189cb4dc6254f07372c0d76deab806e6f330668981b08b98092505ae",
+  "graph": "/Users/mkhan04/Desktop/projects/CauSec/ci4security/causal_analysis/rq1_graph_assessment/graphs/causal_graph.svg",
+  "treatment": "reporting_policy",
+  "outcome": "verdict",
+  "adjustment_variables": [
+    "app_popularity_encoded",
+    "apk_size_scaled"
+  ],
+  "target_units": "ate",
+  "effect_scale": "risk_difference",
+  "bootstrap_simulations": 1000,
+  "refuter_simulations": 200,
+  "random_seed": 20260918,
+  "unobserved_common_cause_scenario": {
+    "simulation_method": "direct-simulation",
+    "treatment_binary_flip_strength": 0.05,
+    "outcome_binary_flip_strength": 0.05
+  },
+  "apk_clusters_with_conflicting_popularity": 0,
+  "conflicting_cluster_bootstrap_policy": "retain complete APK in a composite popularity stratum",
+  "python": "3.12.0",
+  "packages": {
+    "dowhy": "0.14",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "statsmodels": "0.14.5"
+  }
+}

@@ -1,0 +1,9 @@
+tool,reporting_policy,reporting_scope,alert_rows,unique_source_alerts,true_positive_alerts,apk_count,precision
+codeql,0,developer_only,554,554,527,153,0.9512635379061372
+codeql,1,developer_plus_third_party,21501,21501,19107,488,0.8886563415655085
+cognicrypt,0,developer_only,498,498,349,90,0.7008032128514057
+cognicrypt,1,developer_plus_third_party,5675,5675,2750,324,0.4845814977973568
+cryptoguard,0,developer_only,1318,1318,676,166,0.5128983308042488
+cryptoguard,1,developer_plus_third_party,15272,15272,7357,354,0.48173127291775797
+semgrep,0,developer_only,1760,1760,967,256,0.5494318181818182
+semgrep,1,developer_plus_third_party,14590,14590,9838,535,0.6742974640164496
