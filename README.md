@@ -37,8 +37,8 @@ utils/                                    Shared preprocessing and analysis util
 
 ## SLR Search Query
 
-```text
-We used the following search query for finding our initial list of papers in identified sources for our systematic literature review: 
+We used the following search query for finding our initial list of papers in identified sources for our systematic literature review:
+```text 
 ("static analysis" OR "SAST" OR "static application security testing") AND ("taint analysis" OR "taint tracking" OR "data leak detection" OR "crypto API misuse" OR "cryptographic API misuse" OR "API misuse" OR "vulnerability detection")
 ```
 
